@@ -217,31 +217,174 @@ td { vertical-align: top; }
 /* ==|== primary styles =====================================================
    Author: Jesse Atkinson (jesse.s.atkinson@gmail.com)
    ========================================================================== */
-#header-wrapper {
-	background-image: url(Image);
-	background-position: center center;
+/* "ltc-bodoni-175" */
+
+body {
+	min-width: 320px;
 }
 
-#header-container {
-	background-color: rgba(0, 0, 0, 0.5);
+/* Header */
+h1, h2, h3 {
+	font-family: "superclarendon", serif;
+	font-style: normal;
+	font-weight: 700;
 }
 
-#header-container .description {
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+h4, h5, h6 {
+	font-family: "proxima-nova", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+h4 {
+	font-size: 1.5rem;
+}
+
+h5 {
+	font-size: 1rem;
+}
+
+h6 {
+	font-size: 0.75rem;
+}
+
+header {
+	background: url(/img/header-bg.jpg) center center black;
+	height: 498px;
+}
+
+header .container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+header .container h1 {
+	margin: 0 auto;
 	color: white;
-	font: bold 2rem serif;
+	padding: 79px 0px 50px;
+	max-width: 761px;
 }
 
 
+#hero {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 31px;
+	background: url(/img/logo.png);
+	height: 86px;
+	width: 137px;
+}
 
+#hero span {
+	display: none;
+}
 
+/* Nav */
+#nav-wrapper {
+	background-color: #191411;
+	height: 40px;
+	font-family: "proxima-nova", sans-serif;
+}
 
+#nav-wrapper nav {
+	max-width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
 
+#nav-wrapper nav {
+	text-align: center;
+}
 
+#nav-wrapper nav a {
+	display: inline-block;
+	color: #6c6a6a;
+	margin: 9px 0px;
+	text-decoration: none;
+}
 
+#nav-wrapper nav a:hover,
+#nav-wrapper nav a:active {
+	color: white;
+	background: url(/img/nav-hover.png) center 40px no-repeat;
+}
 
+#nav-wrapper nav a.social {
+	float: right;
+}
 
+#nav-wrapper nav a.social span {
+	display: none;
+}
 
+#nav-wrapper nav a.facebook {
+	background: url(/img/facebook.png) no-repeat center center;
+}
 
+#nav-wrapper nav a.twitter {
+	background: url(/img/twitter.png) no-repeat center center;
+} 
+
+#nav-wrapper nav a.social {
+	background: url(/img/email.png) no-repeat center center;
+}
+
+/* Content */
+div[role=main] {
+
+}
+
+#video-slider-wrapper {
+	background: url(/img/video-slider-placeholder.jpg) no-repeat center center;
+	border-bottom: 3px solid #6c6a6a;
+}
+
+#video-slider {
+	max-width: 960px;
+	height: 719px;
+	margin: 0 auto;
+}
+
+#video-slider h2 {
+	background: black;
+	font: 700 normal 3rem "superclarendon", serif;
+	padding: 26px 50px 16px 0;
+	display: inline-block;
+	margin: 0;
+}
+
+#video-description-wrapper {
+	background: url(/img/description-bg.jpg) repeat;
+	height: 800px;
+}
+
+#video-description {
+	max-width: 960px;
+}
+
+#video-description div:nth-child(1) {
+	width: 33%;
+}
+
+#video-description div:nth-child(2) {
+	width: 41%;
+}
+
+#video-description div:nth-child(3) {
+	width: 25%;
+}
 
 
 

@@ -29,50 +29,56 @@
        Create your own custom Modernizr build: www.modernizr.com/download/ -->
   <script src="js/libs/modernizr-2.5.3.min.js"></script>
 </head>
+
 <body>
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-	<header id="header-wrapper">
-	  	<div id="header-container">
-			<p class="description">Our City, Our Story aims to find and tell the stories which make up our identity. This is Rockford, Illinois.</p>
-				
-			<div id="latest">
-				<span>Latest Story</span>
-				<span class="title">Episode 06: Bonds By Fire ?></span>
-			</div>
-				
-			<a href="/" id="hero">
-				<img src="logo.png" alt="Our City, Our Story" />
-			</a>
+	<header>
+	  	<div class="container">
+			<h1>Our City, Our Story aims to find and tell the stories which make up our identity. This is Rockford, Illinois.</h1>
+			
+			<!-- The contents of the <span> are hidden. -->
+			<a href="/" id="hero"><span>Our City, Our Story</span></a>
 		</div>
 	</header>
 
-		<div id="nav-wrapper">
-			<nav>
-				<div id="left">
-					<a href="#">Episode</a>
-					<a href="#">About</a>
-					<a href="#">Recent</a>
-					<a href="#">Sponsor</a>
-				</div>
-				<div id="right">
-					<a href="#">All Stories</a>
-					<a href="#">Shop</a>
-					<a href="#">Contact</a>
-					<a href="#">Facebook</a>
-					<a href="#">Twitter</a>
-					<a href="#">Email</a>
-				</div>
-			</nav>
+	<div id="nav-wrapper">
+		<nav>
+		<!-- 
+			A note on the use of non-breaking spaces to create the nav. This was the best, simplest, and cleanest way to achieve what was comped. What was comped was using true | characters within the Proxima Nova font rather than a CSS border. To keep the | character of the Proxima Nova font and not break from style I had to use &nbsp; to force four spaces before and after each | character. 
+		-->
+			<a href="#">Episode&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+			<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+			<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Recent&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+			<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+			<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Sponsor&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+			<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;All Stories</a>
+			<a href="#" class="social facebook"><span>Facebook</span></a>
+			<a href="#" class="social twitter"><span>Twitter</span></a>
+			<a href="#" class="social email"><span>Email</span></a>
+		</nav>
+	</div>
+	
+	<div role="main">
+		<div id="video-slider-wrapper">
+			<div id="video-slider">
+				<h2>Hazard Free</h2>
+			</div>
 		</div>
 		
-		<div role="main">
-
+		<div id="video-description-wrapper">
+			<div id="video-description">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
 		</div>
-  <footer>
+	</div>
 
-  </footer>
+	<footer>
+	
+	</footer>
 
 
   <!-- JavaScript at the bottom for fast page loading -->
@@ -82,6 +88,8 @@
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 
   <!-- scripts concatenated and minified via build script -->
+  <script type="text/javascript" src="http://use.typekit.com/czk0yby.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>
   <!-- end scripts -->
