@@ -259,18 +259,18 @@ h5 {
 	font-size: 1rem;
 }
 
-h5.top {
-	padding-top: 4px;
-	border-top: 4px solid white;
+h6 {
+	font-size: 0.75rem;
 }
 
-h5.bottom {
+.bottom {
 	padding-bottom: 4px;
 	border-bottom: 4px solid white;
 }
 
-h6 {
-	font-size: 0.75rem;
+.top {
+	padding-top: 4px;
+	border-top: 4px solid white;
 }
 
 .social {
@@ -302,6 +302,12 @@ a {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #6c6a6a;
+}
+
+label {
+	color: #bcbec0;
+	font-size: 0.75rem;
+	display: block;
 }
 
 /* Header */
@@ -561,6 +567,7 @@ div[role=main] {
 	padding-top: 88px;
 	max-width: 960px;
 	min-width: 320px;
+	overflow: hidden;
 }
 
 #recent h1 {
@@ -634,12 +641,40 @@ div[role=main] {
 	margin: 0 auto;
 	max-width: 960px;
 	min-width: 320px;
+	padding-top: 195px;
 }
 
 #contact div {
 	background: #433d3d;
-	height: 330px;
-	width: 330px;
+	height: 320px;
+	width: 320px;
+	padding: 10px;
+}
+
+#contact h1 {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#contact nav {
+	width: 87px;
+	height: 19px;
+	background: url(../img/contact-social.png) left center no-repeat transparent;
+	margin-bottom: 23px;
+}
+
+#contact nav a {
+	height: 19px;
+	width: 26px;
+}
+
+#contact p a {
+	color: white;
+	font: 100 normal 1.1rem "superclarendon", serif;
+	text-transform: none;
+	font-style: italic;
+	margin-bottom: 16px;
+	display: block;
 }
 
 footer {
