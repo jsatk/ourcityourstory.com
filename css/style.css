@@ -217,13 +217,12 @@ td { vertical-align: top; }
 /* ==|== primary styles =====================================================
    Author: Jesse Atkinson (jesse.s.atkinson@gmail.com)
    ========================================================================== */
-/* "ltc-bodoni-175" */
 
+/* Taking care of some global styles. */
 body {
 	min-width: 320px;
 }
 
-/* Header */
 h1, h2, h3 {
 	font-family: "superclarendon", serif;
 	font-style: normal;
@@ -231,7 +230,7 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 2.75rem;
 }
 
 h2 {
@@ -246,6 +245,7 @@ h4, h5, h6 {
 	font-family: "proxima-nova", sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	margin: 0;
 }
 
 h4 {
@@ -258,15 +258,28 @@ h5 {
 
 h6 {
 	font-size: 0.75rem;
+	text-transform: uppercase;
 }
 
+.social {
+	display: inline-block;
+}
+
+/* This allows our markup to be verbose and spell out what's going on while at the same time hidding the text in the links and using background images instead. In this case you will have to define a width and height on the .social and set the proper background images to show the corresponding social button. */
+.social span {
+	display: none;
+}
+
+/* Header */
+
 header {
-	background: url(/img/header-bg.jpg) center center black;
+	background: url(../img/header-bg.jpg) center center black;
 	height: 498px;
 }
 
 header .container {
 	max-width: 960px;
+	min-width: 320px;
 	margin: 0 auto;
 }
 
@@ -277,12 +290,12 @@ header .container h1 {
 	max-width: 761px;
 }
 
-
+/* Our logo. #hero is often used to signify the main title image or logo. */
 #hero {
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 31px;
-	background: url(/img/logo.png);
+	background: url(../img/logo.png);
 	height: 86px;
 	width: 137px;
 }
@@ -295,11 +308,13 @@ header .container h1 {
 #nav-wrapper {
 	background-color: #191411;
 	height: 40px;
-	font-family: "proxima-nova", sans-serif;
+	font: bold 0.8rem "proxima-nova", sans-serif;
+	text-transform: uppercase;
 }
 
 #nav-wrapper nav {
 	max-width: 960px;
+	min-width: 320px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -313,32 +328,29 @@ header .container h1 {
 	color: #6c6a6a;
 	margin: 9px 0px;
 	text-decoration: none;
+	background: url(../img/nav-hover.png) center 40px no-repeat;
 }
 
 #nav-wrapper nav a:hover,
 #nav-wrapper nav a:active {
 	color: white;
-	background: url(/img/nav-hover.png) center 40px no-repeat;
+	background: url(../img/nav-hover.png) center 40px no-repeat;
 }
 
-#nav-wrapper nav a.social {
+#nav-wrapper nav .social {
 	float: right;
 }
 
-#nav-wrapper nav a.social span {
-	display: none;
-}
-
 #nav-wrapper nav a.facebook {
-	background: url(/img/facebook.png) no-repeat center center;
+	background: url(../img/facebook.png) no-repeat center center;
 }
 
 #nav-wrapper nav a.twitter {
-	background: url(/img/twitter.png) no-repeat center center;
+	background: url(../img/twitter.png) no-repeat center center;
 } 
 
 #nav-wrapper nav a.social {
-	background: url(/img/email.png) no-repeat center center;
+	background: url(../img/email.png) no-repeat center center;
 }
 
 /* Content */
@@ -347,12 +359,13 @@ div[role=main] {
 }
 
 #video-slider-wrapper {
-	background: url(/img/video-slider-placeholder.jpg) no-repeat center center;
+	background: url(../img/video-slider-placeholder.jpg) no-repeat center center;
 	border-bottom: 3px solid #6c6a6a;
 }
 
 #video-slider {
 	max-width: 960px;
+	min-width: 320px;
 	height: 719px;
 	margin: 0 auto;
 }
@@ -366,12 +379,19 @@ div[role=main] {
 }
 
 #video-description-wrapper {
-	background: url(/img/description-bg.jpg) repeat;
+	background: url(../img/description-bg.jpg) repeat;
 	height: 800px;
+	padding-top: 43px;
 }
 
 #video-description {
 	max-width: 960px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+
+#video-description div {
+	float: left;
 }
 
 #video-description div:nth-child(1) {
@@ -380,10 +400,29 @@ div[role=main] {
 
 #video-description div:nth-child(2) {
 	width: 41%;
+	margin: 0 2%;
 }
 
 #video-description div:nth-child(3) {
-	width: 25%;
+	width: 22%;
+}
+
+#video-description .social.facebook {
+	background: url(../img/facebook-alt.png);
+	width: 76px;
+	height: 20px;
+}
+
+#video-description .social.pintrest  {
+	background: url(../img/pintrest-alt.png);
+	width: 67px;
+	height: 23px;
+}
+
+#video-description .social.twitter {
+	background: url(../img/twitter-alt.png);
+	width: 96px;
+	height: 20px;
 }
 
 
