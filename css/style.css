@@ -227,6 +227,7 @@ h1, h2, h3 {
 	font-family: "superclarendon", serif;
 	font-style: normal;
 	font-weight: 700;
+	margin: 0;
 }
 
 h1 {
@@ -246,6 +247,8 @@ h4, h5, h6 {
 	font-style: normal;
 	font-weight: 400;
 	margin: 0;
+	text-transform: uppercase;
+	display: inline-block;
 }
 
 h4 {
@@ -256,9 +259,18 @@ h5 {
 	font-size: 1rem;
 }
 
+h5.top {
+	padding-top: 4px;
+	border-top: 4px solid white;
+}
+
+h5.bottom {
+	padding-bottom: 4px;
+	border-bottom: 4px solid white;
+}
+
 h6 {
 	font-size: 0.75rem;
-	text-transform: uppercase;
 }
 
 .social {
@@ -268,6 +280,28 @@ h6 {
 /* This allows our markup to be verbose and spell out what's going on while at the same time hidding the text in the links and using background images instead. In this case you will have to define a width and height on the .social and set the proper background images to show the corresponding social button. */
 .social span {
 	display: none;
+}
+
+p, ul, ol {
+	font-size: 0.85rem;
+	color: #433d3d;
+	font-family: "proxima-nova", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+blockquote {
+	font-family: "proxima-nova", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.75rem;
+	color: #433d3d;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #6c6a6a;
 }
 
 /* Header */
@@ -327,7 +361,6 @@ header .container h1 {
 	display: inline-block;
 	color: #6c6a6a;
 	margin: 9px 0px;
-	text-decoration: none;
 	background: url(../img/nav-hover.png) center 40px no-repeat;
 }
 
@@ -358,6 +391,7 @@ div[role=main] {
 
 }
 
+/* Video */
 #video-slider-wrapper {
 	background: url(../img/video-slider-placeholder.jpg) no-repeat center center;
 	border-bottom: 3px solid #6c6a6a;
@@ -374,13 +408,12 @@ div[role=main] {
 	background: black;
 	font: 700 normal 3rem "superclarendon", serif;
 	padding: 26px 50px 16px 0;
-	display: inline-block;
 	margin: 0;
 }
 
 #video-description-wrapper {
 	background: url(../img/description-bg.jpg) repeat;
-	height: 800px;
+	overflow: hidden;
 	padding-top: 43px;
 }
 
@@ -390,41 +423,251 @@ div[role=main] {
 	margin: 0 auto;
 }
 
+#video-description h5 {
+	border-color: #6c6a6a;
+	color: #6c6a6a;
+}
+
+#video-description h3 {
+	margin-top: 0px;
+}
+
 #video-description div {
 	float: left;
 }
 
-#video-description div:nth-child(1) {
+#video-description div:nth-child(3) {
 	width: 33%;
 }
 
-#video-description div:nth-child(2) {
+#video-description div:nth-child(4) {
 	width: 41%;
 	margin: 0 2%;
 }
 
-#video-description div:nth-child(3) {
+#video-description div:nth-child(4) p:nth-child(1) {
+	margin-top: 0;
+}
+
+#video-description div:nth-child(5) {
 	width: 22%;
 }
 
-#video-description .social.facebook {
-	background: url(../img/facebook-alt.png);
-	width: 76px;
-	height: 20px;
+#video-description #credits span {
+	font: 700 italic 0.75rem "superclarendon", serif;
+	color: #433d3d;
+	display: inline-block;
+	margin-bottom: 1rem;
 }
 
-#video-description .social.pintrest  {
-	background: url(../img/pintrest-alt.png);
+#video-description #credits h6 {
+	display: block;
+	color: #6c6a6a;
+	line-height: 0.65rem;
+}
+
+#video-description .social.facebook {
+	background: url(../img/facebook-alt.png) left top no-repeat;
+	width: 76px;
+	height: 23px;
+}
+
+#video-description .social.pinterest  {
+	background: url(../img/pinterest-alt.png) left top no-repeat;
 	width: 67px;
 	height: 23px;
 }
 
 #video-description .social.twitter {
-	background: url(../img/twitter-alt.png);
+	background: url(../img/twitter-alt.png) left top no-repeat;
 	width: 96px;
-	height: 20px;
+	height: 23px;
 }
 
+#video-description nav {
+	margin-top: 13px;
+}
+
+#video-description .previous {
+	float: right;
+	margin-bottom: 42px;
+	font-size: 0.75rem;
+	font-family: "proxima-nova", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+/* About */
+#about-wrapper {
+	background: url(../img/about-bg.jpg) no-repeat center center;
+	height: 719px;
+	border-top: 3px solid #6c6a6a;
+	border-bottom: 3px solid #6c6a6a;
+}
+
+#about {
+	margin: 0 auto;
+	max-width: 960px;
+	min-width: 320px;
+}
+
+#about div:nth-child(1),
+#about div:nth-child(2) {
+	width: 50%;
+	float: left;
+	margin-top: 195px;
+}
+
+#about div:nth-child(1) {
+	margin-top: 290px;
+}
+
+#about div:nth-child(2) {
+	text-align: center;	
+}
+
+#about div:nth-child(2) h5 {
+	margin-bottom: 1rem;
+}
+
+#about h5.top,
+#about h5.bottom {
+	color: white;
+	border-color: white;
+}
+
+#about h1 {
+	color: white;
+	line-height: 2.75rem;
+}
+
+#about p {
+	color: white;
+	font-size: 0.75rem;
+	line-height: 1.35rem;
+	text-align: left;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+#recent-wrapper {
+	height: 719px;
+	background: url(../img/recent-stories-bg.jpg) no-repeat center center;
+	border-bottom: 3px solid #6c6a6a;
+}
+
+#recent {
+	margin: 0 auto;
+	padding-top: 88px;
+	max-width: 960px;
+	min-width: 320px;
+}
+
+#recent h1 {
+	line-height: 2.75rem;
+	margin-bottom: 30px;
+}
+
+#recent h3 {
+	font-style: italic;
+	font-weight: 100;
+	font-size: 1.65rem;
+}
+
+#recent h5.top {
+	color: #6c6a6a;
+	border-color: #6c6a6a;
+}
+
+#recent h6 {
+	margin-top: 22px;
+	color: #6c6a6a;
+	font-weight: 900;
+}
+
+#recent p {
+	font-size: 0.75rem;
+	line-height: 1.35rem;
+	padding-bottom: 1rem;
+}
+
+#recent .watch {
+	font-size: 0.75rem;
+	font-family: "proxima-nova", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	position: absolute;
+	bottom: 0;
+}
+
+#recent img {
+	border: 1px solid #6c6a6a;
+}
+
+#recent .button {
+	color: white;
+	font-size: 0.8rem;
+	font-weight: 900;
+	display: inline-block;	
+	margin-top: 70px;
+	background: #6c6a6a;
+	padding: 6px 21px;
+	float: right;
+}
+
+#recent div:nth-child(3),
+#recent div:nth-child(4),
+#recent div:nth-child(5) {
+	width: 33.333%;
+	float: left;
+	position: relative;
+}
+
+#contact-wrapper {
+	color: white;
+	height: 719px;
+	border-bottom: 3px solid #6c6a6a;
+	background: url(../img/contact-bg.jpg) no-repeat center center;
+}
+
+#contact {
+	margin: 0 auto;
+	max-width: 960px;
+	min-width: 320px;
+}
+
+#contact div {
+	background: #433d3d;
+	height: 330px;
+	width: 330px;
+}
+
+footer {
+	color: white;
+	background: #191411;
+	height: 309px;
+}
+
+#sponsor {
+	max-width: 960px;
+	min-width: 320px;
+}
+
+#sponsor div:nth-child(1),
+#sponsor div:nth-child(2) {
+	width: 50%;
+}
+
+#copyright-wrapper {
+	height: 39px;
+	background: #140e0e;
+}
+
+#copyright {
+	margin: 0 auto;
+	max-width: 960px;
+	min-width: 320px;
+}
 
 
 /* ==|== media queries ======================================================
