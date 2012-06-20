@@ -48,15 +48,15 @@
 		<!-- 
 			A note on the use of non-breaking spaces to create the nav. This was the best, simplest, and cleanest way to achieve what was comped. What was comped was using true | characters within the Proxima Nova font rather than a CSS border. To keep the | character of the Proxima Nova font and not break from style I had to use &nbsp; to force four spaces before and after each | character. 
 		-->
-			<a href="#">Episode&nbsp;&nbsp;&nbsp;&nbsp;|</a>
-			<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;&nbsp;|</a>
-			<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Recent&nbsp;&nbsp;&nbsp;&nbsp;|</a>
-			<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;&nbsp;|</a>
-			<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Sponsor&nbsp;&nbsp;&nbsp;&nbsp;|</a>
-			<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;All Stories</a>
-			<a href="#" class="social facebook"><span>Facebook</span></a>
-			<a href="#" class="social twitter"><span>Twitter</span></a>
-			<a href="#" class="social email"><span>Email</span></a>
+			<a href="#episode">Episode</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#about">About</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#recent">Recent</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#sponsor">Sponsor</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="http://vimeo.com/ourcityourstory">All Stories</a>
+			<a href="https://www.facebook.com/OurCityOurStory" class="social facebook"><span>Facebook</span></a>
+			<a href="https://twitter.com/#!/ourcityourstory" class="social twitter"><span>Twitter</span></a>
+			<a href="maito:MyStory@OurCitYourStory.com" class="social email"><span>Email</span></a>
 		</nav>
 	</div>
 	
@@ -67,6 +67,7 @@
 		</div>
 		
 		<div id="video-description-wrapper">
+			<a name="episode" class="hide">episode</a>
 			<div id="video-description">
 				<h5 class="top">Our City, Our Story</h5>
 				<h3>E09: Hazzard Free</h3>
@@ -118,6 +119,7 @@
 		</div>
 		
 		<div id="about-wrapper">
+			<a name="about" class="hide">About</a>
 			<div id="about">
 				<div>
 					<h5 class="top">Who We Are</h5>
@@ -133,6 +135,7 @@
 		</div>
 		
 		<div id="recent-wrapper">
+			<a name="recent" class="hide">Recent</a>
 			<div id="recent">
 				<h5 class="top">Our City, Our Story</h5>
 				<h1>Recent Stories</h1>
@@ -163,6 +166,7 @@
 		</div>
 		
 		<div id="contact-wrapper">
+			<a name="contact" class="hide">Contact</a>
 			<div id="contact">
 				<div>
 					<h1 class="top">Contact</h1>
@@ -186,6 +190,7 @@
 
 	<footer>
 		<div id="support">
+			<a name="sponsor" class="hide">Sponsor</a>
 			<div id="fund">
 				<div class="border">
 					<h5>Fund Our City, Our Story</h5>

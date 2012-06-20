@@ -229,7 +229,7 @@ body {
 }
 
 h1, h2, h3 {
-	font-family: "superclarendon", serif;
+	font-family: "ltc-bodoni-175", serif;
 	font-style: normal;
 	font-weight: 700;
 	margin: 0;
@@ -250,7 +250,7 @@ h3 {
 h4, h5, h6 {
 	font-family: "proxima-nova", sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 700;
 	margin: 0;
 	text-transform: uppercase;
 	display: inline-block;
@@ -282,9 +282,12 @@ h6 {
 	display: inline-block;
 }
 
-/* This allows our markup to be verbose and spell out what's going on while at the same time hidding the text in the links and using background images instead. In this case you will have to define a width and height on the .social and set the proper background images to show the corresponding social button. */
 .social span {
 	display: none;
+}
+
+.hide {
+	display: none;	
 }
 
 p, ul, ol {
@@ -318,7 +321,11 @@ label {
 /* Header */
 
 header {
-	background: url(../img/header-bg.jpg) center center black;
+	background: url(../img/header-bg.jpg) center center no-repeat fixed black;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	height: 498px;
 }
 
@@ -373,12 +380,14 @@ header .container h1 {
 	color: #6c6a6a;
 	line-height: 40px;
 	background: url(../img/nav-hover.png) center 40px no-repeat;
+	letter-spacing: 1px;
 }
 
-#nav-wrapper nav a:hover,
+#nav-wrapper nav a:hover {
+	color: #979595;
+}
 #nav-wrapper nav a:active {
 	color: white;
-	background: url(../img/nav-hover.png) center 40px no-repeat;
 }
 
 #nav-wrapper nav .social {
@@ -404,7 +413,11 @@ div[role=main] {
 
 /* Video */
 #video-slider-wrapper {
-	background: url(../img/video-slider-placeholder.jpg) no-repeat center center;
+	background: url(../img/video-slider-placeholder.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	border-bottom: 3px solid #6c6a6a;
 }
 
@@ -441,6 +454,7 @@ div[role=main] {
 
 #video-description h3 {
 	margin-top: 0px;
+	font: 400 italic 2rem "ltc-bodoni-175", serif;
 }
 
 #video-description div {
@@ -465,7 +479,7 @@ div[role=main] {
 }
 
 #video-description #credits span {
-	font: 700 italic 0.75rem "superclarendon", serif;
+	font: 700 italic 0.8rem "ltc-bodoni-175", serif;
 	color: #433d3d;
 	display: inline-block;
 	margin-bottom: 1rem;
@@ -510,7 +524,11 @@ div[role=main] {
 
 /* About */
 #about-wrapper {
-	background: url(../img/about-bg.jpg) no-repeat center center;
+	background: url(../img/about-bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	height: 719px;
 	border-top: 3px solid #6c6a6a;
 	border-bottom: 3px solid #6c6a6a;
@@ -541,6 +559,10 @@ div[role=main] {
 	margin-bottom: 1rem;
 }
 
+#about h5 {
+	letter-spacing: 1px;
+}
+
 #about h5.top,
 #about h5.bottom {
 	color: white;
@@ -554,7 +576,7 @@ div[role=main] {
 
 #about p {
 	color: white;
-	font-size: 0.75rem;
+	font-size: 0.8rem;
 	line-height: 1.35rem;
 	text-align: left;
 	max-width: 300px;
@@ -563,7 +585,11 @@ div[role=main] {
 
 #recent-wrapper {
 	height: 719px;
-	background: url(../img/recent-stories-bg.jpg) no-repeat center center;
+	background: url(../img/recent-stories-bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	border-bottom: 3px solid #6c6a6a;
 }
 
@@ -675,7 +701,7 @@ div[role=main] {
 
 #contact p a {
 	color: white;
-	font: 400 normal 0.85rem "superclarendon", serif;
+	font: 400 normal 1.1rem "ltc-bodoni-175", serif;
 	text-transform: none;
 	font-style: italic;
 	margin-bottom: 16px;
