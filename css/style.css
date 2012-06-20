@@ -692,6 +692,9 @@ footer #support {
 	overflow: hidden;
 	padding-bottom: 31px;
 	position: relative;
+	margin: 0 auto;
+	max-width: 960px;
+	min-width: 320px;
 }
 
 footer p {
@@ -757,13 +760,14 @@ footer .button {
 
 #copyright {
 	margin: 0 auto;
-	max-width: 400px;
+	max-width: 960px;
 	min-width: 320px;
-	float: left;
 }
 
 #copyright p {
+	max-width: 400px;
 	font-size: 0.70rem;
+	float: left;
 	margin: 0;
 }
 
