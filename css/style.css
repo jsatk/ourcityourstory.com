@@ -419,7 +419,7 @@ div[role=main] {
 
 /* Video */
 #video-slider-wrapper {
-	background: url(../img/video-slider-placeholder.jpg) no-repeat center center fixed;
+	background: url(../img/video-slider-placeholder.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
