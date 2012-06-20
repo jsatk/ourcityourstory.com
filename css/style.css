@@ -254,6 +254,7 @@ h4, h5, h6 {
 	margin: 0;
 	text-transform: uppercase;
 	display: inline-block;
+	letter-spacing: 1px;
 }
 
 h4 {
@@ -309,6 +310,11 @@ blockquote {
 a {
 	text-decoration: none;
 	text-transform: uppercase;
+	color: #6c6a6a;
+}
+
+p a:hover {
+	background: black;
 	color: #6c6a6a;
 }
 
@@ -559,10 +565,6 @@ div[role=main] {
 	margin-bottom: 1rem;
 }
 
-#about h5 {
-	letter-spacing: 1px;
-}
-
 #about h5.top,
 #about h5.bottom {
 	color: white;
@@ -638,6 +640,11 @@ div[role=main] {
 	bottom: 0;
 }
 
+#recent .watch:hover {
+	background: black;
+	color: #6c6a6a;
+}
+
 #recent img {
 	border: 1px solid #6c6a6a;
 }
@@ -665,7 +672,11 @@ div[role=main] {
 	color: white;
 	height: 719px;
 	border-bottom: 3px solid #6c6a6a;
-	background: url(../img/contact-bg.jpg) no-repeat center center;
+	background: url(../img/contact-bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #contact {
