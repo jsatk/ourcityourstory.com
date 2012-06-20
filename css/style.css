@@ -371,7 +371,7 @@ header .container h1 {
 #nav-wrapper nav a {
 	display: inline-block;
 	color: #6c6a6a;
-	margin: 9px 0px;
+	line-height: 40px;
 	background: url(../img/nav-hover.png) center 40px no-repeat;
 }
 
@@ -616,7 +616,7 @@ div[role=main] {
 	border: 1px solid #6c6a6a;
 }
 
-#recent .button {
+.button {
 	color: white;
 	font-size: 0.8rem;
 	font-weight: 900;
@@ -688,27 +688,94 @@ footer {
 	height: 309px;
 }
 
-#sponsor {
-	max-width: 960px;
-	min-width: 320px;
+footer #support {
+	overflow: hidden;
+	padding-bottom: 31px;
+	position: relative;
 }
 
-#sponsor div:nth-child(1),
-#sponsor div:nth-child(2) {
-	width: 50%;
+footer p {
+	color: #979595;
+	font-size: 0.75rem;
+}
+
+footer #fund,
+footer #sponsor {
+	margin: 0 10px;
+	float: left;
+	width: 220px;
+}
+
+footer #fund {
+	padding-top: 36px;
+}
+
+footer #sponsor-wrapper {
+	padding-top: 36px;
+	float: left;
+}
+
+footer .border {
+	border-top: 3px solid #6C6A6A;
+}
+
+footer h5 {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+footer #support nav {
+	padding-top: 36px;
+	margin-top: 14px;
+	float: left;
+}
+
+footer #support nav a {
+	display: inline-block;
+	height: 70px;
+	width: 140px;
+	background: url(../img/placeholder-white.jpg) center center no-repeat;
+}
+
+footer nav a span {
+	display: none;
+}
+
+footer .button {
+	margin: 0;
+	position: absolute;
+	bottom: 0;
 }
 
 #copyright-wrapper {
-	height: 39px;
+	height: 35px;
 	background: #140e0e;
+	color: #6c6a6a;
+	margin-top: 41px;
+	padding-top: 5px;
 }
 
 #copyright {
 	margin: 0 auto;
-	max-width: 960px;
+	max-width: 400px;
 	min-width: 320px;
+	float: left;
 }
 
+#copyright p {
+	font-size: 0.70rem;
+	margin: 0;
+}
+
+#copyright-wrapper nav {
+	float: right;
+	font: bold 0.8rem "proxima-nova", sans-serif;
+}
+
+#copyright-wrapper nav a {
+	display: inline-block;
+	line-height: 30px;
+}
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
