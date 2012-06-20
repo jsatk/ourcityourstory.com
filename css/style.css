@@ -217,8 +217,13 @@ td { vertical-align: top; }
 /* ==|== primary styles =====================================================
    Author: Jesse Atkinson (jesse.s.atkinson@gmail.com)
    ========================================================================== */
+   
+/* A note on the fonts. We have "superclarendon" in 400 & 700. 
+	We have "proximanova" in 400, 400 italic, 600, 600 italic, 700, & 800.
+	We also have "ltc-bodoni-175" in 400 & 400 italic. */
 
-/* Taking care of some global styles. */
+
+/* global styles. */
 body {
 	min-width: 320px;
 }
@@ -577,7 +582,7 @@ div[role=main] {
 
 #recent h3 {
 	font-style: italic;
-	font-weight: 100;
+	font-weight: 400;
 	font-size: 1.65rem;
 }
 
@@ -670,7 +675,7 @@ div[role=main] {
 
 #contact p a {
 	color: white;
-	font: 100 normal 1.1rem "superclarendon", serif;
+	font: 400 normal 0.85rem "superclarendon", serif;
 	text-transform: none;
 	font-style: italic;
 	margin-bottom: 16px;
