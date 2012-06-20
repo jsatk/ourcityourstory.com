@@ -13,7 +13,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 <title>Storytelling video product to help define the identity of this community. This is Rockford, Illinois.</title>
-  <meta name="description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
+	<meta name="description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
+	<meta property="og:title" content="Our City, Our Story" />
+	<meta property="og:type" content="company" />
+	<meta property="og:url" content="http://ourcityourstory.com" />
+	<meta property="og:image" content="http://ourcityourstory.com/img/logo.png" />
+	<meta property="og:site_name" content="Our City, Our Story" />
+	<meta property="fb:app_id" content="463007328218" />
   
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
   <meta name="viewport" content="width=device-width">
@@ -31,6 +37,16 @@
 </head>
 
 <body>
+<!-- According to Facbeook (http://developers.facebook.com/docs/reference/plugins/like/) you should put this right after the <body> tag. -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=380552185302080";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -74,9 +90,18 @@
 				<div>
 					<img src="img/placeholder.jpg" alt="E09: Hazzard Freex" width="300" height="210" />
 					<nav>
-						<a href="#" class="social facebook"><span>Facebook</span></a>
-						<a href="#" class="social pinterest"><span>Pinterest</span></a>
-						<a href="#" class="social twitter"><span>Twitter</span></a>
+						<div class="social facebook">
+							<span><div class="fb-like" data-href="http://ourcityourstory.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div></span>
+						</div>
+				
+						<div class="social twitter">
+							<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://ourcityourstory.com">Tweet</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						</div>
+
+						<div class="social pinterest">
+							<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fourcityourstory.com&media=http%3A%2F%2Fourcityourstory.com%2Fimg%2Flogo.png&description=Our%20City%2C%20Our%20Story%20aims%20to%20find%20and%20tell%20the%20stories%20which%20make%20up%20our%20identity.%20This%20is%20Rockford%2C%20Illinois." class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
+						</div>
 					</nav>
 					
 				</div>

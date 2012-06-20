@@ -498,21 +498,15 @@ div[role=main] {
 }
 
 #video-description .social.facebook {
-	background: url(../img/facebook-alt.png) left top no-repeat;
-	width: 76px;
-	height: 23px;
+	width: 82px;
 }
 
 #video-description .social.pinterest  {
-	background: url(../img/pinterest-alt.png) left top no-repeat;
-	width: 67px;
-	height: 23px;
+	width: 73px;
 }
 
 #video-description .social.twitter {
-	background: url(../img/twitter-alt.png) left top no-repeat;
 	width: 96px;
-	height: 23px;
 }
 
 #video-description nav {
