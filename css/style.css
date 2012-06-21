@@ -365,6 +365,14 @@ header .container h1 {
 	height: 40px;
 	font: bold 0.8rem "proxima-nova", sans-serif;
 	text-transform: uppercase;
+	position: relative;
+	z-index: 3;
+}
+
+#nav-wrapper.fixed {
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 #nav-wrapper nav {
@@ -378,19 +386,25 @@ header .container h1 {
 	text-align: center;
 }
 
+#nav-wrapper nav div {
+	height: 50px;
+}
+
 #nav-wrapper nav a {
 	display: inline-block;
 	color: #6c6a6a;
 	line-height: 40px;
-	background: url(../img/nav-hover.png) center 40px no-repeat;
 	letter-spacing: 1px;
+	padding-bottom: 10px;
 }
 
 #nav-wrapper nav a:hover {
 	color: #979595;
+	background: url(../img/nav-hover.png) center 31px no-repeat;
 }
 #nav-wrapper nav a:active {
 	color: white;
+	background: url(../img/nav-active.png) center 40px no-repeat;
 }
 
 #nav-wrapper nav .social {
@@ -415,6 +429,10 @@ header .container h1 {
 #nav-wrapper nav a.email {
 	background: url(../img/email.png) no-repeat center center;
 	width: 35px;
+}
+
+#nav-wrapper nav span {
+
 }
 
 /* Content */
