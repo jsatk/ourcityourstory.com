@@ -69,7 +69,7 @@
 				<a href="#about">About</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
 				<a href="#recent">Recent</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
 				<a href="#contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="#sponsor">Sponsor</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#support">Sponsor</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
 				<a href="http://vimeo.com/ourcityourstory/videos">All Stories</a>
 				<a href="mailto:MyStory@OurCitYourStory.com" class="social email"><span>Email</span></a>
 				<a href="https://twitter.com/#!/ourcityourstory" class="social twitter"><span>Twitter</span></a>
@@ -80,11 +80,13 @@
 	
 	<div role="main">
 		<div id="video-slider-wrapper">
-			<!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
-			<iframe src="http://player.vimeo.com/video/44322055" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>		</div>
+			<div id="episode">
+				<!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
+				<iframe src="http://player.vimeo.com/video/44322055" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			</div>
+		</div>
 		
 		<div id="video-description-wrapper">
-			<a name="episode" class="hide">episode</a>
 			<div id="video-description">
 				<h5 class="top">Our City, Our Story</h5>
 				<h3>E09: Hazzard Free</h3>
@@ -134,7 +136,6 @@
 		</div>
 		
 		<div id="about-wrapper">
-			<a name="about" class="hide">About</a>
 			<div id="about">
 				<div>
 					<h5 class="top">Who We Are</h5>
@@ -150,7 +151,6 @@
 		</div>
 		
 		<div id="recent-wrapper">
-			<a name="recent" class="hide">Recent</a>
 			<div id="recent">
 				<h5 class="top">Our City, Our Story</h5>
 				<h1>Recent Stories</h1>
@@ -181,7 +181,6 @@
 		</div>
 		
 		<div id="contact-wrapper">
-			<a name="contact" class="hide">Contact</a>
 			<div id="contact">
 				<div>
 					<h1 class="top">Contact</h1>
@@ -205,7 +204,6 @@
 
 	<footer>
 		<div id="support">
-			<a name="sponsor" class="hide">Sponsor</a>
 			<div id="fund">
 				<div class="border">
 					<h5>Fund Our City, Our Story</h5>
@@ -253,6 +251,8 @@
   <script type="text/javascript" src="http://use.typekit.com/czk0yby.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script src="js/plugins.js"></script>
+  <script src="js/libs/jquery.scrollTo-1.4.2-min.js"></script>
+  <script src="js/libs/jquery.localscroll-1.2.7-min.js"></script>
   <script src="js/script.js"></script>
   <!-- end scripts -->
 
