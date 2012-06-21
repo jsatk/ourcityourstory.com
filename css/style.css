@@ -424,22 +424,10 @@ div[role=main] {
 
 /* Video */
 #video-slider-wrapper {
-	background: url(../img/video-slider-placeholder.jpg) no-repeat center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 	border-bottom: 3px solid #6c6a6a;
 }
 
-#video-slider {
-	max-width: 960px;
-	min-width: 320px;
-	height: 719px;
-	margin: 0 auto;
-}
-
-#video-slider h2 {
+#video-slider-wrapper h2 {
 	background: black;
 	font: 700 normal 3rem "superclarendon", serif;
 	padding: 26px 50px 16px 0;
@@ -786,7 +774,6 @@ div[role=main] {
 footer {
 	color: white;
 	background: #191411;
-	height: 309px;
 }
 
 footer #support {
