@@ -820,6 +820,7 @@ footer #fund {
 footer #sponsor-wrapper {
 	padding-top: 36px;
 	float: left;
+	width: 694px;
 }
 
 footer .border {
@@ -869,6 +870,7 @@ footer .button:hover {
 	margin: 0 auto;
 	max-width: 960px;
 	min-width: 320px;
+	overflow: hidden;
 }
 
 #copyright p {
