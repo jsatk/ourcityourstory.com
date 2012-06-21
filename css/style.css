@@ -402,7 +402,7 @@ header .container h1 {
 	color: #979595;
 	background: url(../img/nav-hover.png) center 31px no-repeat;
 }
-#nav-wrapper nav a:active {
+#nav-wrapper nav a.active {
 	color: white;
 	background: url(../img/nav-active.png) center 40px no-repeat;
 }
