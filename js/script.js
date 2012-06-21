@@ -53,8 +53,9 @@
 				$.each ($(t.config.nav + " nav div a"), function (i, v) {
 					var href = $(v).attr("href");
 					
-				    if (href.indexOf("#") !== -1) {    					
-						if ($(window).scrollTop() >= $(href).offset().top) {
+				    if (href.indexOf("#") !== -1) {
+				    	// Had to add 10px to fix Firefox.
+						if ($(window).scrollTop() >= ($(href).offset().top) -10) {
 							$(t.config.nav + " nav div a").removeClass("active");
 							$(v).addClass("active");
 														
