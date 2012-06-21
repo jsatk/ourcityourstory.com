@@ -394,18 +394,26 @@ header .container h1 {
 
 #nav-wrapper nav .social {
 	float: right;
+	height: 40px;
+}
+
+#nav-wrapper nav .social span {
+	display: none;
 }
 
 #nav-wrapper nav a.facebook {
 	background: url(../img/facebook.png) no-repeat center center;
+	width: 25px;
 }
 
 #nav-wrapper nav a.twitter {
 	background: url(../img/twitter.png) no-repeat center center;
-} 
+	width: 25px;
+}
 
-#nav-wrapper nav a.social {
+#nav-wrapper nav a.email {
 	background: url(../img/email.png) no-repeat center center;
+	width: 35px;
 }
 
 /* Content */
@@ -700,6 +708,10 @@ div[role=main] {
 	height: 19px;
 	background: url(../img/contact-social.png) left center no-repeat transparent;
 	margin-bottom: 23px;
+}
+
+#contact .social span {
+	display: none;
 }
 
 #contact nav a {
