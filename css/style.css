@@ -501,11 +501,15 @@ div[role=main] {
 #video-description .social.pinterest  {
 	width: 73px;
 	line-height: 0;
+	position: relative;
+	z-index: 1;
 }
 
 #video-description .social.twitter {
 	width: 81px;
 	margin-right: 22px;
+	position: relative;
+	z-index: 1;
 }
 
 #video-description nav {
