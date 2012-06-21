@@ -425,6 +425,18 @@ div[role=main] {
 /* Video */
 #video-slider-wrapper {
 	border-bottom: 3px solid #6c6a6a;
+	position: relative;
+	height: 0;
+    padding-bottom: 56.25%; /* 16:9 */
+    /* I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos */
+}
+
+#video-slider-wrapper iframe {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #video-slider-wrapper h2 {
