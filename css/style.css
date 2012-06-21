@@ -617,7 +617,7 @@ div[role=main] {
 
 #recent-wrapper {
 	height: 719px;
-	background: url(../img/recent-stories-bg.jpg) no-repeat center center fixed;
+	background: url(../img/recent-stories-bg.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
