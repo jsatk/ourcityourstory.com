@@ -318,6 +318,7 @@ label {
 	color: #bcbec0;
 	font-size: 0.75rem;
 	display: block;
+	cursor: initial;
 }
 
 /* Header */
@@ -463,7 +464,7 @@ div[role=main] {
 }
 
 #video-description h3 {
-	margin-top: 0px;
+	margin: 0px 0px 28px;
 	font: 400 italic 2rem "ltc-bodoni-175", serif;
 }
 
@@ -489,7 +490,7 @@ div[role=main] {
 }
 
 #video-description #credits span {
-	font: 700 italic 0.8rem "ltc-bodoni-175", serif;
+	font: 400 italic 0.8rem "ltc-bodoni-175", serif;
 	color: #433d3d;
 	display: inline-block;
 	margin-bottom: 1rem;
@@ -531,6 +532,12 @@ div[role=main] {
 	font-family: "proxima-nova", sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	padding: 3px 5px;
+}
+
+#video-description .previous:hover {
+	background: black;
+	color: #6c6a6a;
 }
 
 /* About */
@@ -608,6 +615,16 @@ div[role=main] {
 	overflow: hidden;
 }
 
+#recent h3 a {
+	text-transform: none;
+	color: black;
+}
+
+#recent h3 a:hover,
+#recent h3 a:active {
+	color: black;
+}
+
 #recent h1 {
 	line-height: 2.75rem;
 	margin-bottom: 30px;
@@ -643,6 +660,7 @@ div[role=main] {
 	font-weight: 400;
 	position: absolute;
 	bottom: 0;
+	padding: 3px 5px;
 }
 
 #recent .watch:hover {
@@ -663,6 +681,11 @@ div[role=main] {
 	background: #6c6a6a;
 	padding: 6px 21px;
 	float: right;
+}
+
+.button:hover {
+	background: black;
+	color: white;
 }
 
 #recent div:nth-child(3),
@@ -706,8 +729,35 @@ div[role=main] {
 #contact nav {
 	width: 87px;
 	height: 19px;
-	background: url(../img/contact-social.png) left center no-repeat transparent;
 	margin-bottom: 23px;
+}
+
+#contact nav .facebook {
+	background: url(../img/contact-social.png) 0 0 no-repeat transparent;
+}
+
+#contact nav .twitter {
+	background: url(../img/contact-social.png) -29px 0 no-repeat transparent;
+}
+
+#contact nav .vimeo {
+	background: url(../img/contact-social.png) -61px 0 no-repeat transparent;
+}
+
+#contact nav .facebook:hover {
+	background: url(../img/contact-social.png) 0 -19px no-repeat transparent;
+}
+
+#contact nav .twitter:hover {
+	background: url(../img/contact-social.png) -29px -19px no-repeat transparent;
+}
+
+#contact nav .vimeo:hover {
+	background: url(../img/contact-social.png) -61px -19px no-repeat transparent;
+}
+
+#contact .social {
+	overflow: hidden;
 }
 
 #contact .social span {
@@ -726,6 +776,11 @@ div[role=main] {
 	font-style: italic;
 	margin-bottom: 16px;
 	display: block;
+}
+
+#contact p a:hover {
+	background: none;
+	text-decoration: underline;
 }
 
 footer {
@@ -752,11 +807,15 @@ footer #fund,
 footer #sponsor {
 	margin: 0 10px;
 	float: left;
+}
+
+footer #sponsor {
 	width: 220px;
 }
 
 footer #fund {
 	padding-top: 36px;
+	width: 246px;
 }
 
 footer #sponsor-wrapper {
@@ -774,7 +833,6 @@ footer h5 {
 }
 
 footer #support nav {
-	padding-top: 36px;
 	margin-top: 14px;
 	float: left;
 }
@@ -796,6 +854,10 @@ footer .button {
 	bottom: 0;
 }
 
+footer .button:hover {
+	background: #433d3d;
+}
+
 #copyright-wrapper {
 	height: 35px;
 	background: #140e0e;
@@ -815,16 +877,31 @@ footer .button {
 	font-size: 0.70rem;
 	float: left;
 	margin: 0;
+	color: #6c6a6a;
 }
 
-#copyright-wrapper nav {
+#copyright a {
+	color: #6c6a6a;
+	text-transform: none;
+}
+
+#copyright a:hover {
+	color: #bcbec0;
+}
+
+#copyright nav {
 	float: right;
 	font: bold 0.8rem "proxima-nova", sans-serif;
 }
 
-#copyright-wrapper nav a {
+#copyright nav a {
 	display: inline-block;
 	line-height: 30px;
+	text-transform: uppercase;
+}
+
+#copyright nav a:hover {
+	color: white;
 }
 
 /* ==|== media queries ======================================================
