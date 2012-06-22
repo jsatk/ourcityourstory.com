@@ -26,10 +26,10 @@
 			var aboveHeight = $("header").outerHeight(),
 				t = this;
 
-			$(window).scroll({namespace:this}, function (e) {
+			$(window).scroll({namespace: this}, function (e) {
 				var t = e.data.namespace;
 
-				if ($(window).scrollTop() > aboveHeight){
+				if ($(window).scrollTop() > aboveHeight) {
 					$(t.config.nav).addClass("fixed");
 					$("body").addClass("fixed");
 				} else {
@@ -41,38 +41,38 @@
 
 		scroll: function () {
 			$(this.config.nav + " nav div").localScroll();
-			
-			$(this.config.nav + " nav div a").click({namespace:this}, function (e) {
+
+			$(this.config.nav + " nav div a").click({namespace: this}, function (e) {
 				var t = e.data.namespace;
-				
+
 				$(t.config.nav + " nav div a").removeClass("active");
 				$(this).addClass("active");
 			});
-			
-			$(window).scroll({namespace:this}, function (e) {	
+
+			$(window).scroll({namespace: this}, function (e) {
 				var t = e.data.namespace;
-			
-				$.each ($(t.config.nav + " nav div a"), function (i, v) {
+
+				$.each($(t.config.nav + " nav div a"), function (i, v) {
 					var href = $(v).attr("href");
-					
-				    if (href.indexOf("#") !== -1) {    					
+
+					if (href.indexOf("#") !== -1) {
 						if ($(window).scrollTop() >= $(href).offset().top) {
 							$(t.config.nav + " nav div a").removeClass("active");
 							$(v).addClass("active");
-														
-							if ($(window).scrollTop() == ($(document).height() - $(window).height())) {
+
+							if ($(window).scrollTop() === ($(document).height() - $(window).height())) {
 								$(t.config.nav + " nav div a").removeClass("active");
 								$($(t.config.nav + " nav div a")[4]).addClass("active");
 							}
 						}
 					}
 				});
-				
-				
+
+
 				$(document).click(function (e) {
 					if ($(e.target).is($(".email")) || $(e.target).parents("#subscribe").length > 0) {
 						e.preventDefault();
-						
+
 						if ($(e.target).is("#submit")) {
 							$(".email").removeClass("active");
 							$("#subscribe").hide();
@@ -94,4 +94,4 @@
 	});
 
 	window.app = app || {};
-} (jQuery, this));
+}(jQuery, this));
