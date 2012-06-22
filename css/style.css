@@ -228,9 +228,15 @@ body {
 	min-width: 320px;
 	-webkit-font-smoothing: antialiased;
 }
+
+body.fixed {
+	margin-top: 40px;	
+}
+
 h1, h2 h3, h4, h5, h6 {
 	text-rendering: optimizeLegibility;
 }
+
 h1, h2, h3 {
 	font-family: "superclarendon", Georgia, serif;
 	font-style: normal;

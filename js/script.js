@@ -31,8 +31,10 @@
 
 				if ($(window).scrollTop() > aboveHeight){
 					$(t.config.nav).addClass("fixed");
+					$("body").addClass("fixed");
 				} else {
 					$(t.config.nav).removeClass("fixed");
+					$("body").removeClass("fixed");
 				}
 			});
 		},
@@ -53,9 +55,8 @@
 				$.each ($(t.config.nav + " nav div a"), function (i, v) {
 					var href = $(v).attr("href");
 					
-				    if (href.indexOf("#") !== -1) {
-				    	// Had to add 10px to fix Firefox.
-						if ($(window).scrollTop() >= ($(href).offset().top) -10) {
+				    if (href.indexOf("#") !== -1) {    					
+						if ($(window).scrollTop() >= $(href).offset().top) {
 							$(t.config.nav + " nav div a").removeClass("active");
 							$(v).addClass("active");
 														
