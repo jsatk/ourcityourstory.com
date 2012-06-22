@@ -226,17 +226,22 @@ td { vertical-align: top; }
 /* global styles. */
 body {
 	min-width: 320px;
+	-webkit-font-smoothing: antialiased;
 }
-
+h1, h2 h3, h4, h5, h6 {
+	text-rendering: optimizeLegibility;
+}
 h1, h2, h3 {
-	font-family: "superclarendon", serif;
+	font-family: "superclarendon", Georgia, serif;
 	font-style: normal;
 	font-weight: 700;
 	margin: 0;
+	letter-spacing: -.13rem;
 }
 
 h1 {
-	font-size: 2.75rem;
+	font-size: 3rem;
+	line-height: 4.1875rem;
 }
 
 h2 {
@@ -248,13 +253,13 @@ h3 {
 }
 
 h4, h5, h6 {
-	font-family: "proxima-nova", sans-serif;
+	font-family: "proxima-nova", helvetica, arial, sans-serif;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 800;
 	margin: 0;
 	text-transform: uppercase;
 	display: inline-block;
-	letter-spacing: 1px;
+	letter-spacing: .06rem;
 }
 
 h4 {
@@ -262,7 +267,7 @@ h4 {
 }
 
 h5 {
-	font-size: 1rem;
+	font-size: .875rem;
 }
 
 h6 {
@@ -271,12 +276,12 @@ h6 {
 
 .bottom {
 	padding-bottom: 4px;
-	border-bottom: 4px solid white;
+	border-bottom: 3px solid white;
 }
 
 .top {
 	padding-top: 4px;
-	border-top: 4px solid white;
+	border-top: 3px solid white;
 }
 
 .social {
@@ -341,7 +346,7 @@ header .container {
 header .container h1 {
 	margin: 0 auto;
 	color: white;
-	padding: 79px 0px 50px;
+	padding: 79px 0px 40px;
 	max-width: 761px;
 }
 
@@ -349,10 +354,10 @@ header .container h1 {
 #hero {
 	display: block;
 	margin: 0 auto;
-	margin-bottom: 31px;
+	margin-bottom: 41px;
 	background: url(../img/logo.png);
-	height: 86px;
-	width: 137px;
+	height: 85px;
+	width: 135px;
 }
 
 #hero span {
@@ -363,7 +368,7 @@ header .container h1 {
 #nav-wrapper {
 	background-color: #191411;
 	height: 40px;
-	font: bold 0.8rem "proxima-nova", sans-serif;
+	font: 800 0.8125rem "proxima-nova", helvetica, arial, sans-serif;
 	text-transform: uppercase;
 	position: relative;
 	z-index: 3;
