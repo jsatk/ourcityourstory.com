@@ -1,130 +1,269 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
-<meta charset="utf-8">
-<meta name="description" content="Our City, Our Story aims to find and tell the stories which make up our identity. This is Rockford, Illinois.">
-<title>Our City, Our Story</title>
-<link rel="stylesheet" href="style.css" type="text/css" media="screen">
-<script type="text/javascript" src="http://use.typekit.com/ekc3mkl.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-<script type="text/javascript">
+  <meta charset="utf-8">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-29000348-1']);
-  _gaq.push(['_trackPageview']);
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/i/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+<title>Storytelling video product to help define the identity of this community. This is Rockford, Illinois.</title>
+	<meta name="description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
+	<meta property="og:title" content="Our City, Our Story" />
+	<meta property="og:type" content="company" />
+	<meta property="og:url" content="http://ourcityourstory.com" />
+	<meta property="og:image" content="http://ourcityourstory.com/img/logo.png" />
+	<meta property="og:site_name" content="Our City, Our Story" />
+	<meta property="fb:app_id" content="463007328218" />
+  
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
 
-</script>
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except this Modernizr build.
+       Modernizr enables HTML5 elements & feature detects for optimal performance.
+       Create your own custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="js/libs/modernizr-2.5.3.min.js"></script>
 </head>
 
 <body>
+<!-- According to Facbeook (http://developers.facebook.com/docs/reference/plugins/like/) you should put this right after the <body> tag. -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=380552185302080";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-<header>
-	<h1 id="home">Our City, Our Story - Rockford, IL</h1>
-	<ul id="nav">
-	<li><a href="supporters.html">SUPPORTERS</a></li>
-	<li><a href="#info">INFO</a></li>
-	</ul>
-</header>
-
-<div id="wrap">
-<div id="main" class="clearfix">
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+	<header>
+	  	<div class="container">
+			<h1>Our City, Our Story aims to find and tell the stories which make up our identity. This is Rockford, Illinois.</h1>
 			
-<div id="covers">
+			<!-- The contents of the <span> are hidden. -->
+			<a href="/" id="hero"><span>Our City, Our Story</span></a>
+		</div>
+	</header>
 
-<a href="../Hazzard-Free-Farm/" id="coverHazzardFreeFarmsub">
-<h2>Hazzard Free Farm</h2>
-<h3>Our City, Our Story - Rockford, IL - Episode 9</h3>
-</a>
-
-<a href="../Team-Fur-Bandit/" id="coverTeamFurBanditsub">
-<h2>Team Fur Bandit</h2>
-<h3>Our City, Our Story - Rockford, IL - Episode 8</h3>
-</a>
-
-<a href="Hometown-History/" id="coverHometownHistory">
-<h2>Hometown History</h2>
-<h3>Our City, Our Story - Rockford, IL - Episode 7</h3>
-</a>
-
-<a href="Bonds-by-Fire/" id="coverBondsbyFire">
-<h2>Bonds by Fire</h2>
-<h3>Our City, Our Story - Rockford, IL - Episode 6</h3>
-</a>
-
-<a href="Handcuffs-to-Handshakes/" id="coverJoeGoral">
-<h2>From Handcuffs to Handshakes</h2>
-<h3>Our City, Our Story - Rockford, IL - Episode 5</h3>
-</a>
-
-<a href="Darrell-Hines/" id="coverDarrell">
-<h2>Darrell Hines</h2>
-<h3>Our City, Our Story - Rockford, IL - Episode 4</h3>
-</a>
-
-<a href="Pioneer-of-the-Past/" id="coverPioneer">
-<h2>Pioneer of the Past</h2>
-<h3>Our City, Our Story - Rockford, IL - Episode 3</h3>
-</a>
-
-<a href="Jimmy-Goodman/" id="coverJimmy">
-<h2>Jimmy Goodman</h2>
-<h3>Our City, Our Story - Rockford, IL - Episode 2</h3>
-</a>
-
-<a href="Vince-the-Tailor/" id="coverVince">
-<h2>Vince the Tailor</h2>
-<h3>Our City, Our Story - Rockford, IL - Episode 1</h3>
-</a>
-
-</div><!-- / covers -->
-
+	<div id="nav-wrapper">
+		<nav>
+		<!-- 
+			A note on the use of non-breaking spaces to create the nav. This was the best, simplest, and cleanest way to achieve what was comped. What was comped was using true | characters within the Proxima Nova font rather than a CSS border. To keep the | character of the Proxima Nova font and not break from style I had to use &nbsp; to force four spaces before and after each | character. 
+		-->
+			<div>
+				<a href="#episode">Episode</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#about">About</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#recent">Recent</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#support">Sponsor</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="http://vimeo.com/ourcityourstory/videos">All Stories</a>
+				<a href="mailto:MyStory@OurCitYourStory.com" class="social email"><span>Email</span></a>
+				<a href="https://twitter.com/ourcityourstory" class="social twitter"><span>Twitter</span></a>
+				<a href="https://www.facebook.com/OurCityOurStory" class="social facebook"><span>Facebook</span></a>
+			</div>
+		</nav>
 	</div>
-</div>
+	
+	<div role="main">
+		<div id="video-slider-wrapper">
+			<div id="episode">
+				<!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
+				<iframe src="http://player.vimeo.com/video/44322055" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			</div>
+		</div>
+		
+		<div id="video-description-wrapper">
+			<div id="video-description">
+				<h5 class="top">Our City, Our Story</h5>
+				<h3>E09: Hazzard Free</h3>
+				<div>
+					<img src="img/E09-HazardFree-Story-Thumb.jpg" alt="E09: Hazzard Freex" width="300" height="210" />
+					<nav>
+						<div class="social facebook">
+							<span><div class="fb-like" data-href="http://ourcityourstory.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div></span>
+						</div>
+				
+						<div class="social twitter">
+							<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://ourcityourstory.com">Tweet</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						</div>
 
-<footer>
-<div id="container">
-<a name="info" id="info" class="anchor">&nbsp;</a>
-<p><a href="http://www.OurCityOurStory.com">Our City, Our Story</a> aims to find and tell the stories which make up our identity. This is Rockford, Illinois.</p>
-<p>We are currently seeking corporate sponsors to underwrite the ongoing production costs of the project. If you are interested, email: <a href="mailto:pablokorona@ourcityourstory.com">pablokorona@ourcityourstory.com</a>.</p>
-<p>You can donate here:
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="donatefooter">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="5FFTUKM5W8LKL">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-</p>
-<p>If you have a story idea, send it to: <a href="mailto:mystory@ourcityourstory.com">mystory@ourcityourstory.com</a></p>
-<p>Copyright &copy; 2012 <a href="http://www.OurCityOurStory.com">Our City, Our Story</a></p>
-</div>
-</footer>
+						<div class="social pinterest">
+							<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fourcityourstory.com&media=http%3A%2F%2Fourcityourstory.com%2Fimg%2Flogo.png&description=Our%20City%2C%20Our%20Story%20aims%20to%20find%20and%20tell%20the%20stories%20which%20make%20up%20our%20identity.%20This%20is%20Rockford%2C%20Illinois." class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
+						</div>
+					</nav>
+					
+				</div>
+				<div>
+					<p>Andy Hazzard had been a staple of downtown Rockford before she decided to acknowledge her true calling of farming. She was a waitress at Octane, she worked on jewelry at several art fairs, but when it came down to it, she had far too strong of a connection with nature. But her work in the restaurant business gave her the knowledge of the industry and the rapport with those her passion is infectious, as her passion made Paul Sletten of Abreo (Brio at the time) realize there was support here for a "Farm to Table" restaurant, which ultimately brought about Social.</p>
+<p>Andy has been an inspiration for many, and her resilience should inspire us all. With the help of her family, support of her friends, she has continued to grow the farm and be a loud voice in the chorus of those promoting "good food" &mdash; locally grown, organic vegetables, meat and grain.</p>
+					
+					<a href="#" class="previous">Previous Episode &#8594;</a>
+				</div>
+				<div id="credits">
+					<h6>SAMPLE TITLE</h6>
+					<span>Person Name</span>
+					<h6>DIRECTOR OF PHOTOGRAPHY</h6>
+					<span>Firstname Lastname</span>
+					<h6>EDITOR</h6>
+					<span>Pablo Korona</span>
+					<h6>TITLE DESIGN</h6>
+					<span>Pablo Korona</span>
+					<h6>MUSIC</h6>
+					<span>Firstname Lastname</span>
+					<h6>SOUND RECORDIST</h6>
+					<span>Pablo Korona</span>
+					<h6>RE-RECORDING MIXER</h6>
+					<span>Pablo Korona</span>
+					<h6>SPECIAL THANKS</h6>
+					<span>Firstname Lastname</span>
+				</div>
+			</div>
+		</div>
+		
+		<div id="about-wrapper">
+			<div id="about">
+				<div>
+					<h5 class="top">Who We Are</h5>
+					<h1>About Our City,<br />Our Story</h1>
+				</div>
+				<div>
+					<h5 class="bottom">Our Vision</h5>
+					<p>We tell the stories that if you live in Rockford, it makes you glad that you do. The stories that if you're from Rockford, they make you proud to be. The stories that if you're never been to Rockford, they make you want to come here.</p>
+					<h5 class="bottom">Our City</h5>
+					<p>These stories are a response to the national attention Rockford, Illinois received in 2011: from Forbes, #9 Most Dangerous in US; from the Wall Street Journal, #10th Most Dangerous in US; New York Times, Portraits From a Job-Starved City; and Comedy Central's The Daily Show portrayed Rockford as a wasteland littered with chain fast food restaurants.</p>
+				</div>
+			</div>
+		</div>
+		
+		<div id="recent-wrapper">
+			<div id="recent">
+				<h5 class="top">Our City, Our Story</h5>
+				<h1>Recent Stories</h1>
+				<div>
+					<a href="http://vimeo.com/43470589"><img src="img/recent1.jpg" alt="recent1" width="301" height="168" /></a>
+					<h6>Episode 08</h6>
+					<h3><a href="http://vimeo.com/43470589">Team Fur Bandit</a></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non mi at sapien lobortis auctor. Cras volutpat pellentesque lacus eu pretium. Aenean porta bibendum tellus, eu mollis velit rutrum in...</p>
+					<a href="http://vimeo.com/43470589" class="watch">Watch &#8594;</a>
+				</div>
+				<div>
+					<a href="http://vimeo.com/43276390"><img src="img/recent2.jpg" alt="recent2" width="300" height="168" /></a>
+					<h6>Episode 07</h6>
+					<h3><a href="http://vimeo.com/43276390">Hometown History</a></h3>
+					<p>There are two things you can do when someone labels you. You can either accept it, or prove it wrong. Darcy Hill is the Drama teacher at the Lutheran Academy. Every year she puts on a play with her 4th grade students...</p>
+					<a href="http://vimeo.com/43276390" class="watch">Watch &#8594;</a>
+				</div>
+				<div>
+					<a href="http://vimeo.com/41536313"><img src="img/recent3.jpg" alt="recent3" width="300" height="168" /></a>
+					<h6>Episode 06</h6>
+					<h3><a href="http://vimeo.com/41536313">Bonds By Fire</a></h3>
+					<p>The O'Keefe family is one of the only two 3rd generation Fire Fighting families to serve Rockford on the Fire Department. Though they share the same blood, and history, each of the members of the fire department...</p>
+					<a href="http://vimeo.com/41536313" class="watch">Watch &#8594;</a>
+				</div>
+				
+				<a href="http://vimeo.com/ourcityourstory/videos" class="button">All Stories</a>
+			</div>
+		</div>
+		
+		<div id="contact-wrapper">
+			<div id="contact">
+				<div>
+					<h1 class="top">Contact</h1>
+					<nav>
+						<a href="https://www.facebook.com/OurCityOurStory" class="social facebook"><span>Facebook</span></a>
+						<a href="https://twitter.com/#!/ourcityourstory" class="social twitter"><span>Twitter</span></a>
+						<a href="http://vimeo.com/ourcityourstory" class="social vimeo"><span>Vimeo</span></a>
+					</nav>
+					<p>
+						<label>Submit your feedback or your own story.</label>
+						<a href="mailto:MyStory@OurCitYourStory.com">MyStory@OurCityOurStory.com</a>
+						<label>Contact the Director.</label>
+						<a href="mailto:PabloKorona@OurCityOurStory.com">PabloKorona@OurCityOurStory.com</a>
+						<label>Is your community interested in having its story told?</label>
+						<a href="mailto:Licensing@OurCityOurStory.com">Licensing@OurCityOurStory.com</a>
+					</p>					
+				</div>
+			</div>
+		</div>
+	</div>
 
-<script type="text/javascript">
-var _sf_async_config={uid:1476,domain:"ourcityourstory.com"};
-(function(){
-  function loadChartbeat() {
-    window._sf_endpt=(new Date()).getTime();
-    var e = document.createElement('script');
-    e.setAttribute('language', 'javascript');
-    e.setAttribute('type', 'text/javascript');
-    e.setAttribute('src',
-       (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
-       "js/chartbeat.js");
-    document.body.appendChild(e);
-  }
-  var oldonload = window.onload;
-  window.onload = (typeof window.onload != 'function') ?
-     loadChartbeat : function() { oldonload(); loadChartbeat(); };
-})();
+	<footer>
+		<div id="support">
+			<div id="fund">
+				<div class="border">
+					<h5>Fund Our City, Our Story</h5>
+					<p>We are currently seeking corporate and individual sponsors to underwrite the ongoing production costs of the project. Please make a tax deductible donation, by way of the Rockford Area Arts Council.</p>
+					<a href="#" class="button">Donate</a>
+				</div>
+			</div>
+			
+			<div id="sponsor-wrapper">
+				<div class="border">
+					<div id="sponsor">
+						<h5>Sponsors</h5>
+						<p>Here are incredibly helpful and generous companies that enable us continue to making Our City, Our Story. We're proud to have their support, so please support them!</p>
+						<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=HGQRVIw0eqHxWrAq2miVARClEU6DVH9bdJeXmqkdm51n2r3e_hNohghNHoe&dispatch=5885d80a13c0db1f8e263663d3faee8d8494db9703d295b4a2116480ee01a05c" class="button">Become A Sponsor</a>
+					</div>
+					<nav>
+						<a href="#"><span>Video</span></a>
+						<a href="#"><span>Video</span></a>
+						<a href="#"><span>Video</span></a>
+					</nav>
+				</div>
+			</div>
+		</div>
+		
+		<div id="copyright-wrapper">
+			<div id="copyright">
+				<p>Copyright &copy; 2012 Our City, Our Story. All rights reserved. Legal services provided by Adam Stivers of <a href="http://stiverslegal.com/">StiversLegal.com</a>. Site design by <a href="http://jasonjam.es">The Office of Jason James</a>.</p>
+				<nav>
+					<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=HGQRVIw0eqHxWrAq2miVARClEU6DVH9bdJeXmqkdm51n2r3e_hNohghNHoe&dispatch=5885d80a13c0db1f8e263663d3faee8d8494db9703d295b4a2116480ee01a05c">Donate</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">Supporters</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">Subscribe</a>
+				</nav>
+			</div>
+		</div>
+	</footer>
 
-</script>
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+  <!-- scripts concatenated and minified via build script -->
+  <script type="text/javascript" src="http://use.typekit.com/czk0yby.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/libs/jquery.scrollTo-1.4.2-min.js"></script>
+  <script src="js/libs/jquery.localscroll-1.2.7-min.js"></script>
+  <script src="js/script.js"></script>
+  <!-- end scripts -->
+
+  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+       mathiasbynens.be/notes/async-analytics-snippet 
+  <script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+  -->
 </body>
 </html>
