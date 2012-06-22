@@ -428,22 +428,72 @@ header .container h1 {
 }
 
 #nav-wrapper nav a.facebook {
-	background: url(../img/facebook.png) no-repeat center center;
+	background: url(../img/facebook.png) no-repeat center 11px;
 	width: 25px;
+}
+
+#nav-wrapper nav a.facebook:hover {
+	background: url(../img/facebook-hover.png) no-repeat center 11px;
 }
 
 #nav-wrapper nav a.twitter {
-	background: url(../img/twitter.png) no-repeat center center;
+	background: url(../img/twitter.png) no-repeat center 13px;
 	width: 25px;
 }
 
+#nav-wrapper nav a.twitter:hover {
+	background: url(../img/twitter-hover.png) no-repeat center 13px;
+}
+
 #nav-wrapper nav a.email {
-	background: url(../img/email.png) no-repeat center center;
+	background: url(../img/email.png) no-repeat center 13px;
 	width: 35px;
 }
 
-#nav-wrapper nav span {
+#nav-wrapper nav a.email:hover,
+#nav-wrapper nav a.email:visited,
+#nav-wrapper nav a.email:active,
+#nav-wrapper nav a.email.active {
+	background: url(../img/nav-hover.png) center 32px no-repeat, url(../img/email-hover.png) no-repeat center 13px;
+}
 
+#nav-wrapper #subscribe {
+	width: 233px;
+	height: 55px;
+	background: #BCBEC0;
+	margin: -10px 7px 0 0;
+	float: right;
+	display: none;
+}
+
+#subscribe form {
+	overflow: hidden;
+	margin: 0px 10px 5px;
+}
+
+#subscribe label {
+	color: black;
+	text-transform: none;
+	font: 400 italic 1rem "ltc-bodoni-175", serif;
+	text-align: left;
+	margin: 4px 0;
+}
+
+#subscribe input[name=email] {
+	width: 155px;
+	height: 20px;
+	float: left;
+	border: none;
+	padding: 0;
+}
+
+#subscribe input[type=submit] {
+	width: 55px;
+	height: 20px;
+	background: black;
+	color: white;
+	border: none;
+	float: left;
 }
 
 /* Content */

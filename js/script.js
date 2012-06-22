@@ -67,6 +67,24 @@
 						}
 					}
 				});
+				
+				
+				$(document).click(function (e) {
+					if ($(e.target).is($(".email")) || $(e.target).parents("#subscribe").length > 0) {
+						e.preventDefault();
+						
+						if ($(e.target).is("#submit")) {
+							$(".email").removeClass("active");
+							$("#subscribe").hide();
+						} else {
+							$(".email").addClass("active");
+							$("#subscribe").show();
+						}
+					} else {
+						$(".email").removeClass("active");
+						$("#subscribe").hide();
+					}
+				});
 			});
 		}
 	};
