@@ -97,19 +97,23 @@
 					$(this).removeClass("active");
 					$("#supporters-wrapper").animate({
 						height: "",
-						borderTopColor: "",
-						borderTopStyle: "",
-						borderTopWidth: ""
-					}, 500);
+					}, 500).css("border-top-width", "");
 				} else {
 					$(this).addClass("active");
 					$("#supporters-wrapper").animate({
 						height: 820,
-						borderTopColor: "#6c6a6a",
-						borderTopStyle: "solid",
-						borderTopWidth: 3
-					}, 500);
+					}, 500).css("border-top-width", "3px");
 				}
+			});
+			
+			$("#close").click(function (e) {
+				$("#supporters-button").removeClass("active");
+				$("#supporters-wrapper").animate({
+					height: "",
+					borderTopColor: "",
+					borderTopStyle: "",
+					borderTopWidth: ""
+				}, 500);
 			});
 		}
 	};
