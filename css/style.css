@@ -227,10 +227,27 @@ td { vertical-align: top; }
 body {
 	min-width: 320px;
 	-webkit-font-smoothing: antialiased;
+	background: black;
 }
 
 body.fixed {
 	margin-top: 40px;	
+}
+
+/* http://nicolasgallagher.com/micro-clearfix-hack/ */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+
+.cf:after {
+    clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    *zoom:1;
 }
 
 h1, h2 h3, h4, h5, h6 {
@@ -871,7 +888,7 @@ footer #support {
 	overflow: hidden;
 	padding-bottom: 31px;
 	position: relative;
-	margin: 0 auto;
+	margin: 0 auto 41px;
 	max-width: 960px;
 	min-width: 320px;
 }
@@ -937,19 +954,97 @@ footer .button:hover {
 	background: #433d3d;
 }
 
+#close {
+	background: url(../img/close.jpg) no-repeat;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	right: 0px;
+	top: 53px;
+	cursor: pointer;
+}
+
+#supporters-wrapper {
+	background: url(../img/supporters-bg.jpg) repeat;
+	overflow: hidden;
+	height: 0;
+	position: relative;
+}
+
+#supporters {
+	max-width: 960px;
+	min-width: 320px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+#supporters div {
+	border-bottom: 2px solid #6c6a6a;
+	padding-bottom: 22px;
+}
+
+#supporters div h3 {
+	color: white;
+	padding-bottom: 3px;
+}
+
+#supporters div span {
+	color: #bcbec0;
+}
+
+#supporters ul {
+	overflow: hidden;
+	padding: 0;
+}
+
+#supporters ul li h6 {
+	color: #bcbec0;
+	text-transform: uppercase;
+}
+
+#supporters ul li h6.padding {
+	padding: 23px 0 8px;
+}
+
+#supporters ul li {
+	color: #979595;
+	list-style: none;
+	font-size: 0.75rem;
+}
+
+#supporters ul li.column ul li {
+	margin: 5px 0;
+}
+
+#supporters ul li.column {
+	float: left;
+	width: 15%;
+	margin-bottom: 35px;
+}
+
+#supporters ul li.column.margin {
+	margin: 0 11px;
+}
+
+#column-wrapper {
+	margin-bottom: 0;
+}
+
+#supporters-button.active {
+	background: url(../img/support-active.png) no-repeat center -3px;
+}
+
 #copyright-wrapper {
 	height: 35px;
 	background: #140e0e;
 	color: #6c6a6a;
-	margin-top: 41px;
-	padding-top: 5px;
 }
 
 #copyright {
 	margin: 0 auto;
 	max-width: 960px;
 	min-width: 320px;
-	overflow: hidden;
+	overflow: visible;
 }
 
 #copyright p {
@@ -958,6 +1053,7 @@ footer .button:hover {
 	float: left;
 	margin: 0;
 	color: #6c6a6a;
+	padding: 5px 0;
 }
 
 #copyright a {
@@ -971,13 +1067,15 @@ footer .button:hover {
 
 #copyright nav {
 	float: right;
-	font: bold 0.8rem "proxima-nova", sans-serif;
+	font: bold 0.8rem/30px "proxima-nova", sans-serif;
+	position: relative;
+	top: -5px;
 }
 
 #copyright nav a {
 	display: inline-block;
-	line-height: 30px;
 	text-transform: uppercase;
+	padding-top: 10px;
 }
 
 #copyright nav a:hover {

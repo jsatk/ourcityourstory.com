@@ -20,6 +20,7 @@
 		init: function () {
 			this.sticky();
 			this.scroll();
+			this.supporters();
 		},
 
 		sticky: function () {
@@ -85,6 +86,30 @@
 						$("#subscribe").hide();
 					}
 				});
+			});
+		},
+		
+		supporters: function () {
+			$("#supporters-button").click(function (e) {
+				e.preventDefault();
+			
+				if ($(this).hasClass("active")) {
+					$(this).removeClass("active");
+					$("#supporters-wrapper").animate({
+						height: "",
+						borderTopColor: "",
+						borderTopStyle: "",
+						borderTopWidth: ""
+					}, 500);
+				} else {
+					$(this).addClass("active");
+					$("#supporters-wrapper").animate({
+						height: 820,
+						borderTopColor: "#6c6a6a",
+						borderTopStyle: "solid",
+						borderTopWidth: 3
+					}, 500);
+				}
 			});
 		}
 	};
