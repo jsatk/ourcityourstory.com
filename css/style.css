@@ -994,6 +994,7 @@ footer .button:hover {
 
 #supporters div span {
 	color: #bcbec0;
+	font: 400 0.95rem "proxima-nova", helvetica, arial, sans-serif;
 }
 
 #supporters ul {
@@ -1004,6 +1005,7 @@ footer .button:hover {
 #supporters ul li h6 {
 	color: #bcbec0;
 	text-transform: uppercase;
+	font-size: 0.8rem;
 }
 
 #supporters ul li h6.padding {
