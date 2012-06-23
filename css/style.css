@@ -1038,6 +1038,7 @@ footer .button:hover {
 
 #supporters-button.active {
 	background: url(../img/support-active.png) no-repeat center -3px;
+	color: white;
 }
 
 #copyright-wrapper {
