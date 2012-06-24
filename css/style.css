@@ -464,19 +464,19 @@ header .container h1 {
 	background: url(../img/twitter-hover.png) no-repeat center 13px;
 }
 
-#nav-wrapper nav #email {
+#nav-wrapper nav .email {
 	background: url(../img/email.png) no-repeat center 13px;
 	width: 35px;
 }
 
-#nav-wrapper nav #email:hover,
-#nav-wrapper nav #email:visited,
-#nav-wrapper nav #email:active,
-#nav-wrapper nav #email.active {
+#nav-wrapper nav .email:hover,
+#nav-wrapper nav .email:visited,
+#nav-wrapper nav .email:active,
+#nav-wrapper nav .email.active {
 	background: url(../img/nav-hover.png) center 32px no-repeat, url(../img/email-hover.png) no-repeat center 13px;
 }
 
-#nav-wrapper #subscribe {
+.subscribe {
 	width: 233px;
 	height: 55px;
 	background: #BCBEC0;
@@ -485,12 +485,12 @@ header .container h1 {
 	display: none;
 }
 
-#subscribe form {
+.subscribe form {
 	overflow: hidden;
 	margin: 0px 10px 5px;
 }
 
-#subscribe label {
+.subscribe label {
 	color: #191411;
 	text-transform: none;
 	font: 700 italic 1rem "abril-display", times, 'times new roman', serif;
@@ -499,15 +499,15 @@ header .container h1 {
 	letter-spacing:0px;
 }
 
-#subscribe input {
+.subscribe input {
 	font-family: "proxima-nova", sans-serif;
 }
 
-#subscribe input:required {
+.subscribe input:required {
 	background: white;
 }
 
-#subscribe input[name=email] {
+.subscribe input[name=email] {
 	width: 147px;
 	height: 20px;
 	float: left;
@@ -516,7 +516,7 @@ header .container h1 {
 	font-size: .625rem;
 }
 
-#subscribe input[type=submit] {
+.subscribe input[type=submit] {
 	width: 55px;
 	height: 20px;
 	background: #191411;
@@ -527,7 +527,7 @@ header .container h1 {
 	font-weight: 700;
 	letter-spacing: .03rem;
 }
-#subscribe input[type=submit]:hover {
+.subscribe input[type=submit]:hover {
 	color: white;
 }
 

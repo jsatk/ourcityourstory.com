@@ -16,11 +16,11 @@
 		config: {
 			nav: "#nav-wrapper",
 			links: "#nav-wrapper nav div a.link",
-			email: "#email",
-			subscribe: "#subscribe",
-			submit: "#submit",
-			supporterButton: "#supporters-button",
-			supporterWrapper: "#supporters-wrapper",
+			email: ".email",
+			subscribe: ".subscribe",
+			submit: ".submit",
+			supportersButton: "#supporters-button",
+			supportersWrapper: "#supporters-wrapper",
 			close: "#close"
 		},
 
@@ -106,25 +106,29 @@
 		},
 		
 		supporters: function () {
-			$(this.config.supportersButton).click(function (e) {
+			$(this.config.supportersButton).click({namespace: this}, function (e) {
 				e.preventDefault();
-			
+
+				var t = e.data.namespace;
+
 				if ($(this).hasClass("active")) {
 					$(this).removeClass("active");
-					$(this.config.supportersWrapper).animate({
+					$(t.config.supportersWrapper).animate({
 						height: "",
 					}, 500).css("border-top-width", "");
 				} else {
 					$(this).addClass("active");
-					$(this.config.supportersWrapper).animate({
+					$(t.config.supportersWrapper).animate({
 						height: 820,
 					}, 500).css("border-top-width", "3px");
 				}
 			});
 			
-			$(this.config.close).click(function (e) {
-				$(this.config.supportersButton).removeClass("active");
-				$(this.config.supportersWrapper).animate({
+			$(this.config.close).click({namespace: this}, function (e) {
+				var t = e.data.namespace;
+
+				$(t.config.supportersButton).removeClass("active");
+				$(t.config.supportersWrapper).animate({
 					height: "",
 					borderTopColor: "",
 					borderTopStyle: "",

@@ -72,16 +72,16 @@
 				<a href="#support" class="link">Sponsor</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
 				<a href="http://ourcityourstory.bigcartel.com/" target="_blank">Shop</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
 				<a href="http://vimeo.com/ourcityourstory/videos" target="_blank">All Stories</a>
-				<a href="" class="social" id="email"><span>Email</span></a>
+				<a href="" class="social email"><span>Email</span></a>
 				<a href="https://twitter.com/ourcityourstory" class="social twitter"><span>Twitter</span></a>
 				<a href="https://www.facebook.com/OurCityOurStory" class="social facebook"><span>Facebook</span></a>
 			</div>
 
-			<div id="subscribe">
+			<div class="subscribe">
 				<form action="formmail.php" method="get">
 					<label>Subscribe to Newsletter</label>
 					<input type="email" name="email" placeholder="Enter Your Email Address" required="required" autocomplete="no">
-					<input type="submit" value="SIGN UP" id="submit">
+					<input type="submit" value="SIGN UP" class="submit">
 				</form>
 			</div>
 		</nav>
@@ -417,11 +417,20 @@
 
 		<div id="copyright-wrapper">
 			<div id="copyright" class="cf">
+
+				<div class="subscribe">
+					<form action="formmail.php" method="get">
+						<label>Subscribe to Newsletter</label>
+						<input type="email" name="email" placeholder="Enter Your Email Address" required="required" autocomplete="no">
+						<input type="submit" value="SIGN UP" class="submit">
+					</form>
+				</div>
+
 				<p>Copyright &copy; 2012 Our City, Our Story. All rights reserved. Legal services provided by Adam Stivers of <a href="http://stiverslegal.com/">StiversLegal.com</a>. Site design by <a href="http://jasonjam.es">The Office of Jason James</a>.</p>
 				<nav>
 					<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=cDuvF3R53-E1FQEfBWCpfxYdyZViCa9O22tiYVVmH82YLFXFGshctLy4LJ8&dispatch=5885d80a13c0db1f8e263663d3faee8d8494db9703d295b4a2116480ee01a05c">Donate</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
 					<a href="#" id="supporters-button">Supporters</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="#">Subscribe</a>
+					<a href="#" class="email">Subscribe</a>
 				</nav>
 			</div>
 		</div>
