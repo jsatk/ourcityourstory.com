@@ -499,6 +499,10 @@ header .container h1 {
 	letter-spacing:0px;
 }
 
+#subscribe input {
+	font-family: "proxima-nova", sans-serif;
+}
+
 #subscribe input[name=email] {
 	width: 147px;
 	height: 20px;
