@@ -972,11 +972,10 @@ footer #support nav {
 	float: left;
 }
 
-footer #support nav a {
+footer #support nav img {
 	display: inline-block;
 	height: 70px;
 	width: 140px;
-	background: url(../img/placeholder-white.jpg) center center no-repeat;
 }
 
 footer nav a span {
