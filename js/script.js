@@ -71,10 +71,15 @@
 
 
 				$(document).click(function (e) {
-					if ($(e.target).is($(".email")) || $(e.target).parents("#subscribe").length > 0) {
+					if ($(e.target).is($(".email"))) {
 						e.preventDefault();
 
-						if ($(e.target).is("#submit")) {
+						$(this).toggleClass("active");
+						$("#subscribe").toggle();
+					} else if ($(e.target).parents("#subscribe").length > 0) {
+						e.preventDefault();
+
+						if ($(e.target).is($("#submit"))) {
 							$(".email").removeClass("active");
 							$("#subscribe").hide();
 						} else {
