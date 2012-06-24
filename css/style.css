@@ -220,14 +220,14 @@ td { vertical-align: top; }
    
 /* A note on the fonts. We have "superclarendon" in 400 & 700. 
 	We have "proximanova" in 400, 400 italic, 600, 600 italic, 700, & 800.
-	We also have "ltc-bodoni-175" in 400 & 400 italic. */
+	We also have ""abril-display"" in 700 italic. */
 
 
 /* global styles. */
 body {
 	min-width: 320px;
 	-webkit-font-smoothing: antialiased;
-	background: black;
+	background: #191411;
 }
 
 body.fixed {
@@ -290,21 +290,23 @@ h4 {
 }
 
 h5 {
-	font-size: .875rem;
+	font: 800 0.8125rem "proxima-nova", helvetica, arial, sans-serif;
+	letter-spacing: 1px;
 }
 
 h6 {
 	font-size: 0.75rem;
+	letter-spacing: 1px;
 }
 
 .bottom {
 	padding-bottom: 4px;
-	border-bottom: 3px solid white;
+	border-bottom: 4px solid white;
 }
 
 .top {
 	padding-top: 4px;
-	border-top: 3px solid white;
+	border-top: 4px solid white;
 }
 
 .social {
@@ -338,7 +340,7 @@ a {
 }
 
 p a:hover {
-	background: black;
+	background: #191411;
 	color: #6c6a6a;
 }
 
@@ -352,7 +354,7 @@ label {
 /* Header */
 
 header {
-	background: url(../img/header-bg.jpg) center center no-repeat fixed black;
+	background: url(../img/header-bg.jpg) center center no-repeat fixed #191411;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -489,28 +491,36 @@ header .container h1 {
 }
 
 #subscribe label {
-	color: black;
+	color: #191411;
 	text-transform: none;
-	font: 400 italic 1rem "ltc-bodoni-175", serif;
+	font: 700 italic 1rem "abril-display", times, 'times new roman', serif;
 	text-align: left;
 	margin: 4px 0;
+	letter-spacing:0px;
 }
 
 #subscribe input[name=email] {
-	width: 155px;
+	width: 147px;
 	height: 20px;
 	float: left;
 	border: none;
-	padding: 0;
+	padding: 0px 5px 0px 5px;
+	font-size: .625rem;
 }
 
 #subscribe input[type=submit] {
 	width: 55px;
 	height: 20px;
-	background: black;
-	color: white;
+	background: #191411;
+	color: #bcbec0;
 	border: none;
 	float: left;
+	font-size: .625rem;
+	font-weight: 700;
+	letter-spacing: .03rem;
+}
+#subscribe input[type=submit]:hover {
+	color: white;
 }
 
 /* Content */
@@ -520,7 +530,7 @@ div[role=main] {
 
 /* Video */
 #video-slider-wrapper {
-	border-bottom: 3px solid #6c6a6a;
+	border-bottom: 2px solid #6c6a6a;
 	position: relative;
 	height: 0;
     padding-bottom: 56.25%; /* 16:9 */
@@ -536,7 +546,7 @@ div[role=main] {
 }
 
 #video-slider-wrapper h2 {
-	background: black;
+	background: #191411;
 	font: 700 normal 3rem "superclarendon", serif;
 	padding: 26px 50px 16px 0;
 	margin: 0;
@@ -546,6 +556,7 @@ div[role=main] {
 	background: url(../img/description-bg.jpg) repeat;
 	overflow: hidden;
 	padding-top: 43px;
+	min-height: 719px;
 }
 
 #video-description {
@@ -561,7 +572,9 @@ div[role=main] {
 
 #video-description h3 {
 	margin: 0px 0px 28px;
-	font: 400 italic 2rem "ltc-bodoni-175", serif;
+	font: 700 italic 2rem "abril-display", times, 'times new roman', serif;
+	color: #191411;
+	letter-spacing:0px;
 }
 
 #video-description div {
@@ -586,16 +599,18 @@ div[role=main] {
 }
 
 #video-description #credits span {
-	font: 400 italic 0.8rem "ltc-bodoni-175", serif;
+	font: 700 italic 0.8125rem "abril-display", times, 'times new roman', serif;
 	color: #433d3d;
 	display: inline-block;
 	margin-bottom: 1rem;
+	line-height: 1.25rem
 }
 
 #video-description #credits h6 {
 	display: block;
 	color: #6c6a6a;
-	line-height: 0.65rem;
+	line-height: .8rem;
+	font-weight: 400;
 }
 
 #video-description .social.facebook {
@@ -623,6 +638,7 @@ div[role=main] {
 
 #video-description .previous {
 	float: right;
+	margin-top: 50px;
 	margin-bottom: 42px;
 	font-size: 0.75rem;
 	font-family: "proxima-nova", sans-serif;
@@ -632,7 +648,7 @@ div[role=main] {
 }
 
 #video-description .previous:hover {
-	background: black;
+	background: #191411;
 	color: #6c6a6a;
 }
 
@@ -644,8 +660,8 @@ div[role=main] {
 	-o-background-size: cover;
 	background-size: cover;
 	height: 719px;
-	border-top: 3px solid #6c6a6a;
-	border-bottom: 3px solid #6c6a6a;
+	border-top: 2px solid #6c6a6a;
+	border-bottom: 2px solid #6c6a6a;
 }
 
 #about {
@@ -658,7 +674,7 @@ div[role=main] {
 #about div:nth-child(2) {
 	width: 50%;
 	float: left;
-	margin-top: 195px;
+	margin-top: 155px;
 }
 
 #about div:nth-child(1) {
@@ -692,6 +708,9 @@ div[role=main] {
 	max-width: 300px;
 	margin: 0 auto;
 }
+#about p.first {
+	padding-bottom: 40px;
+}
 
 #recent-wrapper {
 	height: 719px;
@@ -700,7 +719,7 @@ div[role=main] {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	border-bottom: 3px solid #6c6a6a;
+	border-bottom: 2px solid #6c6a6a;
 }
 
 #recent {
@@ -711,13 +730,12 @@ div[role=main] {
 	overflow: hidden;
 }
 
-#recent h3 a {
+#recent h3 a, #recent h3 a:active, #recent h3 a:visited {
 	text-transform: none;
-	color: black;
+	color: #191411;
 }
 
-#recent h3 a:hover,
-#recent h3 a:active {
+#recent h3 a:hover {
 	color: black;
 }
 
@@ -727,9 +745,10 @@ div[role=main] {
 }
 
 #recent h3 {
-	font-style: italic;
-	font-weight: 400;
-	font-size: 1.65rem;
+	font: 700 italic 1.625rem "abril-display", times, 'times new roman', serif;
+	letter-spacing: 0px;
+	color: #191411;
+	line-height: 1.25rem;
 }
 
 #recent h5.top {
@@ -738,18 +757,19 @@ div[role=main] {
 }
 
 #recent h6 {
-	margin-top: 22px;
+	margin-top: 15px;
 	color: #6c6a6a;
-	font-weight: 900;
+	font-weight: 800;
 }
 
 #recent p {
 	font-size: 0.75rem;
 	line-height: 1.35rem;
 	padding-bottom: 1rem;
+	width: 300px;
 }
 
-#recent .watch {
+#recent .watch, #recent .watch:active, #recent .watch:visited {
 	font-size: 0.75rem;
 	font-family: "proxima-nova", sans-serif;
 	font-style: normal;
@@ -760,7 +780,7 @@ div[role=main] {
 }
 
 #recent .watch:hover {
-	background: black;
+	background: #191411;
 	color: #6c6a6a;
 }
 
@@ -768,7 +788,7 @@ div[role=main] {
 	border: 1px solid #6c6a6a;
 }
 
-.button {
+.button, .button:active, .button:visited {
 	color: white;
 	font-size: 0.8rem;
 	font-weight: 900;
@@ -777,10 +797,11 @@ div[role=main] {
 	background: #6c6a6a;
 	padding: 6px 21px;
 	float: right;
+	letter-spacing:1px;
 }
 
 .button:hover {
-	background: black;
+	background: #191411;
 	color: white;
 }
 
@@ -795,7 +816,7 @@ div[role=main] {
 #contact-wrapper {
 	color: white;
 	height: 719px;
-	border-bottom: 3px solid #6c6a6a;
+	border-bottom: 2px solid #6c6a6a;
 	background: url(../img/contact-bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -814,7 +835,7 @@ div[role=main] {
 	background: #433d3d;
 	height: 320px;
 	width: 320px;
-	padding: 10px;
+	padding: 20px 0px 0px 20px;
 }
 
 #contact h1 {
@@ -867,7 +888,7 @@ div[role=main] {
 
 #contact p a {
 	color: white;
-	font: 400 normal 1.1rem "ltc-bodoni-175", serif;
+	font: 700 italic 1.1rem "abril-display", times, 'times new roman', serif;
 	text-transform: none;
 	font-style: italic;
 	margin-bottom: 16px;
@@ -900,7 +921,7 @@ footer p {
 
 footer #fund,
 footer #sponsor {
-	margin: 0 10px;
+	margin: 0 10px 0 0;
 	float: left;
 }
 
@@ -920,7 +941,7 @@ footer #sponsor-wrapper {
 }
 
 footer .border {
-	border-top: 3px solid #6C6A6A;
+	border-top: 4px solid #6C6A6A;
 }
 
 footer h5 {
@@ -1070,6 +1091,7 @@ footer .button:hover {
 
 #copyright a:hover {
 	color: #bcbec0;
+	background: none;
 }
 
 #copyright nav {
