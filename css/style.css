@@ -545,6 +545,16 @@ div[role=main] {
     /* I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos */
 }
 
+#episode h1 {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	background: black;
+	padding: 0 3.2rem;
+	font-size: 3.2rem;
+	top: 40%;
+}
+
 #video-slider-wrapper iframe {
 	position: absolute;
     top: 0;
