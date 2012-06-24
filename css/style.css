@@ -503,6 +503,10 @@ header .container h1 {
 	font-family: "proxima-nova", sans-serif;
 }
 
+#subscribe input:required {
+	background: white;
+}
+
 #subscribe input[name=email] {
 	width: 147px;
 	height: 20px;
