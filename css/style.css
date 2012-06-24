@@ -469,10 +469,10 @@ header .container h1 {
 	width: 35px;
 }
 
-#nav-wrapper nav a#email:hover,
-#nav-wrapper nav a#email:visited,
-#nav-wrapper nav a#email:active,
-#nav-wrapper nav a#email.active {
+#nav-wrapper nav #email:hover,
+#nav-wrapper nav #email:visited,
+#nav-wrapper nav #email:active,
+#nav-wrapper nav #email.active {
 	background: url(../img/nav-hover.png) center 32px no-repeat, url(../img/email-hover.png) no-repeat center 13px;
 }
 
