@@ -14,12 +14,20 @@
 
 	var app = {
 		config: {
-			nav: "#nav-wrapper"
+			nav: "#nav-wrapper",
+			links: "#nav-wrapper nav div a.link",
+			email: "#email",
+			subscribe: "#subscribe",
+			submit: "#submit",
+			supporterButton: "#supporters-button",
+			supporterWrapper: "#supporters-wrapper",
+			close: "#close"
 		},
 
 		init: function () {
 			this.sticky();
 			this.scroll();
+			this.newsletter();
 			this.supporters();
 		},
 
@@ -43,77 +51,80 @@
 		scroll: function () {
 			$(this.config.nav + " nav div").localScroll();
 
-			$(this.config.nav + " nav div a").click({namespace: this}, function (e) {
+			$(this.config.links).click({namespace: this}, function (e) {
 				var t = e.data.namespace;
 
-				$(t.config.nav + " nav div a").removeClass("active");
+				$(t.config.links).removeClass("active");
 				$(this).addClass("active");
 			});
 
 			$(window).scroll({namespace: this}, function (e) {
 				var t = e.data.namespace;
 
-				$.each($(t.config.nav + " nav div a"), function (i, v) {
+				$.each($(t.config.links), function (i, v) {
 					var href = $(v).attr("href");
 
 					if (href.indexOf("#") !== -1) {
 						if ($(window).scrollTop() >= $(href).offset().top) {
-							$(t.config.nav + " nav div a").removeClass("active");
+							$(t.config.links).removeClass("active");
 							$(v).addClass("active");
 
 							if ($(window).scrollTop() === ($(document).height() - $(window).height())) {
-								$(t.config.nav + " nav div a").removeClass("active");
-								$($(t.config.nav + " nav div a")[4]).addClass("active");
+								$(t.config.links).removeClass("active");
+								$($(t.config.links)[4]).addClass("active");
 							}
 						}
-					}
-				});
-
-
-				$(document).click(function (e) {
-					if ($(e.target).is($(".email"))) {
-						e.preventDefault();
-
-						$(this).toggleClass("active");
-						$("#subscribe").toggle();
-					} else if ($(e.target).parents("#subscribe").length > 0) {
-						e.preventDefault();
-
-						if ($(e.target).is($("#submit"))) {
-							$(".email").removeClass("active");
-							$("#subscribe").hide();
-						} else {
-							$(".email").addClass("active");
-							$("#subscribe").show();
-						}
-					} else {
-						$(".email").removeClass("active");
-						$("#subscribe").hide();
 					}
 				});
 			});
 		},
 		
+		newsletter: function () {
+			$(document).click({namespace: this}, function (e) {
+				var t = e.data.namespace;
+
+				if ($(e.target).is($(t.config.email))) {
+					e.preventDefault();
+
+					$(t.config.email).toggleClass("active");
+					$(t.config.subscribe).toggle();
+				} else if ($(e.target).parents(t.config.subscribe).length > 0) {
+					e.preventDefault();
+
+					if ($(e.target).is($(t.config.submit))) {
+						$(t.config.email).removeClass("active");
+						$(t.config.subscribe).hide();
+					} else {
+						$(t.config.email).addClass("active");
+						$(t.config.subscribe).show();
+					}
+				} else {
+					$(t.config.email).removeClass("active");
+					$(t.config.subscribe).hide();
+				}
+			});
+		},
+		
 		supporters: function () {
-			$("#supporters-button").click(function (e) {
+			$(this.config.supportersButton).click(function (e) {
 				e.preventDefault();
 			
 				if ($(this).hasClass("active")) {
 					$(this).removeClass("active");
-					$("#supporters-wrapper").animate({
+					$(this.config.supportersWrapper).animate({
 						height: "",
 					}, 500).css("border-top-width", "");
 				} else {
 					$(this).addClass("active");
-					$("#supporters-wrapper").animate({
+					$(this.config.supportersWrapper).animate({
 						height: 820,
 					}, 500).css("border-top-width", "3px");
 				}
 			});
 			
-			$("#close").click(function (e) {
-				$("#supporters-button").removeClass("active");
-				$("#supporters-wrapper").animate({
+			$(this.config.close).click(function (e) {
+				$(this.config.supportersButton).removeClass("active");
+				$(this.config.supportersWrapper).animate({
 					height: "",
 					borderTopColor: "",
 					borderTopStyle: "",

@@ -464,15 +464,15 @@ header .container h1 {
 	background: url(../img/twitter-hover.png) no-repeat center 13px;
 }
 
-#nav-wrapper nav a.email {
+#nav-wrapper nav #email {
 	background: url(../img/email.png) no-repeat center 13px;
 	width: 35px;
 }
 
-#nav-wrapper nav a.email:hover,
-#nav-wrapper nav a.email:visited,
-#nav-wrapper nav a.email:active,
-#nav-wrapper nav a.email.active {
+#nav-wrapper nav a#email:hover,
+#nav-wrapper nav a#email:visited,
+#nav-wrapper nav a#email:active,
+#nav-wrapper nav a#email.active {
 	background: url(../img/nav-hover.png) center 32px no-repeat, url(../img/email-hover.png) no-repeat center 13px;
 }
 
