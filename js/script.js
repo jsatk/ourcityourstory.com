@@ -16,7 +16,7 @@
 		config: {
 			nav: "#nav-wrapper",
 			links: "#nav-wrapper nav div a.link",
-			email: ".email",
+			newsletter: ".newsletter",
 			subscribe: ".subscribe",
 			submit: ".submit",
 			supportersButton: "#supporters-button",
@@ -29,6 +29,7 @@
 			this.scroll();
 			this.newsletter();
 			this.supporters();
+			this.responsive();
 		},
 
 		sticky: function () {
@@ -83,23 +84,23 @@
 			$(document).click({namespace: this}, function (e) {
 				var t = e.data.namespace;
 
-				if ($(e.target).is($(t.config.email))) {
+				if ($(e.target).is($(t.config.newsletter))) {
 					e.preventDefault();
 
-					$(t.config.email).toggleClass("active");
+					$(t.config.newsletter).toggleClass("active");
 					$(t.config.subscribe).toggle();
 				} else if ($(e.target).parents(t.config.subscribe).length > 0) {
 					e.preventDefault();
 
 					if ($(e.target).is($(t.config.submit))) {
-						$(t.config.email).removeClass("active");
+						$(t.config.newsletter).removeClass("active");
 						$(t.config.subscribe).hide();
 					} else {
-						$(t.config.email).addClass("active");
+						$(t.config.newsletter).addClass("active");
 						$(t.config.subscribe).show();
 					}
 				} else {
-					$(t.config.email).removeClass("active");
+					$(t.config.newsletter).removeClass("active");
 					$(t.config.subscribe).hide();
 				}
 			});
@@ -135,6 +136,20 @@
 					borderTopWidth: ""
 				}, 500);
 			});
+		},
+		
+		responsive: function () {
+			if (document.body.offsetWidth <= 640) {
+				console.log(document.body.offsetWidth);
+
+				$("#shop").hide();
+				$("#all-stories").hide();
+				$("#sponsor-link").hide();
+				$("#all").show();
+				$("#nav-wrapper .social").hide();
+				$($(".nbsp")[4]).hide();
+				$($(".nbsp")[5]).hide();
+			}
 		}
 	};
 

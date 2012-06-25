@@ -65,23 +65,39 @@
 			A note on the use of non-breaking spaces to create the nav. This was the best, simplest, and cleanest way to achieve what was comped. What was comped was using true | characters within the Proxima Nova font rather than a CSS border. To keep the | character of the Proxima Nova font and not break from style I had to use &nbsp; to force four spaces before and after each | character.
 		-->
 			<div>
-				<a href="#episode" class="link">Episode</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="#about" class="link">About</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="#recent" class="link">Recent</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="#contact" class="link">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="#support" class="link">Sponsor</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="http://ourcityourstory.bigcartel.com/" target="_blank">Shop</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="http://vimeo.com/ourcityourstory/videos" target="_blank">All Stories</a>
-				<a href="" class="social email"><span>Email</span></a>
+				<a href="#episode" class="link">Episode</a><span class="nbsp">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<a href="#about" class="link">About</a><span class="nbsp">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<a href="#recent" class="link">Recent</a><span class="nbsp">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<a href="#contact" class="link">Contact</a><span class="nbsp">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<a href="#support" class="link" id="sponsor-link">Sponsor</a><span class="nbsp">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<a href="http://ourcityourstory.bigcartel.com/" target="_blank" id="shop">Shop</a><span class="nbsp">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<a href="http://vimeo.com/ourcityourstory/videos" target="_blank" id="all-stories">All Stories</a>
+				<a href="http://vimeo.com/ourcityourstory/videos" target="_blank" id="all">All</a>
+				<a href="" class="social newsletter"><span>Email</span></a>
 				<a href="https://twitter.com/ourcityourstory" class="social twitter"><span>Twitter</span></a>
 				<a href="https://www.facebook.com/OurCityOurStory" class="social facebook"><span>Facebook</span></a>
 			</div>
+						
+			<!-- Begin MailChimp Signup Form 
+			<div id="mc_embed_signup" class="subscribe">
+				<form action="http://OurCityOurStory.us4.list-manage.com/subscribe/post?u=c9520922a151606a6cd234c19&amp;id=b51c4e7078" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+				<div class="mc-field-group">
+					<label for="mce-EMAIL">Subscribe to Newsletter</label>
+					<input type="email" value="" placeholder="Enter Your Email Address" name="EMAIL" class="required email" id="mce-EMAIL">
+				</div>
+				<div id="mce-responses" class="clear">
+					<div class="response" id="mce-error-response" style="display:none"></div>
+					<div class="response" id="mce-success-response" style="display:none"></div>
+				</div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+				</form>
+			</div>
+			End mc_embed_signup-->
 
 			<div class="subscribe">
-				<form action="formmail.php" method="get">
+				<form action="http://OurCityOurStory.us4.list-manage.com/subscribe/post?u=c9520922a151606a6cd234c19&amp;id=b51c4e7078" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" method="get">
 					<label>Subscribe to Newsletter</label>
-					<input type="email" name="email" placeholder="Enter Your Email Address" required="required" autocomplete="no">
-					<input type="submit" value="SIGN UP" class="submit">
+					<input id="mce-EMAIL type="email" name="EMAIL" placeholder="Enter Your Email Address" required="required" autocomplete="no">
+					<input type="submit" value="SIGN UP" name="subscribe" id="mc-embedded-subscribe" class="submit">
 				</form>
 			</div>
 		</nav>
@@ -91,7 +107,7 @@
 		<div id="video-slider-wrapper">
 			<div id="episode">
 				<!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
-				<h1>Hazzard Free Farms</h1>
+				<h1>Hazzard Free</h1>
 				<iframe src="http://player.vimeo.com/video/44322055?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 			</div>
 		</div>
@@ -418,6 +434,7 @@
 		<div id="copyright-wrapper">
 			<div id="copyright" class="cf">
 
+			<!-- 
 				<div class="subscribe">
 					<form action="formmail.php" method="get">
 						<label>Subscribe to Newsletter</label>
@@ -425,12 +442,13 @@
 						<input type="submit" value="SIGN UP" class="submit">
 					</form>
 				</div>
+			-->
 
 				<p>Copyright &copy; 2012 Our City, Our Story. All rights reserved. Legal services provided by Adam Stivers of <a href="http://stiverslegal.com/">StiversLegal.com</a>. Site design by <a href="http://jasonjam.es">The Office of Jason James</a>.</p>
 				<nav>
 					<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=cDuvF3R53-E1FQEfBWCpfxYdyZViCa9O22tiYVVmH82YLFXFGshctLy4LJ8&dispatch=5885d80a13c0db1f8e263663d3faee8d8494db9703d295b4a2116480ee01a05c">Donate</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="#" id="supporters-button">Supporters</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="#" class="email">Subscribe</a>
+					<a href="#" id="supporters-button">Supporters</a><!-- &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#" class="newsletter">Subscribe</a> -->
 				</nav>
 			</div>
 		</div>
