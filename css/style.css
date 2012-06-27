@@ -684,7 +684,7 @@ div[role=main] {
 
 /* About */
 #about-wrapper {
-	background: url(../img/about-bg.jpg) no-repeat center center;
+	background: url(../img/about-bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1213,6 +1213,10 @@ footer .button:hover {
 		display: none;
 	}
 
+	#about-wrapper {
+		background-attachment: scroll;
+	}
+
 	#about div.left,
 	#about div.right {
 		width: 100%;
@@ -1220,7 +1224,7 @@ footer .button:hover {
 		margin-top: 4rem;
 	}
 
-	#about div:nth-child(1) {
+	#about div.left {
 		margin-top: 3rem;
 	}
 
@@ -1235,12 +1239,36 @@ footer .button:hover {
 
 	#recent img {
 		width: 98%;
-		/* margin: 0 1%; */
+	}
+	
+	#contact-wrapper {
+		background-attachment: scroll;
 	}
 	
 	#contact div {
 		margin: 0;
 		padding: 0;
+	}
+
+	footer #fund, footer #sponsor {
+		float: none;
+	}
+
+	footer #fund {
+		width: 100%;
+	}
+	
+	footer #sponsor-wrapper {
+		float: none;
+		width: 100%;
+	}
+	
+	footer #sponsor {
+		width: 100%;
+	}
+
+	footer #support nav {
+		float: none;
 	}
 }
 
