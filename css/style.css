@@ -30,7 +30,7 @@ audio:not([controls]) { display: none; }
  * 2. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
  */
 
-html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html { font-size: 16px /* 100% */; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
 html, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
@@ -217,8 +217,8 @@ td { vertical-align: top; }
 /* ==|== primary styles =====================================================
    Author: Jesse Atkinson (jesse.s.atkinson@gmail.com)
    ========================================================================== */
-   
-/* A note on the fonts. We have "superclarendon" in 400 & 700. 
+
+/* A note on the fonts. We have "superclarendon" in 400 & 700.
 	We have "proximanova" in 400, 400 italic, 600, 600 italic, 700, & 800.
 	We also have ""abril-display"" in 700 italic. */
 
@@ -231,7 +231,7 @@ body {
 }
 
 body.fixed {
-	margin-top: 40px;	
+	margin-top: 40px;
 }
 
 /* http://nicolasgallagher.com/micro-clearfix-hack/ */
@@ -314,7 +314,7 @@ h6 {
 }
 
 .hide {
-	display: none;	
+	display: none;
 }
 
 p, ul, ol {
@@ -712,7 +712,7 @@ div[role=main] {
 }
 
 #about div.right {
-	text-align: center;	
+	text-align: center;
 }
 
 #about div.right h5 {
@@ -822,7 +822,7 @@ div[role=main] {
 	color: white;
 	font-size: 0.8rem;
 	font-weight: 900;
-	display: inline-block;	
+	display: inline-block;
 	margin-top: 70px;
 	background: #6c6a6a;
 	padding: 6px 21px;
@@ -1170,7 +1170,7 @@ footer .button:hover {
 		letter-spacing: 0;
 		padding-top: 50px;
 	}
-	
+
 	#hero {
 		width: 101px;
 		height: 63px;
@@ -1180,7 +1180,7 @@ footer .button:hover {
 		-o-background-size: cover;
 		background-size: cover;
 	}
-	
+
 	#nav-wrapper {
 		font-size: 0.55rem;
 		height: 30px;
@@ -1208,7 +1208,7 @@ footer .button:hover {
 		width: 90%;
 		margin: 5%;
 	}
-	
+
 	#video-description .previous {
 		display: none;
 	}
@@ -1240,11 +1240,11 @@ footer .button:hover {
 	#recent img {
 		width: 98%;
 	}
-	
+
 	#contact-wrapper {
 		background-attachment: scroll;
 	}
-	
+
 	#contact div {
 		margin: 0;
 		padding: 0;
@@ -1257,12 +1257,12 @@ footer .button:hover {
 	footer #fund {
 		width: 100%;
 	}
-	
+
 	footer #sponsor-wrapper {
 		float: none;
 		width: 100%;
 	}
-	
+
 	footer #sponsor {
 		width: 100%;
 	}
