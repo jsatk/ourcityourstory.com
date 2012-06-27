@@ -354,7 +354,7 @@ label {
 /* Header */
 
 header {
-	background: url(../img/header-bg.jpg) center center no-repeat fixed #191411;
+	background: url(../img/header-bg.jpg) center center no-repeat #191411;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -370,10 +370,11 @@ header .container {
 }
 
 header .container h1 {
-	margin: 0 auto;
 	color: white;
 	padding: 79px 0px 40px;
 	max-width: 761px;
+	width: 90%;
+	margin: 0 auto;
 }
 
 /* Our logo. #hero is often used to signify the main title image or logo. */
@@ -588,6 +589,12 @@ div[role=main] {
 	margin: 0 auto;
 }
 
+#video-description img {
+	width: 100%;
+	height: auto;
+	max-width: 95%;
+}
+
 #video-description h5 {
 	border-color: #6c6a6a;
 	color: #6c6a6a;
@@ -604,20 +611,20 @@ div[role=main] {
 	float: left;
 }
 
-#video-description div:nth-child(3) {
+#video-description div.left {
 	width: 33%;
 }
 
-#video-description div:nth-child(4) {
+#video-description div.center {
 	width: 41%;
 	margin: 0 2% 0 0;
 }
 
-#video-description div:nth-child(4) p:nth-child(1) {
+#video-description div.center p:nth-child(1) {
 	margin-top: 0;
 }
 
-#video-description div:nth-child(5) {
+#video-description div.right {
 	width: 22%;
 }
 
@@ -677,7 +684,7 @@ div[role=main] {
 
 /* About */
 #about-wrapper {
-	background: url(../img/about-bg.jpg) no-repeat center center fixed;
+	background: url(../img/about-bg.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -693,22 +700,22 @@ div[role=main] {
 	min-width: 320px;
 }
 
-#about div:nth-child(1),
-#about div:nth-child(2) {
+#about div.left,
+#about div.right {
 	width: 50%;
 	float: left;
 	margin-top: 155px;
 }
 
-#about div:nth-child(1) {
+#about div.left {
 	margin-top: 290px;
 }
 
-#about div:nth-child(2) {
+#about div.right {
 	text-align: center;	
 }
 
-#about div:nth-child(2) h5 {
+#about div.right h5 {
 	margin-bottom: 1rem;
 }
 
@@ -828,9 +835,9 @@ div[role=main] {
 	color: white;
 }
 
-#recent div:nth-child(3),
-#recent div:nth-child(4),
-#recent div:nth-child(5) {
+#recent div.left,
+#recent div.center,
+#recent div.right {
 	width: 33.333%;
 	float: left;
 	position: relative;
@@ -1151,21 +1158,63 @@ footer .button:hover {
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
 	header {
-		background-image: url(../img/header-bg-ios.jpg);
-		height: 
+		background-image: url(../img/header-bg.jpg);
+		background-size: cover;
+		height: 280px;
+		width: 100%;
 	}
 
 	header .container h1 {
-		font-size: 1.6rem;
-		line-height: 2rem;
+		font-size: 1.2rem;
+		line-height: 1.7rem;
+		letter-spacing: 0;
+		padding-top: 50px;
+	}
+	
+	#hero {
+		width: 101px;
+		height: 63px;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 	
 	#nav-wrapper {
 		font-size: 0.55rem;
+		height: 30px;
 	}
 
-	#about div:nth-child(1),
-	#about div:nth-child(2) {
+	#nav-wrapper nav a {
+		line-height: 30px;
+	}
+
+	#episode h1 {
+		display: none;
+	}
+
+	#video-description div {
+		float: none;
+	}
+
+	#video-description div.left img {
+		display: none;
+	}
+
+	#video-description div.left,
+	#video-description div.center,
+	#video-description div.right {
+		width: 90%;
+		margin: 5%;
+	}
+	
+	#video-description .previous {
+		display: none;
+	}
+
+	#about div.left,
+	#about div.right {
 		width: 100%;
 		float: none;
 		margin-top: 4rem;
@@ -1186,7 +1235,12 @@ footer .button:hover {
 
 	#recent img {
 		width: 98%;
-		margin: 0 1%;
+		/* margin: 0 1%; */
+	}
+	
+	#contact div {
+		margin: 0;
+		padding: 0;
 	}
 }
 
