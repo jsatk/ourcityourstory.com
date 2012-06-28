@@ -1280,11 +1280,13 @@ footer .button:hover {
 
 	#contact-wrapper {
 		background-attachment: scroll;
+		border-bottom: none;
 	}
 
 	#contact div {
-		margin: 0;
-		padding: 0;
+		margin: 0 5%;
+		padding: 5%;
+		width: 80%;
 	}
 
 	footer #fund, footer #sponsor {
