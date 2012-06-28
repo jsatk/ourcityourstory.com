@@ -1295,6 +1295,7 @@ footer .button:hover {
 
 	footer .button {
 		float: none;
+		position: static;
 	}
 
 	footer #fund, footer #sponsor {
@@ -1316,6 +1317,15 @@ footer .button:hover {
 
 	footer #support nav {
 		float: none;
+	}
+
+	footer #copyright-wrapper,
+	footer #copyright {
+		background: #433d3d;
+	}
+
+	footer #copyright {
+		padding: 0 5%;
 	}
 }
 
