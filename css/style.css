@@ -225,7 +225,6 @@ td { vertical-align: top; }
 
 /* global styles. */
 body {
-	min-width: 320px;
 	-webkit-font-smoothing: antialiased;
 	background: #191411;
 }
@@ -365,7 +364,6 @@ header {
 
 header .container {
 	max-width: 960px;
-	min-width: 320px;
 	margin: 0 auto;
 }
 
@@ -409,7 +407,6 @@ header .container h1 {
 
 #nav-wrapper nav {
 	max-width: 960px;
-	min-width: 320px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -585,7 +582,6 @@ div[role=main] {
 
 #video-description {
 	max-width: 960px;
-	min-width: 320px;
 	margin: 0 auto;
 }
 
@@ -701,7 +697,6 @@ div[role=main] {
 #about {
 	margin: 0 auto;
 	max-width: 960px;
-	min-width: 320px;
 }
 
 #about div.left,
@@ -760,7 +755,6 @@ div[role=main] {
 	margin: 0 auto;
 	padding-top: 88px;
 	max-width: 960px;
-	min-width: 320px;
 	overflow: hidden;
 }
 
@@ -861,14 +855,13 @@ div[role=main] {
 #contact {
 	margin: 0 auto;
 	max-width: 960px;
-	min-width: 320px;
 	padding-top: 195px;
 }
 
 #contact div {
 	background: #433d3d;
-	height: 320px;
-	width: 320px;
+	height: 335px;
+	width: 280px;
 	padding: 20px 0px 0px 20px;
 }
 
@@ -945,7 +938,6 @@ footer #support {
 	position: relative;
 	margin: 0 auto 41px;
 	max-width: 960px;
-	min-width: 320px;
 }
 
 footer p {
@@ -1031,7 +1023,6 @@ footer .button:hover {
 
 #supporters {
 	max-width: 960px;
-	min-width: 320px;
 	margin: 0 auto;
 	padding-top: 50px;
 }
@@ -1104,7 +1095,6 @@ footer .button:hover {
 #copyright {
 	margin: 0 auto;
 	max-width: 960px;
-	min-width: 320px;
 	overflow: visible;
 }
 
@@ -1180,7 +1170,6 @@ footer .button:hover {
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
-		background-size: cover;
 	}
 
 	#nav-wrapper {
@@ -1297,6 +1286,16 @@ footer .button:hover {
 		font-size: 1rem;
 	}
 
+	#supporters ul li.column {
+		width: 45%;
+		margin-bottom: 0;
+		height: 621px;
+	}
+
+	#supporters ul li.column.margin {
+		margin: 0;
+	}
+
 	footer .button {
 		float: none;
 		position: static;
@@ -1330,6 +1329,10 @@ footer .button:hover {
 
 	footer #copyright {
 		padding: 0 5%;
+	}
+
+	footer #copyright a {
+		color: #bcbdc0
 	}
 }
 

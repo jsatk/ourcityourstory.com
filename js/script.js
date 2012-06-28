@@ -125,6 +125,12 @@
 		},
 
 		supporters: function () {
+			var auto;
+
+			$(this.config.supportersWrapper).css("height", "auto");
+			auto = $(this.config.supportersWrapper).height();
+			$(this.config.supportersWrapper).css("height", "");
+
 			$(this.config.supportersButton).click({namespace: this}, function (e) {
 				e.preventDefault();
 
@@ -133,12 +139,12 @@
 				if ($(this).hasClass("active")) {
 					$(this).removeClass("active");
 					$(t.config.supportersWrapper).animate({
-						height: "",
+						height: ""
 					}, 500).css("border-top-width", "");
 				} else {
 					$(this).addClass("active");
 					$(t.config.supportersWrapper).animate({
-						height: 820,
+						height: auto
 					}, 500).css("border-top-width", "3px");
 				}
 			});
