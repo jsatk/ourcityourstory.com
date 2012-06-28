@@ -1289,6 +1289,14 @@ footer .button:hover {
 		width: 80%;
 	}
 
+	#contact p a {
+		font-size: 1rem;
+	}
+
+	footer .button {
+		float: none;
+	}
+
 	footer #fund, footer #sponsor {
 		float: none;
 	}
