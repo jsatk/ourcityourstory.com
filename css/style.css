@@ -237,17 +237,17 @@ body.fixed {
 /* http://nicolasgallagher.com/micro-clearfix-hack/ */
 .cf:before,
 .cf:after {
-    content:"";
-    display:table;
+	content:"";
+	display:table;
 }
 
 .cf:after {
-    clear:both;
+	clear:both;
 }
 
 /* For IE 6/7 (trigger hasLayout) */
 .cf {
-    *zoom:1;
+	*zoom:1;
 }
 
 h1, h2 h3, h4, h5, h6 {
@@ -371,7 +371,7 @@ header .container {
 
 header .container h1 {
 	color: white;
-	padding: 79px 0px 40px;
+	padding: 79px 0 40px;
 	max-width: 761px;
 	width: 90%;
 	margin: 0 auto;
@@ -547,8 +547,8 @@ div[role=main] {
 	border-bottom: 2px solid #6c6a6a;
 	position: relative;
 	height: 0;
-    padding-bottom: 56.25%; /* 16:9 */
-    /* I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos */
+	padding-bottom: 56.25%; /* 16:9 */
+	/* I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos */
 }
 
 #episode h1 {
@@ -563,10 +563,10 @@ div[role=main] {
 
 #video-slider-wrapper iframe {
 	position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 #video-slider-wrapper h2 {
@@ -1158,15 +1158,13 @@ footer .button:hover {
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
 	header {
-		background-image: url(../img/header-bg.jpg);
-		background-size: cover;
 		height: 280px;
 		width: 100%;
 	}
 
 	header .container h1 {
-		font-size: 1.2rem;
-		line-height: 1.7rem;
+		font-size: 1.125rem;
+		line-height: 1.75rem;
 		letter-spacing: 0;
 		padding-top: 50px;
 	}
@@ -1194,8 +1192,34 @@ footer .button:hover {
 		display: none;
 	}
 
+	#video-description-wrapper {
+		position: relative;
+	}
+
+	#video-description nav {
+		position: absolute;
+		top: 0;
+	}
+
 	#video-description div {
 		float: none;
+	}
+
+	#video-description h3,
+	#video-description h5 {
+		margin: 0 5%;
+		font-weight: 400;
+	}
+
+	#video-description h3 {
+		font-size: 1.3rem;
+	}
+
+	#video-description h5,
+	#about h5.top,
+	#recent h5.top {
+		border: none;
+		font-size: 0.7rem;
 	}
 
 	#video-description div.left img {
@@ -1215,21 +1239,32 @@ footer .button:hover {
 
 	#about-wrapper {
 		background-attachment: scroll;
+		border-top: none;
+		border-bottom: 1px solid white;
+	}
+
+	#about h1,
+	#recent h1 {
+		font-size: 1.68rem;
+		line-height: 1.5rem;
 	}
 
 	#about div.left,
 	#about div.right {
 		width: 100%;
 		float: none;
-		margin-top: 4rem;
-	}
-
-	#about div.left {
-		margin-top: 3rem;
+		padding-top: 3rem;
+		margin-top: 0;
 	}
 
 	#recent-wrapper {
 		height: 389%;
+	}
+
+	#recent {
+		width: 90%;
+		margin: 0 5%;
+		padding-top: 20px;
 	}
 
 	#recent-wrapper #recent div {
@@ -1238,7 +1273,9 @@ footer .button:hover {
 	}
 
 	#recent img {
-		width: 98%;
+		width: 100%;
+		height: auto;
+		max-width: 95%;
 	}
 
 	#contact-wrapper {

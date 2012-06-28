@@ -1,8 +1,8 @@
 /* the humans responsible & colophon */
 /* humanstxt.org */
 
-
 /* TEAM */
+  Owner, Founder, Creator: Pablo Korona
   Web Designer: Jason Petersen
   Web Developer: Jesse Atkinson
   Site: http://ourcityourstory.com
@@ -15,7 +15,7 @@
 /* SITE */
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery
-  Software:
+  Software: Sublime Text 2 & Coda 2
 
 
 
