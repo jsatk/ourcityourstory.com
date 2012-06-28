@@ -655,6 +655,10 @@ div[role=main] {
 	z-index: 1;
 }
 
+#video-description .social.pinterest img {
+	width: auto;
+}
+
 #video-description .social.twitter {
 	width: 81px;
 	margin-right: 22px;
