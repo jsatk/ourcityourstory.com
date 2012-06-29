@@ -33,7 +33,6 @@
 		position: function () {
 			var marginLeft = $("header h1").width() / 2;
 
-			console.log(marginLeft);
 			$("header h1").css("margin-left", "-" + marginLeft + "px").show();
 		}
 	};

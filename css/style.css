@@ -279,6 +279,70 @@ header .logo span {
 	display: none;
 }
 
+/* Top Navigation Bar */
+.top-nav {
+	padding-bottom: 10px;
+}
+
+.top-nav nav {
+	margin: 0 auto;
+	font: 800 0.62rem/30px "proximanova", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	height: 30px;
+	background: #191411;
+}
+
+.top-nav nav .links {
+	padding: 0 5%;
+	max-width: 960px;
+}
+
+.top-nav nav a {
+	text-decoration: none;
+	color: #6c6a6a;
+}
+
+.top-nav nav a:hover {
+	color: #979595;
+}
+
+.top-nav nav a:active,
+.top-nav nav .active {
+	color: white;
+}
+
+.top-nav nav .social {
+	background: url(../img/social.png) no-repeat;
+}
+
+.top-nav nav .facebook {
+	background-position: 0 0;
+}
+
+.top-nav nav .facebook:hover {
+	background-position: 0 15px;
+}
+
+.top-nav nav .twitter {
+
+}
+
+.top-nav nav .twitter:hover {
+
+}
+
+.top-nav nav .email {
+
+}
+
+.top-nav nav .email:hover {
+
+}
+
+.top-nav nav .subscribe {
+	display: none;
+}
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
@@ -294,6 +358,12 @@ header .logo span {
 @media all and (min-width: 600px) {
 	h1 {
 		font-size: 2rem;
+	}
+
+	.top-nav nav {
+		font-size: 0.8125rem;
+		line-height: 40px;
+		height: 40px;
 	}
 }
 
