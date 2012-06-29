@@ -231,6 +231,7 @@ body {
 img {
 	width: 100%;
 	height: auto;
+	max-width: 100%;
 	-ms-user-select: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -240,38 +241,48 @@ img {
 }
 
 h1 {
-	font: 700 3rem/1.5 "superclarendon", serif;
+	font: 700 3rem/1.4 "superclarendon", serif;
 }
+
+.small1 {font-size: 2.7rem;}
+.small2 {font-size: 2.5rem;}
+.small3 {font-size: 2.25rem;}
+.small4 {font-size: 2rem;}
+.small5 {font-size: 1.5rem;}
+.small6 {font-size: 1.2rem;}
 
 /* Header */
 header {
 	position: relative;
+	min-height: 280px;
 	max-height: 500px;
 	overflow: hidden;
-	width: 100%;
 }
 
-header article {
+header img {
+	min-height: 280px;
+}
+
+header h1 {
+	display: none; /* Displayed via JavaScript due to jumping */
 	position: absolute;
-	top: 5%;
-	width: 100%;
-}
-
-header article .tagline {
+	top: 10%;
+	left: 50%;
 	color: white;
 	max-width: 760px;
-	margin-left: auto;
-	margin-right: auto;
+	width: 90%;
 }
 
-header article .logo {
+header .logo {
+	position: absolute;
+	bottom: 10%;
 	background: url(../img/logo.png) center center no-repeat;
 	display: inline-block;
 	height: 85px;
 	width: 100%;
 }
 
-header article .logo span {
+header .logo span {
 	display: none;
 }
 
@@ -293,7 +304,14 @@ header article .logo span {
 
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
+	h1 {
+		font-size: 1.3rem;
+		line-height: 1.25;
+	}
 
+	header .logo {
+		background-size: 101px 63px;
+	}
 }
 
 /* ==|== non-semantic helper classes ========================================

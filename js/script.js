@@ -18,22 +18,52 @@
 		},
 
 		init: function () {
-			// this.resize();
+			this.resize();
+			this.position();
 		},
 
 		resize: function () {
 			$(window).resize({namespace: this}, function (e) {
 				var t = e.data.namespace,
-					percent, oldfontsize, newfontsize;
+					width = $("body").width();
 
-				percent = $("header").height() / 500;
-				oldfontsize = $(".tagline").css("font-size").replace("px", "");
-				newfontsize = oldfontsize * percent;
-				$(".tagline").css("font-size", newfontsize + "px");
-				console.log($(".tagline").css("font-size"), newfontsize);
+				if (width > 900) {
+					$("h1").removeClass();
+					console.log(1);
+				} else if (width < 900 && width > 780) {
+					$("h1").removeClass().addClass("small1");
+					console.log(2);
+				} else if (width < 780 && width > 710) {
+					$("h1").removeClass().addClass("small2");
+					console.log(3);
+				} else if (width < 710 && width > 640) {
+					$("h1").removeClass().addClass("small3");
+					console.log(4);
+				} else if (width < 640 && width > 570) {
+					$("h1").removeClass().addClass("small4");
+					console.log(5);
+				} else if (width < 570 && width > 480) {
+					$("h1").removeClass().addClass("small5");
+					console.log(6);
+				} else if (width < 480) {
+					$("h1").removeClass().addClass("small6");
+					console.log(7);
+				}
 			});
-		}
 
+			this.position();
+		},
+
+		position: function () {
+			var marginLeft1 = $("header h1").width() / 2,
+				marginLeft2 = $("header").width() / 2;
+
+			if ($("header").width() > 760) {
+				$("header h1").css("margin-left", "-" + marginLeft1 + "px").show();
+			} else {
+				$("header h1").css("margin-left", "-" + marginLeft2 + "px").show();
+			}
+		}
 	};
 
 	$(document).ready(function () {
