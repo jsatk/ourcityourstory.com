@@ -275,10 +275,6 @@ header .logo {
 	width: 100%;
 }
 
-header .logo span {
-	display: none;
-}
-
 /* Top Navigation Bar */
 .top-nav {
 	padding-bottom: 10px;
@@ -294,13 +290,16 @@ header .logo span {
 }
 
 .top-nav nav .links {
-	padding: 0 5%;
 	max-width: 960px;
 }
 
 .top-nav nav a {
 	text-decoration: none;
 	color: #6c6a6a;
+}
+
+.top-nav nav a span {
+	display: none;
 }
 
 .top-nav nav a:hover {
@@ -312,32 +311,41 @@ header .logo span {
 	color: white;
 }
 
+.top-nav nav .cut {
+	display: none;
+}
+
 .top-nav nav .social {
 	background: url(../img/social.png) no-repeat;
+	width: 25px;
+	height: 15px;
+	display: none;
+	float: right;
+	margin-top: 7px;
 }
 
 .top-nav nav .facebook {
-	background-position: 0 0;
+	background-position: 2px 0;
 }
 
 .top-nav nav .facebook:hover {
-	background-position: 0 15px;
+	background-position: 2px -15px;
 }
 
 .top-nav nav .twitter {
-
+	background-position: -25px 0;
 }
 
 .top-nav nav .twitter:hover {
-
+	background-position: -25px -15px;
 }
 
 .top-nav nav .email {
-
+	background-position: -50px 0;
 }
 
 .top-nav nav .email:hover {
-
+	background-position: -50px -15px;
 }
 
 .top-nav nav .subscribe {
@@ -355,9 +363,27 @@ header .logo span {
 	}
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 640px) {
 	h1 {
 		font-size: 2rem;
+	}
+
+	.top-nav nav a span {
+		display: inline;
+	}
+
+	.top-nav nav .social {
+		display: block;
+	}
+
+	.top-nav nav .cut {
+		display: inline;
+	}
+}
+
+@media all and (min-width: 811px) {
+	h1 {
+		font-size: 3rem;
 	}
 
 	.top-nav nav {
@@ -365,11 +391,9 @@ header .logo span {
 		line-height: 40px;
 		height: 40px;
 	}
-}
 
-@media all and (min-width: 781px) {
-	h1 {
-		font-size: 3rem;
+	.top-nav nav .social {
+		margin-top: 12px;
 	}
 }
 
