@@ -463,6 +463,15 @@
   <script src="js/libs/jquery.localscroll-1.2.7-min.js"></script>
   <script src="js/script.js"></script>
   <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+  <script>
+	var iframe = $('#video')[0],
+		player = $f(iframe);
+
+	player.addEvent('play', function() {
+		console.log("Hi!");
+		$("#episode h1").hide();
+	});
+  </script>
   <!-- end scripts -->
 
   <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.

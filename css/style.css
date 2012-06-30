@@ -642,7 +642,6 @@ div[role=main] {
 
 #video-description .social.facebook {
 	width: 82px;
-	margin-right: 18px;
 }
 
 #video-description .social.pinterest  {
@@ -658,7 +657,6 @@ div[role=main] {
 
 #video-description .social.twitter {
 	width: 81px;
-	margin-right: 18px;
 	position: relative;
 	z-index: 1;
 }

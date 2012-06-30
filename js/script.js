@@ -9,7 +9,7 @@
 // <br />If you have any questions feel free to
 // <a href="mailto:jesse.s.atkinson@gmail.com">email me</a>!</em>
 
-(function ($, $f, window, undefined) {
+(function ($, window, undefined) {
 	"use strict";
 
 	var app = {
@@ -21,26 +21,15 @@
 			subscribe: ".subscribe",
 			submit: ".submit",
 			supportersButton: "#supporters-button",
-			supportersWrapper: "#supporters-wrapper",
-			video: "#video"
+			supportersWrapper: "#supporters-wrapper"
 		},
 
 		init: function () {
-			this.video();
 			this.sticky();
 			this.scroller();
 			this.newsletter();
 			this.supporters();
 			this.responsive();
-		},
-
-		video: function () {
-			var iframe = $(this.config.video)[0],
-				player = $f(iframe); // $f comes from froogaloop2.
-
-			player.addEvent('play', function() {
-				$("#episode h1").hide();
-			});
 		},
 
 		sticky: function () {
@@ -175,4 +164,4 @@
 	});
 
 	window.app = app || {};
-}(jQuery, $f, this));
+}(jQuery, this));
