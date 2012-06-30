@@ -9,7 +9,7 @@
 // <br />If you have any questions feel free to
 // <a href="mailto:jesse.s.atkinson@gmail.com">email me</a>!</em>
 
-(function ($, window, undefined) {
+(function ($, $f, window, undefined) {
 	"use strict";
 
 	var app = {
@@ -175,4 +175,4 @@
 	});
 
 	window.app = app || {};
-}(jQuery, this));
+}(jQuery, $f, this));
