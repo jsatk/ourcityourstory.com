@@ -220,7 +220,7 @@ td { vertical-align: top; }
 
 /* A note on the fonts. We have "superclarendon" in 400 & 700.
 	We have "proximanova" in 400, 400 italic, 600, 600 italic, 700, & 800.
-	We also have ""abril-display"" in 700 italic. */
+	We also have "adobe-text-pro" in 600 italic. */
 
 
 /* global styles. */
@@ -496,7 +496,7 @@ header .container h1 {
 .subscribe label {
 	color: #191411;
 	text-transform: none;
-	font: 700 italic 1rem "abril-display", times, 'times new roman', serif;
+	font: 600 italic 1rem "adobe-text-pro", times, 'times new roman', serif;
 	text-align: left;
 	margin: 4px 0;
 	letter-spacing:0px;
@@ -598,7 +598,7 @@ div[role=main] {
 
 #video-description h3 {
 	margin: 0px 0px 28px;
-	font: 700 italic 2rem "abril-display", times, 'times new roman', serif;
+	font: 600 italic 2rem "adobe-text-pro", times, 'times new roman', serif;
 	color: #191411;
 	letter-spacing:0px;
 }
@@ -625,7 +625,7 @@ div[role=main] {
 }
 
 #video-description #credits span {
-	font: 700 italic 0.8125rem "abril-display", times, 'times new roman', serif;
+	font: 600 italic 0.8125rem "adobe-text-pro", times, 'times new roman', serif;
 	color: #433d3d;
 	display: inline-block;
 	margin-bottom: 1rem;
@@ -773,7 +773,7 @@ div[role=main] {
 }
 
 #recent h3 {
-	font: 700 italic 1.625rem "abril-display", times, 'times new roman', serif;
+	font: 600 italic 1.625rem "adobe-text-pro", times, 'times new roman', serif;
 	letter-spacing: 0px;
 	color: #191411;
 	line-height: 1.25rem;
@@ -915,7 +915,7 @@ div[role=main] {
 
 #contact p a {
 	color: white;
-	font: 700 italic 1.1rem "abril-display", times, 'times new roman', serif;
+	font: 600 italic 1.1rem "adobe-text-pro", times, 'times new roman', serif;
 	text-transform: none;
 	font-style: italic;
 	margin-bottom: 16px;
