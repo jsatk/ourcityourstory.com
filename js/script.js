@@ -14,6 +14,7 @@
 
 	var app = {
 		config: {
+			close: "#close",
 			nav: "#nav-wrapper",
 			links: "#nav-wrapper nav div a.link",
 			newsletter: ".newsletter",
@@ -21,12 +22,11 @@
 			submit: ".submit",
 			supportersButton: "#supporters-button",
 			supportersWrapper: "#supporters-wrapper",
-			close: "#close"
+			video: "#video"
 		},
 
 		init: function () {
-			// this.resize();
-			// this.size();
+			this.video();
 			this.sticky();
 			this.scroller();
 			this.newsletter();
@@ -35,23 +35,12 @@
 		},
 
 		video: function () {
+			var iframe = $(this.config.video)[0],
+				player = $f(iframe); // $f comes from froogaloop2.
 
-		},
-
-		resize: function () {
-			$(window).resize({namespace: this}, function (e) {
-				var t = e.data.namespace;
-
-				t.size();
-				$("h1").fitText(2, { minFontSize: '20px', maxFontSize: '51px' });
+			player.addEvent('play', function() {
+				$("#episode h1").hide();
 			});
-		},
-
-		size: function () {
-			var width = $("header .container").width(),
-				height = 0.52 * width;
-
-			$("header").height(height);
 		},
 
 		sticky: function () {
