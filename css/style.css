@@ -435,6 +435,7 @@ header .container h1 {
 	color: #979595;
 	background: url(../img/nav-hover.png) center 31px no-repeat;
 }
+
 #nav-wrapper nav a.active {
 	color: white;
 	background: url(../img/nav-active.png) center 40px no-repeat;
@@ -1186,6 +1187,14 @@ footer .button:hover {
 
 	#nav-wrapper nav a {
 		line-height: 30px;
+	}
+
+	#nav-wrapper nav a:hover {
+		background: none;
+	}
+
+	#nav-wrapper nav a.active {
+		background-position: center 30px;
 	}
 
 	#episode h1 {

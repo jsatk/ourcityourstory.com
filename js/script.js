@@ -27,7 +27,6 @@
 		init: function () {
 			// this.resize();
 			// this.size();
-			this.video();
 			this.sticky();
 			this.scroller();
 			this.newsletter();
@@ -36,14 +35,7 @@
 		},
 
 		video: function () {
-			$(document).click({namespace: this}, function (e) {
-				var t = e.data.namespace;
 
-				if ($(e.target).parents("#video-slider-wrapper iframe").length > 0 || $(e.target).is($("#video-slider-wrapper iframe"))) {
-					console.log("hi");
-					$("#episode h1").hide();
-				}
-			});
 		},
 
 		resize: function () {
