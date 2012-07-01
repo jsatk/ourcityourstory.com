@@ -1356,7 +1356,7 @@ footer .button:hover {
 
 	footer #copyright nav.ios {
 		display: block;
-		font-size: 0.6rem;
+		font-size: 0.55rem;
 		float: none;
 		position: static;
 	}
@@ -1392,7 +1392,7 @@ footer .button:hover {
 	}
 
 	footer #copyright p {
-		font-size: 0.5rem;
+		font-size: 0.6rem;
 	}
 
 	footer #copyright a {
