@@ -1256,6 +1256,10 @@ footer .button:hover {
 		float: none;
 	}
 
+	#recent-wrapper {
+		background: url(../img/description-bg.jpg) repeat;
+	}
+
 	#video-description .previous,
 	#video-description .previous:active,
 	#video-description .previous:visited,
