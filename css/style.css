@@ -1350,7 +1350,7 @@ footer .button:hover {
 		position: static;
 	}
 
-	footer nav {
+	footer nav.desktop {
 		display: none;
 	}
 
@@ -1359,6 +1359,11 @@ footer .button:hover {
 		font-size: 0.55rem;
 		float: none;
 		position: static;
+	}
+
+	footer #support {
+		width: 90%;
+		margin: 0 5%;
 	}
 
 	footer #fund, footer #sponsor {
