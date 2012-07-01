@@ -804,6 +804,7 @@ div[role=main] {
 }
 
 #recent .watch, #recent .watch:active, #recent .watch:visited {
+	display: block;
 	font-size: 0.75rem;
 	font-family: "proxima-nova", sans-serif;
 	font-style: normal;
@@ -811,6 +812,7 @@ div[role=main] {
 	position: absolute;
 	bottom: 0;
 	padding: 3px 5px;
+	color: #6C6A6A;
 }
 
 #recent .watch:hover {
@@ -1243,7 +1245,34 @@ footer .button:hover {
 	}
 
 	#video-description .previous {
-		display: none;
+		float: none;
+	}
+
+	#video-description .previous,
+	#video-description .previous:active,
+	#video-description .previous:visited,
+	#recent .watch,
+	#recent .watch:active,
+	#recent .watch:visited {
+		color: white;
+		background: black;
+		border: 1px solid #6C6A6A;
+	}
+
+	#recent .watch, #recent .watch:active, #recent .watch:visited {
+		display: inline-block;
+		position: static;
+		margin-bottom: 20px;
+	}
+
+	#recent .button {
+		float: none;
+		margin: 27px auto;
+		overflow: hidden;
+		width: 130px;
+		height: 30px;
+		text-align: center;
+		line-height: 30px;
 	}
 
 	#about-wrapper {
