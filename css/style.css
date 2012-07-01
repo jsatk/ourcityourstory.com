@@ -640,6 +640,11 @@ div[role=main] {
 	font-weight: 400;
 }
 
+#video-description .social {
+	display: block;
+	float: left;
+}
+
 #video-description .social.facebook {
 	width: 82px;
 	margin-right: 21px;
@@ -647,13 +652,16 @@ div[role=main] {
 
 #video-description .social.pinterest  {
 	position: relative;
-	z-index: 2;
+	z-index: 1;
+	width: 43px;
+	height: 21px;
 	line-height: 19px;
 }
 
 #video-description .social.pinterest img {
 	width: 43px;
 	height: 21px;
+	display: inline-block;
 }
 
 #video-description .social.twitter {
