@@ -469,17 +469,15 @@
   <script src="js/libs/jquery.scrollTo-1.4.2-min.js"></script>
   <script src="js/libs/jquery.localscroll-1.2.7-min.js"></script>
   <script src="js/script.js"></script>
-  <script src="js/libs/froogaloop.min.js"></script>
+  <script src="//a.vimeocdn.com/js/froogaloop2.min.js"></script>
   <script>
-	var iframe = document.getElementById("video"),
-		player = $f(iframe);
+  	$(document).ready(function () {
+		var iframe = document.getElementById("video"),
+			player = $f(iframe);
 
-	console.log("Hmmm...");
-	console.log($f);
-
-	player.addEvent('play', function () {
-		console.log("Hi!");
-		$("#episode h1").hide();
+		player.addEvent('play', function () {
+			$("#episode h1").hide();
+		});
 	});
   </script>
   <!-- end scripts -->
