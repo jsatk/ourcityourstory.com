@@ -756,11 +756,7 @@ div[role=main] {
 
 #recent-wrapper {
 	height: 719px;
-	background: url(../img/recent-stories-bg.jpg) no-repeat center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background: url(../img/recent-stories-bg.jpg);
 	border-bottom: 2px solid #6c6a6a;
 }
 
@@ -1302,10 +1298,10 @@ footer .button:hover {
 
 	#about div.left,
 	#about div.right {
-		width: 100%;
+		width: 90%;
 		float: none;
 		padding-top: 3rem;
-		margin-top: 0;
+		margin: 0 5%;
 	}
 
 	#recent-wrapper {
