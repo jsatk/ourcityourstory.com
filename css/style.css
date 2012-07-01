@@ -829,7 +829,7 @@ div[role=main] {
 	color: white;
 	font-size: 0.8rem;
 	font-weight: 900;
-	display: block;
+	display: inline-block;
 	margin-top: 70px;
 	background: #6c6a6a;
 	padding: 6px 21px;
@@ -1007,6 +1007,10 @@ footer .button {
 
 footer .button:hover {
 	background: #433d3d;
+}
+
+.ios {
+	display: none;
 }
 
 #close {
@@ -1346,6 +1350,17 @@ footer .button:hover {
 		position: static;
 	}
 
+	footer nav {
+		display: none;
+	}
+
+	footer #copyright nav.ios {
+		display: block;
+		font-size: 0.6rem;
+		float: none;
+		position: static;
+	}
+
 	footer #fund, footer #sponsor {
 		float: none;
 	}
@@ -1374,6 +1389,10 @@ footer .button:hover {
 
 	footer #copyright {
 		padding: 0 5%;
+	}
+
+	footer #copyright p {
+		font-size: 0.5rem;
 	}
 
 	footer #copyright a {
