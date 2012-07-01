@@ -646,7 +646,6 @@ div[role=main] {
 }
 
 #video-description .social.pinterest  {
-	line-height: 0;
 	position: relative;
 	z-index: 1;
 }
@@ -1281,6 +1280,7 @@ footer .button:hover {
 
 	#about-wrapper {
 		background-attachment: scroll;
+		background-position: 70% 50%;
 		border-top: none;
 		border-bottom: 1px solid white;
 	}
