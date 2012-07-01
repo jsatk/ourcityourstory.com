@@ -648,6 +648,7 @@ div[role=main] {
 #video-description .social.pinterest  {
 	position: relative;
 	z-index: 2;
+	line-height: 19px;
 }
 
 #video-description .social.pinterest img {
