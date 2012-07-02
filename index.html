@@ -55,7 +55,7 @@
 		<h1>Our City, Our Story aims to find and tell the stories which make up our identity. This is Rockford, Illinois.</h1>
 
 		<!-- The contents of the <span> are hidden. -->
-		<a href="http://ourcityourstory.com" class="logo"><span class="hidden">Our City, Our Story</span></a>
+		<a href="http://ourcityourstory.com" class="logo sprite"><span class="hidden">Our City, Our Story</span></a>
 		</article>
 	</header>
 
@@ -65,16 +65,16 @@
 			A note on the use of non-breaking spaces to create the nav. This was the best, simplest, and cleanest way to achieve what was comped. What was comped was using true | characters within the Proxima Nova font rather than a CSS border. To keep the | character of the Proxima Nova font and not break from style I had to use &nbsp; to force four spaces before and after each | character.
 		-->
 			<div class="links">
-				<a href="#episode">Episode</a><span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
-				<a href="#about">About</a><span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
-				<a href="#recent">Recent</a><span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
-				<a href="#contact">Contact</a><span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
-				<a href="#support" class="cut">Sponsor</a><span class="cut">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
-				<a href="http://ourcityourstory.bigcartel.com/" target="_blank"  class="cut">Shop</a><span class="cut">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
-				<a href="http://vimeo.com/ourcityourstory/videos" target="_blank">All<span> Stories</span></a>
-				<a href="#" class="social email"><span class="hidden">Email</span></a>
-				<a href="https://twitter.com/ourcityourstory" class="social twitter" target="_blank"><span class="hidden">Twitter</span></a>
-				<a href="https://www.facebook.com/OurCityOurStory" class="social facebook" target="_blank"><span class="hidden">Facebook</span></a>
+				<a href="#episode" class="sprite">Episode</a><span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<a href="#about" class="sprite">About</a><span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<a href="#recent" class="sprite">Recent</a><span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<a href="#contact" class="sprite">Contact</a><span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<a href="#support" class="cut sprite">Sponsor</a><span class="cut">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<a href="http://ourcityourstory.bigcartel.com/" target="_blank"  class="cut sprite">Shop</a><span class="cut">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<a href="http://vimeo.com/ourcityourstory/videos" target="_blank" class="sprite">All<span> Stories</span></a>
+				<a href="#" class="social email sprite"><span class="hidden">Email</span></a>
+				<a href="https://twitter.com/ourcityourstory" class="social twitter sprite" target="_blank"><span class="hidden">Twitter</span></a>
+				<a href="https://www.facebook.com/OurCityOurStory" class="social facebook sprite" target="_blank"><span class="hidden">Facebook</span></a>
 			</div>
 
 			<div class="subscribe">
@@ -88,12 +88,9 @@
 	</div>
 
 	<div role="main">
-		<div>
-			<div>
-				<!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
-				<h1>Hazzard Free</h1>
-				<iframe src="http://player.vimeo.com/video/44322055?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-			</div>
+		<div class="videoWrapper">
+			<!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
+			<iframe src="http://player.vimeo.com/video/44322055?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 		</div>
 
 		<div>

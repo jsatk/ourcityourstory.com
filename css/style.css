@@ -229,7 +229,6 @@ body {
 }
 
 img {
-	width: 100%;
 	height: auto;
 	max-width: 100%;
 	-ms-user-select: none;
@@ -238,6 +237,12 @@ img {
 	-moz-user-select: none;
 	-o-user-select: none;
 	user-select: none;
+	width: 100%;
+}
+
+.sprite {
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
 }
 
 h1 {
@@ -246,10 +251,10 @@ h1 {
 
 /* Header */
 header {
-	position: relative;
-	min-height: 280px;
 	max-height: 500px;
+	min-height: 280px;
 	overflow: hidden;
+	position: relative;
 }
 
 header img {
@@ -257,58 +262,74 @@ header img {
 }
 
 header h1 {
+	color: white;
 	display: none; /* Displayed via JavaScript due to jumping */
+	left: 50%;
+	max-width: 820px;
 	position: absolute;
 	top: 10%;
-	left: 50%;
-	color: white;
-	max-width: 820px;
 	width: 90%;
 }
 
 header .logo {
-	position: absolute;
 	bottom: 10%;
-	background: url(../img/logo.png) center center no-repeat;
+	background-position: -71px 0;
 	display: inline-block;
 	height: 85px;
-	width: 100%;
+	left: 50%;
+	margin-left: -69px;
+	position: absolute;
+	width: 137px;
 }
 
 /* Top Navigation Bar */
 .top-nav {
-	padding-bottom: 10px;
+	background: #191411;
+	height: 30px;
 }
 
 .top-nav nav {
-	margin: 0 auto;
 	font: 800 0.62rem/30px "proximanova", sans-serif;
+	height: 40px;
+	margin: 0 auto;
 	text-align: center;
 	text-transform: uppercase;
-	height: 30px;
-	background: #191411;
 }
 
 .top-nav nav .links {
-	max-width: 960px;
 	margin: 0 auto;
+	max-width: 960px;
 }
 
 .top-nav nav a {
-	text-decoration: none;
+	background: none;
 	color: #6c6a6a;
+	display: inline-block;
+	letter-spacing: 1px;
+	line-height: 30px;
+	padding-bottom: 10px;
+	text-decoration: none;
 }
 
 .top-nav nav a span {
 	display: none;
 }
 
+.top-nav nav a:hover,
+.top-nav nav a:active,
+.top-nav nav .active {
+	background-image: url(../img/navarrows.png);
+	background-repeat: no-repeat;
+}
+
 .top-nav nav a:hover {
+	background-position: center 25px;
 	color: #979595;
 }
 
 .top-nav nav a:active,
 .top-nav nav .active {
+	background-position: center 32px;
 	color: white;
 }
 
@@ -317,12 +338,11 @@ header .logo {
 }
 
 .top-nav nav .social {
-	background: url(../img/social.png) no-repeat;
-	width: 25px;
-	height: 15px;
 	display: none;
 	float: right;
+	height: 15px;
 	margin-top: 7px;
+	width: 25px;
 }
 
 .top-nav nav .facebook {
@@ -353,6 +373,23 @@ header .logo {
 	display: none;
 }
 
+/* Featured video section */
+
+.videoWrapper {
+	border-bottom: 2px solid #6c6a6a;
+	height: 0;
+	padding-bottom: 56.25%; /* 16:9 */
+	position: relative;
+}
+
+.videoWrapper iframe {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
    This example overrides the primary ('mobile first') styles
@@ -378,7 +415,7 @@ header .logo {
 	}
 
 	.top-nav nav .cut {
-		display: inline;
+		display: inline-block;
 	}
 }
 
@@ -387,10 +424,23 @@ header .logo {
 		font-size: 3rem;
 	}
 
+	.top-nav {
+		height: 40px;
+	}
+
 	.top-nav nav {
 		font-size: 0.8125rem;
 		line-height: 40px;
-		height: 40px;
+		height: 50px;
+	}
+
+	.top-nav nav a {
+		line-height: 40px;
+	}
+
+	.top-nav nav a:active,
+	.top-nav nav .active {
+		background-position: center 40px;
 	}
 
 	.top-nav nav .social {
