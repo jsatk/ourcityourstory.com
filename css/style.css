@@ -375,19 +375,29 @@ header .logo {
 
 /* Featured video section */
 
-.videoWrapper {
+.episode {
 	border-bottom: 2px solid #6c6a6a;
 	height: 0;
 	padding-bottom: 56.25%; /* 16:9 */
 	position: relative;
 }
 
-.videoWrapper iframe {
+.episode iframe {
 	height: 100%;
 	left: 0;
 	position: absolute;
 	top: 0;
 	width: 100%;
+}
+
+/* Featured video description section */
+.story {
+	background: url(../img/description-bg.jpg) repeat;
+}
+
+.story article {
+	padding: 0 5%;
+	width: 90%;
 }
 
 /* ==|== media queries ======================================================
