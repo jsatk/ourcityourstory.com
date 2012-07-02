@@ -291,6 +291,7 @@ header .logo {
 
 .top-nav nav .links {
 	max-width: 960px;
+	margin: 0 auto;
 }
 
 .top-nav nav a {
