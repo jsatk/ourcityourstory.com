@@ -1136,7 +1136,7 @@ footer .button:hover {
 
 #copyright nav {
 	float: right;
-	font: bold 0.8rem/30px "proxima-nova", sans-serif;
+	font: 800 0.8rem/30px "proxima-nova", sans-serif;
 	position: relative;
 	top: -5px;
 }
