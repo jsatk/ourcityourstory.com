@@ -289,7 +289,7 @@ header .logo {
 }
 
 .top-nav nav {
-	font: 800 0.62rem/30px "proximanova", sans-serif;
+	font: 800 0.59rem/30px "proximanova", sans-serif;
 	height: 40px;
 	margin: 0 auto;
 	text-align: center;
@@ -302,7 +302,6 @@ header .logo {
 }
 
 .top-nav nav a {
-	background: none;
 	color: #6c6a6a;
 	display: inline-block;
 	letter-spacing: 1px;
@@ -315,19 +314,19 @@ header .logo {
 	display: none;
 }
 
-.top-nav nav a:hover,
-.top-nav nav a:active,
-.top-nav nav .active {
+.top-nav nav .nav:hover,
+.top-nav nav .nav:active,
+.top-nav nav .nav.active {
 	background-image: url(../img/navarrows.png);
 	background-repeat: no-repeat;
 }
 
-.top-nav nav a:hover {
+.top-nav nav .nav:hover {
 	background-position: center 25px;
 	color: #979595;
 }
 
-.top-nav nav a:active,
+.top-nav nav .nav:active,
 .top-nav nav .active {
 	background-position: center 32px;
 	color: white;
@@ -393,11 +392,26 @@ header .logo {
 /* Featured video description section */
 .story {
 	background: url(../img/description-bg.jpg) repeat;
+	position: relative;
+	top: -22px;
 }
 
 .story article {
 	padding: 0 5%;
 	width: 90%;
+}
+
+.story nav {
+	position: absolute;
+	top: 12px;
+}
+
+.story nav .social {
+	float: left;
+}
+
+.pin-it-button img {
+	width: auto;
 }
 
 /* ==|== media queries ======================================================
@@ -455,6 +469,7 @@ header .logo {
 
 	.top-nav nav .social {
 		margin-top: 12px;
+		padding: 0;
 	}
 }
 
