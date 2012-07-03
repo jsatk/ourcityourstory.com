@@ -577,8 +577,7 @@ div[role=main] {
 #video-description-wrapper {
 	background: url(../img/description-bg.jpg) repeat;
 	overflow: hidden;
-	padding-top: 43px;
-	min-height: 719px;
+	padding: 43px 0;
 }
 
 #video-description {
@@ -1107,6 +1106,7 @@ footer .button:hover {
 	height: 35px;
 	background: #140e0e;
 	color: #6c6a6a;
+	overflow: hidden;
 }
 
 #copyright {
