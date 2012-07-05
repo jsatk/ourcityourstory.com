@@ -220,7 +220,7 @@ td { vertical-align: top; }
 
 /* A note on the fonts. We have "superclarendon" in 400 & 700.
 	We have "proximanova" in 400, 400 italic, 600, 600 italic, 700, & 800.
-	We also have ""abril-display"" in 700 italic. */
+	We also have "abril-display" in 700 italic. */
 
 
 /* global styles. */
@@ -240,13 +240,50 @@ img {
 	width: 100%;
 }
 
+p {
+	font: 400 0.9rem/1.35 "proximanova", sans-serif;
+}
+
+h1 {
+	font: 700 1.2rem/1.4 "superclarendon", serif;
+	margin: 0;
+}
+
+h3 {
+	font: 700 italic 1.35rem/1.4 "abril-display", serif;
+	margin: 0;
+}
+
+h5 {
+	color: #6c6a6a;
+	font: 800 0.7rem/1.35 "proximanova", sans-serif;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h6 {
+	color: #6c6a6a;
+	font: 400 0.75rem/1.1 "proximanova", sans-serif;
+	letter-spacing: 1px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
 .sprite {
 	background-image: url(../img/sprite.png);
 	background-repeat: no-repeat;
 }
 
-h1 {
-	font: 700 1.2rem/1.4 "superclarendon", serif;
+.button {
+	background: black;
+	border: 1px solid #8a8174;
+	color: white;
+	display: inline-block;
+	font: 400 0.7rem/1.35 "proximanova", sans-serif;
+	letter-spacing: 1px;
+	padding: 3px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
 /* Header */
@@ -316,7 +353,7 @@ header .logo {
 
 .top-nav nav .nav:hover,
 .top-nav nav .nav:active,
-.top-nav nav .nav.active {
+.top-nav nav .active {
 	background-image: url(../img/navarrows.png);
 	background-repeat: no-repeat;
 }
@@ -392,13 +429,12 @@ header .logo {
 /* Featured video description section */
 .story {
 	background: url(../img/description-bg.jpg) repeat;
+	padding-bottom: 3rem;
 	position: relative;
-	top: -22px;
 }
 
 .story article {
-	padding: 0 5%;
-	width: 90%;
+	padding: 50px 5% 0;
 }
 
 .story nav {
@@ -408,10 +444,35 @@ header .logo {
 
 .story nav .social {
 	float: left;
+	line-height: 19px;
+	max-width: 107px;
 }
 
-.pin-it-button img {
+.story .column {
+	margin: 1rem 0;
+}
+
+.story .column img {
+	display: none;
+}
+
+.story .column .pin-it-button img {
 	width: auto;
+	display: block;
+}
+
+.story .column ul {
+	padding: 0;
+}
+
+.story .column li {
+	list-style: none;
+	margin-top: 0.7rem;
+}
+
+.story .column li span {
+	color: #433D3D;
+	font: 600 italic 0.8125rem/1.25 "adobe-text-pro", times, 'times new roman', serif;
 }
 
 /* ==|== media queries ======================================================
@@ -441,6 +502,28 @@ header .logo {
 	.top-nav nav .cut {
 		display: inline-block;
 	}
+
+	.story .column {
+		float: left;
+	}
+
+	.story .left {
+		width: 33%;
+	}
+
+	.story .center {
+		width: 41%;
+		margin: 0 2%;
+	}
+
+	.story .right {
+		width: 22%;
+	}
+
+	.story .column img {
+		display: inline;
+	}
+
 }
 
 @media all and (min-width: 811px) {
