@@ -256,6 +256,7 @@ h3 {
 
 h5 {
 	color: #6c6a6a;
+	display: inline-block;
 	font: 800 0.7rem/1.35 "proximanova", sans-serif;
 	margin: 0;
 	text-transform: uppercase;
@@ -284,6 +285,10 @@ h6 {
 	padding: 3px 10px;
 	text-decoration: none;
 	text-transform: uppercase;
+}
+
+.button:hover {
+	color: white;
 }
 
 /* Header */
@@ -378,6 +383,7 @@ header .logo {
 	float: right;
 	height: 15px;
 	margin-top: 7px;
+	padding: 0;
 	width: 25px;
 }
 
@@ -412,7 +418,7 @@ header .logo {
 /* Featured video section */
 
 .episode {
-	border-bottom: 2px solid #6c6a6a;
+	border-bottom: 3px solid #6c6a6a;
 	height: 0;
 	padding-bottom: 56.25%; /* 16:9 */
 	position: relative;
@@ -429,6 +435,7 @@ header .logo {
 /* Featured video description section */
 .story {
 	background: url(../img/description-bg.jpg) repeat;
+	border-bottom: 3px solid #6c6a6a;
 	padding-bottom: 3rem;
 	position: relative;
 }
@@ -445,7 +452,7 @@ header .logo {
 .story nav .social {
 	float: left;
 	line-height: 19px;
-	max-width: 107px;
+	max-width: 98px;
 }
 
 .story .column {
@@ -475,6 +482,51 @@ header .logo {
 	font: 600 italic 0.8125rem/1.25 "adobe-text-pro", times, 'times new roman', serif;
 }
 
+.about {
+	background: url(../img/about-bg.jpg) no-repeat 83% center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	border-bottom: 3px solid #6c6a6a;
+	max-height: 719px;
+}
+
+.about article {
+	color: white;
+	margin: 0 5%;
+	max-width: 960px;
+	padding-top: 34px;
+}
+
+.about h1 {
+	font-size: 1.7rem;
+	line-height: 1.7rem;
+}
+
+.about h5 {
+	color: white;
+}
+
+.about .column .border {
+	border-bottom: 4px solid white;
+	padding-bottom: 4px;
+}
+
+.about .left {
+	margin-bottom: 30px;
+}
+
+.about .right {
+	text-align: center;
+}
+
+.about .right p {
+	font-size: 0.75rem;
+	line-height: 1.15rem;
+	text-align: left;
+}
+
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
    This example overrides the primary ('mobile first') styles
@@ -489,6 +541,20 @@ header .logo {
 @media all and (min-width: 640px) {
 	h1 {
 		font-size: 2rem;
+	}
+
+	.button,
+	.button:visited {
+		background: none;
+		border: 1px solid transparent;
+		color: #6c6a6a;
+		float: right;
+	}
+
+	.button:hover {
+		background: black;
+		border: 1px solid #8a8174;
+		color: white;
 	}
 
 	.top-nav nav a span {
@@ -524,6 +590,50 @@ header .logo {
 		display: inline;
 	}
 
+	.about {
+		background-position: right center;
+	}
+
+	.about article {
+		margin: 0 auto;
+	}
+
+	.about h1 {
+		font-size: 3rem;
+		line-height: 2.75rem;
+	}
+
+	.about .column {
+		float: left;
+		width: 50%;
+	}
+
+	.about .left {
+		margin: 30% 0;
+	}
+
+	.about .left h5 {
+		border-top: 3px solid white;
+		padding-top: 4px;
+	}
+
+	.about .right {
+		margin: 20% 0;
+	}
+
+	.about .right .border {
+		margin-bottom: 1rem;
+	}
+
+	.about .right p {
+		margin: 0 auto;
+		max-width: 300px;
+	}
+
+	.about .right p:first-child {
+		padding-bottom: 8%;
+	}
+
 }
 
 @media all and (min-width: 811px) {
@@ -552,7 +662,11 @@ header .logo {
 
 	.top-nav nav .social {
 		margin-top: 12px;
-		padding: 0;
+	}
+
+	.story nav {
+		position: static;
+		margin-top: 12px;
 	}
 }
 
@@ -567,14 +681,7 @@ header .logo {
 
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
-	h1 {
-		font-size: 1.3rem;
-		line-height: 1.25;
-	}
 
-	header .logo {
-		background-size: 101px 63px;
-	}
 }
 
 /* ==|== non-semantic helper classes ========================================
