@@ -359,8 +359,8 @@ header .logo {
 	display: none;
 }
 
-.top-nav nav .nav:hover,
-.top-nav nav .nav:active,
+.nav:hover,
+.nav:active,
 .top-nav nav .active {
 	background-image: url(../img/navarrows.png);
 	background-repeat: no-repeat;
@@ -377,7 +377,7 @@ header .logo {
 	color: white;
 }
 
-.top-nav nav .cut {
+.cut {
 	display: none;
 }
 
@@ -776,6 +776,7 @@ footer nav {
 	font: 800 0.59rem/30px "proximanova", sans-serif;
 	text-align: center;
 	text-transform: uppercase;
+	white-space: nowrap;
 }
 
 footer nav a,
@@ -840,7 +841,7 @@ footer p a:visited {
 		display: block;
 	}
 
-	.top-nav nav .cut {
+	.cut {
 		display: inline-block;
 	}
 
@@ -975,8 +976,34 @@ footer p a:visited {
 		width: auto;
 	}
 
+	footer {
+		background: black;
+	}
+
 	footer .container {
 		margin: 0 auto;
+		padding: 0;
+	}
+
+	footer form {
+		display: none;
+	}
+
+	footer nav {
+		float: right;
+	}
+
+	footer .social {
+		display: none;
+	}
+
+	footer p {
+		color: #6C6A6A;
+		float: left;
+		font-size: 0.70rem;
+		max-width: 421px;
+		padding: 5px 0;
+		width: 50%;
 	}
 }
 
@@ -1012,6 +1039,10 @@ footer p a:visited {
 	.story nav {
 		position: static;
 		margin-top: 12px;
+	}
+
+	footer nav {
+		font-size:0.8rem;
 	}
 }
 
