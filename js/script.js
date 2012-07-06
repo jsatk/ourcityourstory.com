@@ -13,10 +13,6 @@
 	"use strict";
 
 	var app = {
-		config: {
-			nav: ".top-nav"
-		},
-
 		init: function () {
 			this.position();
 			this.resize();
@@ -43,7 +39,17 @@
 		},
 
 		scroller: function () {
-			$(this.config.nav + " .links").localScroll();
+			$(".top-nav .links").localScroll();
+			$(".top-nav .nav").click(function () {
+				$(".top-nav .nav").removeClass("active");
+				$(this).addClass("active");
+			});
+
+			$($("footer .nav")[1]).click(function (e) {
+				e.preventDefault();
+
+				$(this).toggleClass("active");
+			});
 		},
 
 		sticky: function () {
@@ -54,10 +60,30 @@
 					aboveHeight = $("header").outerHeight();
 
 				if ($(window).scrollTop() > aboveHeight) {
-					$(t.config.nav, "body").addClass("fixed");
+					$(".top-nav").addClass("fixed");
+					$("body").addClass("fixed");
 				} else {
-					$(t.config.nav, "body").removeClass("fixed");
+					$(".top-nav").removeClass("fixed");
+					$("body").removeClass("fixed");
 				}
+
+				// This handles the passing of the .active class around as we scroll
+				// up and down the page.
+				$.each($(".top-nav .nav"), function (i, v) {
+					var href = $(this).attr("href");
+
+					if (href.indexOf("#") !== -1) {
+						if ($(window).scrollTop() >= $(href).offset().top) {
+							$(".top-nav .nav").removeClass("active");
+							$(this).addClass("active");
+
+							if ($(window).scrollTop() === ($(document).height() - $(window).height())) {
+								$(".top-nav .nav").removeClass("active");
+								$($(".top-nav .nav")[4]).addClass("active");
+							}
+						}
+					}
+				});
 			});
 		}
 	};

@@ -335,13 +335,14 @@ header .logo {
 .top-nav {
 	background: #191411;
 	height: 30px;
+	position: relative;
+	z-index: 1;
 }
 
 body .fixed {
 	position: fixed;
 	width: 100%;
 	top: 0;
-	z-index: 1;
 }
 
 .top-nav nav {
@@ -362,7 +363,7 @@ body .fixed {
 	display: inline-block;
 	letter-spacing: 1px;
 	line-height: 30px;
-	padding-bottom: 10px;
+	padding-bottom: 7px;
 	text-decoration: none;
 }
 
@@ -679,7 +680,7 @@ body .fixed {
 /* Sponsor section */
 
 .sponsor {
-	background: black;
+	background: #191411;
 	padding-top: 22px;
 }
 
@@ -779,18 +780,18 @@ footer nav a:visited {
 	color: #BCBDC0;
 	display: inline-block;
 	letter-spacing: 1px;
-	line-height: 30px;
-	padding-bottom: 10px;
 	text-decoration: none;
 }
 
 footer .nav:hover {
 	color: white;
+	background: -100px -100px;
 }
 
 footer .nav:active,
-footer .active {
-	background-position: center -33px;
+footer .nav.active {
+	background-position: center -23px;
+	color: white;
 }
 
 footer p {
@@ -843,7 +844,8 @@ footer p a:visited {
 
 	.nav:hover,
 	.nav:active,
-	.top-nav nav .active {
+	.top-nav nav .active,
+	footer nav .active {
 		background-image: url(../img/navarrows.png);
 		background-repeat: no-repeat;
 	}
@@ -1006,9 +1008,12 @@ footer p a:visited {
 
 	footer {
 		background: black;
+		height: 40px;
+		padding: 0;
 	}
 
 	footer .container {
+		height: 40px;
 		margin: 0 auto;
 		padding: 0;
 	}
@@ -1019,10 +1024,14 @@ footer p a:visited {
 
 	footer nav {
 		float: right;
+		position: relative;
+		top: -10px;
 	}
 
-	footer .nav {
+	footer nav a,
+	footer nav a:visited {
 		color: #6c6a6a;
+		padding-top: 10px;
 	}
 
 	footer .social {
@@ -1061,7 +1070,7 @@ footer p a:visited {
 
 	.top-nav nav a:active,
 	.top-nav nav .active {
-		background-position: center 40px;
+		background-position: center 39px;
 	}
 
 	.top-nav nav .social {
