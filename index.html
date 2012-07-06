@@ -67,7 +67,7 @@
 				<a href="#about" class="nav">About</a><span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
 				<a href="#recent" class="nav">Recent</a><span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
 				<a href="#contact" class="nav">Contact</a><span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
-				<a href="#support" class="cut nav">Sponsor</a><span class="cut">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<a href="#sponsor" class="cut nav">Sponsor</a><span class="cut">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
 				<a href="http://ourcityourstory.bigcartel.com/" target="_blank"  class="cut nav">Shop</a><span class="cut">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
 				<a href="http://vimeo.com/ourcityourstory/videos" target="_blank" class="nav">All<span> Stories</span></a>
 				<a href="#" class="social email sprite"><span class="hidden">Email</span></a>
@@ -86,7 +86,7 @@
 	</div>
 
 	<div role="main">
-		<div class="episode">
+		<div id="episode" class="episode">
 			<!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 			<iframe src="http://player.vimeo.com/video/45131456?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 		</div>
@@ -145,7 +145,7 @@
 			</article>
 		</div>
 
-		<div class="about clearfix">
+		<div id="about" class="about clearfix">
 			<article class="clearfix">
 				<div class="column left">
 					<h5>Who We Are</h5>
@@ -160,7 +160,7 @@
 			</article>
 		</div>
 
-		<div class="recent clearfix">
+		<div id="recent" class="recent clearfix">
 			<article class="clearfix">
 				<h5>Our City, Our Story</h5>
 				<h1>Recent Stories</h1>
@@ -189,7 +189,7 @@
 			</article>
 		</div>
 
-		<div class="contact">
+		<div id="contact" class="contact">
 			<div>
 				<article>
 					<h1>Contact</h1>
@@ -217,7 +217,7 @@
 		</div>
 	</div>
 
-	<div class="sponsor clearfix">
+	<div id="sponsor" class="sponsor clearfix">
 		<div class="container">
 			<div class="fund">
 				<h5>Fund Our City, Our Story</h5>
@@ -456,6 +456,7 @@
   <script type="text/javascript" src="http://use.typekit.com/czk0yby.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script src="js/plugins.js"></script>
+  <script src="js/libs/jquery.scrollTo-1.4.2-min.js"></script>
   <script src="js/libs/jquery.localscroll-1.2.7-min.js"></script>
   <script src="js/script.js"></script>
   <!-- end scripts -->
