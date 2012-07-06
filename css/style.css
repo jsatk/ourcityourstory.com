@@ -789,6 +789,11 @@ footer nav a:visited {
 	text-decoration: none;
 }
 
+footer .nav:hover {
+	color: white;
+	background-position: center -23px;
+}
+
 footer p {
 	color: #8d8a8a;
 	font-size: 0.6rem;
@@ -991,6 +996,10 @@ footer p a:visited {
 
 	footer nav {
 		float: right;
+	}
+
+	footer .nav {
+		color: #6c6a6a;
 	}
 
 	footer .social {
