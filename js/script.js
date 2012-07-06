@@ -12,20 +12,27 @@
 (function ($, window, undefined) {
 	"use strict";
 
+	console.log("scripts.js");
+
 	var app = {
 		config: {
-
+			nav: ".top-nav"
 		},
 
 		init: function () {
-			this.resize();
 			this.position();
+			this.resize();
+			this.sticky();
 		},
 
 		resize: function () {
 			$(window).resize({namespace: this}, function (e) {
 				var t = e.data.namespace;
 
+				console.log("resize");
+
+				// Re-grabs the value on resize because the distance from the
+				// top of the browser to the top nav is different.
 				t.position();
 			});
 		},
@@ -33,7 +40,26 @@
 		position: function () {
 			var marginLeft = $("header h1").width() / 2;
 
+			// Ensures that the header text stays centered and also only shows
+			// after all the fonts have loaded.
 			$("header h1").css("margin-left", "-" + marginLeft + "px").show();
+		},
+
+		sticky: function () {
+			var t = this;
+
+			$(window).scroll({namespace: this}, function (e) {
+				var t = e.data.namespace,
+					aboveHeight = $("header").outerHeight();
+
+				console.log(aboveHeight, $(window).scrollTop());
+
+				if ($(window).scrollTop() > aboveHeight) {
+					$(t.config.nav, "body").addClass("fixed");
+				} else {
+					$(t.config.nav, "body").removeClass("fixed");
+				}
+			});
 		}
 	};
 

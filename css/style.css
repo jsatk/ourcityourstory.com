@@ -228,6 +228,10 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+body.fixed {
+	margin-top: 30px;
+}
+
 img {
 	height: auto;
 	max-width: 100%;
@@ -333,6 +337,13 @@ header .logo {
 	height: 30px;
 }
 
+body .fixed {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1;
+}
+
 .top-nav nav {
 	font: 800 0.59rem/30px "proximanova", sans-serif;
 	height: 40px;
@@ -378,7 +389,7 @@ header .logo {
 }
 
 .cut {
-	display: none;
+	display: none !important; /* Yes. Yes. I know. Shut up. */
 }
 
 .top-nav nav .social {
@@ -461,6 +472,7 @@ header .logo {
 	float: left;
 	line-height: 19px;
 	max-width: 98px;
+	overflow: hidden;
 }
 
 .story .column {
@@ -819,6 +831,10 @@ footer p a:visited {
 }
 
 @media all and (min-width: 640px) {
+	body.fixed {
+		margin-top: 40px;
+	}
+
 	h1,
 	header .title {
 		font-size: 2rem;
