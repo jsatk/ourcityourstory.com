@@ -974,6 +974,10 @@ footer p a:visited {
 	.sponsors nav img {
 		width: auto;
 	}
+
+	footer .container {
+		margin: 0 auto;
+	}
 }
 
 @media all and (min-width: 811px) {
