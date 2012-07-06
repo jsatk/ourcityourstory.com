@@ -220,7 +220,7 @@ td { vertical-align: top; }
 
 /* A note on the fonts. We have "superclarendon" in 400 & 700.
 	We have "proximanova" in 400, 400 italic, 600, 600 italic, 700, & 800.
-	We also have "abril-display" in 700 italic. */
+	We also have "adobe-text-pro" in 600 italic. */
 
 
 /* global styles. */
@@ -245,12 +245,12 @@ p {
 }
 
 h1 {
-	font: 700 1.2rem/1.4 "superclarendon", serif;
+	font: 700 1.7rem/1.7rem "superclarendon", serif;
 	margin: 0;
 }
 
 h3 {
-	font: 700 italic 1.35rem/1.4 "abril-display", serif;
+	font: 600 italic 1.35rem/1.4rem "adobe-text-pro", serif;
 	margin: 0;
 }
 
@@ -258,6 +258,7 @@ h5 {
 	color: #6c6a6a;
 	display: inline-block;
 	font: 800 0.7rem/1.35 "proximanova", sans-serif;
+	letter-spacing: 1px;
 	margin: 0;
 	text-transform: uppercase;
 }
@@ -303,10 +304,12 @@ header img {
 	min-height: 280px;
 }
 
-header h1 {
+header .title {
 	color: white;
 	display: none; /* Displayed via JavaScript due to jumping */
+	font-size: 1.2rem;
 	left: 50%;
+	line-height: 1.4;
 	max-width: 820px;
 	position: absolute;
 	top: 10%;
@@ -415,7 +418,7 @@ header .logo {
 	display: none;
 }
 
-/* Featured video section */
+/* Episode section */
 
 .episode {
 	border-bottom: 3px solid #6c6a6a;
@@ -425,6 +428,7 @@ header .logo {
 }
 
 .episode iframe {
+	border: none;
 	height: 100%;
 	left: 0;
 	position: absolute;
@@ -432,9 +436,13 @@ header .logo {
 	width: 100%;
 }
 
-/* Featured video description section */
-.story {
+/* Story section */
+.story,
+.recent {
 	background: url(../img/description-bg.jpg) repeat;
+}
+
+.story {
 	border-bottom: 3px solid #6c6a6a;
 	padding-bottom: 3rem;
 	position: relative;
@@ -482,6 +490,8 @@ header .logo {
 	font: 600 italic 0.8125rem/1.25 "adobe-text-pro", times, 'times new roman', serif;
 }
 
+/* About section */
+
 .about {
 	background: url(../img/about-bg.jpg) no-repeat 83% center fixed;
 	-webkit-background-size: cover;
@@ -496,12 +506,7 @@ header .logo {
 	color: white;
 	margin: 0 5%;
 	max-width: 960px;
-	padding-top: 34px;
-}
-
-.about h1 {
-	font-size: 1.7rem;
-	line-height: 1.7rem;
+	padding: 34px 0;
 }
 
 .about h5 {
@@ -527,19 +532,249 @@ header .logo {
 	text-align: left;
 }
 
+/* Recent section */
+
+.recent {
+	padding-bottom: 27px;
+}
+
+.recent article {
+	margin: 0 5%;
+	max-width: 960px;
+	padding-top: 34px;
+}
+
+.recent h1 {
+	margin-bottom: 30px;
+}
+
+.recent h3 a,
+.recent h3 a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.recent .column,
+.recent img {
+	margin-bottom: 20px;
+}
+
+.recent h6 {
+	font-weight: 800;
+}
+
+.recent p {
+	font-size: 0.75rem;
+	line-height: 1.15rem;
+}
+
+.button-alt,
+.button-alt:active,
+.button-alt:visited {
+	background: #6c6a6a;
+	color: white;
+	display: block;
+	font: 800 0.8125rem "proxima-nova", helvetica, arial, sans-serif;
+	letter-spacing:1px;
+	margin: 55px auto 0;
+	padding: 6px 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 130px;
+}
+
+.button-alt:hover {
+	background: #191411;
+	color: white;
+}
+
+/* Contact section */
+
+.contact {
+	background: url(../img/contact-bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 20% 0;
+}
+
+.contact div {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+.contact article {
+	background: #433d3d;
+	margin: 0 5%;
+	padding: 20px 10px;
+	max-width: 310px;
+}
+
+.contact h1 {
+	border-top: 4px solid #bcbdc0;
+	color: white;
+	display: inline-block;
+	font-size: 3rem;
+	line-height: 3rem;
+	margin-bottom: 25px;
+	padding-top: 14px;
+}
+
+.contact label {
+	color: #BCBEC0;
+	font-size: 0.75rem;
+}
+
+.contact ul {
+	padding: 0;
+	list-style: none;
+	margin: 8px 0;
+}
+
+.contact li {
+	margin-bottom: 10px;
+}
+
+.contact li a,
+.contact li a:visited {
+	color: white;
+	font: 600 italic 1.1rem "adobe-text-pro", serif;
+	text-decoration: none;
+}
+
+.contact li a:hover {
+	text-decoration: underline;
+}
+
+.contact .facebook,
+.contact .twitter,
+.contact .vimeo {
+	display: inline-block;
+	height: 20px;
+	width: 21px;
+	margin-right: 5px;
+}
+
+.contact .facebook {
+	background-position: 0 -90px;
+}
+
+.contact .facebook:hover {
+	background-position: 0 -110px;
+}
+
+.contact .twitter {
+	background-position: -29px -90px;
+}
+
+.contact .twitter:hover {
+	background-position: -29px -110px;
+}
+
+.contact .vimeo {
+	background-position: -66px -90px;
+}
+
+.contact .vimeo:hover {
+	background-position: -66px -110px;
+}
+
+/* Sponsor section */
+
+.sponsor {
+	background: black;
+	padding-top: 22px;
+}
+
+.sponsor .container {
+	margin: 0 5%;
+	max-width: 960px;
+}
+
+.fund, .sponsors {
+	border-top: 4px solid #6c6a6a;
+	padding-bottom: 24px;
+}
+
+.sponsor h5 {
+	color: white;
+	font-size: 0.8125rem;
+}
+
+.sponsor p {
+	color: #979595;
+	font-size: 0.75rem;
+	line-height: 1rem;
+}
+
+.sponsor .button-alt {
+	display: inline-block;
+	margin: 0 0 15px;
+	padding: 6px 21px;
+	width: auto;
+}
+
+.sponsor .button-alt:hover {
+	background: #433d3d;
+}
+
+.sponsors nav img {
+	width: 47%;
+}
+
+.sponsors nav a img:first-child {
+	margin-right: 2%;
+}
+
+/* Supporters section */
+
+.supporters {
+	display: none;
+}
+
+/* Footer */
+
+footer {
+	background: #433d3d;
+}
+
+footer .container {
+	margin: 0 5%;
+	max-width: 960px;
+}
+
+footer nav {
+	font: 800 0.59rem/30px "proximanova", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+footer nav a {
+	color: #BCBDC0;
+	display: inline-block;
+	letter-spacing: 1px;
+	line-height: 30px;
+	padding-bottom: 10px;
+	text-decoration: none;
+}
+
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
    This example overrides the primary ('mobile first') styles
    Modify as content requires.
    ========================================================================== */
 @media all and (min-width: 481px) {
-	h1 {
+	h1,
+	header .title {
 		font-size: 1.5rem;
 	}
 }
 
 @media all and (min-width: 640px) {
-	h1 {
+	h1,
+	header .title {
 		font-size: 2rem;
 	}
 
@@ -578,8 +813,8 @@ header .logo {
 	}
 
 	.story .center {
-		width: 41%;
 		margin: 0 2%;
+		width: 41%;
 	}
 
 	.story .right {
@@ -634,10 +869,76 @@ header .logo {
 		padding-bottom: 8%;
 	}
 
+	.recent {
+		background: url(../img/recent-stories-bg.jpg);
+		padding-bottom: 86px;
+	}
+
+	.recent .column {
+		float: left;
+		width: 32%;
+	}
+
+	.recent .center {
+		margin: 0 2%;
+	}
+
+	.recent .button {
+		float: left;
+	}
+
+	.recent .button-alt {
+		float: right;
+	}
+
+	.contact article {
+		margin: 0;
+	}
+
+	.fund, .sponsors {
+		float: left;
+		margin: 0;
+	}
+
+	.sponsor .container {
+		margin: 0 auto;
+	}
+
+	.fund {
+		margin-right: 2%;
+		width: 25%;
+	}
+
+	.sponsors {
+		width: 73%;
+	}
+
+	.sponsors div {
+		float: left;
+		max-width: 220px;
+	}
+
+	.sponsors nav {
+		float: left;
+		margin-top: 11px;
+	}
+
+	.sponsors nav a {
+		float: left;
+	}
+
+	.sponsors nav a:first-child {
+		margin-right: 20px;
+	}
+
+	.sponsors nav img {
+		width: auto;
+	}
 }
 
 @media all and (min-width: 811px) {
-	h1 {
+	h1,
+	header .title {
 		font-size: 3rem;
 	}
 
@@ -681,7 +982,9 @@ header .logo {
 
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
-
+	.about, .contact {
+		background-attachment: scroll;
+	}
 }
 
 /* ==|== non-semantic helper classes ========================================
