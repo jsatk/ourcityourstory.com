@@ -738,11 +738,38 @@ header .logo {
 
 footer {
 	background: #433d3d;
+	padding-top: 0.4rem;
 }
 
 footer .container {
-	margin: 0 5%;
+	margin: 0 3%;
 	max-width: 960px;
+	padding: 0 0 1rem;
+}
+
+footer form label {
+	color: #BCBDC0;
+	display: block;
+	font: 600 italic 1rem/1.7rem "adobe-text-pro", serif;
+}
+
+footer .email {
+	border: none;
+	border-radius: 0;
+	background: white;
+	float: left;
+	padding: 2px 0;
+	width: 80%;
+}
+
+footer .submit {
+	background: black;
+	border: none;
+	border-radius: 0;
+	color: #B2B2B5;
+	float: left;
+	font-size: 0.7rem;
+	padding: 5px;
 }
 
 footer nav {
@@ -751,12 +778,25 @@ footer nav {
 	text-transform: uppercase;
 }
 
-footer nav a {
+footer nav a,
+footer nav a:visited {
 	color: #BCBDC0;
 	display: inline-block;
 	letter-spacing: 1px;
 	line-height: 30px;
 	padding-bottom: 10px;
+	text-decoration: none;
+}
+
+footer p {
+	color: #8d8a8a;
+	font-size: 0.6rem;
+	margin: 0;
+}
+
+footer p a,
+footer p a:visited {
+	color: #bcbdc0;
 	text-decoration: none;
 }
 
