@@ -14,10 +14,37 @@
 
 	var app = {
 		init: function () {
+			this.newsletter();
 			this.position();
 			this.resize();
 			this.scroller();
 			this.sticky();
+		},
+
+		newsletter: function () {
+			$(document).click({namespace: this}, function (e) {
+				var t = e.data.namespace;
+
+				if ($(e.target).is($("#newsletter"))) {
+					e.preventDefault();
+
+					$("#newsletter").toggleClass("active");
+					$("#subscribe").toggle();
+				} else if ($(e.target).parents("#subscribe").length > 0) {
+					e.preventDefault();
+
+					if ($(e.target).is($("#submit"))) {
+						$("#newsletter").removeClass("active");
+						$("#subscribe").hide();
+					} else {
+						$("#newsletter").addClass("active");
+						$("#subscribe").show();
+					}
+				} else {
+					$("#newsletter").removeClass("active");
+					$("#subscribe").hide();
+				}
+			});
 		},
 
 		resize: function () {

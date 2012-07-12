@@ -32,7 +32,7 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+html, button, input, select, textarea { font-family: "proxima-nova","helvetica neue",helvetica,arial,sans-serif; color: #191411; }
 
 body { margin: 0; font-size: 1em; line-height: 1.4; }
 
@@ -43,15 +43,15 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
  */
 
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #191411; color: #fff; text-shadow: none; }
 
 
 /* =============================================================================
    Links
    ========================================================================== */
 
-a { color: #00e; }
-a:visited { color: /* #551a8b; */ white; }
+a { color: #191411; }
+a:visited { color: /* #6C6A6A; */ #6C6A6A; }
 a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
 
@@ -98,7 +98,7 @@ sub { bottom: -0.25em; }
    Lists
    ========================================================================== */
 
-ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+ul, ol { margin: 0; padding: 0 0 0 40px; }
 dd { margin: 0 0 0 40px; }
 nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 
@@ -132,7 +132,9 @@ figure { margin: 0; }
    Forms
    ========================================================================== */
 
-form { margin: 0; }
+form {
+    margin-bottom: 5px;
+ }
 fieldset { border: 0; margin: 0; padding: 0; }
 
 /* Indicate that 'label' will shift focus to the associated form element */
@@ -157,7 +159,7 @@ button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: ba
  * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
  */
 
-button, input { line-height: normal; }
+button, input { line-height: normal; padding: 3px 5px;}
 
 /*
  * 1. Display hand cursor for clickable form elements
@@ -196,7 +198,7 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
 
 /* Colors for form validity */
 input:valid, textarea:valid {  }
-input:invalid, textarea:invalid { background-color: #f0dddd; }
+input:invalid, textarea:invalid { background-color: #f0dddd;}
 
 
 /* =============================================================================
@@ -219,7 +221,7 @@ td { vertical-align: top; }
    ========================================================================== */
 
 /* A note on the fonts. We have "superclarendon" in 400 & 700.
-	We have "proximanova" in 400, 400 italic, 600, 600 italic, 700, & 800.
+	We have "proxima-nova" in 400, 400 italic, 600, 600 italic, 700, & 800.
 	We also have "adobe-text-pro" in 600 italic. */
 
 
@@ -245,32 +247,34 @@ img {
 }
 
 p {
-	font: 400 0.9rem/1.35 "proximanova", sans-serif;
+	font: 400 0.9rem/1.35rem "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
 }
 
 h1 {
-	font: 700 1.7rem/1.7rem "superclarendon", serif;
+	font: 700 2rem/2rem "superclarendon",clarendon,georgia,serif;
 	margin: 0;
+	letter-spacing: -.05em;
 }
 
 h3 {
-	font: 600 italic 1.35rem/1.4rem "adobe-text-pro", serif;
-	margin: 0;
+	font: 600 italic 2.2rem/1.9rem "adobe-text-pro", times,"times new roman", serif;
+	margin: 0 0 20px 0;
 }
 
 h5 {
 	color: #6c6a6a;
 	display: inline-block;
-	font: 800 0.7rem/1.35 "proximanova", sans-serif;
-	letter-spacing: 1px;
-	margin: 0;
+	font: 800 0.8rem/0.9rem "proxima-nova", "helvetica neue",helvetica,arial,sans-serif;
+	margin: 0 0 4px 0;
 	text-transform: uppercase;
+	letter-spacing: .1em;
+	text-rendering:optimizeLegibility;
 }
 
 h6 {
 	color: #6c6a6a;
-	font: 400 0.75rem/1.1 "proximanova", sans-serif;
-	letter-spacing: 1px;
+	font: 400 0.8rem/1.1 "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
+	letter-spacing: 0.1em;
 	margin: 0;
 	text-transform: uppercase;
 }
@@ -281,13 +285,12 @@ h6 {
 }
 
 .button {
-	background: black;
-	border: 1px solid #8a8174;
+	background: #191411;
 	color: white;
 	display: inline-block;
-	font: 400 0.7rem/1.35 "proximanova", sans-serif;
-	letter-spacing: 1px;
-	padding: 3px 10px;
+	font: 400 0.8rem/1.35 "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
+	letter-spacing: .1em;
+	padding: 4px 10px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -316,12 +319,12 @@ header .title {
 	line-height: 1.4;
 	max-width: 820px;
 	position: absolute;
-	top: 10%;
+	top: 15%;
 	width: 90%;
 }
 
 header .logo {
-	bottom: 10%;
+	bottom: 6%;
 	background-position: -71px 0;
 	display: inline-block;
 	height: 85px;
@@ -346,7 +349,7 @@ body .fixed {
 }
 
 .top-nav nav {
-	font: 800 0.59rem/30px "proximanova", sans-serif;
+	font: 800 0.7rem/30px "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
 	height: 40px;
 	margin: 0 auto;
 	text-align: center;
@@ -359,7 +362,7 @@ body .fixed {
 }
 
 .top-nav nav a {
-	color: #6c6a6a;
+	color: #6C6A6A;
 	display: inline-block;
 	letter-spacing: 1px;
 	line-height: 30px;
@@ -410,6 +413,7 @@ body .fixed {
 }
 
 .top-nav nav .subscribe {
+	background: purple;
 	display: none;
 }
 
@@ -435,16 +439,17 @@ body .fixed {
 .story,
 .recent {
 	background: url(../img/description-bg.jpg) repeat;
+	border-bottom: 3px solid #6c6a6a;
 }
 
 .story {
-	border-bottom: 3px solid #6c6a6a;
-	padding-bottom: 3rem;
 	position: relative;
 }
 
 .story article {
-	padding: 50px 5% 0;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 5%;
 }
 
 .story nav {
@@ -478,7 +483,7 @@ body .fixed {
 
 .story .column li {
 	list-style: none;
-	margin-top: 0.7rem;
+	margin-bottom: 1em;
 }
 
 .story .column li span {
@@ -494,7 +499,7 @@ body .fixed {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	border-bottom: 3px solid #6c6a6a;
+	border-bottom: 3px solid #6C6A6A;
 	max-height: 719px;
 }
 
@@ -502,7 +507,7 @@ body .fixed {
 	color: white;
 	margin: 0 5%;
 	max-width: 960px;
-	padding: 34px 0;
+	padding-top: 34px;
 }
 
 .about h5 {
@@ -523,45 +528,53 @@ body .fixed {
 }
 
 .about .right p {
-	font-size: 0.75rem;
-	line-height: 1.15rem;
+	font-size: 0.9rem;
+	line-height: 1.35rem;
 	text-align: left;
+	padding-bottom: 4em;
 }
 
 /* Recent section */
 
 .recent {
-	padding-bottom: 27px;
 }
 
 .recent article {
-	margin: 0 5%;
+	margin: 0 auto;
 	max-width: 960px;
-	padding-top: 34px;
+	padding: 3%;
 }
 
 .recent h1 {
-	margin-bottom: 30px;
+	margin: 6px 0px 35px 0px;
 }
 
 .recent h3 a,
 .recent h3 a:visited {
-	color: black;
+	color: #191411;
 	text-decoration: none;
 }
 
-.recent .column,
-.recent img {
-	margin-bottom: 20px;
+.recent .column {
+	margin-bottom: 30px;
 }
+.recent img {
+    border: 1px #6c6a6a solid;
+    margin-bottom: 15px;
+    }
 
 .recent h6 {
-	font-weight: 800;
+	color: #6c6a6a;
+	display: inline-block;
+	font: 800 0.8rem/0.9rem "proxima-nova", "helvetica neue",helvetica,arial,sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	text-rendering:optimizeLegibility;
 }
 
 .recent p {
-	font-size: 0.75rem;
-	line-height: 1.15rem;
+	font-size: 0.9rem;
+	line-height: 1.35rem;
 }
 
 .button-alt,
@@ -570,9 +583,9 @@ body .fixed {
 	background: #6c6a6a;
 	color: white;
 	display: block;
-	font: 800 0.8125rem "proxima-nova", helvetica, arial, sans-serif;
-	letter-spacing:1px;
-	margin: 55px auto 0;
+	font: 800 0.8125rem "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
+	letter-spacing:0.1em;
+	margin: 35px auto 10px;
 	padding: 6px 0;
 	text-align: center;
 	text-decoration: none;
@@ -593,7 +606,8 @@ body .fixed {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding: 20% 0;
+	padding: 10% 0;
+	border-bottom: 3px solid #6C6A6A;
 }
 
 .contact div {
@@ -604,23 +618,23 @@ body .fixed {
 .contact article {
 	background: #433d3d;
 	margin: 0 5%;
-	padding: 20px 10px;
+	padding: 25px 20px;
 	max-width: 310px;
 }
 
 .contact h1 {
-	border-top: 4px solid #bcbdc0;
+	border-top: 4px solid white;
 	color: white;
 	display: inline-block;
 	font-size: 3rem;
 	line-height: 3rem;
-	margin-bottom: 25px;
-	padding-top: 14px;
+	margin-bottom: 35px;
+	padding-top: 4px;
 }
 
 .contact label {
 	color: #BCBEC0;
-	font-size: 0.75rem;
+	font-size: 0.9rem;
 }
 
 .contact ul {
@@ -630,8 +644,11 @@ body .fixed {
 }
 
 .contact li {
-	margin-bottom: 10px;
+	margin-bottom: .9em;
 }
+.contact li:last-child {
+    margin-bottom: 0px;
+    }
 
 .contact li a,
 .contact li a:visited {
@@ -651,10 +668,12 @@ body .fixed {
 	height: 20px;
 	width: 21px;
 	margin-right: 5px;
+	margin-bottom: 3px;
 }
 
 .contact .facebook {
 	background-position: 0 -90px;
+	margin-right: 0px;
 }
 
 .contact .facebook:hover {
@@ -663,6 +682,7 @@ body .fixed {
 
 .contact .twitter {
 	background-position: -29px -90px;
+	margin-right: 4px;
 }
 
 .contact .twitter:hover {
@@ -681,7 +701,7 @@ body .fixed {
 
 .sponsor {
 	background: #191411;
-	padding-top: 22px;
+	padding-top: 25px;
 }
 
 .sponsor .container {
@@ -691,18 +711,19 @@ body .fixed {
 
 .fund, .sponsors {
 	border-top: 4px solid #6c6a6a;
-	padding-bottom: 24px;
+	padding-bottom: 40px;
 }
 
 .sponsor h5 {
 	color: white;
-	font-size: 0.8125rem;
 }
 
 .sponsor p {
 	color: #979595;
 	font-size: 0.75rem;
-	line-height: 1rem;
+	line-height: 1.05rem;
+	margin-bottom: 25px;
+	padding-right: 10px;
 }
 
 .sponsor .button-alt {
@@ -754,29 +775,32 @@ footer .email {
 	border-radius: 0;
 	background: white;
 	float: left;
-	padding: 2px 0;
-	width: 80%;
+	width: 70%;
+	font-size: .8em;
 }
 
 footer .submit {
-	background: black;
+	background: #191411;
 	border: none;
 	border-radius: 0;
-	color: #B2B2B5;
+	color: white;
 	float: left;
-	font-size: 0.7rem;
-	padding: 5px;
+	font-size: 0.8rem;
+	padding: 3px 15px;
+	letter-spacing: 1px;
+	font-weight: 700;
 }
 
 footer nav {
-	font: 800 0.59rem/30px "proximanova", sans-serif;
-	text-align: center;
+	font: 800 0.7rem/30px "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
+	text-align: left;
 	text-transform: uppercase;
 	white-space: nowrap;
+	margin: 0;
 }
 
 footer nav a,
-footer nav a:visited {
+footer nav a:visited, footer nav a:hover {
 	color: #BCBDC0;
 	display: inline-block;
 	letter-spacing: 1px;
@@ -796,8 +820,9 @@ footer .nav.active {
 
 footer p {
 	color: #8d8a8a;
-	font-size: 0.6rem;
+	font-size: 0.7rem;
 	margin: 0;
+	line-height: .9rem;
 }
 
 footer p a,
@@ -837,8 +862,7 @@ footer p a:visited {
 	}
 
 	.button:hover {
-		background: black;
-		border: 1px solid #8a8174;
+		background: #191411;
 		color: white;
 	}
 
@@ -884,12 +908,17 @@ footer p a:visited {
 	}
 
 	.story .center {
-		margin: 0 2%;
-		width: 41%;
+		margin-right: 2%;
+		width: 40%;
+		margin-left: 2%;
+}
+
+	.story .center p {
+		margin-top: 0;
 	}
 
 	.story .right {
-		width: 22%;
+		width: 23%;
 	}
 
 	.story .column img {
@@ -906,7 +935,7 @@ footer p a:visited {
 
 	.about h1 {
 		font-size: 3rem;
-		line-height: 2.75rem;
+		line-height: 2.85rem;
 	}
 
 	.about .column {
@@ -915,7 +944,7 @@ footer p a:visited {
 	}
 
 	.about .left {
-		margin: 30% 0;
+		margin: 27% 0;
 	}
 
 	.about .left h5 {
@@ -924,7 +953,7 @@ footer p a:visited {
 	}
 
 	.about .right {
-		margin: 20% 0;
+		margin: 11% 0 7% 0;
 	}
 
 	.about .right .border {
@@ -942,8 +971,9 @@ footer p a:visited {
 
 	.recent {
 		background: url(../img/recent-stories-bg.jpg);
-		padding-bottom: 86px;
-	}
+
+		border-bottom: 3px solid #6C6A6A;
+}
 
 	.recent .column {
 		float: left;
@@ -1026,6 +1056,7 @@ footer p a:visited {
 		float: right;
 		position: relative;
 		top: -10px;
+		color: #6c6a6a;
 	}
 
 	footer nav a,
@@ -1041,10 +1072,11 @@ footer p a:visited {
 	footer p {
 		color: #6C6A6A;
 		float: left;
-		font-size: 0.70rem;
+		font-size: 0.7rem;
 		max-width: 421px;
-		padding: 5px 0;
+		padding: 7px 0 0 0;
 		width: 50%;
+		line-height: 1.25em;
 	}
 }
 
@@ -1062,7 +1094,9 @@ footer p a:visited {
 		font-size: 0.8125rem;
 		line-height: 40px;
 		height: 50px;
-	}
+
+		color: #6C6A6A;
+}
 
 	.top-nav nav a {
 		line-height: 40px;
@@ -1070,7 +1104,7 @@ footer p a:visited {
 
 	.top-nav nav a:active,
 	.top-nav nav .active {
-		background-position: center 39px;
+		background-position: -50px -15px;
 	}
 
 	.top-nav nav .social {
