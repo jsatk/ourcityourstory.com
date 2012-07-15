@@ -19,6 +19,7 @@
 			this.resize();
 			this.scroller();
 			this.sticky();
+			this.supporters();
 			this.video();
 		},
 
@@ -110,6 +111,57 @@
 						}
 					}
 				});
+			});
+		},
+
+		supporters: function () {
+			var auto;
+
+			$("#supporters_button").click(function (e) {
+				e.preventDefault();
+
+				$("#supporters").css("height", "auto");
+				auto = $("#supporters").height();
+				$("#supporters").css("height", "");
+
+				$(this).toggleClass("active");
+
+				if ($(this).hasClass("active")) {
+					$(this).removeClass("active");
+
+					$("#supporters").animate({
+						height: 0
+					}, 500).css("border-top-width", "0");
+
+					console.log("1");
+				} else {
+					$(this).addClass("active");
+
+					$("#supporters").animate({
+						height: auto
+					}, {
+						duration: 100,
+						complete: function () {
+							$("html, body").animate({
+								scrollTop: $("footer").offset().top
+							}, 500);
+						}
+					}).css("border-top-width", "3px");
+
+					console.log("0");
+				}
+			});
+
+			$("#supporters button").click(function (e) {
+				e.preventDefault();
+
+				$(this).removeClass("active");
+				$("#supporters").animate({
+					height: "",
+					borderTopColor: "",
+					borderTopStyle: "",
+					borderTopWidth: ""
+				}, 500);
 			});
 		},
 
