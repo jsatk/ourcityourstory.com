@@ -31,8 +31,6 @@
 					$("#newsletter").toggleClass("active");
 					$("#subscribe").toggle();
 				} else if ($(e.target).parents("#subscribe").length > 0) {
-					e.preventDefault();
-
 					if ($(e.target).is($("#submit"))) {
 						$("#newsletter").removeClass("active");
 						$("#subscribe").hide();

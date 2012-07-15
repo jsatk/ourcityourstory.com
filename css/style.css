@@ -268,7 +268,7 @@ h5 {
 	margin: 0 0 4px 0;
 	text-transform: uppercase;
 	letter-spacing: .1em;
-	text-rendering:optimizeLegibility;
+	text-rendering: optimizeLegibility;
 }
 
 h6 {
@@ -406,15 +406,77 @@ body .fixed {
 
 .top-nav nav .email {
 	background-position: -50px 0;
+	width: 21px;
 }
 
 .top-nav nav .email:hover {
 	background-position: -50px -15px;
 }
 
-.top-nav nav .subscribe {
-	background: purple;
+.top-nav nav .email.active,
+.top-nav nav .email:active {
+	background-image: url(../img/sprite.png);
+	background-position: -50px -30px;
+	height: 28px;
+}
+
+.subscribe_wrapper {
+	margin: -7px auto 0;
+	max-width: 960px;
+}
+
+.subscribe {
+	background: #BCBEC0;
 	display: none;
+	float: right;
+	padding: 5px 0;
+}
+
+.subscribe form {
+	margin: 0 10px 5px;
+	overflow: hidden;
+	width: 230px;
+}
+
+.subscribe label {
+	color: #191411;
+	display: block;
+	font: 600 italic 1rem "adobe-text-pro", serif;
+	padding-bottom: 3px;
+	text-align: left;
+	text-transform: none;
+}
+
+.subscribe input {
+	font-family: "proxima-nova", sans-serif;
+}
+
+.subscribe input:required {
+	background: white;
+}
+
+.subscribe input[name=EMAIL] {
+	border: none;
+	float: left;
+	font-size: 0.625rem;
+	height: 20px;
+	padding: 0px 5px 0px 5px;
+	width: 155px;
+}
+
+.subscribe input[type=submit] {
+	background: #191411;
+	border: none;
+	color: #bcbec0;
+	float: left;
+	font-size: 0.625rem;
+	font-weight: 700;
+	height: 20px;
+	letter-spacing: 0.03rem;
+}
+
+.subscribe input[type=submit]:hover {
+	color: white;
 }
 
 /* Episode section */
@@ -971,7 +1033,6 @@ footer p a:visited {
 
 	.recent {
 		background: url(../img/recent-stories-bg.jpg);
-
 		border-bottom: 3px solid #6C6A6A;
 }
 
@@ -1100,11 +1161,6 @@ footer p a:visited {
 
 	.top-nav nav a {
 		line-height: 40px;
-	}
-
-	.top-nav nav a:active,
-	.top-nav nav .active {
-		background-position: -50px -15px;
 	}
 
 	.top-nav nav .social {
