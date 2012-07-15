@@ -115,15 +115,22 @@
 
 		video: function () {
 			var iframe = $("#video")[0],
-				player = $f(iframe);
+				player = $f(iframe),
+				onPlay, onPause, onFinish;
 
-			console.log(iframe, player);
-
-			player.addEvent('play', function () {
-				$("#episode h1").hide();
-			}).addEvent('pause', function () {
-				$("#episode h1").show();
+			player.addEvent('ready', function() {
+				player.addEvent('play', onPlay);
+				player.addEvent('pause', onPause);
+				player.addEvent('finish', onPause);
 			});
+
+			onPlay = function () {
+				$("#episode h1").hide();
+			};
+
+			onPause = function () {
+				$("#episode h1").show();
+			};
 		}
 	};
 

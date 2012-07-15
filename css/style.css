@@ -489,7 +489,12 @@ body .fixed {
 }
 
 .episode h1 {
-	position: relative;
+	color: white;
+	background: black;
+	font-size: 3.2rem;
+	padding: 15px 3.2rem;
+	position: absolute;
+	top: 35%;
 	z-index: 1;
 }
 
