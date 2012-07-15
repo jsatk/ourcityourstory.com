@@ -19,6 +19,7 @@
 			this.resize();
 			this.scroller();
 			this.sticky();
+			this.video();
 		},
 
 		newsletter: function () {
@@ -109,6 +110,15 @@
 						}
 					}
 				});
+			});
+		},
+
+		video: function () {
+			var iframe = document.getElementById("video"),
+				player = $f(iframe);
+
+			player.addEvent('play', function () {
+				$("#episode h1").hide();
 			});
 		}
 	};
