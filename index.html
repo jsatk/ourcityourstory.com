@@ -100,8 +100,9 @@
 
 	<div role="main">
 		<div id="episode" class="episode">
+			<h1>Fabric and Color Patterns</h1>
 			<!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
-			<iframe class="cushycms" title="iframe for featured episode." src="http://player.vimeo.com/video/45131456?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			<iframe id="video" class="cushycms" title="iframe for featured episode." src="http://player.vimeo.com/video/45131456?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 		</div>
 
 		<div class="story clearfix">
@@ -460,6 +461,10 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 
+  <!-- Load Vimeo's Froogaloop2 library -->
+  <script src="//a.vimeocdn.com/js/froogaloop2.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/froogaloop2.min.js"><\/script>')</script>
+
   <!-- scripts concatenated and minified via build script -->
   <script type="text/javascript" src="http://use.typekit.com/czk0yby.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -467,7 +472,6 @@
   <script src="js/libs/jquery.scrollTo-1.4.2-min.js"></script>
   <script src="js/libs/jquery.localscroll-1.2.7-min.js"></script>
   <script src="js/script.js"></script>
-  <script src="//a.vimeocdn.com/js/froogaloop2.min.js"></script>
   <!-- end scripts -->
 
   <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.

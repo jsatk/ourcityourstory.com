@@ -488,6 +488,11 @@ body .fixed {
 	position: relative;
 }
 
+.episode h1 {
+	position: relative;
+	z-index: 1;
+}
+
 .episode iframe {
 	border: none;
 	height: 100%;

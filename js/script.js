@@ -9,7 +9,7 @@
 // <br />If you have any questions feel free to
 // <a href="mailto:jesse.s.atkinson@gmail.com">email me</a>!</em>
 
-(function ($, window, undefined) {
+(function ($, $f, window, undefined) {
 	"use strict";
 
 	var app = {
@@ -114,11 +114,15 @@
 		},
 
 		video: function () {
-			var iframe = document.getElementById("video"),
+			var iframe = $("#video")[0],
 				player = $f(iframe);
+
+			console.log(iframe, player);
 
 			player.addEvent('play', function () {
 				$("#episode h1").hide();
+			}).addEvent('pause', function () {
+				$("#episode h1").show();
 			});
 		}
 	};
@@ -128,4 +132,4 @@
 	});
 
 	window.app = app || {};
-}(jQuery, this));
+}(jQuery, $f, this));
