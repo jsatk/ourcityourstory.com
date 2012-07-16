@@ -491,6 +491,27 @@ body .fixed {
 	color: white;
 }
 
+.mobile {
+	background: none;
+	float: none;
+}
+
+.mobile form {
+	width: 100%;
+}
+
+.mobile label {
+	color: #BCBDB0;
+}
+
+.mobile input[name="EMAIL"] {
+	width: 80%;
+}
+
+.mobile .subscribe input[type="submit"] {
+	width: 17%;
+}
+
 /* Episode section */
 
 .episode {
@@ -1192,6 +1213,10 @@ footer p a:visited {
 		margin: 0 1% 35px;
 	}
 
+	.mobile {
+		display: none;
+	}
+
 	footer {
 		background: black;
 		height: 40px;
@@ -1199,7 +1224,6 @@ footer p a:visited {
 	}
 
 	footer .container {
-		height: 40px;
 		margin: 0 auto;
 		padding: 0;
 	}

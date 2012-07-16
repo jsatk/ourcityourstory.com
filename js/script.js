@@ -45,7 +45,7 @@
 					}
 
 					newsletter.toggleClass("active");
-					wrapper.html(subscribe).show();
+					wrapper.html(subscribe).toggle();
 
 					if (footer) {
 						$("#subscribe").addClass("footer");
