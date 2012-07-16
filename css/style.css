@@ -750,7 +750,7 @@ body .fixed {
 
 .contact label {
 	color: #BCBEC0;
-	font-size: 0.9rem;
+	font-size: 0.7rem;
 }
 
 .contact ul {
@@ -759,17 +759,14 @@ body .fixed {
 	margin: 8px 0;
 }
 
-.contact li {
-	margin-bottom: .9em;
-}
 .contact li:last-child {
-    margin-bottom: 0px;
-    }
+	margin-bottom: 0px;
+}
 
 .contact li a,
 .contact li a:visited {
 	color: white;
-	font: 600 italic 1.1rem "adobe-text-pro", serif;
+	font: 600 italic 0.7rem "adobe-text-pro", serif;
 	text-decoration: none;
 }
 
@@ -1327,10 +1324,6 @@ footer p a:visited {
 	}
 }
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
-
 /* iPad [portrait + landscape] */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 
@@ -1338,6 +1331,10 @@ footer p a:visited {
 
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
+	body {
+		overflow: hidden;
+	}
+
 	.about, .contact {
 		background-attachment: scroll;
 	}
