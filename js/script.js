@@ -27,28 +27,37 @@
 			var subscribe = $(".subscribe_header").html();
 
 			$(document).click({namespace: this}, function (e) {
-				var t = e.data.namespace, newsletter;
+				var t = e.data.namespace, newsletter, wrapper, footer;
 
 				if ($(e.target).is($(".newsletter"))) {
 					e.preventDefault();
 
 					if ($(e.target).is($($(".newsletter")[0]))) {
 						newsletter = $($(".newsletter")[0]);
+						wrapper = $(".subscribe_header");
+						footer = false;
+						$(".subscribe_footer").html("");
 					} else {
 						newsletter = $($(".newsletter")[1]);
+						wrapper = $(".subscribe_footer");
+						footer = true;
+						$(".subscribe_header").html("");
 					}
 
 					newsletter.toggleClass("active");
-					$(".subscribe_header").html(subscribe);
-					$("#subscribe").toggle();
+					wrapper.html(subscribe).show();
+
+					if (footer) {
+						$("#subscribe").addClass("footer");
+					}
 				} else if ($(e.target).parents("#subscribe").length > 0) {
 					if ($(e.target).is($("#submit"))) {
 						$(".newsletter").removeClass("active");
-						$("#subscribe").hide();
+						$(".subscribe_header, .subscribe_footer").hide();
 					}
 				} else {
 					$(".newsletter").removeClass("active");
-					$("#subscribe").hide();
+					$(".subscribe_header, .subscribe_footer").hide();
 				}
 			});
 		},
