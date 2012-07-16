@@ -346,7 +346,7 @@ body .fixed {
 }
 
 .top-nav nav {
-	font: 800 0.7rem/30px "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
+	font: 800 0.55rem/30px "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
 	height: 40px;
 	margin: 0 auto;
 	text-align: center;
@@ -505,11 +505,13 @@ body .fixed {
 }
 
 .mobile input[name="EMAIL"] {
-	width: 80%;
+	border-radius: 0;
+	width: 70%;
 }
 
-.mobile .subscribe input[type="submit"] {
-	width: 17%;
+.mobile input[type="submit"] {
+	border-radius: 0;
+	width: 20%;
 }
 
 /* Episode section */
@@ -868,9 +870,13 @@ body .fixed {
 }
 
 .supporters button {
+	background-position: 0 -39px;
+	border: none;
+	height: 40px;
 	position: absolute;
 	right: 0;
 	top: 53px;
+	width: 40px;
 }
 
 .supporters article div {
@@ -959,10 +965,9 @@ footer .submit {
 }
 
 footer nav {
-	font: 800 0.7rem/30px "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
+	font: 800 0.55rem/30px "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
 	text-align: left;
 	text-transform: uppercase;
-	white-space: nowrap;
 	margin: 0;
 }
 
@@ -1221,7 +1226,6 @@ footer p a:visited {
 
 	footer {
 		background: black;
-		height: 40px;
 		padding: 0;
 	}
 
