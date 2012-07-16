@@ -24,24 +24,30 @@
 		},
 
 		newsletter: function () {
-			$(document).click({namespace: this}, function (e) {
-				var t = e.data.namespace;
+			var subscribe = $(".subscribe_header").html();
 
-				if ($(e.target).is($("#newsletter"))) {
+			$(document).click({namespace: this}, function (e) {
+				var t = e.data.namespace, newsletter;
+
+				if ($(e.target).is($(".newsletter"))) {
 					e.preventDefault();
 
-					$("#newsletter").toggleClass("active");
+					if ($(e.target).is($($(".newsletter")[0]))) {
+						newsletter = $($(".newsletter")[0]);
+					} else {
+						newsletter = $($(".newsletter")[1]);
+					}
+
+					newsletter.toggleClass("active");
+					$(".subscribe_header").html(subscribe);
 					$("#subscribe").toggle();
 				} else if ($(e.target).parents("#subscribe").length > 0) {
 					if ($(e.target).is($("#submit"))) {
-						$("#newsletter").removeClass("active");
+						$(".newsletter").removeClass("active");
 						$("#subscribe").hide();
-					} else {
-						$("#newsletter").addClass("active");
-						$("#subscribe").show();
 					}
 				} else {
-					$("#newsletter").removeClass("active");
+					$(".newsletter").removeClass("active");
 					$("#subscribe").hide();
 				}
 			});
@@ -130,10 +136,8 @@
 					$(this).removeClass("active");
 
 					$("#supporters").animate({
-						height: 0
+						height: "0"
 					}, 500).css("border-top-width", "0");
-
-					console.log("1");
 				} else {
 					$(this).addClass("active");
 
@@ -147,8 +151,6 @@
 							}, 500);
 						}
 					}).css("border-top-width", "3px");
-
-					console.log("0");
 				}
 			});
 
