@@ -529,8 +529,9 @@ body .fixed {
 }
 
 .episode h1 {
-	color: white;
 	background: black;
+	color: white;
+	display: none;
 	font-size: 3.2rem;
 	padding: 15px 3.2rem;
 	position: absolute;
@@ -1093,6 +1094,7 @@ footer p a:visited {
 	}
 
 	.episode h1 {
+		display: block;
 		z-index: 1;
 	}
 
