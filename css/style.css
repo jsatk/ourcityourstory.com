@@ -528,7 +528,6 @@ body .fixed {
 	padding: 15px 3.2rem;
 	position: absolute;
 	top: 35%;
-	z-index: 1;
 }
 
 .episode iframe {
@@ -1061,10 +1060,13 @@ footer p a:visited {
 		display: block;
 	}
 
-
 	.top-nav nav .cut,
 	.cut {
 		display: inline-block;
+	}
+
+	.episode h1 {
+		z-index: 1;
 	}
 
 	.story .column {
