@@ -1348,7 +1348,10 @@ footer p a:visited {
 		font-size: 1.4rem;
 	}
 
-	.top-nav nav .links {
+	.top-nav,
+	.top-nav nav,
+	.top-nav nav .links,
+	.top-nav nav .links a {
 		cursor: pointer;
 	}
 
