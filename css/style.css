@@ -357,7 +357,7 @@ body .fixed {
 }
 
 .top-nav nav {
-	font: 800 0.55rem/30px "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
+	font: 800 0.65rem/30px "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
 	height: 40px;
 	margin: 0 auto;
 	text-align: center;
@@ -1343,18 +1343,6 @@ footer p a:visited {
 
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
-	header .title {
-		/* This causes it to wrap to four lines like comp says */
-		font-size: 1.4rem;
-	}
-
-	.top-nav,
-	.top-nav nav,
-	.top-nav nav .links,
-	.top-nav nav .links a {
-		cursor: pointer;
-	}
-
 	.about, .contact {
 		background-attachment: scroll;
 	}
