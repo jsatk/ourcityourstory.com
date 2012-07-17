@@ -1343,8 +1343,21 @@ footer p a:visited {
 
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
+	header .title {
+		/* This causes it to wrap to four lines like comp says */
+		font-size: 1.4rem;
+	}
+
+	.top-nav nav .links {
+		cursor: pointer;
+	}
+
 	.about, .contact {
 		background-attachment: scroll;
+	}
+
+	.contact li a, .contact li a:visited {
+		font-size: 1rem;
 	}
 }
 
