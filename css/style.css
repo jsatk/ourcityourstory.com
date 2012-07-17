@@ -249,8 +249,14 @@ p {
 
 h1 {
 	font: 700 2rem/2rem "superclarendon",clarendon,georgia,serif;
+	letter-spacing: -0.05em;
 	margin: 0;
-	letter-spacing: -.05em;
+}
+
+h2 {
+	font: 700 2rem/2rem "superclarendon",clarendon,georgia,serif;
+	letter-spacing: -0.05em;
+	margin: 0;
 }
 
 h3 {
@@ -751,13 +757,17 @@ body .fixed {
 
 .contact label {
 	color: #BCBEC0;
-	font-size: 0.7rem;
+	font-size: 0.75rem;
 }
 
 .contact ul {
 	padding: 0;
 	list-style: none;
 	margin: 8px 0;
+}
+
+.contact li {
+	margin-bottom: 16px;
 }
 
 .contact li:last-child {
@@ -767,7 +777,7 @@ body .fixed {
 .contact li a,
 .contact li a:visited {
 	color: white;
-	font: 600 italic 0.7rem "adobe-text-pro", serif;
+	font: 600 italic 1.1rem "adobe-text-pro", serif;
 	text-decoration: none;
 }
 
@@ -868,13 +878,13 @@ body .fixed {
 	border-top-width: 0;
 	height: 0;
 	overflow: hidden;
+	position: relative;
 }
 
 .supporters article {
 	margin: 0 auto;
 	max-width: 960px;
 	padding-top: 50px;
-	position: relative;
 }
 
 .supporters button {
@@ -892,7 +902,7 @@ body .fixed {
 	padding-bottom: 22px;
 }
 
-.supporters h3 {
+.supporters h2 {
 	color: white;
 	padding-bottom: 3px;
 }
