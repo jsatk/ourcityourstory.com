@@ -664,7 +664,7 @@ body .fixed {
 }
 
 .recent h1 {
-	margin: 6px 0px 35px 0px;
+	margin: 1px 0px 35px 0px;
 }
 
 .recent h3 {
@@ -961,6 +961,10 @@ footer form label {
 	font: 600 italic 1rem/1.7rem "adobe-text-pro", serif;
 }
 
+footer .supporters_button {
+	display: none;
+}
+
 footer .email {
 	border: none;
 	border-radius: 0;
@@ -984,7 +988,7 @@ footer .submit {
 
 footer nav {
 	font: 800 0.59rem/30px "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
-	text-align: left;
+	text-align: center;
 	text-transform: uppercase;
 	margin: 0;
 }
@@ -1124,7 +1128,7 @@ footer p a:visited {
 		margin-right: 2%;
 		width: 40%;
 		margin-left: 2%;
-}
+	}
 
 	.story .center p {
 		margin-top: 0;
@@ -1185,7 +1189,13 @@ footer p a:visited {
 	.recent {
 		background: url(../img/recent-stories-bg.jpg);
 		border-bottom: 3px solid #6C6A6A;
-}
+	}
+
+	.story h5,
+	.recent h5 {
+		border-top: 3px solid #6C6A6A;
+		padding-top: 4px;
+	}
 
 	.recent .column {
 		float: left;
@@ -1273,10 +1283,11 @@ footer p a:visited {
 	}
 
 	footer nav {
+		color: #6c6a6a;
 		float: right;
 		position: relative;
+		text-align: left;
 		top: -10px;
-		color: #6c6a6a;
 	}
 
 	footer nav a,
@@ -1287,6 +1298,10 @@ footer p a:visited {
 
 	footer .social {
 		display: none;
+	}
+
+	footer .supporters_button {
+		display: inline;
 	}
 
 	footer p {
@@ -1304,6 +1319,7 @@ footer p a:visited {
 	h1,
 	header .title {
 		font-size: 3rem;
+		max-width: 770px;
 	}
 
 	.top-nav {
