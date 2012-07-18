@@ -414,6 +414,7 @@ body .fixed {
 
 .top-nav nav .email {
 	background-position: -50px 0;
+	margin-right: 5%;
 	width: 21px;
 }
 
@@ -729,8 +730,8 @@ body .fixed {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding: 10% 0;
 	border-bottom: 3px solid #6C6A6A;
+	padding: 10% 3%;
 }
 
 .contact div {
@@ -1048,8 +1049,7 @@ footer p a:visited {
 	}
 
 	h3 {
-		font-size: 2.2rem;
-		line-height: 1.9;
+		font-size: 1.6rem;
 	}
 
 	h4 {
@@ -1144,6 +1144,7 @@ footer p a:visited {
 
 	.about {
 		background-position: right center;
+		padding: 0 3%;
 	}
 
 	.about article {
@@ -1225,6 +1226,7 @@ footer p a:visited {
 
 	.sponsor .container {
 		margin: 0 auto;
+		padding: 0 3%;
 	}
 
 	.fund {
@@ -1279,7 +1281,7 @@ footer p a:visited {
 
 	footer .container {
 		margin: 0 auto;
-		padding: 0;
+		padding: 0 3%;
 	}
 
 	footer nav {
@@ -1315,11 +1317,16 @@ footer p a:visited {
 	}
 }
 
-@media all and (min-width: 811px) {
+@media all and (min-width: 873px) {
 	h1,
 	header .title {
 		font-size: 3rem;
 		max-width: 770px;
+	}
+
+	h3 {
+		font-size: 2.2rem;
+		line-height: 1.9;
 	}
 
 	.top-nav {
@@ -1330,9 +1337,13 @@ footer p a:visited {
 		font-size: 0.8125rem;
 		line-height: 40px;
 		height: 50px;
-
 		color: #6C6A6A;
-}
+	}
+
+
+	.top-nav nav .email {
+		margin-right: 0;
+	}
 
 	.top-nav nav a {
 		line-height: 40px;
