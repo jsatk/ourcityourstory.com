@@ -42,7 +42,7 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
  * Also: hot pink! (or customize the background color to match your design)
  */
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #191411; color: #fff; text-shadow: none; }
 ::selection { background: #191411; color: #fff; text-shadow: none; }
 
 
@@ -51,9 +51,9 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
    ========================================================================== */
 
 a { color: #191411; }
-a:visited { color: /* #6C6A6A; */ }
-a:hover { color: #06e; }
-a:focus { outline: thin dotted; }
+a:visited { color: #191411; }
+a:hover { color: #191411; }
+a:focus { outline: 0; }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
 a:hover, a:active { outline: 0; }
@@ -73,9 +73,9 @@ dfn { font-style: italic; }
 
 hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
 
-ins { background: #ff9; color: #000; text-decoration: none; }
+ins { background: #ff9; color: #191411; text-decoration: none; }
 
-mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+mark { background: #ff0; color: #191411; font-style: italic; font-weight: bold; }
 
 /* Redeclare monospace font family: h5bp.com/j */
 pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
@@ -270,7 +270,7 @@ h4 {
 }
 
 h5 {
-	color: #6c6a6a;
+	color: #6e6a6a;
 	display: inline-block;
 	font: 800 0.7rem/0.8 "proxima-nova", "helvetica neue",helvetica,arial,sans-serif;
 	margin: 0 0 4px 0;
@@ -280,7 +280,7 @@ h5 {
 }
 
 h6 {
-	color: #6c6a6a;
+	color: #6e6a6a;
 	font: 400 0.8rem/1.1 "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
 	letter-spacing: 0.1em;
 	margin: 0;
@@ -370,7 +370,7 @@ body .fixed {
 }
 
 .top-nav nav a {
-	color: #6C6A6A;
+	color: #6e6a6a;
 	display: inline-block;
 	letter-spacing: 1px;
 	line-height: 30px;
@@ -445,7 +445,7 @@ body .fixed {
 }
 
 .subscribe {
-	background: #BCBEC0;
+	background: #bcb8b6;
 	float: right;
 	padding: 5px 0;
 }
@@ -491,7 +491,7 @@ body .fixed {
 .subscribe input[type=submit] {
 	background: #191411;
 	border: none;
-	color: #bcbec0;
+	color: #bcb8b6;
 	float: left;
 	font-size: 0.625rem;
 	font-weight: 700;
@@ -513,7 +513,7 @@ body .fixed {
 }
 
 .mobile label {
-	color: #BCBDB0;
+	color: #bcb8b6;
 }
 
 .mobile input[name="EMAIL"] {
@@ -529,14 +529,14 @@ body .fixed {
 /* Episode section */
 
 .episode {
-	border-bottom: 3px solid #6c6a6a;
+	border-bottom: 3px solid #6e6a6a;
 	height: 0;
 	padding-bottom: 56.25%; /* 16:9 */
 	position: relative;
 }
 
 .episode h1 {
-	background: black;
+	background: #191411;
 	color: white;
 	display: none;
 	font-size: 3.2rem;
@@ -558,7 +558,7 @@ body .fixed {
 .story,
 .recent {
 	background: url(../img/description-bg.jpg) repeat;
-	border-bottom: 3px solid #6c6a6a;
+	border-bottom: 3px solid #6e6a6a;
 }
 
 .story {
@@ -618,7 +618,7 @@ body .fixed {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	border-bottom: 3px solid #6C6A6A;
+	border-bottom: 3px solid #6e6a6a;
 	max-height: 719px;
 }
 
@@ -683,12 +683,12 @@ body .fixed {
 	margin-bottom: 30px;
 }
 .recent img {
-    border: 1px #6c6a6a solid;
+    border: 1px #6e6a6a solid;
     margin-bottom: 15px;
     }
 
 .recent h6 {
-	color: #6c6a6a;
+	color: #6e6a6a;
 	display: inline-block;
 	font: 800 0.75rem/0.9rem "proxima-nova", "helvetica neue",helvetica,arial,sans-serif;
 	text-transform: uppercase;
@@ -704,7 +704,7 @@ body .fixed {
 .button-alt,
 .button-alt:active,
 .button-alt:visited {
-	background: #6c6a6a;
+	background: #6e6a6a;
 	color: white;
 	display: block;
 	font: 800 0.8125rem "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
@@ -730,8 +730,8 @@ body .fixed {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	border-bottom: 3px solid #6C6A6A;
-	padding: 10% 3%;
+	border-bottom: 3px solid #6e6a6a;
+	padding: 10% 0;
 }
 
 .contact div {
@@ -757,7 +757,7 @@ body .fixed {
 }
 
 .contact label {
-	color: #BCBEC0;
+	color: #bcb8b6;
 	font-size: 0.75rem;
 }
 
@@ -835,7 +835,7 @@ body .fixed {
 }
 
 .fund, .sponsors {
-	border-top: 4px solid #6c6a6a;
+	border-top: 4px solid #6e6a6a;
 	padding-bottom: 40px;
 }
 
@@ -844,7 +844,7 @@ body .fixed {
 }
 
 .sponsor p {
-	color: #979595;
+	color: #9a9595;
 	font-size: 0.75rem;
 	line-height: 1.05rem;
 	margin-bottom: 25px;
@@ -874,7 +874,7 @@ body .fixed {
 
 .supporters {
 	background: url(../img/supporters-bg.jpg) repeat;
-	border-top-color: #6c6a6a;
+	border-top-color: #6e6a6a;
 	border-top-style: solid;
 	border-top-width: 0;
 	height: 0;
@@ -899,7 +899,7 @@ body .fixed {
 }
 
 .supporters article div {
-	border-bottom: 2px solid #6c6a6a;
+	border-bottom: 2px solid #6e6a6a;
 	padding-bottom: 22px;
 }
 
@@ -909,7 +909,7 @@ body .fixed {
 }
 
 .supporters span {
-	color: #bcbec0;
+	color: #bcb8b6;
 	font: 400 0.95rem "proxima-nova", helvetica, arial, sans-serif;
 }
 
@@ -919,7 +919,7 @@ body .fixed {
 }
 
 .supporters h6 {
-	color: #bcbec0;
+	color: #bcb8b6;
 	text-transform: uppercase;
 	font-size: 0.8rem;
 }
@@ -929,7 +929,7 @@ body .fixed {
 }
 
 .supporters ul li {
-	color: #979595;
+	color: #9a9595;
 	list-style: none;
 	font-size: 0.75rem;
 }
@@ -957,7 +957,7 @@ footer .container {
 }
 
 footer form label {
-	color: #BCBDC0;
+	color: #bcb8b6;
 	display: block;
 	font: 600 italic 1rem/1.7rem "adobe-text-pro", serif;
 }
@@ -996,7 +996,7 @@ footer nav {
 
 footer nav a,
 footer nav a:visited, footer nav a:hover {
-	color: #BCBDC0;
+	color: #bcb8b6;
 	display: inline-block;
 	letter-spacing: 1px;
 	text-decoration: none;
@@ -1014,7 +1014,7 @@ footer .nav.active {
 }
 
 footer p {
-	color: #8d8a8a;
+	color: #6e6a6a;
 	font-size: 0.7rem;
 	margin: 0;
 	line-height: .9rem;
@@ -1022,7 +1022,7 @@ footer p {
 
 footer p a,
 footer p a:visited {
-	color: #bcbdc0;
+	color: #bcb8b6;
 	text-decoration: none;
 }
 
@@ -1049,7 +1049,8 @@ footer p a:visited {
 	}
 
 	h3 {
-		font-size: 1.6rem;
+		font-size: 2.2rem;
+		line-height: 1.9;
 	}
 
 	h4 {
@@ -1066,7 +1067,7 @@ footer p a:visited {
 	.button:visited {
 		background: none;
 		border: 1px solid transparent;
-		color: #6c6a6a;
+		color: #6e6a6a;
 		float: right;
 	}
 
@@ -1085,7 +1086,7 @@ footer p a:visited {
 
 	.top-nav nav .nav:hover {
 		background-position: center 25px;
-		color: #979595;
+		color: #9a9595;
 	}
 
 	.top-nav nav .nav:active,
@@ -1189,12 +1190,12 @@ footer p a:visited {
 
 	.recent {
 		background: url(../img/recent-stories-bg.jpg);
-		border-bottom: 3px solid #6C6A6A;
+		border-bottom: 3px solid #6e6a6a;
 	}
 
 	.story h5,
 	.recent h5 {
-		border-top: 3px solid #6C6A6A;
+		border-top: 3px solid #6e6a6a;
 		padding-top: 4px;
 	}
 
@@ -1285,7 +1286,7 @@ footer p a:visited {
 	}
 
 	footer nav {
-		color: #6c6a6a;
+		color: #6e6a6a;
 		float: right;
 		position: relative;
 		text-align: left;
@@ -1294,7 +1295,7 @@ footer p a:visited {
 
 	footer nav a,
 	footer nav a:visited {
-		color: #6c6a6a;
+		color: #6e6a6a;
 		padding-top: 10px;
 	}
 
@@ -1307,7 +1308,7 @@ footer p a:visited {
 	}
 
 	footer p {
-		color: #6C6A6A;
+		color: #6e6a6a;
 		float: left;
 		font-size: 0.7rem;
 		max-width: 421px;
@@ -1337,7 +1338,7 @@ footer p a:visited {
 		font-size: 0.8125rem;
 		line-height: 40px;
 		height: 50px;
-		color: #6C6A6A;
+		color: #6e6a6a;
 	}
 
 
