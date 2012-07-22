@@ -14,6 +14,7 @@
 
     var app = {
         init: function () {
+            this.highdpi();
             this.newsletter();
             this.position();
             this.resize();
@@ -21,6 +22,21 @@
             this.sticky();
             this.supporters();
             this.video();
+        },
+
+        highdpi: function () {
+            if ($('.replace-2x').css('font-size') === "1px") {
+                var els = $(".replace-2x").get();
+
+                for (var i = els.length - 1; i >= 0; i--) {
+                    var src = els[i].src;
+
+                    src = src.replace(".png", "@2x.png");
+                    src = src.replace(".jpg", "@2x.jpg");
+
+                    els[i].src = src;
+                }
+            }
         },
 
         newsletter: function () {
