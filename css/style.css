@@ -1371,8 +1371,7 @@ footer p a:visited {
 
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
-	body {
-		max-width: 340px;
+	html, body {
 		overflow: hidden;
 	}
 
