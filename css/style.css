@@ -865,12 +865,19 @@ body .fixed {
     background: #433d3d;
 }
 
-.sponsors nav img {
+.sponsors nav {
+    float: left;
+    width: 100%;
+}
+
+.sponsors nav a {
+    float: left;
+    margin: 3% 3% 3% 0;
     width: 47%;
 }
 
-.sponsors nav a img:first-child {
-    margin-right: 2%;
+.sponsors nav a:last-child {
+    margin-right: 0;
 }
 
 /* Supporters section */
@@ -1223,10 +1230,6 @@ footer p a:visited {
         float: right;
     }
 
-    .contact article {
-        margin: 0;
-    }
-
     .fund, .sponsors {
         float: left;
         margin: 0;
@@ -1251,21 +1254,8 @@ footer p a:visited {
         max-width: 220px;
     }
 
-    .sponsors nav {
-        float: left;
-        margin-top: 11px;
-    }
-
     .sponsors nav a {
-        float: left;
-    }
-
-    .sponsors nav a:first-child {
-        margin-right: 20px;
-    }
-
-    .sponsors nav img {
-        width: auto;
+        width: 140px;
     }
 
     .supporters .column {
@@ -1368,6 +1358,11 @@ footer p a:visited {
 
     .recent h3 {
         font-size: 2.2rem;
+    }
+
+    .sponsors nav {
+        float: none;
+        width: auto;
     }
 
     footer nav {
