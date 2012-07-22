@@ -1419,6 +1419,12 @@ only screen and (min-device-pixel-ratio: 2) {
     .top-nav nav .email {
         background-size: 1010%;
     }
+
+    .contact .facebook,
+    .contact .twitter,
+    .contact .vimeo {
+        background-size: 1010%;
+    }
 }
 
 
