@@ -1382,14 +1382,14 @@ footer p a:visited {
 /* iPhone & iPad [portrait] */
 @media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px), {
     .about, .contact {
-        background-size: 768px 432px;
+        background-size: 768px 100%;
     }
 }
 
 /* iPhone & iPad [landscape] */
 @media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
     .about, .contact {
-        background-size: 1024px 575px;
+        background-size: 1024px 100%;
     }
 }
 
