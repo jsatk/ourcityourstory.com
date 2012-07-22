@@ -1375,6 +1375,20 @@ footer p a:visited {
 
 }
 
+/* iPhone [portrait] */
+@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px), {
+    .about, .contact {
+        background-size: 100% auto;
+    }
+}
+
+/* iPhone [landscape] */
+@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
+    .about, .contact {
+        background-size: auto 100%;
+    }
+}
+
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
     html, body {
@@ -1418,11 +1432,6 @@ only screen and (min-device-pixel-ratio: 2) {
 
     .top-nav nav .email {
         background-size: 1010%;
-    }
-
-    .about,
-    .contact {
-        background-size: 100%;
     }
 
     .contact .facebook,
