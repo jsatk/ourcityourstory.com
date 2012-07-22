@@ -1381,11 +1381,6 @@ footer p a:visited {
         overflow: hidden;
     }
 
-    .sprite {
-        background-image: url(../img/sprite@2x.png);
-        background-size: 150%;
-    }
-
     .about, .contact {
         background-attachment: scroll;
     }
@@ -1394,6 +1389,23 @@ footer p a:visited {
         font-size: 1rem;
     }
 }
+
+/* Specific to iPad 3 */
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+    .sprite {
+        background-image: url(../img/sprite@2x.png);
+        background-size: 150%;
+    }
+
+    /* http://phatness.com/2012/07/css-image-replacement-for-high-dpi-retina-display/ */
+    .replace-2x {
+        font-size: 1px;
+    }
+}
+
 
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
