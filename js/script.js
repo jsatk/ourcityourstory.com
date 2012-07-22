@@ -14,28 +14,40 @@
 
     var app = {
         init: function () {
+            // Retina image replace.
             this.highdpi();
+            // Handles newsletter button functionality.
             this.newsletter();
+            // Keeps header text centered on resize.
             this.position();
+            // On resize of browser window fire this.position();
             this.resize();
+            // Handles nav-bar scrolling to proper section.
             this.scroller();
+            // Handles the sticking and unsticking of the nav.
             this.sticky();
+            // Handles the supporters section.
             this.supporters();
+            // Handles the vimeo video show and hide title.
             this.video();
         },
 
         highdpi: function () {
+            // We check for the inconsequential property we set on .replace-2x.
+            // The class will only have this property if the proper media queries
+            // are passed.
             if ($('.replace-2x').css('font-size') === "1px") {
-                var els = $(".replace-2x").get();
 
-                for (var i = els.length - 1; i >= 0; i--) {
-                    var src = els[i].src;
+                $(".replace-2x").each(function(v, i) {
+                    var src = $(this).attr("src");
 
-                    src = src.replace(".png", "@2x.png");
-                    src = src.replace(".jpg", "@2x.jpg");
+                    // Replaces for images that are either .png or .jpg. This could
+                    // be done clearer with some reg ex, but it works fine for now.
+                    src = src.replace(".png", "@2x.png")
+                             .replace(".jpg", "@2x.jpg");
 
-                    els[i].src = src;
-                }
+                    $(this).attr("src", src);
+                });
             }
         },
 
@@ -78,6 +90,14 @@
             });
         },
 
+        position: function () {
+            var marginLeft = $("header h1").width() / 2;
+
+            // Ensures that the header text stays centered and also only shows
+            // after all the fonts have loaded.
+            $("header h1").css("margin-left", "-" + marginLeft + "px").show();
+        },
+
         resize: function () {
             $(window).resize({namespace: this}, function (e) {
                 var t = e.data.namespace;
@@ -86,14 +106,6 @@
                 // top of the browser to the top nav is different.
                 t.position();
             });
-        },
-
-        position: function () {
-            var marginLeft = $("header h1").width() / 2;
-
-            // Ensures that the header text stays centered and also only shows
-            // after all the fonts have loaded.
-            $("header h1").css("margin-left", "-" + marginLeft + "px").show();
         },
 
         scroller: function () {

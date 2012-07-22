@@ -614,7 +614,7 @@ body .fixed {
 /* About section */
 
 .about {
-    background: url(../img/about-bg.jpg) no-repeat 83% center fixed;
+    background: url(../img/about-bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -872,7 +872,7 @@ body .fixed {
 
 .sponsors nav a {
     float: left;
-    margin: 3% 3% 3% 0;
+    margin: 3% 3% 0 0;
     width: 47%;
 }
 
@@ -1418,6 +1418,11 @@ only screen and (min-device-pixel-ratio: 2) {
 
     .top-nav nav .email {
         background-size: 1010%;
+    }
+
+    .about,
+    .contact {
+        background-size: 1280px 719px;
     }
 
     .contact .facebook,
