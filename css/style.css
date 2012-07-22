@@ -1397,12 +1397,27 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
     .sprite {
         background-image: url(../img/sprite@2x.png);
-        background-size: 150%;
     }
 
     /* http://phatness.com/2012/07/css-image-replacement-for-high-dpi-retina-display/ */
     .replace-2x {
         font-size: 1px;
+    }
+
+    header .logo {
+        background-size: 150%;
+    }
+
+    .top-nav nav .facebook {
+        background-size: 871%;
+    }
+
+    .top-nav nav .twitter {
+        background-size: 920%;
+    }
+
+    .top-nav nav .email {
+        background-size: 1010%;
     }
 }
 
