@@ -1420,7 +1420,10 @@ only screen and (min-device-pixel-ratio: 2) {
         background-size: 1010%;
     }
 
-
+    .about,
+    .contact {
+        background-size: 100%;
+    }
 
     .contact .facebook,
     .contact .twitter,
