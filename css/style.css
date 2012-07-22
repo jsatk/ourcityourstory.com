@@ -1371,6 +1371,11 @@ footer p a:visited {
 
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
+	body {
+		max-width: 340px;
+		overflow: hidden;
+	}
+
 	.about, .contact {
 		background-attachment: scroll;
 	}
