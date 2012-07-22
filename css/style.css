@@ -355,6 +355,7 @@ body .fixed {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 2;
 }
 
 .top-nav nav {
@@ -727,18 +728,23 @@ body .fixed {
 /* Contact section */
 
 .contact {
-    background: url(../img/contact-bg.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     border-bottom: 3px solid #6e6a6a;
     padding: 10% 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact .bg {
+    position: absolute;
+    top: 0;
+    height: 100%;
 }
 
 .contact div {
     margin: 0 auto;
     max-width: 960px;
+    position: relative;
+    z-index: 1;
 }
 
 .contact article {
@@ -1372,24 +1378,18 @@ footer p a:visited {
 
 /* iPad [portrait + landscape] */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .about, .cover {
+
+}
+
+@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
+    .about { /* 1.1 */
         background-size: 1280px 719px;
-        -moz-background-size: 1280px 719px;
-        -webkit-background-size: 1280px 719px;
     }
 }
 
-/* iPhone & iPad [portrait] */
-@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px), {
-    .about, .contact {
-        background-size: 1280px 100%;
-    }
-}
-
-/* iPhone & iPad [landscape] */
 @media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
-    .about, .contact {
-        background-size: 1280px 100%;
+    .about { /* 1.1 */
+        background-size: 1415px 795px;
     }
 }
 
@@ -1399,16 +1399,12 @@ footer p a:visited {
         overflow: hidden;
     }
 
-    .about, .contact {
-        background-attachment: scroll;
-    }
-
     .contact li a, .contact li a:visited {
         font-size: 1rem;
     }
 }
 
-/* Specific to iPad 3 */
+/* Targets all retina displays */
 @media only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
