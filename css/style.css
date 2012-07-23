@@ -315,6 +315,8 @@ h6 {
     top: 0;
 }
 
+.iphone { display: none; }
+
 /* Header */
 header {
     background: url(../img/header-bg.jpg) center center fixed no-repeat;
@@ -886,6 +888,7 @@ body .fixed {
 .sponsors nav {
     float: left;
     width: 100%;
+    margin-bottom: 24px;
 }
 
 .sponsors nav a {
@@ -1416,7 +1419,7 @@ footer p a:visited {
     }
 
     header .iphone {
-        z-index: 0;
+        display: inline;
     }
 
     .contact li a, .contact li a:visited {
