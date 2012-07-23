@@ -308,16 +308,30 @@ h6 {
     color: white;
 }
 
+.bg { /* Fall back inline image for backgrounds. Used for iOS. */
+    display: none;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
 /* Header */
 header {
+    background: url(../img/header-bg.jpg) center center fixed no-repeat;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     max-height: 500px;
     min-height: 280px;
     overflow: hidden;
     position: relative;
 }
 
-header img {
-    min-height: 280px;
+header .bg {
+    display: inline;
+    position: relative;
+    z-index: -1;
 }
 
 header .title {
@@ -615,20 +629,24 @@ body .fixed {
 /* About section */
 
 .about {
-    background: url(../img/about-bg.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
+    background: url(../img/about-bg.jpg) center center fixed no-repeat;
+    -webkit-background-size: auto 100%;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     border-bottom: 3px solid #6e6a6a;
     max-height: 719px;
+    overflow: hidden;
+    position: relative;
 }
 
 .about article {
     color: white;
     margin: 0 5%;
     max-width: 960px;
-    padding-top: 34px;
+    padding: 34px 3% 0;
+    position: relative;
+    z-index: 1;
 }
 
 .about h5 {
@@ -656,10 +674,6 @@ body .fixed {
 }
 
 /* Recent section */
-
-.recent {
-}
-
 .recent article {
     margin: 0 auto;
     max-width: 960px;
@@ -726,18 +740,16 @@ body .fixed {
 }
 
 /* Contact section */
-
 .contact {
+    background: url(../img/contact-bg.jpg) center center fixed no-repeat;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     border-bottom: 3px solid #6e6a6a;
     padding: 10% 0;
-    position: relative;
     overflow: hidden;
-}
-
-.contact .bg {
-    position: absolute;
-    top: 0;
-    height: 100%;
+    position: relative;
 }
 
 .contact div {
@@ -1159,11 +1171,6 @@ footer p a:visited {
         display: inline;
     }
 
-    .about {
-        background-position: right center;
-        padding: 0 3%;
-    }
-
     .about article {
         margin: 0 auto;
     }
@@ -1378,18 +1385,14 @@ footer p a:visited {
 
 /* iPad [portrait + landscape] */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-
-}
-
-@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
-    .about { /* 1.1 */
-        background-size: 1280px 719px;
+    .bg {
+        display: inline;
     }
-}
 
-@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
-    .about { /* 1.1 */
-        background-size: 1415px 795px;
+    header .bg {
+        height: 500px;
+        width: 100%;
+        z-index: 0;
     }
 }
 
@@ -1397,6 +1400,23 @@ footer p a:visited {
 @media only screen and (max-device-width: 480px) {
     html, body {
         overflow: hidden;
+    }
+
+    .bg {
+        display: inline;
+    }
+
+    header {
+        width: 320px;
+        height: 280px;
+    }
+
+    header .bg {
+        display: none;
+    }
+
+    header .iphone {
+        z-index: 0;
     }
 
     .contact li a, .contact li a:visited {

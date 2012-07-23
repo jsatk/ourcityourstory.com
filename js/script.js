@@ -113,6 +113,10 @@
             $(".top-nav .nav").click(function () {
                 $(".top-nav .nav").removeClass("active");
                 $(this).addClass("active");
+
+                $(".top-nav .links").setTimeout(function () {
+                    $(this).css("position", "relative").css("position", "fixed");
+                }, 1000);
             });
 
             $($("footer .nav")[1]).click(function (e) {
