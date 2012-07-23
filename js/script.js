@@ -22,10 +22,8 @@
             this.position();
             // On resize of browser window fire this.position();
             this.resize();
-            // Handles nav-bar scrolling to proper section.
-            this.scroller();
-            // Handles the sticking and unsticking of the nav.
-            this.sticky();
+            // Handles nav-bar scrolling and sticking.
+            this.nav();
             // Handles the supporters section.
             this.supporters();
             // Handles the vimeo video show and hide title.
@@ -49,6 +47,97 @@
                     $(this).attr("src", src);
                 });
             }
+        },
+
+        nav: function () {
+            var fixit;
+
+            fixit = function () {
+                $(".top-nav").css({
+                    position: "fixed",
+                    top: 0
+                });
+            };
+
+            // Handles all scrolling...
+            $(window).scroll(function (e) {
+                var aboveHeight = $("header").outerHeight();
+
+                if ($(window).scrollTop() > aboveHeight) {
+                    $("body").addClass("fixed");
+
+                    fixit();
+                } else {
+                    $("body").removeClass("fixed");
+                    $(".top-nav").css({
+                        position: "relative",
+                        top: 0
+                    });
+
+                    console.log($(".top-nav").css("position"));
+                }
+
+                // onClick of nav links...
+                $(".top-nav .scroll").click(function (e) {
+                    // Find anchor position based on href
+                    var y = Math.floor($($(this).attr("href")).offset().top);
+
+                    e.preventDefault();
+
+                    // Add position fixed to nav
+                    fixit();
+
+                    // If sponsor link...
+                    if (this === $(".top-nav .scroll")[4]) {
+                        y = $(document).height();
+                    }
+
+                    // Animate to anchor position
+                    $("html, body").stop().animate({
+                        scrollTop: y
+                    }, 1000, function () {
+                        // On animation complete add position absolute to nav
+                        // using the anchor position as top
+
+                        $(".top-nav").css({
+                            position: "absolute",
+                            top: window.pageXOffset
+                        });
+                    });
+                });
+
+                // Add position fixed on touchmove
+                $(document).bind("touchmove", fixit);
+
+                // Handles the .active state onClick of links.
+                $(".top-nav .nav").click(function () {
+                    $(".top-nav .nav").removeClass("active");
+                    $(this).addClass("active");
+                });
+
+                $($("footer .nav")[1]).click(function (e) {
+                    e.preventDefault();
+
+                    $(this).toggleClass("active");
+                });
+
+                // This handles the passing of the .active class around as we scroll
+                $.each($(".top-nav .nav"), function (i, v) {
+                    var href = $(this).attr("href");
+
+                    if (href.indexOf("#") !== -1) {
+                        if ($(window).scrollTop() >= $(href).offset().top) {
+                            $(".top-nav .nav").removeClass("active");
+                            $(this).addClass("active");
+
+                            if ($(window).scrollTop() === ($(document).height() - $(window).height())) {
+                                $(".top-nav .nav").removeClass("active");
+                                $($(".top-nav .nav")[4]).addClass("active");
+                            }
+                        }
+                    }
+                });
+            });
         },
 
         newsletter: function () {
@@ -105,59 +194,6 @@
                 // Re-grabs the value on resize because the distance from the
                 // top of the browser to the top nav is different.
                 t.position();
-            });
-        },
-
-        scroller: function () {
-            $(".top-nav .links").localScroll();
-            $(".top-nav .nav").click(function () {
-                $(".top-nav .nav").removeClass("active");
-                $(this).addClass("active");
-
-                $(".top-nav .links").setTimeout(function () {
-                    $(this).css("position", "relative").css("position", "fixed");
-                }, 1000);
-            });
-
-            $($("footer .nav")[1]).click(function (e) {
-                e.preventDefault();
-
-                $(this).toggleClass("active");
-            });
-        },
-
-        sticky: function () {
-            var t = this;
-
-            $(window).scroll({namespace: this}, function (e) {
-                var t = e.data.namespace,
-                    aboveHeight = $("header").outerHeight();
-
-                if ($(window).scrollTop() > aboveHeight) {
-                    $(".top-nav").addClass("fixed");
-                    $("body").addClass("fixed");
-                } else {
-                    $(".top-nav").removeClass("fixed");
-                    $("body").removeClass("fixed");
-                }
-
-                // This handles the passing of the .active class around as we scroll
-                // up and down the page.
-                $.each($(".top-nav .nav"), function (i, v) {
-                    var href = $(this).attr("href");
-
-                    if (href.indexOf("#") !== -1) {
-                        if ($(window).scrollTop() >= $(href).offset().top) {
-                            $(".top-nav .nav").removeClass("active");
-                            $(this).addClass("active");
-
-                            if ($(window).scrollTop() === ($(document).height() - $(window).height())) {
-                                $(".top-nav .nav").removeClass("active");
-                                $($(".top-nav .nav")[4]).addClass("active");
-                            }
-                        }
-                    }
-                });
             });
         },
 

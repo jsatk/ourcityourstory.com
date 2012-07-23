@@ -364,18 +364,12 @@ header .logo {
     background: #191411;
     height: 30px;
     position: relative;
-    z-index: 1;
-}
-
-body .fixed {
-    position: fixed;
     width: 100%;
-    top: 0;
     z-index: 2;
 }
 
 .top-nav nav {
-    font: 800 0.65rem/30px "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
+    font: 800 0.65rem/30px "proxima-nova", "helvetica neue", helvetica, arial, sans-serif;
     height: 40px;
     margin: 0 auto;
     text-align: center;
@@ -402,7 +396,7 @@ body .fixed {
 
 .top-nav nav .cut,
 .cut {
-    display: none; /* Yes. Yes. I know. Shut up. */
+    display: none;
 }
 
 .top-nav nav .social {
