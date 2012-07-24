@@ -120,12 +120,11 @@
                     });
 
                     x = false;
-                    setTimeout(function () {x = true}, 1000);
+                    setTimeout(function () {
+                        x = true;
+                    }, 100);
                 });
             });
-
-            // Add position fixed on touchmove
-            // $(document).bind("touchmove", fixit);
 
             // Handles the .active state onClick of links.
             $(".top-nav .nav").click(function () {
