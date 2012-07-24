@@ -365,6 +365,7 @@ header .logo {
     height: 30px;
     position: relative;
     width: 100%;
+    -webkit-overflow-scrolling : touch;
     z-index: 2;
 }
 

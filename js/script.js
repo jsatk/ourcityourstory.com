@@ -50,8 +50,9 @@
         },
 
         nav: function () {
-            var fixit;
+            var fixit, x = true;
 
+            // Set .top-nav to fixed
             fixit = function () {
                 $(".top-nav").css({
                     position: "fixed",
@@ -66,77 +67,76 @@
                 if ($(window).scrollTop() > aboveHeight) {
                     $("body").addClass("fixed");
 
-                    fixit();
+                    if (x) {
+                        fixit();
+                    }
                 } else {
                     $("body").removeClass("fixed");
                     $(".top-nav").css({
                         position: "relative",
                         top: 0
                     });
-
-                    console.log($(".top-nav").css("position"));
                 }
 
-                // onClick of nav links...
-                $(".top-nav .scroll").click(function (e) {
-                    // Find anchor position based on href
-                    var y = Math.floor($($(this).attr("href")).offset().top);
-
-                    e.preventDefault();
-
-                    // Add position fixed to nav
-                    fixit();
-
-                    // If sponsor link...
-                    if (this === $(".top-nav .scroll")[4]) {
-                        y = $(document).height();
-                    }
-
-                    // Animate to anchor position
-                    $("html, body").stop().animate({
-                        scrollTop: y
-                    }, 1000, function () {
-                        // On animation complete add position absolute to nav
-                        // using the anchor position as top
-
-                        $(".top-nav").css({
-                            position: "absolute",
-                            top: window.pageXOffset
-                        });
-                    });
-                });
-
-                // Add position fixed on touchmove
-                $(document).bind("touchmove", fixit);
-
-                // Handles the .active state onClick of links.
-                $(".top-nav .nav").click(function () {
-                    $(".top-nav .nav").removeClass("active");
-                    $(this).addClass("active");
-                });
-
-                $($("footer .nav")[1]).click(function (e) {
-                    e.preventDefault();
-
-                    $(this).toggleClass("active");
-                });
-
                 // This handles the passing of the .active class around as we scroll
-                $.each($(".top-nav .nav"), function (i, v) {
+                $.each($(".top-nav .scroll"), function (i, v) {
                     var href = $(this).attr("href");
 
                     if (href.indexOf("#") !== -1) {
                         if ($(window).scrollTop() >= $(href).offset().top) {
-                            $(".top-nav .nav").removeClass("active");
+                            $(".top-nav .scroll").removeClass("active");
                             $(this).addClass("active");
 
                             if ($(window).scrollTop() === ($(document).height() - $(window).height())) {
-                                $(".top-nav .nav").removeClass("active");
-                                $($(".top-nav .nav")[4]).addClass("active");
+                                $(".top-nav .scroll").removeClass("active");
+                                $($(".top-nav .scroll")[4]).addClass("active");
                             }
                         }
                     }
                 });
+            });
+
+            // onClick of nav links...
+            $(".top-nav .scroll").click(function (e) {
+                // Find anchor position based on href
+                var y = Math.floor($($(this).attr("href")).offset().top);
+
+                e.preventDefault();
+
+                // If sponsor link...
+                if (this === $(".top-nav .scroll")[4]) {
+                    y = $(document).height();
+                }
+
+                // Animate to anchor position
+                $("html, body").stop().animate({
+                    scrollTop: y
+                }, 1000, function () {
+                    // On animation complete add position absolute to nav
+                    // using the anchor position as top
+                    $(".top-nav").css({
+                        position: "absolute",
+                        top: $(window).scrollTop()
+                    });
+
+                    x = false;
+                    setTimeout(function () {x = true}, 1000);
+                });
+            });
+
+            // Add position fixed on touchmove
+            // $(document).bind("touchmove", fixit);
+
+            // Handles the .active state onClick of links.
+            $(".top-nav .nav").click(function () {
+                $(".top-nav .nav").removeClass("active");
+                $(this).addClass("active");
+            });
+
+            $($("footer .nav")[1]).click(function (e) {
+                e.preventDefault();
+
+                $(this).toggleClass("active");
             });
         },
 
