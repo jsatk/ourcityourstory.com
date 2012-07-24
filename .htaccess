@@ -534,3 +534,17 @@ AddCharset utf-8 .css .js .xml .json .rss .atom
 <IfModule php5_module>
   php_value session.cookie_httponly true
 </IfModule>
+
+
+
+# ----------------------------------------------------------------------
+# Rewrite
+# http://support.ongetc.com/index.php?option=com_content&task=view&id=286&Itemid=25&catid=151
+# ----------------------------------------------------------------------
+
+RewriteBase /
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html

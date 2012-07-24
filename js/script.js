@@ -264,6 +264,7 @@
                 $("#episode h1").show();
             };
 
+            // This allows Pablo to enter Vimeo ID via Cushy CMS
             $("#video").attr("src", src);
         }
     };
