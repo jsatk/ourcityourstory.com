@@ -266,6 +266,14 @@
 
             // This allows Pablo to enter Vimeo ID via Cushy CMS
             $("#video").attr("src", src);
+
+            if ($(".next").attr("href") === "#") {
+                $(".next").addClass("hidden");
+            }
+
+            if ($(".previous").attr("href") === "#") {
+                $(".previous").addClass("hidden");
+            }
         }
     };
 

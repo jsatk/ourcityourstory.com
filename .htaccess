@@ -539,7 +539,7 @@ AddCharset utf-8 .css .js .xml .json .rss .atom
 
 # ----------------------------------------------------------------------
 # Rewrite
-# http://support.ongetc.com/index.php?option=com_content&task=view&id=286&Itemid=25&catid=151
+# http://bit.ly/PCw8VY
 # ----------------------------------------------------------------------
 
 RewriteBase /
