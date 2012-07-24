@@ -246,6 +246,8 @@
         video: function () {
             var iframe = $("#video")[0],
                 player = $f(iframe),
+                videoId = $("#video-id").text(),
+                src = $("#video").attr("src").replace(/\{\*id\*\}/g, videoId),
                 onPlay, onPause, onFinish;
 
             player.addEvent('ready', function() {
@@ -261,6 +263,8 @@
             onPause = function () {
                 $("#episode h1").show();
             };
+
+            $("#video").attr("src", src);
         }
     };
 
