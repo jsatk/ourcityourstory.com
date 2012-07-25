@@ -248,10 +248,11 @@
         video: function () {
             var current = $("#video-id").text(),
                 ep_num = Math.floor($(".story h4").text().substring(1, 3)),
-                href = window.location.href,
+                href = window.location.pathname,
                 iframe = $("#video")[0],
                 player = "",
                 next = ep_num + 1,
+                nw, pw,
                 onPlay, onPause, onFinish,
                 previous = ep_num - 1,
                 src = $("#video").attr("src").replace(/\{\*id\*\}/g, current);
@@ -272,6 +273,37 @@
             if (href === "/" || href === "/dev/") {
                 $(".next").addClass("hidden");
             }
+
+            // Previous and next buttons...
+            nw = $("#episode .next span").width();
+            pw = $("#episode .previous span").width();
+
+            $("#episode .controls span").width(0).hide();
+
+            $("#episode .next").hover(function () {
+                console.log($("#episode .next span"));
+                $("#episode .next span").show().stop().animate({
+                    width: nw
+                }, 500);
+            }, function () {
+                $("#episode .next span").stop().animate({
+                    width: 0
+                }, 500, function () {
+                    $(this).hide();
+                });
+            });
+
+            $("#episode .previous").hover(function () {
+                $("#episode .previous span").show().stop().animate({
+                    width: pw
+                }, 500);
+            }, function () {
+                $("#episode .previous span").stop().animate({
+                    width: 0
+                }, 500, function () {
+                    $(this).hide();
+                });
+            });
 
             $("#episode .next span").text("E" + next);
             $("#episode .previous span").text("E" + previous);
