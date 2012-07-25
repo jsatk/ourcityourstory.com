@@ -259,8 +259,8 @@
 
             // This allows Pablo to enter Vimeo ID via Cushy CMS
             $("#video").attr("src", src);
-            $(".next").attr("href", href + "episode/" + next.toString() + "/");
-            $(".previous").attr("href", href + "episode/" + previous.toString() + "/");
+            $(".next").attr("href", "/episode/" + next.toString() + "/");
+            $(".previous").attr("href", "/episode/" + previous.toString() + "/");
 
             if ($(".next").attr("href") === "#") {
                 $(".next").addClass("hidden");
