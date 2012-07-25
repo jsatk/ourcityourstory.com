@@ -26,6 +26,8 @@
             this.nav();
             // Handles the supporters section.
             this.supporters();
+            // Handles the URL reassignments
+            // this.url();
             // Handles the vimeo video show and hide title.
             this.video();
         },
@@ -244,28 +246,20 @@
         },
 
         video: function () {
-            var iframe = $("#video")[0],
-                player = $f(iframe),
-                videoId = $("#video-id").text(),
-                src = $("#video").attr("src").replace(/\{\*id\*\}/g, videoId),
-                onPlay, onPause, onFinish;
-
-            player.addEvent('ready', function() {
-                player.addEvent('play', onPlay);
-                player.addEvent('pause', onPause);
-                player.addEvent('finish', onPause);
-            });
-
-            onPlay = function () {
-                $("#episode h1").hide();
-            };
-
-            onPause = function () {
-                $("#episode h1").show();
-            };
+            var current = $("#video-id").text(),
+                ep_num = Math.floor($(".story h4").text().substring(1, 3)),
+                href = window.location.href,
+                iframe = $("#video")[0],
+                player = "",
+                next = ep_num + 1,
+                onPlay, onPause, onFinish,
+                previous = ep_num - 1,
+                src = $("#video").attr("src").replace(/\{\*id\*\}/g, current);
 
             // This allows Pablo to enter Vimeo ID via Cushy CMS
             $("#video").attr("src", src);
+            $(".next").attr("href", "/episode/" + next.toString() + "/");
+            $(".previous").attr("href", "/episode/" + previous.toString() + "/");
 
             if ($(".next").attr("href") === "#") {
                 $(".next").addClass("hidden");
@@ -274,6 +268,30 @@
             if ($(".previous").attr("href") === "#") {
                 $(".previous").addClass("hidden");
             }
+
+            if (href === "/" || href === "/dev/") {
+                $(".next").addClass("hidden");
+            }
+
+            $("#episode .next span").text("E" + next);
+            $("#episode .previous span").text("E" + previous);
+
+            // Vimeo froogaloop goodness...
+            player = $f(iframe);
+
+            player.addEvent('ready', function() {
+                player.addEvent('play', onPlay);
+                player.addEvent('pause', onPause);
+                player.addEvent('finish', onPause);
+            });
+
+            onPlay = function () {
+                $("#episode h1, #episode .controls").hide();
+            };
+
+            onPause = function () {
+                $("#episode h1, #episode .controls").show();
+            };
         }
     };
 

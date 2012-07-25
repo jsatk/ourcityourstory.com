@@ -558,6 +558,41 @@ header .logo {
     top: 35%;
 }
 
+.episode .controls {
+    font: italic 1.3rem/1 "adobe-text-pro", "times new roman", serif;
+    padding: 0;
+    position: absolute;
+    text-transform: capitalize;
+    top: 47%;
+    z-index: 1;
+}
+
+.episode .controls em {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.episode .next em {
+    margin-right: 5px;
+}
+
+.episode .previous em {
+    margin-left: 5px;
+}
+
+.episode .controls span {
+    background: black;
+    color: #979595;
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.episode .previous {
+    right: 0;
+}
+
 .episode iframe {
     border: none;
     height: 100%;
@@ -621,6 +656,14 @@ header .logo {
 .story .column li span {
     color: #433D3D;
     font: 600 italic 0.8125rem/1.25 "adobe-text-pro", times, 'times new roman', serif;
+}
+
+.story .next {
+    float: left;
+}
+
+.story .previous {
+    float: right;
 }
 
 /* About section */
