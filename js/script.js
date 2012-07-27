@@ -246,8 +246,9 @@
         video: function () {
             var current = $("#video-id").text(),
                 ep_num = Math.floor($(".story h4").text().substring(1, 3)),
-                href = window.location.pathname,
+                hostname = window.location.hostname,
                 iframe = $("#video")[0],
+                pathname = window.location.pathname,
                 player = "",
                 next = ep_num + 1,
                 nw, pw,
@@ -257,8 +258,8 @@
 
             // This allows Pablo to enter Vimeo ID via Cushy CMS
             $("#video").attr("src", src);
-            $(".next").attr("href", + href + "episode/" + next.toString() + "/");
-            $(".previous").attr("href", href + "episode/" + previous.toString() + "/");
+            $(".next").attr("href", "/episode/" + next.toString() + "/");
+            $(".previous").attr("href", "/episode/" + previous.toString() + "/");
 
             if ($(".next").attr("href") === "#") {
                 $(".next").addClass("hidden");
@@ -268,42 +269,37 @@
                 $(".previous").addClass("hidden");
             }
 
-            if (href === "/" || href === "/dev/") {
+            if (pathname === "/" || pathname === "/dev/") {
                 $(".next").addClass("hidden");
             }
 
             // Previous and next buttons...
-            nw = $("#episode .next span").width();
-            pw = $("#episode .previous span").width();
+            nw = $("#episode .next span").width() + 100;
+            pw = $("#episode .previous span").width() + 100;
+            $("#episode .next span").css("left", "-" + nw + "px");
+            $("#episode .previous span").css("right", "-" + pw +"px");
 
-            $("#episode .controls span").width(0).hide();
+            console.log("-" + pw)
 
             $("#episode .next").hover(function () {
-                $("#episode .next span").show().stop().animate({
-                    width: nw
+                $("#episode .next span").stop().animate({
+                    left: "0px"
                 }, 500);
             }, function () {
                 $("#episode .next span").stop().animate({
-                    width: 0
-                }, 500, function () {
-                    $(this).hide();
-                });
+                    left: "-" + nw + "px"
+                }, 500);
             });
 
             $("#episode .previous").hover(function () {
-                $("#episode .previous span").show().stop().animate({
-                    width: pw
+                $("#episode .previous span").stop().animate({
+                    right: "0px"
                 }, 500);
             }, function () {
                 $("#episode .previous span").stop().animate({
-                    width: 0
-                }, 500, function () {
-                    $(this).hide();
+                    right: "-" + pw + "px"
                 });
             });
-
-            $("#episode .next span").text("E" + next);
-            $("#episode .previous span").text("E" + previous);
 
             // Vimeo froogaloop goodness...
             player = $f(iframe);
