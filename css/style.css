@@ -545,6 +545,7 @@ header .logo {
     border-bottom: 3px solid #6e6a6a;
     height: 0;
     padding-bottom: 56.25%; /* 16:9 */
+    overflow: hidden;
     position: relative;
 }
 
