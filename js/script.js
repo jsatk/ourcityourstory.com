@@ -245,16 +245,23 @@
 
         video: function () {
             var current = $("#video-id").text(),
-                ep_num = Math.floor($(".story h4").text().substring(1, 3)),
+                ep_num = Math.floor(window.location.pathname.replace(/[^0-9]/g, "")),
                 hostname = window.location.hostname,
                 iframe = $("#video")[0],
                 pathname = window.location.pathname,
                 player = "",
-                next = ep_num + 1,
+                next,
                 nw, pw,
                 onPlay, onPause, onFinish,
-                previous = ep_num - 1,
+                previous,
                 src = $("#video").attr("src").replace(/\{\*id\*\}/g, current);
+
+            if (ep_num === 0) {
+                ep_num = Math.floor($(".story h4").text().substring(1, 3));
+            }
+
+            next = ep_num + 1;
+            previous = ep_num - 1;
 
             // This allows Pablo to enter Vimeo ID via Cushy CMS
             $("#video").attr("src", src);
@@ -278,8 +285,6 @@
             pw = $("#episode .previous span").width() + 100;
             $("#episode .next span").css("left", "-" + nw + "px");
             $("#episode .previous span").css("right", "-" + pw +"px");
-
-            console.log("-" + pw)
 
             $("#episode .next").hover(function () {
                 $("#episode .next span").stop().animate({
