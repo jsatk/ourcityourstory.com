@@ -26,8 +26,6 @@
             this.nav();
             // Handles the supporters section.
             this.supporters();
-            // Handles the URL reassignments
-            // this.url();
             // Handles the vimeo video show and hide title.
             this.video();
         },
@@ -259,8 +257,8 @@
 
             // This allows Pablo to enter Vimeo ID via Cushy CMS
             $("#video").attr("src", src);
-            $(".next").attr("href", "/episode/" + next.toString() + "/");
-            $(".previous").attr("href", "/episode/" + previous.toString() + "/");
+            $(".next").attr("href", + href + "episode/" + next.toString() + "/");
+            $(".previous").attr("href", href + "episode/" + previous.toString() + "/");
 
             if ($(".next").attr("href") === "#") {
                 $(".next").addClass("hidden");
