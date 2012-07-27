@@ -246,7 +246,6 @@
         video: function () {
             var current = $("#video-id").text(),
                 ep_num = Math.floor(window.location.pathname.replace(/[^0-9]/g, "")),
-                hostname = window.location.hostname,
                 iframe = $("#video")[0],
                 pathname = window.location.pathname,
                 player = "",
@@ -267,6 +266,8 @@
             $("#video").attr("src", src);
             $(".next").attr("href", "/episode/" + next.toString() + "/");
             $(".previous").attr("href", "/episode/" + previous.toString() + "/");
+            console.log($(".next").attr("href", "/episode/" + next.toString() + "/"));
+            console.log($(".previous").attr("href", "/episode/" + previous.toString() + "/"));
 
             if ($(".next").attr("href") === "#") {
                 $(".next").addClass("hidden");
