@@ -50,8 +50,11 @@
         },
 
         nav: function () {
-            var fixit, x = true,
-                top = Math.floor($(".controls").css("top").replace("px", "")) + $(".top-nav").height();
+            var fixit, x = true, top = (Math.floor($("#episode").css("border-bottom-width").replace("px", "")) + Math.floor($("#episode").css("padding-bottom").replace("px", "")) + $(".top-nav").height()) / 2;
+
+            $(window).resize({namespace: this}, function (e) {
+                top = (Math.floor($("#episode").css("border-bottom-width").replace("px", "")) + Math.floor($("#episode").css("padding-bottom").replace("px", "")) + $(".top-nav").height()) / 2;
+            });
 
             // Set .top-nav to fixed
             fixit = function () {

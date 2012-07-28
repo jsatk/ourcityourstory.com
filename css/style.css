@@ -562,9 +562,9 @@ header .logo {
 .episode .controls {
     font: italic 1.3rem/1 "adobe-text-pro", "times new roman", serif;
     padding: 0;
-    position: relative;
+    position: absolute;
     text-transform: capitalize;
-    top: 17rem;
+    top: 50%;
     z-index: 1;
 }
 
