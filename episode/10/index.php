@@ -112,7 +112,7 @@
 <p>
 	&ldquo;Did I just really see that?&rdquo; It was the middle of December, and on a snow soaked Sunday afternoon a couple dozen fur covered bikes were sprinting down East State Street. Directly after this mass of bikes was a white truck&hellip;</p>
 <a href="http://ourcityourstory.com/episode/8" class="button">Watch &rarr;</a></div>
-                <div class="column right cushycms" title="Recent episode #2"><a href="http://ourcityourstory.com/episode/7"><img class="replace-2x rel" src="img/e07-thumb.jpg" alt="recent1" /></a>
+                <div class="column right cushycms" title="Recent episode #3"><a href="http://ourcityourstory.com/episode/7"><img class="replace-2x rel" src="img/e07-thumb.jpg" alt="recent1" /></a>
 <h6>
 	Episode 07</h6>
 <h3>

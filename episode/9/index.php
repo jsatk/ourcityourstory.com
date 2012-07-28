@@ -107,7 +107,7 @@
 <p>
 	There are two things you can do when someone labels you. You can either accept it, or prove it wrong. Darcy Hill is the Drama teacher at the Lutheran Academy. Every year she puts on a play with her 4th grade students. However, this was not like every other year&hellip;</p>
 <a href="http://ourcityourstory.com/episode/7" class="button">Watch &rarr;</a></div>
-                <div title="Recent episode #2" class="column right cushycms"><a href="http://ourcityourstory.com/episode/6"><img class="replace-2x rel" src="img/e06-thumb.jpg" alt="E06: Bonds By Fire" /></a>
+                <div title="Recent episode #3" class="column right cushycms"><a href="http://ourcityourstory.com/episode/6"><img class="replace-2x rel" src="img/e06-thumb.jpg" alt="E06: Bonds By Fire" /></a>
 <h6>
 	Episode 06</h6>
 <h3>

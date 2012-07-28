@@ -107,7 +107,7 @@
 <p>
 	The O&rsquo;Keefe family is one of the only two 3rd generation Fire Fighting families to serve Rockford on the Fire Department. Though they share the same blood, and history, each of the members of the fire department are a part of a brotherhood&hellip;</p>
 <a href="http://ourcityourstory.com/episode/6" class="button">Watch &rarr;</a></div>
-                <div title="Recent episode #2" class="column right cushycms"><a href="http://ourcityourstory.com/episode/5"><img class="replace-2x rel" src="img/e05-thumb.jpg" alt="E05: Handcuffs To Handshakes" /></a>
+                <div title="Recent episode #3" class="column right cushycms"><a href="http://ourcityourstory.com/episode/5"><img class="replace-2x rel" src="img/e05-thumb.jpg" alt="E05: Handcuffs To Handshakes" /></a>
 <h6>
 	Episode 05</h6>
 <h3>

@@ -109,7 +109,7 @@
 <p>
 	Jimmy Goodman lives up to his surname. Three days a week, he volunteers in running and coaching youth in the sport of boxing. When you walk in to the space, you immediately see the ring before you, but you may not get to step in it for months&hellip;</p>
 <a href="http://ourcityourstory.com/episode/2" class="button">Watch &rarr;</a></div>
-                <div class="column right cushycms" title="Recent episode #2"><a href="http://ourcityourstory.com/episode/1"><img class="replace-2x rel" src="img/e01-thumb.jpg" alt="E01: Vince the Tailor" /></a>
+                <div class="column right cushycms" title="Recent episode #3"><a href="http://ourcityourstory.com/episode/1"><img class="replace-2x rel" src="img/e01-thumb.jpg" alt="E01: Vince the Tailor" /></a>
 <h6>
 	Episode 01</h6>
 <h3>

@@ -112,7 +112,7 @@
 <p>
 	Lorem ipsum dolor sit amet ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate&hellip;</p>
 <a href="http://ourcityourstory.com/episode/3" class="button">Watch &rarr;</a></div>
-                <div title="Recent episode #2" class="column right cushycms"><a href="http://ourcityourstory.com/episode/2"><img class="replace-2x rel" src="img/e02-thumb.jpg" alt="E02: Jimmy Goodman" /></a>
+                <div title="Recent episode #3" class="column right cushycms"><a href="http://ourcityourstory.com/episode/2"><img class="replace-2x rel" src="img/e02-thumb.jpg" alt="E02: Jimmy Goodman" /></a>
 <h6>
 	Episode 02</h6>
 <h3>

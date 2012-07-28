@@ -111,7 +111,7 @@
 <p>
 	Andy Hazzard had been a staple of downtown Rockford before she decided to acknowledge her true calling of farming. She was a waitress at Octane, she worked on jewelry at several art fairs, but when it came down to it, she had far too strong&hellip;</p>
 <a href="http://ourcityourstory.com/episode/9" class="button" target="_blank">Watch &rarr;</a> </div>
-                <div title="Recent episode #2" class="column right cushycms"><a href="http://ourcityourstory.com/episode/8"><img class="replace-2x rel" src="img/e08-thumb.jpg" alt="recent1" /></a>
+                <div title="Recent episode #3" class="column right cushycms"><a href="http://ourcityourstory.com/episode/8"><img class="replace-2x rel" src="img/e08-thumb.jpg" alt="recent1" /></a>
 <h6>
 	Episode 08</h6>
 <h3>

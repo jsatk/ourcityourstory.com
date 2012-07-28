@@ -107,7 +107,7 @@
 <p>
 	Epictetus &ldquo;He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.&rdquo; We live in a world amply sprinkled with naysayers. Hearing the word NO more than YES has become&hellip;</p>
 <a href="http://ourcityourstory.com/episode/4" class="button">Watch &rarr;</a></div>
-                <div title="Recent episode #2" class="column right cushycms"><a href="http://ourcityourstory.com/episode/3"><img class="replace-2x rel" src="img/e03-thumb.jpg" alt="E03: Pioneer of the Past" /></a>
+                <div title="Recent episode #3" class="column right cushycms"><a href="http://ourcityourstory.com/episode/3"><img class="replace-2x rel" src="img/e03-thumb.jpg" alt="E03: Pioneer of the Past" /></a>
 <h6>
 	Episode 03</h6>
 <h3>
