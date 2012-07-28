@@ -50,10 +50,11 @@
         },
 
         nav: function () {
-            var fixit, x = true, top = (Math.floor($("#episode").css("border-bottom-width").replace("px", "")) + Math.floor($("#episode").css("padding-bottom").replace("px", "")) + $(".top-nav").height()) / 2;
+            var fixit, x = true,
+            top = (Math.floor($("#episode").css("border-bottom-width").replace("px", "")) + Math.floor($("#episode").css("padding-bottom").replace("px", "")) + $(".top-nav").height() + $(".controls").height()) / 2;
 
             $(window).resize({namespace: this}, function (e) {
-                top = (Math.floor($("#episode").css("border-bottom-width").replace("px", "")) + Math.floor($("#episode").css("padding-bottom").replace("px", "")) + $(".top-nav").height()) / 2;
+                top = (Math.floor($("#episode").css("border-bottom-width").replace("px", "")) + Math.floor($("#episode").css("padding-bottom").replace("px", "")) + $(".top-nav").height() + $(".controls").height()) / 2;
             });
 
             // Set .top-nav to fixed
