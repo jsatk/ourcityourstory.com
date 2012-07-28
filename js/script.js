@@ -291,6 +291,10 @@
                 $(".next").addClass("hidden");
             }
 
+            if (ep_num === 1) {
+                $(".previous").addClass("hidden");
+            }
+
             // Previous and next buttons...
             nw = $("#episode .next span").width() + 100;
             pw = $("#episode .previous span").width() + 100;
