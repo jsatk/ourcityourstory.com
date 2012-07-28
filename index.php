@@ -7,7 +7,7 @@
     <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
     <head>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/head.php"); ?>
 
         <meta class="cushycms" title="Meta-Description" name="description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
         <meta class="cushycms" title="Facebook Share Title" property="og:title" content="Our City, Our Story">
@@ -16,9 +16,9 @@
 
     <body>
 
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/facebook.php"); ?>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/header.php"); ?>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/top-nav.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/facebook.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/header.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/top-nav.php"); ?>
 
         <div role="main">
             <div id="episode" class="episode">
@@ -90,7 +90,7 @@
                 </article>
             </div>
 
-            <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/about.php"); ?>
+            <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/about.php"); ?>
 
             <div id="recent" class="recent clearfix">
                 <article class="clearfix">
@@ -125,14 +125,14 @@
                 </article>
             </div>
 
-            <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/contact.php"); ?>
+            <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/contact.php"); ?>
 
         </div>
         <!-- End of role="main" -->
 
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/sponsor.php"); ?>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/supporters.php"); ?>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/footer.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/sponsor.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/supporters.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/footer.php"); ?>
 
     </body>
 </html>
