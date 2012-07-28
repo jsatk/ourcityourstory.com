@@ -7,7 +7,8 @@
     <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
     <head>
-        <?php include "includes/head.php"; ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "includes/head.php"); ?>
+
         <meta class="cushycms" title="Meta-Description" name="description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
         <meta class="cushycms" title="Facebook Share Title" property="og:title" content="Our City, Our Story">
         <meta class="cushycms" title="Facebook Share Image." property="og:image" content="http://ourcityourstory.com/img/logo.png">
@@ -15,11 +16,9 @@
 
     <body>
 
-        <?php include "includes/facebook.php"; ?>
-
-        <?php include "includes/header.php"; ?>
-
-        <?php include "includes/top-nav.php"; ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "includes/facebook.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "includes/header.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "includes/top-nav.php"); ?>
 
         <div role="main">
             <div id="episode" class="episode">
@@ -91,7 +90,7 @@
                 </article>
             </div>
 
-            <?php include "includes/about.php"; ?>
+            <?php include ($_SERVER['DOCUMENT_ROOT'] . "includes/about.php"); ?>
 
             <div id="recent" class="recent clearfix">
                 <article class="clearfix">
@@ -126,14 +125,14 @@
                 </article>
             </div>
 
-            <?php include "includes/contact.php"; ?>
+            <?php include ($_SERVER['DOCUMENT_ROOT'] . "includes/contact.php"); ?>
 
         </div>
         <!-- End of role="main" -->
 
-        <?php include "includes/sponsor.php"; ?>
-        <?php include "includes/supporters.php"; ?>
-        <?php include "includes/footer.php"; ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "includes/sponsor.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "includes/supporters.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "includes/footer.php"); ?>
 
     </body>
 </html>

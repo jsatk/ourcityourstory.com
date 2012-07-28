@@ -8,6 +8,7 @@
 
     <head>
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "includes/head.php"); ?>
+
         <meta class="cushycms" title="Meta-Description" name="description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
         <meta class="cushycms" title="Facebook Share Title" property="og:title" content="Our City, Our Story">
         <meta class="cushycms" title="Facebook Share Image." property="og:image" content="http://ourcityourstory.com/img/logo.png">
@@ -16,9 +17,7 @@
     <body>
 
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "includes/facebook.php"); ?>
-
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "includes/header.php"); ?>
-
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "includes/top-nav.php"); ?>
 
     <div role="main">
