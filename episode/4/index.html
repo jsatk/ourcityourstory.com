@@ -657,13 +657,11 @@
             </div>
 
             <nav>
-                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <input type="hidden" name="cmd" value="_s-xclick">
                     <input type="hidden" name="hosted_button_id" value="X284BMLN5SZF2">
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form> -->
-                <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=cDuvF3R53-E1FQEfBWCpfxYdyZViCa9O22tiYVVmH82YLFXFGshctLy4LJ8&dispatch=5885d80a13c0db1f8e263663d3faee8d8494db9703d295b4a2116480ee01a05c"  target="_blank" class="nav">Donate</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button class="nav donate" type="submit" name="submit">Donate</button>
+                </form>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="#" id="supporters_button" class="nav supporters_button">Supporters</a><span class="supporters_button">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 <a href="#" class="newsletter nav cut">Subscribe</a>
                 <a href="http://www.twitter.com/ourcityourstory/" target="_blank" class="social">Twitter</a><span class="social">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
@@ -687,41 +685,6 @@
   <!-- scripts concatenated and minified via build script -->
   <script type="text/javascript" src="//use.typekit.com/czk0yby.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-<!-- This inline script ensures that all our js and css works no matter where we are.
-  <script>
-    $(document).ready(function () {
-        var url = function () {
-            var href, path = "", src,
-                num = window.location.pathname.replace(/[^\/]/g, "").length - 1;
-
-            for (var i = num - 1; i >= 0; i--) {
-                path += "../";
-
-                console.log(i);
-            }
-
-            console.log(num);
-            console.log(path);
-
-            $(".rel").each(function (v, i) {
-                if ($(this).attr("href")) {
-                    href = $(this).attr("href");
-
-                    $(this).attr("href", path + href);
-                }
-
-                if ($(this).attr("src")) {
-                    src = $(this).attr("src");
-
-                    $(this).attr("src", path + src);
-                }
-            });
-        }
-
-        url();
-    });
-  </script> -->
 
   <script class="rel" src="js/plugins.js"></script>
   <script class="rel" src="js/script.js"></script>
