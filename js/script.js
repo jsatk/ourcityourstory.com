@@ -50,13 +50,19 @@
         },
 
         nav: function () {
-            var fixit, x = true;
+            var fixit, x = true,
+                top = Math.floor($(".controls").css("top").replace("px", "")) + $(".top-nav").height();
 
             // Set .top-nav to fixed
             fixit = function () {
                 $(".top-nav").css({
                     position: "fixed",
                     top: 0
+                });
+
+                $(".controls").css({
+                    position: "fixed",
+                    top: top
                 });
             };
 
@@ -72,6 +78,12 @@
                     }
                 } else {
                     $("body").removeClass("fixed");
+
+                    $(".controls").css({
+                        position: "",
+                        top: ""
+                    });
+
                     $(".top-nav").css({
                         position: "relative",
                         top: 0
@@ -266,8 +278,6 @@
             $("#video").attr("src", src);
             $(".next").attr("href", "/episode/" + next.toString() + "/");
             $(".previous").attr("href", "/episode/" + previous.toString() + "/");
-            console.log($(".next").attr("href", "/episode/" + next.toString() + "/"));
-            console.log($(".previous").attr("href", "/episode/" + previous.toString() + "/"));
 
             if ($(".next").attr("href") === "#") {
                 $(".next").addClass("hidden");

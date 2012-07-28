@@ -562,9 +562,9 @@ header .logo {
 .episode .controls {
     font: italic 1.3rem/1 "adobe-text-pro", "times new roman", serif;
     padding: 0;
-    position: absolute;
+    position: relative;
     text-transform: capitalize;
-    top: 47%;
+    top: 17rem;
     z-index: 1;
 }
 
@@ -593,7 +593,13 @@ header .logo {
     position: relative;
 }
 
+.episode .next {
+    float: left;
+    left: 0;
+}
+
 .episode .previous {
+    float: right;
     right: 0;
 }
 
