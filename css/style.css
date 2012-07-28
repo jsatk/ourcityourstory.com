@@ -1032,6 +1032,10 @@ footer {
     padding-top: 0.4rem;
 }
 
+footer form {
+    display: inline-block;
+}
+
 footer .container {
     margin: 0 3%;
     max-width: 960px;
@@ -1077,11 +1081,20 @@ footer nav {
 }
 
 footer nav a,
-footer nav a:visited, footer nav a:hover {
+footer nav a:visited,
+footer nav a:hover {
     color: #bcb8b6;
     display: inline-block;
     letter-spacing: 1px;
     text-decoration: none;
+}
+
+footer .donate {
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    color: #6E6A6A;
+    letter-spacing: 1px;
 }
 
 footer .nav:hover {
