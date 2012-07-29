@@ -1097,8 +1097,9 @@ footer .donate {
     text-transform: uppercase;
 }
 
-footer .nav:hover {
-    background-position: center -25px;
+footer .nav:hover,
+footer .donate:hover {
+    background-position: center -18px;
     color: white;
 }
 
@@ -1175,7 +1176,8 @@ footer p a:visited {
     .nav:hover,
     .nav:active,
     .top-nav nav .active,
-    footer nav .active {
+    footer nav .active,
+    footer .donate:hover {
         background-image: url(../img/navarrows.png);
         background-repeat: no-repeat;
     }
