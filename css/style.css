@@ -894,6 +894,14 @@ header .logo {
     background-position: -66px -110px;
 }
 
+.contact .youtube {
+    background-position: -100px -90px;
+}
+
+.contact .youtube:hover {
+    background-position: -100px -110px;
+}
+
 /* Sponsor section */
 
 .sponsor {

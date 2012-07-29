@@ -7,7 +7,7 @@
                 <a href="https://www.facebook.com/OurCityOurStory" target="_blank" class="sprite facebook"><span class="hidden">Facebook</span></a>
                 <a href="https://twitter.com/#!/ourcityourstory" target="_blank" class="sprite twitter"><span class="hidden">Twitter</span></a>
                 <a href="http://vimeo.com/ourcityourstory" target="_blank" class="sprite vimeo"><span class="hidden">Vimeo</span></a>
-                <a href="http://www.youtube.com/user/OurCityOurStory" target="_blank" class="sprite youtube vimeo"><span class="hidden">YouTube</span></a>
+                <a href="http://www.youtube.com/user/OurCityOurStory" target="_blank" class="sprite youtube"><span class="hidden">YouTube</span></a>
             </nav>
             <ul>
                 <li>
