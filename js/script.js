@@ -159,33 +159,29 @@
             var subscribe = $(".subscribe_header").html();
 
             $(document).click({namespace: this}, function (e) {
-                var t = e.data.namespace, newsletter, wrapper, footer;
+                var t = e.data.namespace, wrapper, footer;
 
                 if ($(e.target).is($(".newsletter"))) {
                     e.preventDefault();
 
                     if ($(e.target).is($($(".newsletter")[0]))) {
-                        newsletter = $($(".newsletter")[0]);
+                        $($(".newsletter")[0]).addClass("active");
+                        $($(".newsletter")[1]).removeClass("active");
                         wrapper = $(".subscribe_header");
                         footer = false;
                         $(".subscribe_footer").html("");
                     } else {
-                        newsletter = $($(".newsletter")[1]);
+                        $($(".newsletter")[0]).removeClass("active");
+                        $($(".newsletter")[1]).addClass("active");
                         wrapper = $(".subscribe_footer");
                         footer = true;
                         $(".subscribe_header").html("");
                     }
 
-                    newsletter.toggleClass("active");
                     wrapper.html(subscribe).toggle();
 
                     if (footer) {
                         $("#subscribe").addClass("footer");
-                        console.log("footer");
-                        console.log($("#subscribe"));
-                        console.log(footer);
-                        console.log(newsletter);
-                        console.log(wrapper);
                     }
                 } else if ($(e.target).parents("#subscribe").length > 0) {
                     if ($(e.target).is($("#submit"))) {
