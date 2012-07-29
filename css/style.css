@@ -1081,8 +1081,7 @@ footer nav {
 }
 
 footer nav a,
-footer nav a:visited,
-footer nav a:hover {
+footer nav a:visited {
     color: #bcb8b6;
     display: inline-block;
     letter-spacing: 1px;
