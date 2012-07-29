@@ -59,7 +59,7 @@
 	Andy Hazzard had been a staple of downtown Rockford before she decided to acknowledge her true calling of farming. She was a waitress at Octane, she worked on jewelry at several art fairs, but when it came down to it, she had far too strong of a connection with nature. But her work in the restaurant business gave her the knowledge of the industry and the rapport with those who work in them. Her passion is infectious, as her passion made Paul Sletten of Abreo (Brio at the time) realize there was support here for a &ldquo;Farm to Table&rdquo; restaurant, that brought about Social.</p>
 <p>
 	Andy has been an inspiration for many, as her resilience should inspire us all. Though, with the help of her family, support of her friends, she has continued to grow the farm and be a loud voice in the chorus of those promoting &ldquo;good food&rdquo; &mdash; locally grown, organic vegetables, meat and grain.</p>
-<a href="#" class="button next">&larr; Next<span class="cut"> Episode</a></a> <a href="#" class="button previous">Previous<span class="cut"> Episode</span> &rarr;</a> </div>
+<a href="#" class="button next">&larr; Next<span class="cut">&nbsp;Episode</a></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
                 <div title="Featured episode credits" class="column right cushycms"><ul>
 	<li>
 		<h6>

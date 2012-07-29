@@ -64,7 +64,7 @@
 	Upon taking the first step into Vince the Tailor, we were greeted into this quaint shop with the sound of a bell ring, distant music playing in the background, and an ever-busy Tony behind his machine: &ldquo;How can I help you, brother?&rdquo; Not long into the conversation, we realized that Tony&rsquo;s energetic personality and strong character had us hooked...he was our guy.</p>
 <p>
 	When we returned to film Tony discussing embroidery, a spectacular thing happened that reinforces the notion of why we should stay curious and open-minded. Tony opened up about his father - and the real story started to unfold before our eyes.</p>
-<a href="#" class="button next">&larr; Next<span class="cut"> Episode</a></a> <a href="#" class="button previous">Previous<span class="cut"> Episode</span> &rarr;</a> </div>
+<a href="#" class="button next">&larr; Next<span class="cut">&nbsp;Episode</a></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
                 <div title="Featured episode credits" class="column right cushycms"><ul>
 	<li>
 		<h6>

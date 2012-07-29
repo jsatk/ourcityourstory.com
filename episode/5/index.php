@@ -62,7 +62,7 @@
 	Through programs like the Emerging Visual Arts Program put on by the Element, Joe learned how to assemble a show under the guidance of Barb Berney and in a leadership role, he helped coordinate the artists and prepare pieces for display. This helped prepare him not only for the show most recently on display at Rockford College, but also helped him organize the 2012 St. Patrick&rsquo;s day parade.</p>
 <p>
 	Joe has recognized that with effort, you can have an impact in this community. He is not only a talented artist, a performance artist, an organizer but he also helps his wife, Angelica Goral, run The Sweetery, a cupcake shop currently located at the Rockford City Market. Please stop down at Rockford College, in the Clark Arts Center to see the current show: &ldquo;Army of Fleabag Dreamers&rdquo;</p>
-<a href="#" class="button next">&larr; Next<span class="cut"> Episode</a></a> <a href="#" class="button previous">Previous<span class="cut"> Episode</span> &rarr;</a> </div>
+<a href="#" class="button next">&larr; Next<span class="cut">&nbsp;Episode</a></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
                 <div class="column right cushycms" title="Featured episode credits"><ul>
 	<li>
 		<h6>

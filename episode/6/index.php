@@ -59,7 +59,7 @@
 	The O&#39;Keefe family is one of the only two 3rd generation Fire Fighting families to serve Rockford on the Fire Department. Though they share the same blood, and history, each of the members of the fire department are a part of a brotherhood. Firemen spend 30% of their lives together, serving 24 hour shifts where they eat, work and sleep together in the same building. They must rely on each other, and it&rsquo;s this reliance that forges a bond more unique than friendship.</p>
 <p>
 	Each fighter is interdependent and functions as a team. Their roles on the truck are mirrored by roles back at the station, and the unilateral brotherhood is apparent immediately. The men are all part of a machine to serve the citizens of this community, but these parts are not interchangeable. The individual personalities of the crew are what ultimately drive each other to be the best they possibly can be.</p>
-<a href="#" class="button next">&larr; Next<span class="cut"> Episode</a></a> <a href="#" class="button previous">Previous<span class="cut"> Episode</span> &rarr;</a> </div>
+<a href="#" class="button next">&larr; Next<span class="cut">&nbsp;Episode</a></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
                 <div title="Featured episode credits" class="column right cushycms"><ul>
 	<li>
 		<h6>

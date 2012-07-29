@@ -69,7 +69,7 @@
 	What was true in 100AD, remains true now in 2012.</p>
 <p>
 	You can view more this author&#39;s writing at her blog - <a href="http://circa2012.me" target="_blank">circa2012.me</a></p>
-<a href="#" class="button next">&larr; Next<span class="cut"> Episode</a></a> <a href="#" class="button previous">Previous<span class="cut"> Episode</span> &rarr;</a> </div>
+<a href="#" class="button next">&larr; Next<span class="cut">&nbsp;Episode</a></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
                 <div class="column right cushycms" title="Featured episode credits"><ul>
 	<li>
 		<h6>
