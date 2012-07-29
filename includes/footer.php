@@ -1,6 +1,6 @@
 <footer>
     <div class="container clearfix">
-        <div id="subscribe" class="subscribe mobile">
+        <div id="subscribe" class="subscribe">
             <!-- Begin MailChimp Signup Form -->
             <div id="mc_embed_signup">
                 <form action="http://OurCityOurStory.us4.list-manage2.com/subscribe/post?u=c9520922a151606a6cd234c19&amp;id=b51c4e7078" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
