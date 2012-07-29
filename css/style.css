@@ -1098,13 +1098,13 @@ footer .donate {
 }
 
 footer .nav:hover {
+    background-position: center -30px;
     color: white;
-    background: -100px -100px;
 }
 
 footer .nav:active,
 footer .nav.active {
-    background-position: center -23px;
+    background-position: center -25px;
     color: white;
 }
 
@@ -1372,13 +1372,13 @@ footer p a:visited {
         float: right;
         position: relative;
         text-align: left;
-        top: -10px;
+        top: -15px;
     }
 
     footer nav a,
     footer nav a:visited {
         color: #6e6a6a;
-        padding-top: 10px;
+        padding-top: 15px;
     }
 
     footer .social {
