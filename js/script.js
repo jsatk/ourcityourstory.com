@@ -181,7 +181,11 @@
 
                     if (footer) {
                         $("#subscribe").addClass("footer");
-                        console.log("hi");
+                        console.log("footer");
+                        console.log($("#subscribe"));
+                        console.log(footer);
+                        console.log(newsletter);
+                        console.log(wrapper);
                     }
                 } else if ($(e.target).parents("#subscribe").length > 0) {
                     if ($(e.target).is($("#submit"))) {
