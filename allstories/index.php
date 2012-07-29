@@ -44,58 +44,61 @@
                     <h5>Our City, Our Story</h5>
                     <h1>Recent Stories</h1>
 
-                    <div title="Episode #1" class="column left cushycms">
-                        <a href="http://ourcityourstory.com/episode/10">
-                            <img class="replace-2x rel" src="img/e10-thumb.jpg" alt="E10: Fabric and Color Patterns" />
-                        </a>
-                        <h6>Episode 10</h6>
-                        <h3><a href="http://ourcityourstory.com/episode/10">Fabric &amp; Color Patterns</a></h3>
-                        <p>The flag is more than just fabric and color patterns. Its a reminder&hellip; a point of reference, it gives us a way collectively to think about how far we&#39;ve come and yet how far we have to go. People gave their lives so that we could live in a better country&hellip;</p>
-                        <a href="http://ourcityourstory.com/episode/10" class="button" target="_blank">Watch &rarr;</a>
+                    <div class="row">
+                        <div title="Episode #1" class="column left cushycms">
+                            <a href="http://ourcityourstory.com/episode/10">
+                                <img class="replace-2x rel" src="img/e10-thumb.jpg" alt="E10: Fabric and Color Patterns" />
+                            </a>
+                            <h6>Episode 10</h6>
+                            <h3><a href="http://ourcityourstory.com/episode/10">Fabric &amp; Color Patterns</a></h3>
+                            <p>The flag is more than just fabric and color patterns. Its a reminder&hellip; a point of reference, it gives us a way collectively to think about how far we&#39;ve come and yet how far we have to go. People gave their lives so that we could live in a better country&hellip;</p>
+                            <a href="http://ourcityourstory.com/episode/10" class="button" target="_blank">Watch &rarr;</a>
+                        </div>
+
+                        <div title="Episode #2" class="column center cushycms"><a href="http://ourcityourstory.com/episode/9"><img class="replace-2x rel" src="img/e09-thumb.jpg" alt="E09: Hazzard Free" /></a>
+                            <h6>Episode 09</h6>
+                            <h3><a href="http://ourcityourstory.com/episode/9">Hazzard Free</a></h3>
+                            <p>Andy Hazzard had been a staple of downtown Rockford before she decided to acknowledge her true calling of farming. She was a waitress at Octane, she worked on jewelry at several art fairs, but when it came down to it, she had far too strong&hellip;</p>
+                            <a href="http://ourcityourstory.com/episode/9" class="button" target="_blank">Watch &rarr;</a>
+                        </div>
+
+                        <div title="Episode #3" class="column right cushycms"><a href="http://ourcityourstory.com/episode/8">
+                                <img class="replace-2x rel" src="img/e08-thumb.jpg" alt="recent1" />
+                            </a>
+                            <h6>Episode 08</h6>
+                            <h3><a href="http://ourcityourstory.com/episode/8">Team Fur Bandit</a></h3>
+                            <p>&ldquo;Did I just really see that?&rdquo; It was the middle of December, and on a snow soaked Sunday afternoon a couple dozen fur covered bikes were sprinting down East State Street. Directly after this mass of bikes was a white truck&hellip;</p>
+                            <a href="http://ourcityourstory.com/episode/8" class="button">Watch &rarr;</a>
+                        </div>
                     </div>
 
-                    <div title="Episode #2" class="column center cushycms"><a href="http://ourcityourstory.com/episode/9"><img class="replace-2x rel" src="img/e09-thumb.jpg" alt="E09: Hazzard Free" /></a>
-                        <h6>Episode 09</h6>
-                        <h3><a href="http://ourcityourstory.com/episode/9">Hazzard Free</a></h3>
-                        <p>Andy Hazzard had been a staple of downtown Rockford before she decided to acknowledge her true calling of farming. She was a waitress at Octane, she worked on jewelry at several art fairs, but when it came down to it, she had far too strong&hellip;</p>
-                        <a href="http://ourcityourstory.com/episode/9" class="button" target="_blank">Watch &rarr;</a>
-                    </div>
+                    <div class="row">
+                        <div title="Episode #4" class="column left cushycms">
+                            <a href="http://ourcityourstory.com/episode/10">
+                                <img class="replace-2x rel" src="img/e10-thumb.jpg" alt="E10: Fabric and Color Patterns" />
+                            </a>
+                            <h6>Episode 10</h6>
+                            <h3><a href="http://ourcityourstory.com/episode/10">Fabric &amp; Color Patterns</a></h3>
+                            <p>The flag is more than just fabric and color patterns. Its a reminder&hellip; a point of reference, it gives us a way collectively to think about how far we&#39;ve come and yet how far we have to go. People gave their lives so that we could live in a better country&hellip;</p>
+                            <a href="http://ourcityourstory.com/episode/10" class="button" target="_blank">Watch &rarr;</a>
+                        </div>
 
-                    <div title="Episode #3" class="column right cushycms"><a href="http://ourcityourstory.com/episode/8">
-                            <img class="replace-2x rel" src="img/e08-thumb.jpg" alt="recent1" />
-                        </a>
-                        <h6>Episode 08</h6>
-                        <h3><a href="http://ourcityourstory.com/episode/8">Team Fur Bandit</a></h3>
-                        <p>&ldquo;Did I just really see that?&rdquo; It was the middle of December, and on a snow soaked Sunday afternoon a couple dozen fur covered bikes were sprinting down East State Street. Directly after this mass of bikes was a white truck&hellip;</p>
-                        <a href="http://ourcityourstory.com/episode/8" class="button">Watch &rarr;</a>
-                    </div>
+                        <div title="Episode #5" class="column center cushycms"><a href="http://ourcityourstory.com/episode/9"><img class="replace-2x rel" src="img/e09-thumb.jpg" alt="E09: Hazzard Free" /></a>
+                            <h6>Episode 09</h6>
+                            <h3><a href="http://ourcityourstory.com/episode/9">Hazzard Free</a></h3>
+                            <p>Andy Hazzard had been a staple of downtown Rockford before she decided to acknowledge her true calling of farming. She was a waitress at Octane, she worked on jewelry at several art fairs, but when it came down to it, she had far too strong&hellip;</p>
+                            <a href="http://ourcityourstory.com/episode/9" class="button" target="_blank">Watch &rarr;</a>
+                        </div>
 
-                    <div title="Episode #4" class="column left cushycms">
-                        <a href="http://ourcityourstory.com/episode/10">
-                            <img class="replace-2x rel" src="img/e10-thumb.jpg" alt="E10: Fabric and Color Patterns" />
-                        </a>
-                        <h6>Episode 10</h6>
-                        <h3><a href="http://ourcityourstory.com/episode/10">Fabric &amp; Color Patterns</a></h3>
-                        <p>The flag is more than just fabric and color patterns. Its a reminder&hellip; a point of reference, it gives us a way collectively to think about how far we&#39;ve come and yet how far we have to go. People gave their lives so that we could live in a better country&hellip;</p>
-                        <a href="http://ourcityourstory.com/episode/10" class="button" target="_blank">Watch &rarr;</a>
+                        <div title="Episode #6" class="column right cushycms"><a href="http://ourcityourstory.com/episode/8">
+                                <img class="replace-2x rel" src="img/e08-thumb.jpg" alt="recent1" />
+                            </a>
+                            <h6>Episode 08</h6>
+                            <h3><a href="http://ourcityourstory.com/episode/8">Team Fur Bandit</a></h3>
+                            <p>&ldquo;Did I just really see that?&rdquo; It was the middle of December, and on a snow soaked Sunday afternoon a couple dozen fur covered bikes were sprinting down East State Street. Directly after this mass of bikes was a white truck&hellip;</p>
+                            <a href="http://ourcityourstory.com/episode/8" class="button">Watch &rarr;</a>
+                        </div>
                     </div>
-
-                    <div title="Episode #5" class="column center cushycms"><a href="http://ourcityourstory.com/episode/9"><img class="replace-2x rel" src="img/e09-thumb.jpg" alt="E09: Hazzard Free" /></a>
-                        <h6>Episode 09</h6>
-                        <h3><a href="http://ourcityourstory.com/episode/9">Hazzard Free</a></h3>
-                        <p>Andy Hazzard had been a staple of downtown Rockford before she decided to acknowledge her true calling of farming. She was a waitress at Octane, she worked on jewelry at several art fairs, but when it came down to it, she had far too strong&hellip;</p>
-                        <a href="http://ourcityourstory.com/episode/9" class="button" target="_blank">Watch &rarr;</a>
-                    </div>
-
-                    <div title="Episode #6" class="column right cushycms"><a href="http://ourcityourstory.com/episode/8">
-                            <img class="replace-2x rel" src="img/e08-thumb.jpg" alt="recent1" />
-                        </a>
-                        <h6>Episode 08</h6>
-                        <h3><a href="http://ourcityourstory.com/episode/8">Team Fur Bandit</a></h3>
-                        <p>&ldquo;Did I just really see that?&rdquo; It was the middle of December, and on a snow soaked Sunday afternoon a couple dozen fur covered bikes were sprinting down East State Street. Directly after this mass of bikes was a white truck&hellip;</p>
-                        <a href="http://ourcityourstory.com/episode/8" class="button">Watch &rarr;</a>
-                    </div>
-
                 </article>
             </div>
         </div>
