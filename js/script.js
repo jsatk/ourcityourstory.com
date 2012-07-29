@@ -285,69 +285,71 @@
             next = ep_num + 1;
             previous = ep_num - 1;
 
-            // This allows Pablo to enter Vimeo ID via Cushy CMS
-            $("#video").attr("src", src);
-            $(".next").attr("href", "/dev/episode/" + next.toString() + "/");
-            $(".previous").attr("href", "/dev/episode/" + previous.toString() + "/");
+            if ($(".allstories").length === 0) {
+                // This allows Pablo to enter Vimeo ID via Cushy CMS
+                $("#video").attr("src", src);
+                $(".next").attr("href", "/dev/episode/" + next.toString() + "/");
+                $(".previous").attr("href", "/dev/episode/" + previous.toString() + "/");
 
-            if ($(".next").attr("href") === "#") {
-                $(".next").addClass("hidden");
-            }
+                if ($(".next").attr("href") === "#") {
+                    $(".next").addClass("hidden");
+                }
 
-            if ($(".previous").attr("href") === "#") {
-                $(".previous").addClass("hidden");
-            }
+                if ($(".previous").attr("href") === "#") {
+                    $(".previous").addClass("hidden");
+                }
 
-            if (pathname === "/" || pathname === "/dev/") {
-                $(".next").addClass("hidden");
-            }
+                if (pathname === "/" || pathname === "/dev/") {
+                    $(".next").addClass("hidden");
+                }
 
-            if (ep_num === 1) {
-                $(".previous").addClass("hidden");
-            }
+                if (ep_num === 1) {
+                    $(".previous").addClass("hidden");
+                }
 
-            // Previous and next buttons...
-            nw = $("#episode .next span").width() + 100;
-            pw = $("#episode .previous span").width() + 100;
-            $("#episode .next span").css("left", "-" + nw + "px");
-            $("#episode .previous span").css("right", "-" + pw +"px");
+                // Previous and next buttons...
+                nw = $("#episode .next span").width() + 100;
+                pw = $("#episode .previous span").width() + 100;
+                $("#episode .next span").css("left", "-" + nw + "px");
+                $("#episode .previous span").css("right", "-" + pw +"px");
 
-            $("#episode .next").hover(function () {
-                $("#episode .next span").stop().animate({
-                    left: "0px"
-                }, 500);
-            }, function () {
-                $("#episode .next span").stop().animate({
-                    left: "-" + nw + "px"
-                }, 500);
-            });
-
-            $("#episode .previous").hover(function () {
-                $("#episode .previous span").stop().animate({
-                    right: "0px"
-                }, 500);
-            }, function () {
-                $("#episode .previous span").stop().animate({
-                    right: "-" + pw + "px"
+                $("#episode .next").hover(function () {
+                    $("#episode .next span").stop().animate({
+                        left: "0px"
+                    }, 500);
+                }, function () {
+                    $("#episode .next span").stop().animate({
+                        left: "-" + nw + "px"
+                    }, 500);
                 });
-            });
 
-            // Vimeo froogaloop goodness...
-            player = $f(iframe);
+                $("#episode .previous").hover(function () {
+                    $("#episode .previous span").stop().animate({
+                        right: "0px"
+                    }, 500);
+                }, function () {
+                    $("#episode .previous span").stop().animate({
+                        right: "-" + pw + "px"
+                    });
+                });
 
-            player.addEvent('ready', function() {
-                player.addEvent('play', onPlay);
-                player.addEvent('pause', onPause);
-                player.addEvent('finish', onPause);
-            });
+                // Vimeo froogaloop goodness...
+                player = $f(iframe);
 
-            onPlay = function () {
-                $("#episode h1, #episode .controls").hide();
-            };
+                player.addEvent('ready', function() {
+                    player.addEvent('play', onPlay);
+                    player.addEvent('pause', onPause);
+                    player.addEvent('finish', onPause);
+                });
 
-            onPause = function () {
-                $("#episode h1, #episode .controls").show();
-            };
+                onPlay = function () {
+                    $("#episode h1, #episode .controls").hide();
+                };
+
+                onPause = function () {
+                    $("#episode h1, #episode .controls").show();
+                };
+            }
         }
     };
 
