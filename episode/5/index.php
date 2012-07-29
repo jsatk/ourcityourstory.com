@@ -39,7 +39,7 @@
                 <h5>Our City, Our Story</h5>
                 <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E05: Handcuffs To Handshakes</h4>
                 <div class="column left">
-                    <img class="cushycms replace-2x rel" title="Featured episode thumbnail image" src="img/f5.jpg" alt="E5" />
+                    <img class="cushycms replace-2x rel" title="Featured episode thumbnail image" src="img/f5.jpg" alt="E5" width="316" height="221">
                     <nav class="clearfix">
                         <div class="social">
                             <div class="fb-like" data-href="http://ourcityourstory.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
