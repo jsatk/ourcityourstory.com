@@ -38,7 +38,7 @@
                 <h5>Our City, Our Story</h5>
                 <h4 title="Featured episode title. Must begin with 'E##'" class="cushycms">E09: Hazard Free</h4>
                 <div class="column left">
-                    <img title="Featured episode thumbnail image" class="cushycms replace-2x rel" src="f9.jpg" alt="E9" />
+                    <img title="Featured episode thumbnail image" class="cushycms replace-2x rel" src="img/f9.jpg" alt="E9" />
                     <nav class="clearfix">
                         <div class="social">
                             <div class="fb-like" data-href="http://ourcityourstory.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
