@@ -1101,8 +1101,13 @@ footer button {
 
 footer .nav:hover,
 footer button:hover {
-    background-position: center -18px;
+    background-position: center -25x;
     color: white;
+}
+
+footer .newsletter:hover,
+footer .newsletter:active {
+    background-position: center -18px;
 }
 
 footer .nav:active,
