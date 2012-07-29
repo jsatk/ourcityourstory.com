@@ -1115,15 +1115,15 @@ footer button:hover {
     color: white;
 }
 
-footer .newsletter:hover,
-footer .newsletter:active {
-    background-position: center -18px;
-}
-
 footer .nav:active,
 footer .nav.active {
     background-position: center -25px;
     color: white;
+}
+
+footer .newsletter:hover,
+footer .newsletter:active {
+    background-position: center -18px;
 }
 
 footer p {
