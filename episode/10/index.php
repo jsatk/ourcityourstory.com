@@ -58,7 +58,7 @@
                 </div>
                 <div class="column center clearfix cushycms" title="Feature episode description"><p>
 	The flag is more than just fabric and color patterns. Its a reminder&hellip; a point of reference, it gives us a way collectively to think about how far we&rsquo;ve come and yet how far we have to go. People gave their lives so that we could live in a better country, and it&rsquo;s our responsibility to pick up that mantle and move it forward. We can&rsquo;t settle for disunity. We have to find ways to keep on perfecting that union. It captures our collective memory as well as collective our desire to be the best that we can be and the greatest we can be.</p>
-<a href="#" class="button next">&larr; Next Episode</a> <a href="#" class="button previous">Previous Episode &rarr;</a> </div>
+<a href="#" class="button next">&larr; Next<span class="cut"> Episode</a></a> <a href="#" class="button previous">Previous<span class="cut"> Episode</span> &rarr;</a> </div>
                 <div class="column right cushycms" title="Featured episode credits"><ul>
 	<li>
 		<h6>
