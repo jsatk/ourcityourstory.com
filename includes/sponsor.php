@@ -3,7 +3,11 @@
         <div class="fund">
             <h5>Fund Our City, Our Story</h5>
             <p>We are currently seeking corporate and individual sponsors to underwrite the ongoing production costs of the project. Please make a tax deductible donation, by way of the Rockford Area Arts Council.</p>
-            <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=cDuvF3R53-E1FQEfBWCpfxYdyZViCa9O22tiYVVmH82YLFXFGshctLy4LJ8&dispatch=5885d80a13c0db1f8e263663d3faee8d8494db9703d295b4a2116480ee01a05c" target="_blank" class="button-alt">Donate</a>
+            <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="X284BMLN5SZF2">
+                <button class="button-alt donate" type="submit" name="submit">Donate</button>
+            </form>
         </div>
 
         <div class="sponsors">
