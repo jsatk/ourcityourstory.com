@@ -1116,6 +1116,7 @@ footer p {
 }
 
 footer p a,
+footer p a:hover,
 footer p a:visited {
     color: #bcb8b6;
     text-decoration: none;
