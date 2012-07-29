@@ -181,6 +181,7 @@
 
                     if (footer) {
                         $("#subscribe").addClass("footer");
+                        console.log("hi");
                     }
                 } else if ($(e.target).parents("#subscribe").length > 0) {
                     if ($(e.target).is($("#submit"))) {
