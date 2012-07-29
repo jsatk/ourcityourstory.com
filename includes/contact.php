@@ -7,8 +7,13 @@
                 <a href="https://www.facebook.com/OurCityOurStory" target="_blank" class="sprite facebook"><span class="hidden">Facebook</span></a>
                 <a href="https://twitter.com/#!/ourcityourstory" target="_blank" class="sprite twitter"><span class="hidden">Twitter</span></a>
                 <a href="http://vimeo.com/ourcityourstory" target="_blank" class="sprite vimeo"><span class="hidden">Vimeo</span></a>
+                <a href="http://www.youtube.com/user/OurCityOurStory" target="_blank" class="sprite youtube vimeo"><span class="hidden">YouTube</span></a>
             </nav>
             <ul>
+                <li>
+                    <label>Stay in touch with Our City, Our Story</label>
+                    <a href="http://facebook.com/ourcityourstory" target="_blank">Like Us On Facebook</a>
+                </li>
                 <li>
                     <label>Submit your feedback or your own story.</label>
                     <a href="mailto:MyStory@OurCityOurStory.com">MyStory@OurCityOurStory.com</a>
