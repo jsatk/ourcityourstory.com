@@ -460,8 +460,6 @@ header .logo {
 .subscribe {
     background: #bcb8b6;
     padding: 5px 0;
-    position: absolute;
-    right: 0;
 }
 
 .footer {
@@ -1222,6 +1220,11 @@ footer p a:visited {
     .top-nav nav .cut,
     .cut {
         display: inline-block;
+    }
+
+    .subscribe {
+        position: absolute;
+        right: 0;
     }
 
     .episode h1 {

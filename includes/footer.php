@@ -19,6 +19,7 @@
                 </form>
             </div>
             <!--End mc_embed_signup-->
+        </div>
 
         <nav>
             <a href="http://ourcityourstory.bigcartel.com/" target="_blank"  class="social">Shop</a><span class="social">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
