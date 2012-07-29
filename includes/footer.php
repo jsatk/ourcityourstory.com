@@ -5,17 +5,17 @@
         <div id="subscribe" class="subscribe mobile">
             <!-- Begin MailChimp Signup Form -->
             <div id="mc_embed_signup">
-                <form action="http://OurCityOurStory.us4.list-manage2.com/subscribe/post?u=c9520922a151606a6cd234c19&am
+                <form action="http://OurCityOurStory.us4.list-manage2.com/subscribe/post?u=c9520922a151606a6cd234c19&amp;id=b51c4e7078" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
                     <label>Subscribe to Newsletter</label>
                     <div class="mc-field-group">
-                        <label for="mce-EMAIL" style="display: none;">Email Address </label>
-                        <input type="email" value="" name="EMAIL" class="required" id="mce-EMAIL" placeholder="Enter Yo
+                        <label for="mce-EMAIL" style="display: none;">Email Address</label>
+                        <input type="email" value="" name="EMAIL" class="required" id="mce-EMAIL" placeholder="Enter Your Email Address">
                     </div>
                     <div id="mce-responses" class="clear">
                         <div class="response" id="mce-error-response" style="display: none"></div>
                         <div class="response" id="mce-success-response" style="display: none"></div>
                     </div>
-                    <input id="submit" type="submit" value="SIGN UP" name="subscribe" id="mc-embedded-subscribe" class=
+                    <input id="submit" type="submit" value="SIGN UP" name="subscribe" id="mc-embedded-subscribe" class="button">
                 </form>
             </div>
             <!--End mc_embed_signup-->
