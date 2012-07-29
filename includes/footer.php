@@ -13,6 +13,7 @@
             <a href="#" class="newsletter nav cut">Subscribe</a>
             <a href="http://www.twitter.com/ourcityourstory/" target="_blank" class="social">Twitter</a><span class="social">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <a href="https://www.facebook.com/OurCityOurStory/" target="_blank" class="social">Facebook</a>
+             <a href="http://eepurl.com/lbS-v" target="_blank" class="social">Subscribe</a>
         </nav>
 
         <p>Copyright &copy; 2012 Our City, Our Story. All rights reserved. Legal services provided by Adam Stivers of <a href="http://stiverslegal.com/" target="_blank">StiversLegal.com</a>. Logo &amp; site design by <a href="http://jasonjam.es" target="_blank">The Office of Jason James</a>.</p>
