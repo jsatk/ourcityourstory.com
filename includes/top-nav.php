@@ -10,7 +10,7 @@
             <a href="#contact" class="nav scroll">Contact</a><span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
             <a href="#sponsor" class="cut nav scroll">Sponsor</a><span class="cut">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
             <a href="http://ourcityourstory.bigcartel.com/" target="_blank"  class="cut nav">Shop</a><span class="cut">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-            <a href="http://vimeo.com/ourcityourstory/videos" target="_blank" class="nav">All<span> Stories</span></a>
+            <a href="/dev/allstories/" class="nav">All<span> Stories</span></a>
             <a href="mailto:pablokorona@ourcityourstory.com" class="social email sprite newsletter"><span class="hidden">Email</span></a>
             <a href="https://twitter.com/ourcityourstory" class="social twitter sprite" target="_blank"><span class="hidden">Twitter</span></a>
             <a href="https://www.facebook.com/OurCityOurStory" class="social facebook sprite" target="_blank"><span class="hidden">Facebook</span></a>
