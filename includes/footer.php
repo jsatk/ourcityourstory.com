@@ -12,7 +12,7 @@
             <a href="#" id="supporters_button" class="nav supporters_button">Supporters</a><span class="supporters_button">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <a href="#" class="newsletter nav cut">Subscribe</a>
             <a href="http://www.twitter.com/ourcityourstory/" target="_blank" class="social">Twitter</a><span class="social">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <a href="https://www.facebook.com/OurCityOurStory/" target="_blank" class="social">Facebook</a>
+            <a href="https://www.facebook.com/OurCityOurStory/" target="_blank" class="social">Facebook</a><span class="social">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
              <a href="http://eepurl.com/lbS-v" target="_blank" class="social">Subscribe</a>
         </nav>
 
