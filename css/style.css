@@ -446,6 +446,7 @@ header .logo {
 .subscribe_footer {
     display: none;
     max-width: 960px;
+    position: relative;
 }
 
 .subscribe_header {
@@ -454,13 +455,13 @@ header .logo {
 
 .subscribe_footer {
     margin: 0 auto;
-    position: relative;
 }
 
 .subscribe {
     background: #bcb8b6;
-    float: right;
     padding: 5px 0;
+    position: absolute;
+    right: 0;
 }
 
 .footer {
