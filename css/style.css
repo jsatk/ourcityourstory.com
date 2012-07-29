@@ -860,7 +860,8 @@ header .logo {
 
 .contact .facebook,
 .contact .twitter,
-.contact .vimeo {
+.contact .vimeo,
+.contact .youtube {
     display: inline-block;
     height: 20px;
     width: 21px;
@@ -1542,7 +1543,8 @@ only screen and (min-device-pixel-ratio: 2) {
 
     .contact .facebook,
     .contact .twitter,
-    .contact .vimeo {
+    .contact .vimeo,
+    .contact .youtube {
         background-size: 1010%;
     }
 }
