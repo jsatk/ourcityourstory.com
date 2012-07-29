@@ -55,7 +55,7 @@
                     </nav>
 
                 </div>
-                <div class="column center cushycms" title="Feature episode description"><p>
+                <div class="column clearfix center cushycms" title="Feature episode description"><p>
 	Epictetus &ldquo;He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.&rdquo; We live in a world amply sprinkled with naysayers. Hearing the word NO more than YES has become the rule, not the exception. No, you&rsquo;re not smart. No, you&rsquo;re not accepted. No, you can&rsquo;t do it... But bearing the brunt of lifelong denial to one&rsquo;s independence is inconceivable for the average person. This is why I&rsquo;m incredibly humbled and honored today to write about a man I know.</p>
 <p>
 	When I quietly pass by him daily, I always see him smiling&hellip;every single time, and I&rsquo;ve rarely seen a person enjoy their work more. He is the supervisor of the janitorial team at Barbara Olson Center of Hope and, apart from being sick at times, he has never missed a day in his working years. I remember he recounted to me, &ldquo;It was Christmas one time. I had nothing&hellip;I thought to myself, I will never be in a situation like this again.&rdquo;</p>
@@ -69,7 +69,7 @@
 	What was true in 100AD, remains true now in 2012.</p>
 <p>
 	You can view more this author&#39;s writing at her blog - <a href="http://circa2012.me" target="_blank">circa2012.me</a></p>
-<a href="#" class="button next">&larr; Next Episode</a> <a href="#" class="button previous">Previous Episode &rarr;</a> </div>
+<a href="#" class="button next">&larr; Next<span class="cut"> Episode</a></a> <a href="#" class="button previous">Previous<span class="cut"> Episode</span> &rarr;</a> </div>
                 <div class="column right cushycms" title="Featured episode credits"><ul>
 	<li>
 		<h6>

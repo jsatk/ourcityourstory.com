@@ -55,13 +55,13 @@
                     </nav>
 
                 </div>
-                <div title="Feature episode description" class="column center cushycms"><p>
+                <div title="Feature episode description" class="column clearfix center cushycms"><p>
 	There are two things you can do when someone labels you. You can either accept it or prove it wrong. Darcy Hill is the Drama teacher at the Lutheran Academy. Every year she puts on a play with her 4th grade students. However, this was not like every other year.</p>
 <p>
 	Darcy is the type of lady that will write an entire production, just to get to know the community she lives in better. That&rsquo;s what this piece was. Years ago when she moved to Rockford, she felt this pride, and was curious. Her grandfather used to tell her all the old stories about Camp Grant, and she had seen &ldquo;A League of Their Own.&rdquo; But, there was more to the story&hellip;so she wrote it, and put it on the shelf. Her own project done.</p>
 <p>
 	This year, in response to magazine articles listing Rockford 9th most dangerous, and several other ratings and labels, she took the play off the shelf. It then became a magnet. People were drawn to the production. People agreed that the history of Rockford needed to be told.</p>
-<a href="#" class="button next">&larr; Next Episode</a> <a href="#" class="button previous">Previous Episode &rarr;</a> </div>
+<a href="#" class="button next">&larr; Next<span class="cut"> Episode</a></a> <a href="#" class="button previous">Previous<span class="cut"> Episode</span> &rarr;</a> </div>
                 <div title="Featured episode credits" class="column right cushycms"><ul>
 	<li>
 		<h6>

@@ -55,11 +55,11 @@
                     </nav>
 
                 </div>
-                <div title="Feature episode description" class="column center cushycms"><p>
+                <div title="Feature episode description" class="column clearfix center cushycms"><p>
 	&ldquo;Did I just really see that?&rdquo;&nbsp;It was the middle of December, and on a snow soaked Sunday afternoon a couple dozen fur covered bikes were sprinting down East State Street. Directly after this mass of bikes was a white truck with orange alert lights blazing, hauling a trailer with Team Fur Bandit on it. For the past two years, this has been a common sight during some of the dreariest of all gray winter days. They say it, and you&#39;ve got to believe it: &ldquo;We&#39;re bandits because we steal your attention.&rdquo; These charity bikes rides were organized by DJ Wilson, and this all started after he and his friend got the idea to decorate their bikes during the RAGBRAI &ldquo;the oldest, longest, largest bicycle tour&rdquo; across Iowa.</p>
 <p>
 	This is a story that has us look back and discover with DJ, how all the pieces came together. This is Team Fur Bandit.</p>
-<a href="#" class="button next">&larr; Next Episode</a> <a href="#" class="button previous">Previous Episode &rarr;</a> </div>
+<a href="#" class="button next">&larr; Next<span class="cut"> Episode</a></a> <a href="#" class="button previous">Previous<span class="cut"> Episode</span> &rarr;</a> </div>
                 <div title="Featured episode credits" class="column right cushycms"><ul>
 	<li>
 		<h6>
