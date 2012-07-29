@@ -39,7 +39,7 @@
                 <h5>Our City, Our Story</h5>
                 <h4 title="Featured episode title. Must begin with 'E##'" class="cushycms">E01: Vince the Tailor</h4>
                 <div class="column left">
-                    <img title="Featured episode thumbnail image" class="cushycms replace-2x rel" src="index_3_1932121920.jpg" alt="E11: Buddy Baseball" />
+                    <img title="Featured episode thumbnail image" class="cushycms replace-2x rel" src="f1.jpg" alt="E1" />
                     <nav class="clearfix">
                         <div class="social">
                             <div class="fb-like" data-href="http://ourcityourstory.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
