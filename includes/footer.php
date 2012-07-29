@@ -2,6 +2,24 @@
     <div class="container clearfix">
         <div class="subscribe_footer clearfix"></div>
 
+        <div class="subscribe mobile">
+            <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+                <form action="http://OurCityOurStory.us4.list-manage2.com/subscribe/post?u=c9520922a151606a6cd234c19&am
+                    <label>Subscribe to Newsletter</label>
+                    <div class="mc-field-group">
+                        <label for="mce-EMAIL" style="display: none;">Email Address </label>
+                        <input type="email" value="" name="EMAIL" class="required" id="mce-EMAIL" placeholder="Enter Yo
+                    </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display: none"></div>
+                        <div class="response" id="mce-success-response" style="display: none"></div>
+                    </div>
+                    <input id="submit" type="submit" value="SIGN UP" name="subscribe" id="mc-embedded-subscribe" class=
+                </form>
+            </div>
+            <!--End mc_embed_signup-->
+
         <nav>
             <a href="http://ourcityourstory.bigcartel.com/" target="_blank"  class="social">Shop</a><span class="social">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
             <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -12,8 +30,7 @@
             <a href="#" id="supporters_button" class="nav supporters_button">Supporters</a><span class="supporters_button">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <a href="#" class="newsletter nav cut">Subscribe</a>
             <a href="http://www.twitter.com/ourcityourstory/" target="_blank" class="social">Twitter</a><span class="social">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <a href="https://www.facebook.com/OurCityOurStory/" target="_blank" class="social">Facebook</a><span class="social">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
-             <a href="http://eepurl.com/lbS-v" target="_blank" class="social">Subscribe</a>
+            <a href="https://www.facebook.com/OurCityOurStory/" target="_blank" class="social">Facebook</a><span class="social">
         </nav>
 
         <p>Copyright &copy; 2012 Our City, Our Story. All rights reserved. Legal services provided by Adam Stivers of <a href="http://stiverslegal.com/" target="_blank">StiversLegal.com</a>. Logo &amp; site design by <a href="http://jasonjam.es" target="_blank">The Office of Jason James</a>.</p>
