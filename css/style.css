@@ -244,27 +244,25 @@ img {
 }
 
 p {
-    font: 400 0.9rem/1.35rem "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
+    font-size: 14px;
+    font: 400 0.9rem/1.5 "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
 }
 
-h1 {
-    font: 700 2rem/2rem "superclarendon",clarendon,georgia,serif;
-    letter-spacing: -0.05em;
-    margin: 0;
-}
-
-h2 {
-    font: 700 2rem/2rem "superclarendon",clarendon,georgia,serif;
+h1, h2 {
+    font-size: 32px;
+    font: 700 2rem/1 "superclarendon",clarendon,georgia,serif;
     letter-spacing: -0.05em;
     margin: 0;
 }
 
 h3 {
+    font-size: 26px;
     font: 600 italic 1.65rem/1 "adobe-text-pro", times,"times new roman", serif;
     margin: 0 0 20px 0;
 }
 
 h4 {
+    font-size: 20px;
     font: 600 italic 1.3rem/1.3 "adobe-text-pro", times,"times new roman", serif;
     margin: 0;
 }
@@ -272,6 +270,7 @@ h4 {
 h5 {
     color: #6e6a6a;
     display: inline-block;
+    font-size: 11px;
     font: 800 0.7rem/0.8 "proxima-nova", "helvetica neue",helvetica,arial,sans-serif;
     margin: 0 0 4px 0;
     text-transform: uppercase;
@@ -281,6 +280,7 @@ h5 {
 
 h6 {
     color: #6e6a6a;
+    font-size: 12px;
     font: 400 0.8rem/1.1 "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
     letter-spacing: 0.1em;
     margin: 0;
@@ -297,8 +297,9 @@ h6 {
     background: #191411;
     color: white;
     display: inline-block;
+    font-size: 12px;
     font: 400 0.8rem/1.35 "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
-    letter-spacing: .1em;
+    letter-spacing: .1rem;
     padding: 4px 10px;
     text-decoration: none;
     text-transform: uppercase;
@@ -339,6 +340,7 @@ header .bg {
 header .title {
     color: white;
     display: none; /* Displayed via JavaScript due to jumping */
+    font-size: 19px;
     font-size: 1.2rem;
     left: 50%;
     line-height: 1.4;
@@ -370,6 +372,7 @@ header .logo {
 }
 
 .top-nav nav {
+    font-size: 10px;
     font: 800 0.65rem/30px "proxima-nova", "helvetica neue", helvetica, arial, sans-serif;
     height: 40px;
     margin: 0 auto;
@@ -477,6 +480,7 @@ header .logo {
 .subscribe label {
     color: #191411;
     display: block;
+    font-size: 16px;
     font: 600 italic 1rem "adobe-text-pro", serif;
     padding-bottom: 3px;
     text-align: left;
@@ -494,6 +498,7 @@ header .logo {
 .subscribe input[name=EMAIL] {
     border: none;
     float: left;
+    font-size: 10px;
     font-size: 0.625rem;
     height: 20px;
     padding: 0px 5px 0px 5px;
@@ -505,6 +510,7 @@ header .logo {
     border: none;
     color: #bcb8b6;
     float: left;
+    font-size: 10px;
     font-size: 0.625rem;
     font-weight: 700;
     height: 20px;
@@ -552,6 +558,7 @@ header .logo {
     background: #191411;
     color: white;
     display: none;
+    font-size: 51px;
     font-size: 3.2rem;
     padding: 15px 3.2rem;
     position: absolute;
@@ -560,6 +567,7 @@ header .logo {
 
 .episode .controls {
     display: none;
+    font-size: 21px;
     font: italic 1.3rem/1 "adobe-text-pro", "times new roman", serif;
     padding: 0;
     position: absolute;
@@ -663,6 +671,7 @@ header .logo {
 
 .story .column li span {
     color: #433D3D;
+    font-size: 13px;
     font: 600 italic 0.8125rem/1.25 "adobe-text-pro", times, 'times new roman', serif;
 }
 
@@ -715,6 +724,7 @@ header .logo {
 }
 
 .about .right p {
+    font-size: 14px;
     font-size: 0.9rem;
     line-height: 1.35rem;
     text-align: left;
@@ -754,15 +764,17 @@ header .logo {
 .recent h6 {
     color: #6e6a6a;
     display: inline-block;
-    font: 800 0.75rem/0.9rem "proxima-nova", "helvetica neue",helvetica,arial,sans-serif;
+    font-size: 12px;
+    font: 800 0.75rem/1.2 "proxima-nova", "helvetica neue",helvetica,arial,sans-serif;
     text-transform: uppercase;
     letter-spacing: .1em;
     text-rendering:optimizeLegibility;
 }
 
 .recent p {
+    font-size: 14px;
     font-size: 0.9rem;
-    line-height: 1.35rem;
+    line-height: 1.5;
 }
 
 .button-alt,
@@ -771,7 +783,8 @@ header .logo {
     background: #6e6a6a;
     color: white;
     display: block;
-    font: 800 0.8125rem "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
+    font-size: 13px;
+    font: 800 0.8125rem "proxima-nova", "helvetica neue", helvetica, arial, sans-serif;
     letter-spacing:0.1em;
     margin: 35px auto 10px;
     padding: 6px 0;
@@ -821,6 +834,7 @@ header .logo {
     border-top: 4px solid white;
     color: white;
     display: inline-block;
+    font-size: 48px;
     font-size: 3rem;
     line-height: 3rem;
     margin-bottom: 35px;
@@ -829,6 +843,7 @@ header .logo {
 
 .contact label {
     color: #bcb8b6;
+    font-size: 12px;
     font-size: 0.75rem;
 }
 
@@ -849,6 +864,7 @@ header .logo {
 .contact li a,
 .contact li a:visited {
     color: white;
+    font-size: 17px;
     font: 600 italic 1.1rem "adobe-text-pro", serif;
     text-decoration: none;
 }
@@ -926,8 +942,9 @@ header .logo {
 
 .sponsor p {
     color: #9a9595;
+    font-size: 13px;
     font-size: 0.75rem;
-    line-height: 1.05rem;
+    line-height: 1.4;
     margin-bottom: 25px;
     padding-right: 10px;
 }
@@ -1000,6 +1017,7 @@ header .logo {
 
 .supporters span {
     color: #bcb8b6;
+    font-size: 15px;
     font: 400 0.95rem "proxima-nova", helvetica, arial, sans-serif;
 }
 
@@ -1010,8 +1028,9 @@ header .logo {
 
 .supporters h6 {
     color: #bcb8b6;
-    text-transform: uppercase;
+    font-size: 12px;
     font-size: 0.8rem;
+    text-transform: uppercase;
 }
 
 .supporters .padding {
@@ -1021,6 +1040,7 @@ header .logo {
 .supporters ul li {
     color: #9a9595;
     list-style: none;
+    font-size: 12px;
     font-size: 0.75rem;
 }
 
@@ -1053,7 +1073,8 @@ footer .container {
 footer form label {
     color: #bcb8b6;
     display: block;
-    font: 600 italic 1rem/1.7rem "adobe-text-pro", serif;
+    font-size: 16px;
+    font: 600 italic 1rem/1.7 "adobe-text-pro", serif;
 }
 
 footer .supporters_button {
@@ -1075,6 +1096,7 @@ footer .submit {
     border-radius: 0;
     color: white;
     float: left;
+    font-size: 12px;
     font-size: 0.8rem;
     padding: 3px 15px;
     letter-spacing: 1px;
@@ -1082,6 +1104,7 @@ footer .submit {
 }
 
 footer nav {
+    font-size: 10px;
     font: 800 0.65rem/30px "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
     text-align: center;
     text-transform: uppercase;
@@ -1127,9 +1150,10 @@ footer .newsletter.active {
 
 footer p {
     color: #6e6a6a;
+    font-size: 11px;
     font-size: 0.7rem;
     margin: 0;
-    line-height: .9rem;
+    line-height: 1.2;
 }
 
 footer p a,
@@ -1147,6 +1171,7 @@ footer p a:visited {
 @media all and (min-width: 481px) {
     h1,
     header .title {
+        font-size: 24px;
         font-size: 1.5rem;
     }
 }
@@ -1158,20 +1183,24 @@ footer p a:visited {
 
     h1,
     header .title {
+        font-size: 24px;
         font-size: 2rem;
     }
 
     h3 {
+        font-size: 35px;
         font-size: 2.2rem;
         line-height: 1.9;
     }
 
     h4 {
+        font-size: 35px;
         font-size: 2.2rem;
         line-height: 1.9rem;
     }
 
     h5 {
+        font-size: 12px;
         font-size: 0.8rem;
         line-height: 0.9rem;
     }
@@ -1271,8 +1300,9 @@ footer p a:visited {
     }
 
     .about h1 {
+        font-size: 48px;
         font-size: 3rem;
-        line-height: 2.85rem;
+        line-height: 0.95;
     }
 
     .about .column {
@@ -1316,6 +1346,7 @@ footer p a:visited {
     }
 
     .recent h3 {
+        font-size: 28.8px;
         font-size: 1.8rem;
     }
 
@@ -1421,6 +1452,7 @@ footer p a:visited {
     footer p {
         color: #6e6a6a;
         float: left;
+        font-size: 11px;
         font-size: 0.7rem;
         max-width: 421px;
         padding: 7px 0 0 0;
@@ -1432,11 +1464,13 @@ footer p a:visited {
 @media all and (min-width: 873px) {
     h1,
     header .title {
+        font-size: 48px;
         font-size: 3rem;
         max-width: 770px;
     }
 
     h3 {
+        font-size: 35px;
         font-size: 2.2rem;
         line-height: 1.9;
     }
@@ -1446,6 +1480,7 @@ footer p a:visited {
     }
 
     .top-nav nav {
+        font-size: 13px;
         font-size: 0.8125rem;
         line-height: 40px;
         height: 50px;
@@ -1466,6 +1501,7 @@ footer p a:visited {
     }
 
     .recent h3 {
+        font-size: 35px;
         font-size: 2.2rem;
     }
 
@@ -1475,6 +1511,7 @@ footer p a:visited {
     }
 
     footer nav {
+        font-size: 13px;
         font-size:0.8rem;
     }
 }
@@ -1516,6 +1553,7 @@ footer p a:visited {
     }
 
     .contact li a, .contact li a:visited {
+        font-size: 16px;
         font-size: 1rem;
     }
 }
