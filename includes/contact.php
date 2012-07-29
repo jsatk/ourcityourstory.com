@@ -11,7 +11,7 @@
             </nav>
             <ul>
                 <li>
-                    <label>Stay in touch with Our City, Our Story</label>
+                    <label>Stay in touch with Our City, Our Story</label><br>
                     <a href="http://facebook.com/ourcityourstory" target="_blank">Like Us On Facebook</a>
                 </li>
                 <li>
