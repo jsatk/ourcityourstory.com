@@ -268,18 +268,17 @@
         },
 
         video: function () {
-            var current = $("#video-id").text(),
-                ep_num = Math.floor(window.location.pathname.replace(/[^0-9]/g, "")),
-                iframe = $("#video")[0],
+            var ep_num = Math.floor(window.location.pathname.replace(/[^0-9]/g, "")),
                 pathname = window.location.pathname,
-                player = "",
-                next,
-                nw, pw,
-                onPlay, onPause, onFinish,
-                previous,
-                src = $("#video").attr("src").replace(/\{\*id\*\}/g, current);
+                iframe, current, player, next, nw, pw, onPlay, onPause, onFinish, previous, src;
 
-            if (ep_num === 0) {
+            if ($(".allstories").length === 0) {
+                current = $("#video-id").text();
+                iframe = $("#video")[0];
+                src = $("#video").attr("src").replace(/\{\*id\*\}/g, current);
+            }
+
+            if (ep_num === 0 && $(".allstories").length === 0) {
                 ep_num = Math.floor($(".story h4").text().substring(1, 3));
             }
 
