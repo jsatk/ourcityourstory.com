@@ -1090,6 +1090,7 @@ footer nav a:visited {
 
 footer button {
     background-color: transparent;
+    background-position: -9999px -9999px;
     border: none;
     color: #6E6A6A;
     font-weight: 800;
@@ -1177,7 +1178,7 @@ footer p a:visited {
     .nav:active,
     .top-nav nav .active,
     footer nav .active,
-    footer button:hover {
+    footer button {
         background-image: url(../img/navarrows.png);
         background-repeat: no-repeat;
     }
