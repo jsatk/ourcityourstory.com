@@ -1092,7 +1092,7 @@ footer button {
     background-color: transparent;
     background-position: -9999px -9999px;
     border: none;
-    color: #6E6A6A;
+    color: #bcb8b6;
     font-weight: 800;
     letter-spacing: 1px;
     padding-top: 15px;
@@ -1385,7 +1385,9 @@ footer p a:visited {
     }
 
     footer nav a,
-    footer nav a:visited {
+    footer nav a:visited,
+    footer button,
+    footer button:visited {
         color: #6e6a6a;
         padding-top: 15px;
     }
