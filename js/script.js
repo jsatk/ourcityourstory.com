@@ -50,12 +50,15 @@
         },
 
         nav: function () {
-            var fixit, x = true,
-            top = (Math.floor($("#episode").css("border-bottom-width").replace("px", "")) + Math.floor($("#episode").css("padding-bottom").replace("px", "")) + $(".top-nav").height() + $(".controls").height()) / 2;
+            var fixit, x = true, top;
 
-            $(window).resize({namespace: this}, function (e) {
+            if ($(".allstories").length === 0) {
                 top = (Math.floor($("#episode").css("border-bottom-width").replace("px", "")) + Math.floor($("#episode").css("padding-bottom").replace("px", "")) + $(".top-nav").height() + $(".controls").height()) / 2;
-            });
+
+                $(window).resize({namespace: this}, function (e) {
+                    top = (Math.floor($("#episode").css("border-bottom-width").replace("px", "")) + Math.floor($("#episode").css("padding-bottom").replace("px", "")) + $(".top-nav").height() + $(".controls").height()) / 2;
+                });
+            }
 
             // Set .top-nav to fixed
             fixit = function () {
@@ -64,10 +67,12 @@
                     top: 0
                 });
 
-                $(".controls").css({
-                    position: "fixed",
-                    top: top
-                });
+                if ($(".allstories").length === 0) {
+                    $(".controls").css({
+                        position: "fixed",
+                        top: top
+                    });
+                }
             };
 
             // Handles all scrolling...
@@ -83,10 +88,12 @@
                 } else {
                     $("body").removeClass("fixed");
 
-                    $(".controls").css({
-                        position: "",
-                        top: ""
-                    });
+                    if ($(".allstories").length === 0) {
+                        $(".controls").css({
+                            position: "",
+                            top: ""
+                        });
+                    }
 
                     $(".top-nav").css({
                         position: "relative",
