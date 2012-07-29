@@ -2,7 +2,7 @@
     <div class="container clearfix">
         <div class="subscribe_footer clearfix"></div>
 
-        <div class="subscribe mobile">
+        <div id="subscribe" class="subscribe mobile">
             <!-- Begin MailChimp Signup Form -->
             <div id="mc_embed_signup">
                 <form action="http://OurCityOurStory.us4.list-manage2.com/subscribe/post?u=c9520922a151606a6cd234c19&am
