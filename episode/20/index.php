@@ -56,11 +56,11 @@
                     </nav>
 
                 </div>
-                <div title="Feature episode description" class="column center cushycms"><p>
+                <div title="Feature episode description" class="column clearfix center cushycms"><p>
 	Starting in June, families come to to the baseball diamonds at Guilford to something special in this community. Buddy Baseball. You see smiles. Cheers. &ldquo;Hit the ball! Don&#39;t look at me! Run!&rdquo; The announcer gets on the mic: &ldquo;Next up to bat, is Joshua&rdquo; Everyone in the bleachers cheers him on &ldquo;Keep your eye on the ball&rdquo; &ldquo;Let&#39;s go Josh.&rdquo; &ldquo;Go Joshua!&rdquo; The program does a great deal for the kids within the program, but also for the volunteer Buddies who run the bases with the kids. You see the joy in the kid&#39;s face who connects with the ball, who instead of running to first base, he looks back to his dad with a shocked smile seeming to say &ldquo;I did it!&rdquo;</p>
 <p>
 	In this story of Buddy Baseball we start with Matthew Lapp, and see how he interacts with his family at home. He is most certainly loved, but there is only so much a loving family can do for Matthew in the world. The frustration with seeing his sister play soccer, does cause issue&hellip; but that&#39;s where Buddy Baseball helps. Sherri White started Buddy Baseball 4 years ago, and Matthew Lapp was the first to sign up for the program. Sherri saw a need for a &ldquo;buddy&rdquo; type program after her own son was unable to participate in some of the other baseball programs in the way he wanted to participate. He needed a pinch runner. Sherri knew there was a solution and ran with the idea of Buddy Baseball, creating a program that the Rockford Park District and she collaborate on.</p>
-<a href="#" class="button next">&larr; Next Episode</a> <a href="#" class="button previous" target="_blank">Previous Episode &rarr;</a> </div>
+<a href="#" class="button next">&larr; Next<span class="cut"> Episode</a></a> <a href="#" class="button previous">Previous<span class="cut"> Episode</span> &rarr;</a> </div>
                 <div title="Featured episode credits" class="column right cushycms"><ul>
 	<li>
 		<h6>
