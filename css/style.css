@@ -1101,7 +1101,7 @@ footer button {
 
 footer .nav:hover,
 footer button:hover {
-    background-position: center -25x;
+    background-position: center -25px;
     color: white;
 }
 
