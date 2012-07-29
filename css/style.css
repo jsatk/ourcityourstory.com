@@ -1089,7 +1089,7 @@ footer nav a:visited {
 }
 
 footer button {
-    background: none;
+    background-color: transparent;
     border: none;
     color: #6E6A6A;
     font-weight: 800;
