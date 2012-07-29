@@ -1308,6 +1308,10 @@ footer p a:visited {
         border-bottom: 3px solid #6e6a6a;
     }
 
+    .allstories .recent {
+        background: url(../img/description-bg.jpg);
+    }
+
     .recent h3 {
         font-size: 1.8rem;
     }
