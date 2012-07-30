@@ -26,10 +26,7 @@
 
                 <!-- This is simply for the Cushy CMS. Current video ID to be entered here. -->
                 <h1 class="invisible cushycms" title="Put this page's featured video ID here" id="video-id">45895783</h1>
-                <select class="hidden cushycms" title="Is this the most recent episode?">
-                    <option selected value="No">No</option>
-                    <option value="Yes">Yes</option>
-                </select>
+                <h1 class="hidden cushycms" id="current" title="Is this the most recent episode?">No</h1>
                 <a href="" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode"></span></a>
                 <a href="" class="controls previous"><span class="cushycms" title="Previous Episode">E10: Fabric &amp; Color Patterns</span><em>&#8594;</em></a>
                 <iframe id="video" title="iframe for featured episode." src="http://player.vimeo.com/video/{*id*}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" width="500" height="281" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
