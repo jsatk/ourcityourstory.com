@@ -2,3 +2,7 @@
     <option selected value="No">No</option>
     <option value="Yes">Yes</option>
 </select>
+
+<p class="hidden cushycms">
+    hi
+</p>
