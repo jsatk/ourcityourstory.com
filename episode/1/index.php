@@ -56,16 +56,16 @@
                     </nav>
 
                 </div>
-                <div title="Feature episode description" class="column center clearfix cushycms"><p>
-	The ivy-coated exterior of the Vince the Tailor shop appears to have been there for decades&hellip;and it has, but it is rooted deeper than North Main. Tony Chiarelli owns and operates this alterations and tailoring shop. Much like all of Rockford, we discovered that Tony is one connection away from many shared friends in this city.The story of how we met him is the type of story that unravels itself when we slow down and listen.</p>
-<p>
-	Our City, Our Story was preparing to launch and we were seeking a way to symbolize the message of this project. An embroidered logo was chosen because like the many stitches that make up the logo, so the multitude of stories within a community that make up its identity. While searching for the authority in the realm of needlework, we met sweet quilters, we met cobblers, and lastly&hellip;we met Tony.</p>
-<p>
-	Upon taking the first step into Vince the Tailor, we were greeted into this quaint shop with the sound of a bell ring, distant music playing in the background, and an ever-busy Tony behind his machine: &ldquo;How can I help you, brother?&rdquo; Not long into the conversation, we realized that Tony&rsquo;s energetic personality and strong character had us hooked...he was our guy.</p>
-<p>
-	When we returned to film Tony discussing embroidery, a spectacular thing happened that reinforces the notion of why we should stay curious and open-minded. Tony opened up about his father - and the real story started to unfold before our eyes.</p>
-<a href="#" class="button next">&larr; Next<span class="cut">&nbsp;Episode</a></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
-                <div title="Featured episode credits" class="column right cushycms"><ul>
+                <div title="Feature episode description" class="column center clearfix cushycms">
+                    <p>The ivy-coated exterior of the Vince the Tailor shop appears to have been there for decades&hellip;and it has, but it is rooted deeper than North Main. Tony Chiarelli owns and operates this alterations and tailoring shop. Much like all of Rockford, we discovered that Tony is one connection away from many shared friends in this city.The story of how we met him is the type of story that unravels itself when we slow down and listen.</p>
+                    <p>Our City, Our Story was preparing to launch and we were seeking a way to symbolize the message of this project. An embroidered logo was chosen because like the many stitches that make up the logo, so the multitude of stories within a community that make up its identity. While searching for the authority in the realm of needlework, we met sweet quilters, we met cobblers, and lastly&hellip;we met Tony.</p>
+                    <p>Upon taking the first step into Vince the Tailor, we were greeted into this quaint shop with the sound of a bell ring, distant music playing in the background, and an ever-busy Tony behind his machine: &ldquo;How can I help you, brother?&rdquo; Not long into the conversation, we realized that Tony&rsquo;s energetic personality and strong character had us hooked...he was our guy.</p>
+                    <p>When we returned to film Tony discussing embroidery, a spectacular thing happened that reinforces the notion of why we should stay curious and open-minded. Tony opened up about his father - and the real story started to unfold before our eyes.</p>
+                    <a href="#" class="button next">&larr; Next<span class="cut">&nbsp;Episode</a></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a>
+                </div>
+
+                <div title="Featured episode credits" class="column right cushycms">
+                    <ul>
 	<li>
 		<h6>
 			Directed &amp; Produced By</h6>
