@@ -115,7 +115,7 @@
 <p>
 	Lorem ipsum dolor sit ametUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate&hellip;</p>
 <a href="http://ourcityourstory.com/episode/3" class="button">Watch &rarr;</a></div>
-                <a href="http://vimeo.com/ourcityourstory/videos" target="_blank" class="button-alt">All Stories</a>
+                    <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/allstorieslink.php"); ?>
             </article>
         </div>
 

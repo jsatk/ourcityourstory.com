@@ -120,7 +120,7 @@
 <p>
 	Jimmy Goodman lives up to his surname. Three days a week, he volunteers in running and coaching youth in the sport of boxing. When you walk in to the space, you immediately see the ring before you, but you may not get to step in it for months&hellip;</p>
 <a href="http://ourcityourstory.com/episode/2" class="button">Watch &rarr;</a></div>
-                <a href="http://vimeo.com/ourcityourstory/videos" target="_blank" class="button-alt">All Stories</a>
+                    <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/allstorieslink.php"); ?>
             </article>
         </div>
 

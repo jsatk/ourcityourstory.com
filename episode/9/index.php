@@ -115,7 +115,7 @@
 <p>
 	The O&rsquo;Keefe family is one of the only two 3rd generation Fire Fighting families to serve Rockford on the Fire Department. Though they share the same blood, and history, each of the members of the fire department are a part of a brotherhood&hellip;</p>
 <a href="http://ourcityourstory.com/episode/6" class="button">Watch &rarr;</a></div>
-                <a href="http://vimeo.com/ourcityourstory/videos" target="_blank" class="button-alt">All Stories</a>
+                    <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/allstorieslink.php"); ?>
             </article>
         </div>
 

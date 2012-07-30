@@ -115,7 +115,7 @@
 <p>
 	Joseph Goral was arrested in 2006 for vandalizing property with spray paint. He was one of a few that were made examples of by an anti-graffiti task force. Mayor Larry Morrissey&#39;s press conference was one of victory&hellip;</p>
 <a href="http://ourcityourstory.com/episode/5" class="button">Watch &rarr;</a></div>
-                <a href="http://vimeo.com/ourcityourstory/videos" target="_blank" class="button-alt">All Stories</a>
+                    <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/allstorieslink.php"); ?>
             </article>
         </div>
 

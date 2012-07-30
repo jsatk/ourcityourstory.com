@@ -125,7 +125,7 @@
 <p>
 	The ivy-coated exterior of the Vince the Tailor shop appears to have been there for decades and it has, but it is rooted deeper than North Main. Tony Chiarelli owns and operates this alterations and tailoring shop&hellip;</p>
 <a href="http://ourcityourstory.com/episode/1" class="button">Watch &rarr;</a> </div>
-                <a href="http://vimeo.com/ourcityourstory/videos" target="_blank" class="button-alt">All Stories</a>
+                    <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/allstorieslink.php"); ?>
             </article>
         </div>
 

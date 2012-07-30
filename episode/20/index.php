@@ -119,7 +119,7 @@
 <p>
 	&ldquo;Did I just really see that?&rdquo; It was the middle of December, and on a snow soaked Sunday afternoon a couple dozen fur covered bikes were sprinting down East State Street. Directly after this mass of bikes was a white truck&hellip;</p>
 <a href="http://ourcityourstory.com/episode/8" class="button">Watch &rarr;</a></div>
-                <a href="http://vimeo.com/ourcityourstory/videos" target="_blank" class="button-alt">All Stories</a>
+                    <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/allstorieslink.php"); ?>
             </article>
         </div>
 

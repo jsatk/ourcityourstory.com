@@ -120,7 +120,7 @@
 <p>
 	There are two things you can do when someone labels you. You can either accept it, or prove it wrong. Darcy Hill is the Drama teacher at the Lutheran Academy. Every year she puts on a play with her 4th grade students. However, this was not like every other year&hellip;</p>
 <a href="http://ourcityourstory.com/episode/7" class="button">Watch &rarr;</a></div>
-                <a href="http://vimeo.com/ourcityourstory/videos" target="_blank" class="button-alt">All Stories</a>
+                    <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/allstorieslink.php"); ?>
             </article>
         </div>
 
