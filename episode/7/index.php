@@ -27,6 +27,7 @@
 
             <!-- This is simply for the Cushy CMS. Current video ID to be entered here. -->
             <h1 title="Put this page's featured video ID here" class="invisible cushycms" id="video-id">43276390</h1>
+            <h1 class="hidden cushycms" id="current" title="Is this the most recent episode?">No</h1>
 
             <a href="#" class="controls next"><em>&#8592;</em><span title="Next Episode" class="cushycms">E08: Team Fur Bandit</span></a>
             <a href="#" class="controls previous"><span title="Previous Episode" class="cushycms">E06: Bonds By Fire</span><em>&#8594;</em></a>

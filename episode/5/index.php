@@ -28,6 +28,7 @@
 
             <!-- This is simply for the Cushy CMS. Current video ID to be entered here. -->
             <h1 class="invisible cushycms" title="Put this page's featured video ID here" id="video-id">43276391</h1>
+            <h1 class="hidden cushycms" id="current" title="Is this the most recent episode?">No</h1>
 
             <a href="#" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode">E06: Bonds By Fire</span></a>
             <a href="#" class="controls previous"><span class="cushycms" title="Previous Episode">E04: Darrell Hines</span><em>&#8594;</em></a>

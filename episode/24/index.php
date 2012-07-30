@@ -27,6 +27,7 @@
 
             <!-- This is simply for the Cushy CMS. Current video ID to be entered here. -->
             <h1 title="Put this page's featured video ID here" class="invisible cushycms" id="video-id">45895783</h1>
+            <h1 class="hidden cushycms" id="current" title="Is this the most recent episode?">Yes</h1>
 
             <a href="#" class="controls next"><em>&#8592;</em><span title="Next Episode" class="cushycms"><br />
 </span></a>
