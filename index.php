@@ -14,7 +14,6 @@
     </head>
 
     <body>
-        <input type="checkbox" name="current" value="current" class="hidden cushycms" title="Check if this is the most recent episode.">
 
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/facebook.php"); ?>
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/header.php"); ?>
