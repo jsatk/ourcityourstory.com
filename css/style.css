@@ -581,7 +581,6 @@ header .logo {
     color: black;
     display: inline-block;
     padding: 0.5rem;
-    position: relative;
     z-index: 1;
 }
 
