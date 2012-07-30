@@ -330,26 +330,26 @@
                 // Previous and next buttons...
                 nw = $("#episode .next span").width() + 100;
                 pw = $("#episode .previous span").width() + 100;
-                $("#episode .next span").css("left", "-" + nw + "px");
-                $("#episode .previous span").css("right", "-" + pw +"px");
+                $("#episode .next span").css("margin-left", "-" + nw + "px");
+                $("#episode .previous span").css("margin-right", "-" + pw +"px");
 
                 $("#episode .next").hover(function () {
                     $("#episode .next span").stop().animate({
-                        left: "0px"
+                        marginLeft: "0px"
                     }, 500);
                 }, function () {
                     $("#episode .next span").stop().animate({
-                        left: "-" + nw + "px"
+                        marginLeft: "-" + nw + "px"
                     }, 500);
                 });
 
                 $("#episode .previous").hover(function () {
                     $("#episode .previous span").stop().animate({
-                        right: "0px"
+                        marginRight: "0px"
                     }, 500);
                 }, function () {
                     $("#episode .previous span").stop().animate({
-                        right: "-" + pw + "px"
+                        marginRight: "-" + pw + "px"
                     });
                 });
 
