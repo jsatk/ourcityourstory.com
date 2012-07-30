@@ -1,0 +1,1 @@
+<input type="checkbox" name="current" value="Is this the most recent episode?" class="hidden cushycms">

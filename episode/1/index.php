@@ -15,7 +15,7 @@
     </head>
 
     <body>
-
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/iscurrent.php"); ?>
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/facebook.php"); ?>
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/header.php"); ?>
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/top-nav.php"); ?>
