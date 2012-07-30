@@ -9,6 +9,7 @@
 // <br />If you have any questions feel free to
 // <a href="mailto:jesse.s.atkinson@gmail.com">email me</a>!</em>
 
+// params in order: jQuery, Froogaloop, window, hard-setting undefined.
 (function ($, $f, window, undefined) {
     "use strict";
 
@@ -16,7 +17,7 @@
         init: function () {
             // Retina image replace.
             this.highdpi();
-            // Handles newsletter button functionality.
+            // Handles subscribe button functionality.
             this.newsletter();
             // Keeps header text centered on resize.
             this.position();
@@ -31,7 +32,7 @@
         },
 
         highdpi: function () {
-            // We check for the inconsequential property we set on .replace-2x.
+            // We check for the inconsequential `font-size: 1px;` property we set on .replace-2x.
             // The class will only have this property if the proper media queries
             // are passed.
             if ($('.replace-2x').css('font-size') === "1px") {
@@ -40,7 +41,7 @@
                     var src = $(this).attr("src");
 
                     // Replaces for images that are either .png or .jpg. This could
-                    // be done clearer with some reg ex, but it works fine for now.
+                    // be done clearer with some reg ex, but this works fine for now.
                     src = src.replace(".png", "@2x.png")
                              .replace(".jpg", "@2x.jpg");
 
@@ -49,9 +50,13 @@
             }
         },
 
+        // There is a shit ton of math, calculations, etc, that control the nav
+        // bar and arrows that stick and unstick, jump to sections, etc. Be careful
+        // in here.
         nav: function () {
-            var fixit, x = true, top;
+            var fixit, top, x = true;
 
+            // If we aren't on the "All Stories" page...
             if ($(".allstories").length === 0) {
                 top = (Math.floor($("#episode").css("border-bottom-width").replace("px", "")) + Math.floor($("#episode").css("padding-bottom").replace("px", "")) + $(".top-nav").height() + $(".controls").height()) / 2;
 
@@ -67,6 +72,7 @@
                     top: 0
                 });
 
+                // If we aren't on the "All Stories" page...
                 if ($(".allstories").length === 0) {
                     $(".controls").css({
                         position: "fixed",
@@ -155,6 +161,7 @@
                 $(this).addClass("active");
             });
 
+            // If user clicks on "supporters" preventDefault and toggleClass.
             $($("footer .nav")[1]).click(function (e) {
                 e.preventDefault();
 
@@ -165,18 +172,24 @@
         newsletter: function () {
             var subscribe = $(".subscribe_header").html();
 
+            // Checks to see if user has clicked on one of the subscribe buttons.
+            // This could be more elegantly done, but it works fine for now.
+            // A re-work is on the "to do" list.
             $(document).click({namespace: this}, function (e) {
-                var t = e.data.namespace, wrapper, footer;
+                var t = e.data.namespace, footer, wrapper;
 
+                // If user has clicked on a subscribe button...
                 if ($(e.target).is($(".newsletter"))) {
                     e.preventDefault();
 
+                    // If user clicked the subscribe button in the top-nav...
                     if ($(e.target).is($($(".newsletter")[0]))) {
                         $($(".newsletter")[0]).addClass("active");
                         $($(".newsletter")[1]).removeClass("active");
                         wrapper = $(".subscribe_header");
                         footer = false;
                         $(".subscribe_footer").html("");
+                        // Else user must have clicked the footer subscribe button...
                     } else {
                         $($(".newsletter")[0]).removeClass("active");
                         $($(".newsletter")[1]).addClass("active");
@@ -185,16 +198,21 @@
                         $(".subscribe_header").html("");
                     }
 
+                    // Insert form into proper wrapper and toggle visibility.
                     wrapper.html(subscribe).toggle();
 
+                    // Add class footer so we can get it styled right for footer.
                     if (footer) {
                         $("#subscribe").addClass("footer");
                     }
+                // If user has clicked on any part of the subscribe form don't hide it, but...
                 } else if ($(e.target).parents("#subscribe").length > 0) {
+                    // if user clicks submit button then hide the form.
                     if ($(e.target).is($("#submit"))) {
                         $(".newsletter").removeClass("active");
                         $(".subscribe_header, .subscribe_footer").hide();
                     }
+                // User has most definitely not clicked on anything to do with the newsletter subscription.
                 } else {
                     $(".newsletter").removeClass("active");
                     $(".subscribe_header, .subscribe_footer").hide();
@@ -226,6 +244,8 @@
             $("#supporters_button").click(function (e) {
                 e.preventDefault();
 
+                // Stores the new height of the new visible supporters section
+                // so we can animate our scroll.
                 $("#supporters").css("height", "auto");
                 auto = $("#supporters").height();
                 $("#supporters").css("height", "");
