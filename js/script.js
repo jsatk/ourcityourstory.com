@@ -299,7 +299,7 @@
                     $(".previous").addClass("hidden");
                 }
 
-                if (pathname === "/" || pathname === "/dev/") {
+                if (pathname === "/" || pathname === "/dev/" || $("#recent").text() === "Yes") {
                     $(".next").addClass("hidden");
                 }
 
