@@ -30,7 +30,7 @@
             <h1 class="hidden cushycms" id="current" title="Is this the most recent episode?">No</h1>
 
             <a href="#" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode">E11: Buddy Baseball</span></a>
-            <a href="#" class="controls previous"><span class="cushycms" title="Previous Episode">E09: Hazzard Free</span><em>&#8594;</em></a>
+            <a href="#" class="controls previous"><em>&#8594;</em><span class="cushycms" title="Previous Episode">E09: Hazzard Free</span></a>
             <iframe id="video" title="iframe for featured episode." src="http://player.vimeo.com/video/{*id*}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" width="500" height="281" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>
 
