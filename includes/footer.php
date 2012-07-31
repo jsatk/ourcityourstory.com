@@ -34,7 +34,7 @@
             <a href="https://www.facebook.com/OurCityOurStory/" target="_blank" class="social">Facebook</a><span class="social">
         </nav>
 
-        <p>Copyright &copy; 2012 Our City, Our Story. All rights reserved. Legal services provided by Adam Stivers of <a href="http://stiverslegal.com/" target="_blank">StiversLegal.com</a>. Logo &amp; site design by <a href="http://jasonjam.es" target="_blank">The Office of Jason James</a>.</p>
+        <p>Copyright &copy; 2012 Our City, Our Story. All rights reserved. Legal services provided by Adam Stivers of <a href="http://stiverslegal.com/" target="_blank">StiversLegal.com</a>. Design by <a href="jasonjam.es" target="_blank">Jason James</a>. Development by <a href="http://jesseatkinson.org">Jesse Atkinson</a>.</p>
     </div>
 </footer>
 
