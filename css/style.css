@@ -1555,8 +1555,8 @@ footer p a:visited {
     }
 
     .about {
-        -webkit-background-size: auto auto;
-        background-size: auto auto;
+        -webkit-background-size: cover !important;
+        background-size: cover !important;
     }
 
     .contact li a, .contact li a:visited {
