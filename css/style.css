@@ -1555,8 +1555,8 @@ footer p a:visited {
     }
 
     .about {
-        -webkit-background-size: cover !important;
-        background-size: cover !important;
+        -webkit-background-size: 1000px 1000px !important;
+        background-size: 1000px 1000px !important;
     }
 
     .contact li a, .contact li a:visited {
