@@ -335,7 +335,7 @@
 
                 $("#episode .next").hover(function () {
                     $("#episode .next span").stop().animate({
-                        marginLeft: $(".episode .controls em").width() + 5 + "px"
+                        marginLeft: $(".episode .controls em").outerWidth() + 5 + "px"
                     }, 500);
                 }, function () {
                     $("#episode .next span").stop().animate({
@@ -345,7 +345,7 @@
 
                 $("#episode .previous").hover(function () {
                     $("#episode .previous span").stop().animate({
-                        marginRight: $(".episode .controls em").width() + 5 + "px"
+                        marginRight: $(".episode .controls em").outerWidth() + 5 + "px"
                     }, 500);
                 }, function () {
                     $("#episode .previous span").stop().animate({
