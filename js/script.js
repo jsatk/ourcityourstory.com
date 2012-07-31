@@ -328,8 +328,8 @@
                 }
 
                 // Previous and next buttons...
-                nw = $("#episode .next span").width() + 100;
-                pw = $("#episode .previous span").width() + 100;
+                nw = $("#episode .next span").width() + $(".episode .controls em").width() + 100;
+                pw = $("#episode .previous span").width() + $(".episode .controls em").width() + 100;
                 $("#episode .next span").css("margin-left", "-" + nw + "px");
                 $("#episode .previous span").css("margin-right", "-" + pw +"px");
 

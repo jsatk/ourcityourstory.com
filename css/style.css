@@ -586,10 +586,14 @@ header .logo {
 
 .episode .next em {
     margin-right: 5px;
+    left: 0;
+    position: absolute;
 }
 
 .episode .previous em {
     margin-left: 5px;
+    right: 0;
+    position: absolute;
 }
 
 .episode .controls span {
