@@ -328,17 +328,14 @@
                 }
 
                 // Previous and next buttons...
-                nw = $("#episode .next span").width() + $(".episode .controls em").width() + 100;
-                pw = $("#episode .previous span").width() + $(".episode .controls em").width() + 100;
-
-                console.log(nw, $("#episode .next span").width(), $(".episode .controls em").width());
-
+                nw = $("#episode .next span").width() + 100;
+                pw = $("#episode .previous span").width() + 100;
                 $("#episode .next span").css("margin-left", "-" + nw + "px");
                 $("#episode .previous span").css("margin-right", "-" + pw +"px");
 
                 $("#episode .next").hover(function () {
                     $("#episode .next span").stop().animate({
-                        marginLeft: "0px"
+                        marginLeft: $(".episode .controls em").width() + 5 + "px"
                     }, 500);
                 }, function () {
                     $("#episode .next span").stop().animate({
@@ -348,7 +345,7 @@
 
                 $("#episode .previous").hover(function () {
                     $("#episode .previous span").stop().animate({
-                        marginRight: "0px"
+                        marginRight: $(".episode .controls em").width() + 5 + "px"
                     }, 500);
                 }, function () {
                     $("#episode .previous span").stop().animate({
