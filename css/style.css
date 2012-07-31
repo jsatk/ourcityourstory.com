@@ -1554,6 +1554,11 @@ footer p a:visited {
         display: inline;
     }
 
+    .about {
+        -webkit-background-size: auto auto;
+        background-size: auto auto;
+    }
+
     .contact li a, .contact li a:visited {
         font-size: 16px;
         font-size: 1rem;
