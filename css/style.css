@@ -310,13 +310,19 @@ h6 {
 }
 
 .bg { /* Fall back inline image for backgrounds. Used for iOS. */
+    display: inline;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.iphone {
     display: none;
     height: 100%;
     position: absolute;
     top: 0;
 }
-
-.iphone { display: none; }
 
 /* Header */
 header {
@@ -332,9 +338,7 @@ header {
 }
 
 header .bg {
-    display: inline;
     position: relative;
-    z-index: -1;
 }
 
 header .title {
@@ -1538,25 +1542,16 @@ footer p a:visited {
     }
 
     .bg {
+        display: none;
+    }
+
+    .iphone {
         display: inline;
     }
 
     header {
         width: 320px;
         height: 280px;
-    }
-
-    header .bg {
-        display: none;
-    }
-
-    header .iphone {
-        display: inline;
-    }
-
-    .about {
-        -webkit-background-size: 1000px 1000px !important;
-        background-size: 1000px 1000px !important;
     }
 
     .contact li a, .contact li a:visited {

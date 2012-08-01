@@ -1,5 +1,7 @@
 <div id="about" class="about clearfix">
     <img class="bg rel" src="img/about-bg.jpg" alt="About" width="1274px" height="719px">
+    <!-- For iPhone 4 only -->
+    <img class="iphone rel" src="img/about-bg-m.jpg" alt="Header" width="320px" height="240px">
     <article class="clearfix">
         <div class="column left">
             <h5>Who We Are</h5>

@@ -1,5 +1,7 @@
 <div id="contact" class="contact">
     <img class="bg rel" src="img/contact-bg.jpg" alt="Contact background" width="1280px" height="719px">
+    <!-- For iPhone 4 only -->
+    <img class="iphone rel" src="img/contact-bg-m.jpg" alt="Header" width="320px" height="240px">
     <div>
         <article>
             <h1>Contact</h1>
