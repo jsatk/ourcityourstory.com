@@ -1,0 +1,97 @@
+<div id="product_display" class="clearfix">
+	<div id="product_info">
+		<div id="product_images" class="eight columns alpha">
+			<ul id="product_thumbnails">
+				<li class="featured">
+					<a href="{{ product.image | product_image_url }}">
+						<img src="{{ product.image | product_image_url }}" alt="Image of {{ product.name | escape }}" />
+						<span class="stilt"></span>
+					</a>
+				</li>
+				
+				{% for image in product.images offset:1 %}
+				<li class="thumbnail">
+					<a href="{{ image | product_image_url }}">
+						<img src="{{ image | product_image_url size:"thumb" }}" alt="Image of {{ product.name | escape }}" />
+						<span class="stilt"></span>
+					</a>
+				</li>
+				{% endfor %}
+      
+				{% if product.on_sale %}
+					<span class="product-sale">On Sale!</span>
+				{% endif %}
+			</ul>
+  		</div>
+  
+		<div id="product-description-wrapper" class="eight columns omega">
+			<h2 id="product_name" class="tiska-header">{{ product.name }}</h2>
+			<h3 class="product_price tiska-header">{{ product.default_price | money_with_sign }}</h3>
+			
+			<div class="fb-like clearfix" data-href="{{ page.full_url }}" data-send="true" data-width="450" data-show-faces="true"></div>
+
+			{% case product.status %}
+			{% when 'active' %}
+    		{% if product.description != blank %}
+			<div id="product_description">
+				{{ product.description | paragraphs }}
+
+				{% if theme.show_inventory_bars %}
+				<div id="product_inventory">
+					<div id="product_inventory_inner">
+					<h3 class="tiska-header">Availability</h3>
+					<ul>
+						{% for option in product.options %}
+						<li class="{% if option.sold_out %}sold_out{% endif %} clearfix">
+      					{% unless product.has_default_option %}
+      					<span class="inventory_option">{{ option.name }}</span>
+      					{% endunless %}
+      					<span class="inventory_bar"> 
+      					
+      					<span class="inventory_bar_inner" style="width:{{ option.inventory }}%"> </span>
+      					
+      					</span>
+          				{% if option.sold_out %}
+          					<span class="inventory_sold">Sold Out</span>
+          				{% endif %}
+    					</li>
+    					{% endfor %}
+					</ul>
+			    {% endif %}
+    
+				<div id="product_form_wrap">
+					<form id="product_form" class="clearfix" method="post" action="/cart">
+						{% if product.has_default_option %}
+						{{ product.option | hidden_option_input }}
+						{% else %}
+				        <div id="product_options" class="options">
+							{{ product.options_in_stock | options_select }}
+				        </div>
+						{% endif %}
+	
+						<button id="btn_product_buy" class="button" name="submit" type="submit">Add to cart</button>
+	
+				        <div id="adding_to_cart" style="display:none">
+				          <h4>Adding&hellip;</h4>
+				        </div>
+	
+				        <div id="added_to_cart" style="display:none">
+				          <h4>Added!</h4>
+				          <a href="/cart" id="added_view_cart" class="button"><span>View Cart</span></a>
+				        </div>
+					</form>
+    			</div>
+    			</div>
+    			</div>
+    			
+    		</div>
+    	{% endif %}
+	    {% when 'coming-soon' %}
+		    <h3 id="product_status" class="coming-soon-text tiska-header">Coming Soon</h3>
+		{% when 'sold-out' %}
+		    <h3 id="product_status" class="sold-out-text tiska-header">Sold Out</h3>
+		{% endcase %}
+	</div><!-- #product-description-wrapper -->
+    
+    <div style="clear: both;"></div>
+</div>

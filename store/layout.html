@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+<meta charset="utf-8">
+<title>{{ store.name }} &mdash; {{ page.name }}</title>
+<meta name="description" content="{{ page.meta_description }}">
+<meta name="author" content="{{ page.meta_keywords }}">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script src="{{ 'fancyzoom' | theme_js_url }}" type="text/javascript"></script>
+
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="{{ theme | theme_css_url }}">
+  
+<link rel="alternate" href="/products.rss" title="Products RSS Feed" type="application/rss+xml" />
+
+{{ head_content }}
+
+</head>
+
+<body id="{{ page.permalink }}" class="{{ page.category }}" onload="setupZoom()">
+
+<!-- Facebook Like Script -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="container">
+
+<header>
+
+<div class="eleven columns alpha">
+	<h2 id="logo" {% if theme.image != blank %}class="image"{% endif %}>
+		<a href="/" id="store_home" title="{{ store.name | escape }}">
+			{% if theme.image != blank %}
+				<img src="{{ theme.image.url }}" alt="{{ store.name | escape }}" />
+			{% endif %}
+		</a>
+	</h2>
+</div>
+
+<div class="five columns omega" id="minicart">
+	<div id="minicart-inner">
+	<a href="/cart" title="View Cart">
+		<span id="minicart_cartitems">You have {{ cart.item_count | pluralize: 'item', 'items' }} in your cart</span> - 
+		<span id="minicart_carttotal">{{ cart.subtotal | money_with_sign }}</span>
+	</a>
+	</div>
+</div>
+
+<div class="ten columns alpha" id="menu">
+	<ul class="sf-menu">
+		<li>{{ pages.home | link_to }}</li>
+		<li>
+		<a href="/products" class="sf-with-ul">Products &raquo;</a>
+		<ul>
+		<li class="first"><a href="/products" title="All Products">All</a></li>
+		{% for category in categories.active limit:50 %}
+			<li>{{ category | link_to }}</li>
+		{% endfor %}
+		</ul>
+		</li>
+		{% for page in pages.all %}
+			<li>{{ page | link_to }}</li>
+		{% endfor %}
+		<li>{{ pages.contact | link_to }}</li>
+		{% if store.website != blank %}
+		<li>
+		  <a href="{{ store.website }}" title="Back to Site">Back to Site</a>
+		</li>
+		{% endif %}
+	</ul>
+</div>	
+      
+{% if theme.show_search %}
+<div class="six columns omega" id="search-box">
+	<form id="search_form" name="search" action="/products" method="get" style="margin-bottom: 0px;">
+		<input id="search_words" class="text" name="search" type="text" />
+		<button id="btn_search" class="button" name="btn_search" type="submit" title="Search"><span>Search</span></button>
+	</form>
+</div>
+{% endif %}
+      
+</header>
+
+<div style="clear: both;"></div>
+
+<div id="main" class="clearfix sixteen columns alpha">
+
+{% if errors != blank %}
+<div id="error" class="error">
+	<ul>
+		{% for error in errors %}<li>{{ error }}</li>{% endfor %}
+	</ul>
+</div>
+{% endif %}
+
+{% if page.category == 'custom' %}
+{{ page_content | paragraphs }}
+{% else %}
+{{ page_content }}
+{% endif %}
+    
+<footer>
+	<div id="badge">
+		&copy; 2011 {{ store.name }} | 
+		<a href="http://www.wearenine.com" title="Big Cartel Themes">
+      	Designed by WeAreNine
+		</a>
+		| 
+		<a href="http://bigcartel.com" title="Check out Big Cartel">
+      	Powered by Big Cartel
+		</a>
+	</div>
+</footer>
+
+</div><!-- #main -->
+
+</div><!-- #container -->
+
+<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script src="custom.js"></script>
+
+</body>
+</html>
