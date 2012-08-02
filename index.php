@@ -9,8 +9,9 @@
     <head>
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
 
-        <meta name="description" title="Meta-Description" class="cushycms" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story" />
-        <meta property="og:image" class="cushycms" title="Facebook Share Image." content="http://ourcityourstory.com/img/logo.png" />
+        <meta name="description" title="Meta-Description" class="cushycms" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
+        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story">
+        <meta property="og:image" class="cushycms" title="Facebook Share Image." content="http://ourcityourstory.com/img/logo.png">
     </head>
 
     <body>
@@ -124,7 +125,8 @@
     <a href="http://ourcityourstory.com/episode/8">Team Fur Bandit</a></h3>
 <p>
     &ldquo;Did I just really see that?&rdquo; It was the middle of December, and on a snow soaked Sunday afternoon a couple dozen fur covered bikes were sprinting down East State Street. Directly after this mass of bikes was a white truck&hellip;</p>
-<a href="http://ourcityourstory.com/episode/8" class="button">Watch &rarr;</a> </div>
+<a href="http://ourcityourstory.com/episode/8" class="button">Watch &rarr;</a>
+</div>
 
                     <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/allstorieslink.php"); ?>
                 </article>
