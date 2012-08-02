@@ -7,7 +7,7 @@
     <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
     <head>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/head.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
 
         <meta class="cushycms" title="Meta-Description" name="description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
         <meta class="cushycms" title="Facebook Share Title" property="og:title" content="Our City, Our Story">
@@ -16,9 +16,9 @@
 
     <body>
 
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/facebook.php"); ?>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/header.php"); ?>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/top-nav.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/facebook.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/header.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/top-nav.php"); ?>
 
     <div role="main">
         <div id="episode" class="episode">
@@ -86,7 +86,7 @@
             </article>
         </div>
 
-            <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/about.php"); ?>
+            <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/about.php"); ?>
 
         <div id="recent" class="recent clearfix">
             <article class="clearfix">
@@ -116,18 +116,18 @@
 <p>
 	Joseph Goral was arrested in 2006 for vandalizing property with spray paint. He was one of a few that were made examples of by an anti-graffiti task force. Mayor Larry Morrissey&#39;s press conference was one of victory&hellip;</p>
 <a href="http://ourcityourstory.com/episode/5" class="button">Watch &rarr;</a></div>
-                    <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/allstorieslink.php"); ?>
+                    <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/allstorieslink.php"); ?>
             </article>
         </div>
 
-            <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/contact.php"); ?>
+            <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/contact.php"); ?>
 
         </div>
         <!-- End of role="main" -->
 
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/sponsor.php"); ?>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/supporters.php"); ?>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/footer.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/sponsor.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/supporters.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/footer.php"); ?>
 
     </body>
 </html>

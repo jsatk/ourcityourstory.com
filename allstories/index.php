@@ -7,7 +7,7 @@
     <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
     <head>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/head.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
 
         <meta name="description" title="Meta-Description" class="cushycms" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story" />
         <meta property="og:image" class="cushycms" title="Facebook Share Image." content="http://ourcityourstory.com/img/logo.png" />
@@ -15,8 +15,8 @@
 
     <body class="allstories">
 
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/facebook.php"); ?>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/header.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/facebook.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/header.php"); ?>
 
         <div class="top-nav">
             <nav>
@@ -30,7 +30,7 @@
                     <a href="/#contact" class="nav scroll">Contact</a><span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
                     <a href="#sponsor" class="cut nav scroll">Sponsor</a><span class="cut">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
                     <a href="http://ourcityourstory.bigcartel.com/" target="_blank"  class="cut nav">Shop</a><span class="cut">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-                    <a href="/dev/allstories/" class="nav">All<span> Stories</span></a>
+                    <a href="/allstories/" class="nav">All<span> Stories</span></a>
                     <a href="mailto:pablokorona@ourcityourstory.com" class="social email sprite newsletter"><span class="hidden">Email</span></a>
                     <a href="https://twitter.com/ourcityourstory" class="social twitter sprite" target="_blank"><span class="hidden">Twitter</span></a>
                     <a href="https://www.facebook.com/OurCityOurStory" class="social facebook sprite" target="_blank"><span class="hidden">Facebook</span></a>
@@ -290,9 +290,9 @@
         </div>
         <!-- End of role="main" -->
 
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/sponsor.php"); ?>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/supporters.php"); ?>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/footer.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/sponsor.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/supporters.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/footer.php"); ?>
 
     </body>
 </html>

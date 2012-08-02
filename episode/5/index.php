@@ -7,7 +7,7 @@
     <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
     <head>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/head.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
 
         <meta class="cushycms" title="Meta-Description" name="description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
         <meta class="cushycms" title="Facebook Share Title" property="og:title" content="Our City, Our Story">
@@ -16,9 +16,9 @@
 
     <body>
 
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/facebook.php"); ?>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/header.php"); ?>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/top-nav.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/facebook.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/header.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/top-nav.php"); ?>
 
 
     <div role="main">
@@ -92,7 +92,7 @@
             </article>
         </div>
 
-            <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/about.php"); ?>
+            <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/about.php"); ?>
 
         <div id="recent" class="recent clearfix">
             <article class="clearfix">
@@ -122,18 +122,18 @@
 <p>
 	Jimmy Goodman lives up to his surname. Three days a week, he volunteers in running and coaching youth in the sport of boxing. When you walk in to the space, you immediately see the ring before you, but you may not get to step in it for months&hellip;</p>
 <a href="http://ourcityourstory.com/episode/2" class="button">Watch &rarr;</a></div>
-                    <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/allstorieslink.php"); ?>
+                    <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/allstorieslink.php"); ?>
             </article>
         </div>
 
-            <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/contact.php"); ?>
+            <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/contact.php"); ?>
 
         </div>
         <!-- End of role="main" -->
 
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/sponsor.php"); ?>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/supporters.php"); ?>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/dev/includes/footer.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/sponsor.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/supporters.php"); ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/footer.php"); ?>
 
     </body>
 </html>
