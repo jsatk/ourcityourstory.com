@@ -38,6 +38,7 @@ intermediate
 publish
 .idea
 *comps
+*dev
 
 # build script local files
 build/buildinfo.properties
