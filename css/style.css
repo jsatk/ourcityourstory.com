@@ -218,13 +218,8 @@ td { vertical-align: top; }
    ========================================================================== */
 
 /* A note on the fonts. We have "superclarendon" in 400 & 700.
-<<<<<<< HEAD
-	We have "proximanova" in 400, 400 italic, 600, 600 italic, 700, & 800.
-	We also have "adobe-text-pro" in 600 italic. */
-=======
     We have "proxima-nova" in 400, 400 italic, 600, 600 italic, 700, & 800.
     We also have "adobe-text-pro" in 600 italic. */
->>>>>>> rework
 
 
 /* global styles. */
@@ -331,14 +326,6 @@ h6 {
 
 /* Header */
 header {
-<<<<<<< HEAD
-	background: url(../img/header-bg.jpg) center center no-repeat #191411;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height: 498px;
-=======
     background: url(../img/header-bg.jpg) center center fixed no-repeat;
     -webkit-background-size: auto 100%;
     -moz-background-size: cover;
@@ -348,7 +335,6 @@ header {
     min-height: 280px;
     overflow: hidden;
     position: relative;
->>>>>>> rework
 }
 
 header .bg {
@@ -430,32 +416,12 @@ header .logo {
     width: 25px;
 }
 
-<<<<<<< HEAD
-#nav-wrapper nav a {
-	display: inline-block;
-	color: #6c6a6a;
-	line-height: 40px;
-	letter-spacing: 1px;
-	padding-bottom: 10px;
-	-webkit-font-smoothing: antialiased;
-}
-
-#nav-wrapper nav a:hover {
-	color: #979595;
-	background: url(../img/nav-hover.png) center 31px no-repeat;
-}
-
-#nav-wrapper nav a.active {
-	color: white;
-	background: url(../img/nav-active.png) center 40px no-repeat;
-=======
 .top-nav nav .facebook {
     background-position: 2px 0;
 }
 
 .top-nav nav .facebook:hover {
     background-position: 2px -15px;
->>>>>>> rework
 }
 
 .top-nav nav .twitter {
@@ -516,14 +482,6 @@ header .logo {
 }
 
 .subscribe label {
-<<<<<<< HEAD
-	color: #191411;
-	text-transform: none;
-	font: 600 italic 1rem "adobe-text-pro", times, 'times new roman', serif;
-	text-align: left;
-	margin: 4px 0;
-	letter-spacing:0px;
-=======
     color: #191411;
     display: block;
     font-size: 16px;
@@ -531,7 +489,6 @@ header .logo {
     padding-bottom: 3px;
     text-align: left;
     text-transform: none;
->>>>>>> rework
 }
 
 .subscribe input {
@@ -591,15 +548,7 @@ header .logo {
     width: 20%;
 }
 
-<<<<<<< HEAD
-#video-description-wrapper {
-	background: url(../img/description-bg.jpg) repeat;
-	overflow: hidden;
-	padding: 113px 0;
-}
-=======
 /* Episode section */
->>>>>>> rework
 
 .episode {
     border-bottom: 3px solid #6e6a6a;
@@ -631,20 +580,12 @@ header .logo {
     z-index: 2;
 }
 
-<<<<<<< HEAD
-#video-description h3 {
-	margin: 0px 0px 28px;
-	font: 600 italic 2rem "adobe-text-pro", times, 'times new roman', serif;
-	color: #191411;
-	letter-spacing:0px;
-=======
 .episode .controls em {
     background: rgba(255, 255, 255, 0.5);
     color: black;
     display: inline-block;
     padding: 0.5rem;
     z-index: 1;
->>>>>>> rework
 }
 
 .episode .next em {
@@ -674,14 +615,6 @@ header .logo {
     right: 0;
 }
 
-<<<<<<< HEAD
-#video-description #credits span {
-	font: 600 italic 0.8125rem "adobe-text-pro", times, 'times new roman', serif;
-	color: #433d3d;
-	display: inline-block;
-	margin-bottom: 1rem;
-	line-height: 1.25rem
-=======
 .episode iframe {
     border: none;
     height: 100%;
@@ -689,7 +622,6 @@ header .logo {
     position: absolute;
     top: 0;
     width: 100%;
->>>>>>> rework
 }
 
 /* Story section */
@@ -699,30 +631,6 @@ header .logo {
     border-bottom: 3px solid #6e6a6a;
 }
 
-<<<<<<< HEAD
-#video-description .social {
-	display: block;
-	float: left;
-}
-
-#video-description .social.facebook {
-	width: 82px;
-	margin-right: 21px;
-}
-
-#video-description .social.pinterest  {
-	position: relative;
-	z-index: 1;
-	width: 43px;
-	height: 21px;
-	line-height: 19px;
-}
-
-#video-description .social.pinterest img {
-	width: 43px;
-	height: 21px;
-	display: inline-block;
-=======
 .story {
     position: relative;
 }
@@ -736,7 +644,6 @@ header .logo {
 .story nav {
     position: absolute;
     top: 12px;
->>>>>>> rework
 }
 
 .story nav .social {
@@ -759,25 +666,8 @@ header .logo {
     display: block;
 }
 
-<<<<<<< HEAD
-#video-description .previous:visited {
-	color: #6C6A6A;
-}
-
-/* About */
-#about-wrapper {
-	background: url(../img/about-bg.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height: 719px;
-	border-top: 2px solid #6c6a6a;
-	border-bottom: 2px solid #6c6a6a;
-=======
 .story .column ul {
     padding: 0;
->>>>>>> rework
 }
 
 .story .column li {
@@ -835,15 +725,8 @@ header .logo {
     margin-bottom: 30px;
 }
 
-<<<<<<< HEAD
-#recent-wrapper {
-	height: 719px;
-	background: url(../img/recent-stories-bg.jpg);
-	border-bottom: 2px solid #6c6a6a;
-=======
 .about .right {
     text-align: center;
->>>>>>> rework
 }
 
 .about .right p {
@@ -870,18 +753,10 @@ header .logo {
     margin: 7px 0 0;
 }
 
-<<<<<<< HEAD
-#recent h3 {
-	font: 600 italic 1.625rem "adobe-text-pro", times, 'times new roman', serif;
-	letter-spacing: 0px;
-	color: #191411;
-	line-height: 1.25rem;
-=======
 .recent h3 a,
 .recent h3 a:visited {
     color: #191411;
     text-decoration: none;
->>>>>>> rework
 }
 
 .recent .column {
@@ -892,13 +767,6 @@ header .logo {
     margin-bottom: 15px;
     }
 
-<<<<<<< HEAD
-#recent h6 {
-	margin-top: 15px;
-	margin-bottom: 7px;
-	color: #6c6a6a;
-	font-weight: 800;
-=======
 .recent h6 {
     color: #6e6a6a;
     display: inline-block;
@@ -907,7 +775,6 @@ header .logo {
     text-transform: uppercase;
     letter-spacing: .1em;
     text-rendering:optimizeLegibility;
->>>>>>> rework
 }
 
 .recent p {
@@ -916,18 +783,6 @@ header .logo {
     line-height: 1.5;
 }
 
-<<<<<<< HEAD
-#recent .watch, #recent .watch:active, #recent .watch:visited {
-	display: block;
-	font-size: 0.75rem;
-	font-family: "proxima-nova", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	position: absolute;
-	bottom: 0;
-	padding: 3px 5px;
-	color: #6C6A6A;
-=======
 .button-alt,
 .button-alt:active,
 .button-alt:visited {
@@ -943,7 +798,6 @@ header .logo {
     text-decoration: none;
     text-transform: uppercase;
     width: 130px;
->>>>>>> rework
 }
 
 .next {
@@ -955,19 +809,6 @@ header .logo {
     color: white;
 }
 
-<<<<<<< HEAD
-.button, .button:active, .button:visited {
-	font: 800 0.8125rem "proxima-nova", helvetica, arial, sans-serif;
-	color: white;
-	font-size: 0.8rem;
-	font-weight: 900;
-	display: inline-block;
-	margin-top: 70px;
-	background: #6c6a6a;
-	padding: 6px 21px;
-	float: right;
-	letter-spacing:1px;
-=======
 /* Contact section */
 .contact {
     background: url(../img/contact-bg.jpg) center center fixed no-repeat;
@@ -979,7 +820,6 @@ header .logo {
     padding: 10% 0;
     overflow: hidden;
     position: relative;
->>>>>>> rework
 }
 
 .contact div {
@@ -1013,18 +853,10 @@ header .logo {
     font-size: 0.75rem;
 }
 
-<<<<<<< HEAD
-#contact div {
-	background: #433d3d;
-	height: 335px;
-	width: 280px;
-	padding: 20px 20px 0px 20px;
-=======
 .contact ul {
     padding: 0;
     list-style: none;
     margin: 8px 0;
->>>>>>> rework
 }
 
 .contact li {
@@ -1084,18 +916,8 @@ header .logo {
     background-position: -66px -110px;
 }
 
-<<<<<<< HEAD
-#contact p a {
-	color: white;
-	font: 600 italic 1.1rem "adobe-text-pro", times, 'times new roman', serif;
-	text-transform: none;
-	font-style: italic;
-	margin-bottom: 16px;
-	display: block;
-=======
 .contact .youtube {
     background-position: -100px -90px;
->>>>>>> rework
 }
 
 .contact .youtube:hover {
@@ -1194,25 +1016,9 @@ header .logo {
     padding-bottom: 22px;
 }
 
-<<<<<<< HEAD
-.ios {
-	display: none;
-}
-
-#close {
-	background: url(../img/close.jpg) no-repeat;
-	height: 40px;
-	width: 40px;
-	position: absolute;
-	right: 0px;
-	top: 53px;
-	cursor: pointer;
-	/* test */
-=======
 .supporters h2 {
     color: white;
     padding-bottom: 3px;
->>>>>>> rework
 }
 
 .supporters span {
@@ -1303,20 +1109,12 @@ footer .submit {
     font-weight: 700;
 }
 
-<<<<<<< HEAD
-#copyright-wrapper {
-	height: 35px;
-	background: #140e0e;
-	color: #6c6a6a;
-	overflow: hidden;
-=======
 footer nav {
     font-size: 10px;
     font: 800 0.65rem/30px "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
     text-align: center;
     text-transform: uppercase;
     margin: 0;
->>>>>>> rework
 }
 
 footer nav a,
@@ -1327,15 +1125,6 @@ footer nav a:visited {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-#copyright p {
-	max-width: 421px;
-	font-size: 0.70rem;
-	float: left;
-	margin: 0;
-	color: #6c6a6a;
-	padding: 5px 0;
-=======
 footer button {
     background-color: transparent;
     background-position: -9999px -9999px;
@@ -1345,7 +1134,6 @@ footer button {
     letter-spacing: 1px;
     padding-top: 15px;
     text-transform: uppercase;
->>>>>>> rework
 }
 
 footer .nav:hover,
@@ -1360,20 +1148,6 @@ footer .nav.active {
     color: white;
 }
 
-<<<<<<< HEAD
-#copyright nav {
-	float: right;
-	font: 800 0.8rem/30px "proxima-nova", sans-serif;
-	position: relative;
-	top: -5px;
-}
-
-#copyright nav a {
-	display: inline-block;
-	text-transform: uppercase;
-	padding-top: 10px;
-	letter-spacing: 1px;
-=======
 footer .newsletter:hover,
 footer .newsletter:active,
 footer .newsletter.active {
@@ -1386,7 +1160,6 @@ footer p {
     font-size: 0.7rem;
     margin: 0;
     line-height: 1.2;
->>>>>>> rework
 }
 
 footer p a,
@@ -1764,251 +1537,6 @@ footer p a:visited {
 
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
-<<<<<<< HEAD
-	header {
-		height: 280px;
-		width: 100%;
-	}
-
-	header .container h1 {
-		font-size: 1.05rem;
-		line-height: 1.6rem;
-		letter-spacing: 0;
-		padding-top: 50px;
-	}
-
-	#hero {
-		width: 101px;
-		height: 63px;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-	}
-
-	#nav-wrapper {
-		font-size: 0.55rem;
-		height: 30px;
-	}
-
-	#nav-wrapper nav a {
-		line-height: 30px;
-	}
-
-	#nav-wrapper nav a:hover {
-		background: none;
-	}
-
-	#nav-wrapper nav a.active {
-		background-position: center 30px;
-	}
-
-	#episode h1 {
-		display: none;
-	}
-
-	#video-description-wrapper {
-		position: relative;
-	}
-
-	#video-description nav {
-		position: absolute;
-		top: 0;
-	}
-
-	#video-description div {
-		float: none;
-	}
-
-	#video-description h3,
-	#video-description h5 {
-		margin: 0 5%;
-		font-weight: 400;
-	}
-
-	#video-description h3 {
-		font-size: 1.3rem;
-	}
-
-	#video-description h5,
-	#about h5.top,
-	#recent h5.top {
-		border: none;
-		font-size: 0.7rem;
-	}
-
-	#video-description div.left img {
-		display: none;
-	}
-
-	#video-description div.left,
-	#video-description div.center,
-	#video-description div.right {
-		width: 90%;
-		margin: 5%;
-	}
-
-	#video-description .previous {
-		float: none;
-	}
-
-	#recent-wrapper {
-		background: url(../img/description-bg.jpg) repeat;
-	}
-
-	#video-description .previous,
-	#video-description .previous:active,
-	#video-description .previous:visited,
-	#recent .watch,
-	#recent .watch:active,
-	#recent .watch:visited {
-		color: white;
-		background: black;
-		border: 1px solid #6C6A6A;
-	}
-
-	#recent .watch, #recent .watch:active, #recent .watch:visited {
-		display: inline-block;
-		position: static;
-		margin-bottom: 20px;
-	}
-
-	#recent .button {
-		float: none;
-		margin: 27px auto;
-		overflow: hidden;
-		width: 130px;
-		height: 30px;
-		text-align: center;
-		line-height: 30px;
-	}
-
-	#about-wrapper {
-		background-attachment: scroll;
-		background-position: 70% 50%;
-		border-top: none;
-		border-bottom: 1px solid white;
-	}
-
-	#about h1,
-	#recent h1 {
-		font-size: 1.68rem;
-		line-height: 1.5rem;
-	}
-
-	#about div.left,
-	#about div.right {
-		width: 90%;
-		float: none;
-		padding-top: 3rem;
-		margin: 0 5%;
-	}
-
-	#recent-wrapper {
-		height: 389%;
-	}
-
-	#recent {
-		width: 90%;
-		margin: 0 5%;
-		padding-top: 20px;
-	}
-
-	#recent-wrapper #recent div {
-		width: 100%;
-		float: none;
-	}
-
-	#recent img {
-		width: 100%;
-		height: auto;
-		max-width: 95%;
-	}
-
-	#contact-wrapper {
-		background-attachment: scroll;
-		border-bottom: none;
-	}
-
-	#contact div {
-		margin: 0 5%;
-		padding: 5%;
-		width: 80%;
-	}
-
-	#contact p a {
-		font-size: 1rem;
-	}
-
-	#supporters ul li.column {
-		width: 45%;
-		margin-bottom: 0;
-		height: 621px;
-	}
-
-	#supporters ul li.column.margin {
-		margin: 0;
-	}
-
-	footer .button {
-		float: none;
-		position: static;
-	}
-
-	footer nav.desktop {
-		display: none;
-	}
-
-	footer #copyright nav.ios {
-		display: block;
-		font-size: 0.55rem;
-		float: none;
-		position: static;
-	}
-
-	footer #support {
-		width: 90%;
-		margin: 0 5%;
-	}
-
-	footer #fund, footer #sponsor {
-		float: none;
-	}
-
-	footer #fund {
-		width: 100%;
-	}
-
-	footer #sponsor-wrapper {
-		float: none;
-		width: 100%;
-	}
-
-	footer #sponsor {
-		width: 100%;
-	}
-
-	footer #support nav {
-		float: none;
-	}
-
-	footer #copyright-wrapper,
-	footer #copyright {
-		background: #433d3d;
-	}
-
-	footer #copyright {
-		padding: 0 5%;
-	}
-
-	footer #copyright p {
-		font-size: 0.6rem;
-	}
-
-	footer #copyright a {
-		color: #bcbdc0
-	}
-=======
     html, body {
         overflow: hidden;
     }
@@ -2068,7 +1596,6 @@ only screen and (min-device-pixel-ratio: 2) {
     .contact .youtube {
         background-size: 1010%;
     }
->>>>>>> rework
 }
 
 
