@@ -30,9 +30,9 @@ audio:not([controls]) { display: none; }
  * 2. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
  */
 
-html { font-size: 16px /* 100% */; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+html, button, input, select, textarea { font-family: "proxima-nova","helvetica neue",helvetica,arial,sans-serif; color: #191411; }
 
 body { margin: 0; font-size: 1em; line-height: 1.4; }
 
@@ -42,18 +42,18 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
  * Also: hot pink! (or customize the background color to match your design)
  */
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #191411; color: #fff; text-shadow: none; }
+::selection { background: #191411; color: #fff; text-shadow: none; }
 
 
 /* =============================================================================
    Links
    ========================================================================== */
 
-a { color: #00e; }
-a:visited { color: /* #551a8b; */ white; }
-a:hover { color: #06e; }
-a:focus { outline: thin dotted; }
+a { color: #191411; }
+a:visited { color: #191411; }
+a:hover { color: #191411; }
+a:focus { outline: 0; }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
 a:hover, a:active { outline: 0; }
@@ -73,9 +73,9 @@ dfn { font-style: italic; }
 
 hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
 
-ins { background: #ff9; color: #000; text-decoration: none; }
+ins { background: #ff9; color: #191411; text-decoration: none; }
 
-mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+mark { background: #ff0; color: #191411; font-style: italic; font-weight: bold; }
 
 /* Redeclare monospace font family: h5bp.com/j */
 pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
@@ -98,7 +98,7 @@ sub { bottom: -0.25em; }
    Lists
    ========================================================================== */
 
-ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+ul, ol { margin: 0; padding: 0 0 0 40px; }
 dd { margin: 0 0 0 40px; }
 nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 
@@ -132,11 +132,10 @@ figure { margin: 0; }
    Forms
    ========================================================================== */
 
-form { margin: 0; }
+form {
+    margin-bottom: 5px;
+ }
 fieldset { border: 0; margin: 0; padding: 0; }
-
-/* Indicate that 'label' will shift focus to the associated form element */
-label { cursor: pointer; }
 
 /*
  * 1. Correct color not inheriting in IE6/7/8/9
@@ -157,7 +156,7 @@ button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: ba
  * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
  */
 
-button, input { line-height: normal; }
+button, input { line-height: normal; padding: 3px 5px;}
 
 /*
  * 1. Display hand cursor for clickable form elements
@@ -196,7 +195,7 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
 
 /* Colors for form validity */
 input:valid, textarea:valid {  }
-input:invalid, textarea:invalid { background-color: #f0dddd; }
+input:invalid, textarea:invalid { background-color: #f0dddd;}
 
 
 /* =============================================================================
@@ -219,209 +218,219 @@ td { vertical-align: top; }
    ========================================================================== */
 
 /* A note on the fonts. We have "superclarendon" in 400 & 700.
+<<<<<<< HEAD
 	We have "proximanova" in 400, 400 italic, 600, 600 italic, 700, & 800.
 	We also have "adobe-text-pro" in 600 italic. */
+=======
+    We have "proxima-nova" in 400, 400 italic, 600, 600 italic, 700, & 800.
+    We also have "adobe-text-pro" in 600 italic. */
+>>>>>>> rework
 
 
 /* global styles. */
 body {
-	-webkit-font-smoothing: antialiased;
-	background: #191411;
+    -webkit-font-smoothing: antialiased;
 }
 
 body.fixed {
-	margin-top: 40px;
+    margin-top: 30px;
 }
 
-/* http://nicolasgallagher.com/micro-clearfix-hack/ */
-.cf:before,
-.cf:after {
-	content:"";
-	display:table;
+img {
+    height: auto;
+    max-width: 100%;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    width: 100%;
 }
 
-.cf:after {
-	clear:both;
+p {
+    font-size: 14px;
+    font: 400 0.9rem/1.5 "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
 }
 
-/* For IE 6/7 (trigger hasLayout) */
-.cf {
-	*zoom:1;
-}
-
-h1, h2 h3, h4, h5, h6 {
-	text-rendering: optimizeLegibility;
-}
-
-h1, h2, h3 {
-	font-family: "superclarendon", Georgia, serif;
-	font-style: normal;
-	font-weight: 700;
-	margin: 0;
-	letter-spacing: -0.13rem;
-}
-
-h1 {
-	font-size: 3rem;
-	line-height: 4.1875rem;
-}
-
-h2 {
-	font-size: 2.5rem;
+h1, h2 {
+    font-size: 32px;
+    font: 700 2rem/1 "superclarendon",clarendon,georgia,serif;
+    letter-spacing: -0.05em;
+    margin: 0;
 }
 
 h3 {
-	font-size: 2rem;
-}
-
-h4, h5, h6 {
-	font-family: "proxima-nova", helvetica, arial, sans-serif;
-	font-style: normal;
-	font-weight: 800;
-	margin: 0;
-	text-transform: uppercase;
-	display: inline-block;
-	letter-spacing: .06rem;
+    font-size: 26px;
+    font: 600 italic 1.65rem/1 "adobe-text-pro", times,"times new roman", serif;
+    margin: 0 0 20px 0;
 }
 
 h4 {
-	font-size: 1.5rem;
+    font-size: 20px;
+    font: 600 italic 1.3rem/1.3 "adobe-text-pro", times,"times new roman", serif;
+    margin: 0;
 }
 
 h5 {
-	font: 800 0.8125rem "proxima-nova", helvetica, arial, sans-serif;
-	letter-spacing: 1px;
+    color: #6e6a6a;
+    display: inline-block;
+    font-size: 11px;
+    font: 800 0.7rem/0.8 "proxima-nova", "helvetica neue",helvetica,arial,sans-serif;
+    margin: 0 0 4px 0;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-rendering: optimizeLegibility;
 }
 
 h6 {
-	font-size: 0.75rem;
-	letter-spacing: 1px;
+    color: #6e6a6a;
+    font-size: 12px;
+    font: 400 0.8rem/1.1 "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
+    letter-spacing: 0.1em;
+    margin: 0;
+    text-transform: uppercase;
 }
 
-.bottom {
-	padding-bottom: 4px;
-	border-bottom: 4px solid white;
+.sprite {
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
 }
 
-.top {
-	padding-top: 4px;
-	border-top: 4px solid white;
+.button,
+.button:visited {
+    background: #191411;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    font: 400 0.8rem/1.35 "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
+    letter-spacing: .1rem;
+    padding: 4px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-.social {
-	display: inline-block;
+.button:hover {
+    color: white;
 }
 
-.hide {
-	display: none;
+.bg { /* Fall back inline image for backgrounds. Used for iOS. */
+    display: inline;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
 }
 
-p, ul, ol {
-	font-size: 0.85rem;
-	color: #433d3d;
-	font-family: "proxima-nova", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-}
-
-blockquote {
-	font-family: "proxima-nova", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 0.75rem;
-	color: #433d3d;
-}
-
-a {
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #6c6a6a;
-}
-
-p a:hover {
-	background: #191411;
-	color: #6c6a6a;
-}
-
-label {
-	color: #bcbec0;
-	font-size: 0.75rem;
-	display: block;
-	cursor: initial;
+.iphone {
+    display: none;
+    height: 100%;
+    position: absolute;
+    top: 0;
 }
 
 /* Header */
-
 header {
+<<<<<<< HEAD
 	background: url(../img/header-bg.jpg) center center no-repeat #191411;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	height: 498px;
+=======
+    background: url(../img/header-bg.jpg) center center fixed no-repeat;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-height: 500px;
+    min-height: 280px;
+    overflow: hidden;
+    position: relative;
+>>>>>>> rework
 }
 
-header .container {
-	max-width: 960px;
-	margin: 0 auto;
+header .bg {
+    position: relative;
 }
 
-header .container h1 {
-	color: white;
-	padding: 79px 0 40px;
-	max-width: 761px;
-	width: 90%;
-	margin: 0 auto;
+header .title {
+    color: white;
+    display: none; /* Displayed via JavaScript due to jumping */
+    font-size: 19px;
+    font-size: 1.2rem;
+    left: 50%;
+    line-height: 1.4;
+    max-width: 820px;
+    position: absolute;
+    top: 15%;
+    width: 90%;
 }
 
-/* Our logo. #hero is often used to signify the main title image or logo. */
-#hero {
-	display: block;
-	margin: 0 auto;
-	margin-bottom: 41px;
-	background: url(../img/logo.png);
-	height: 85px;
-	width: 135px;
+header .logo {
+    bottom: 6%;
+    background-position: -71px 0;
+    display: inline-block;
+    height: 85px;
+    left: 50%;
+    margin-left: -69px;
+    position: absolute;
+    width: 137px;
 }
 
-#hero span {
-	display: none;
+/* Top Navigation Bar */
+.top-nav {
+    background: #191411;
+    height: 30px;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    z-index: 2;
 }
 
-/* Nav */
-#nav-wrapper {
-	background-color: #191411;
-	height: 40px;
-	font: 800 0.8125rem "proxima-nova", helvetica, arial, sans-serif;
-	text-transform: uppercase;
-	position: relative;
-	z-index: 3;
+.top-nav nav {
+    font-size: 10px;
+    font: 800 0.65rem/30px "proxima-nova", "helvetica neue", helvetica, arial, sans-serif;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
 }
 
-#nav-wrapper.fixed {
-	position: fixed;
-	top: 0;
-	width: 100%;
+.top-nav nav .links {
+    margin: 0 auto;
+    max-width: 960px;
 }
 
-#nav-wrapper nav {
-	max-width: 960px;
-	margin: 0 auto;
-	overflow: hidden;
+.top-nav nav a {
+    color: #6e6a6a;
+    display: inline-block;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding-bottom: 7px;
+    text-decoration: none;
 }
 
-#nav-wrapper nav {
-	text-align: center;
+.top-nav nav a span {
+    display: none;
 }
 
-#nav-wrapper #all {
-	display: none;
+.top-nav nav .cut,
+.cut {
+    display: none;
 }
 
-#nav-wrapper nav div {
-	height: 50px;
+.top-nav nav .social {
+    display: none;
+    float: right;
+    height: 15px;
+    margin-top: 7px;
+    padding: 0;
+    width: 25px;
 }
 
+<<<<<<< HEAD
 #nav-wrapper nav a {
 	display: inline-block;
 	color: #6c6a6a;
@@ -439,206 +448,258 @@ header .container h1 {
 #nav-wrapper nav a.active {
 	color: white;
 	background: url(../img/nav-active.png) center 40px no-repeat;
+=======
+.top-nav nav .facebook {
+    background-position: 2px 0;
 }
 
-#nav-wrapper nav .social {
-	float: right;
-	height: 40px;
+.top-nav nav .facebook:hover {
+    background-position: 2px -15px;
+>>>>>>> rework
 }
 
-#nav-wrapper nav .social span {
-	display: none;
+.top-nav nav .twitter {
+    background-position: -25px 0;
 }
 
-#nav-wrapper nav a.facebook {
-	background: url(../img/facebook.png) no-repeat center 11px;
-	width: 25px;
+.top-nav nav .twitter:hover {
+    background-position: -25px -15px;
 }
 
-#nav-wrapper nav a.facebook:hover {
-	background: url(../img/facebook-hover.png) no-repeat center 11px;
+.top-nav nav .email {
+    background-position: -50px 0;
+    margin-right: 5%;
+    width: 21px;
 }
 
-#nav-wrapper nav a.twitter {
-	background: url(../img/twitter.png) no-repeat center 13px;
-	width: 25px;
+.top-nav nav .email:hover {
+    background-position: -50px -15px;
 }
 
-#nav-wrapper nav a.twitter:hover {
-	background: url(../img/twitter-hover.png) no-repeat center 13px;
+.top-nav nav .email.active,
+.top-nav nav .email:active {
+    background-image: url(../img/sprite.png);
+    background-position: -50px -30px;
+    height: 28px;
 }
 
-#nav-wrapper nav .newsletter {
-	background: url(../img/email.png) no-repeat center 13px;
-	width: 35px;
+.subscribe_header,
+.subscribe_footer {
+    display: none;
+    max-width: 960px;
+    position: relative;
 }
 
-#nav-wrapper nav .newsletter:hover,
-#nav-wrapper nav .newsletter:visited,
-#nav-wrapper nav .newsletter:active,
-#nav-wrapper nav .newsletter.active {
-	background: url(../img/nav-hover.png) center 32px no-repeat, url(../img/email-hover.png) no-repeat center 13px;
+.subscribe_header {
+    margin: -7px auto 0;
+}
+
+.subscribe_footer {
+    margin: 0 auto;
 }
 
 .subscribe {
-	width: 233px;
-	height: 55px;
-	background: #BCBEC0;
-	margin: -10px 7px 0 0;
-	float: right;
-	display: none;
+    background: #bcb8b6;
+    padding: 5px 0;
+}
+
+.footer {
+    bottom: 0;
+    position: absolute;
+    right: 0;
 }
 
 .subscribe form {
-	overflow: hidden;
-	margin: 0px 10px 5px;
+    margin: 0 10px 5px;
+    overflow: hidden;
+    width: 230px;
 }
 
 .subscribe label {
+<<<<<<< HEAD
 	color: #191411;
 	text-transform: none;
 	font: 600 italic 1rem "adobe-text-pro", times, 'times new roman', serif;
 	text-align: left;
 	margin: 4px 0;
 	letter-spacing:0px;
+=======
+    color: #191411;
+    display: block;
+    font-size: 16px;
+    font: 600 italic 1rem "adobe-text-pro", serif;
+    padding-bottom: 3px;
+    text-align: left;
+    text-transform: none;
+>>>>>>> rework
 }
 
 .subscribe input {
-	font-family: "proxima-nova", sans-serif;
+    font-family: "proxima-nova", sans-serif;
 }
 
 .subscribe input:required {
-	background: white;
+    background: white;
 }
 
 .subscribe input[name=EMAIL] {
-	width: 147px;
-	height: 20px;
-	float: left;
-	border: none;
-	padding: 0px 5px 0px 5px;
-	font-size: .625rem;
+    border: none;
+    float: left;
+    font-size: 10px;
+    font-size: 0.625rem;
+    height: 20px;
+    padding: 0px 5px 0px 5px;
+    width: 155px;
 }
 
 .subscribe input[type=submit] {
-	width: 55px;
-	height: 20px;
-	background: #191411;
-	color: #bcbec0;
-	border: none;
-	float: left;
-	font-size: .625rem;
-	font-weight: 700;
-	letter-spacing: .03rem;
+    background: #191411;
+    border: none;
+    color: #bcb8b6;
+    float: left;
+    font-size: 10px;
+    font-size: 0.625rem;
+    font-weight: 700;
+    height: 20px;
+    letter-spacing: 0.03rem;
 }
+
 .subscribe input[type=submit]:hover {
-	color: white;
+    color: white;
 }
 
-/* Content */
-div[role=main] {
-
+.mobile {
+    background: none;
+    float: none;
 }
 
-/* Video */
-#video-slider-wrapper {
-	border-bottom: 2px solid #6c6a6a;
-	position: relative;
-	height: 0;
-	padding-bottom: 56.25%; /* 16:9 */
-	/* I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos */
+.mobile form {
+    width: 100%;
 }
 
-#episode h1 {
-	position: absolute;
-	z-index: 1;
-	color: white;
-	background: black;
-	padding: 0 3.2rem;
-	font-size: 3.2rem;
-	top: 35%;
+.mobile label {
+    color: #bcb8b6;
 }
 
-#video-slider-wrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+.mobile input[name="EMAIL"] {
+    border-radius: 0;
+    width: 70%;
 }
 
-#video-slider-wrapper h2 {
-	background: #191411;
-	font: 700 normal 3rem "superclarendon", serif;
-	padding: 26px 50px 16px 0;
-	margin: 0;
+.mobile input[type="submit"] {
+    border-radius: 0;
+    width: 20%;
 }
 
+<<<<<<< HEAD
 #video-description-wrapper {
 	background: url(../img/description-bg.jpg) repeat;
 	overflow: hidden;
 	padding: 113px 0;
 }
+=======
+/* Episode section */
+>>>>>>> rework
 
-#video-description {
-	max-width: 960px;
-	margin: 0 auto;
+.episode {
+    border-bottom: 3px solid #6e6a6a;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 */
+    overflow: hidden;
+    position: relative;
 }
 
-#video-description img {
-	width: 100%;
-	height: auto;
-	max-width: 95%;
+.episode h1 {
+    background: #191411;
+    color: white;
+    display: none;
+    font-size: 51px;
+    font-size: 3.2rem;
+    padding: 15px 3.2rem;
+    position: absolute;
+    top: 35%;
 }
 
-#video-description h5 {
-	border-color: #6c6a6a;
-	color: #6c6a6a;
+.episode .controls {
+    display: none;
+    font-size: 21px;
+    font: italic 1.3rem/1 "adobe-text-pro", "times new roman", serif;
+    padding: 0;
+    position: absolute;
+    text-transform: capitalize;
+    top: 50%;
+    z-index: 2;
 }
 
+<<<<<<< HEAD
 #video-description h3 {
 	margin: 0px 0px 28px;
 	font: 600 italic 2rem "adobe-text-pro", times, 'times new roman', serif;
 	color: #191411;
 	letter-spacing:0px;
+=======
+.episode .controls em {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    display: inline-block;
+    padding: 0.5rem;
+    z-index: 1;
+>>>>>>> rework
 }
 
-#video-description div {
-	float: left;
+.episode .next em {
+    margin-right: 5px;
+    left: 0;
+    position: absolute;
 }
 
-#video-description div.left {
-	width: 33%;
+.episode .previous em {
+    margin-left: 5px;
+    right: 0;
+    position: absolute;
 }
 
-#video-description div.center {
-	width: 41%;
-	margin: 0 2% 0 0;
+.episode .controls span {
+    background: black;
+    color: #979595;
+    display: inline-block;
+    padding: 0.5rem;
 }
 
-#video-description div.center p:nth-child(1) {
-	margin-top: 0;
+.episode .next {
+    left: 0;
 }
 
-#video-description div.right {
-	width: 22%;
+.episode .previous {
+    right: 0;
 }
 
+<<<<<<< HEAD
 #video-description #credits span {
 	font: 600 italic 0.8125rem "adobe-text-pro", times, 'times new roman', serif;
 	color: #433d3d;
 	display: inline-block;
 	margin-bottom: 1rem;
 	line-height: 1.25rem
+=======
+.episode iframe {
+    border: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+>>>>>>> rework
 }
 
-#video-description #credits h6 {
-	display: block;
-	color: #6c6a6a;
-	line-height: .8rem;
-	font-weight: 400;
+/* Story section */
+.story,
+.recent {
+    background: url(../img/description-bg.jpg) repeat;
+    border-bottom: 3px solid #6e6a6a;
 }
 
+<<<<<<< HEAD
 #video-description .social {
 	display: block;
 	float: left;
@@ -661,35 +722,44 @@ div[role=main] {
 	width: 43px;
 	height: 21px;
 	display: inline-block;
+=======
+.story {
+    position: relative;
 }
 
-#video-description .social.twitter {
-	width: 81px;
-	margin-right: 22px;
-	position: relative;
-	z-index: 1;
+.story article {
+    max-width: 960px;
+    margin: 30px auto 0;
+    padding: 5%;
 }
 
-#video-description nav {
-	margin-top: 13px;
+.story nav {
+    position: absolute;
+    top: 12px;
+>>>>>>> rework
 }
 
-#video-description .previous {
-	float: right;
-	margin-top: 50px;
-	margin-bottom: 42px;
-	font-size: 0.75rem;
-	font-family: "proxima-nova", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	padding: 3px 5px;
+.story nav .social {
+    float: left;
+    line-height: 19px;
+    max-width: 98px;
+    overflow: hidden;
 }
 
-#video-description .previous:hover {
-	background: #191411;
-	color: #6c6a6a;
+.story .column {
+    margin: 1rem 0;
 }
 
+.story .column img {
+    display: none;
+}
+
+.story .column .pin-it-button img {
+    width: auto;
+    display: block;
+}
+
+<<<<<<< HEAD
 #video-description .previous:visited {
 	color: #6C6A6A;
 }
@@ -704,108 +774,149 @@ div[role=main] {
 	height: 719px;
 	border-top: 2px solid #6c6a6a;
 	border-bottom: 2px solid #6c6a6a;
+=======
+.story .column ul {
+    padding: 0;
+>>>>>>> rework
 }
 
-#about {
-	margin: 0 auto;
-	max-width: 960px;
+.story .column li {
+    list-style: none;
+    margin-bottom: 1em;
 }
 
-#about div.left,
-#about div.right {
-	width: 50%;
-	float: left;
-	margin-top: 155px;
+.story .column li span {
+    color: #433D3D;
+    font-size: 13px;
+    font: 600 italic 0.8125rem/1.25 "adobe-text-pro", times, 'times new roman', serif;
 }
 
-#about div.left {
-	margin-top: 290px;
+.story .next {
+    float: left;
 }
 
-#about div.right {
-	text-align: center;
+.story .previous {
+    float: right;
 }
 
-#about div.right h5 {
-	margin-bottom: 1rem;
+/* About section */
+
+.about {
+    background: url(../img/about-bg.jpg) center center fixed no-repeat;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: 3px solid #6e6a6a;
+    max-height: 719px;
+    overflow: hidden;
+    position: relative;
 }
 
-#about h5.top,
-#about h5.bottom {
-	color: white;
-	border-color: white;
+.about article {
+    color: white;
+    margin: 0 5%;
+    max-width: 960px;
+    padding: 34px 3% 0;
+    position: relative;
+    z-index: 1;
 }
 
-#about h1 {
-	color: white;
-	line-height: 2.75rem;
+.about h5 {
+    color: white;
 }
 
-#about p {
-	color: white;
-	font-size: 0.8rem;
-	line-height: 1.35rem;
-	text-align: left;
-	max-width: 300px;
-	margin: 0 auto;
-}
-#about p.first {
-	padding-bottom: 40px;
+.about .column .border {
+    border-bottom: 4px solid white;
+    padding-bottom: 4px;
 }
 
+.about .left {
+    margin-bottom: 30px;
+}
+
+<<<<<<< HEAD
 #recent-wrapper {
 	height: 719px;
 	background: url(../img/recent-stories-bg.jpg);
 	border-bottom: 2px solid #6c6a6a;
+=======
+.about .right {
+    text-align: center;
+>>>>>>> rework
 }
 
-#recent {
-	margin: 0 auto;
-	padding-top: 88px;
-	max-width: 960px;
-	overflow: hidden;
+.about .right p {
+    font-size: 14px;
+    font-size: 0.9rem;
+    line-height: 1.35rem;
+    text-align: left;
+    padding-bottom: 4em;
 }
 
-#recent h3 a, #recent h3 a:active, #recent h3 a:visited {
-	text-transform: none;
-	color: #191411;
+/* Recent section */
+.recent article {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 3%;
 }
 
-#recent h3 a:hover {
-	color: black;
+.recent h1 {
+    margin: 1px 0px 35px 0px;
 }
 
-#recent h1 {
-	line-height: 2.75rem;
-	margin-bottom: 30px;
+.recent h3 {
+    line-height: 0.8;
+    margin: 7px 0 0;
 }
 
+<<<<<<< HEAD
 #recent h3 {
 	font: 600 italic 1.625rem "adobe-text-pro", times, 'times new roman', serif;
 	letter-spacing: 0px;
 	color: #191411;
 	line-height: 1.25rem;
+=======
+.recent h3 a,
+.recent h3 a:visited {
+    color: #191411;
+    text-decoration: none;
+>>>>>>> rework
 }
 
-#recent h5.top {
-	color: #6c6a6a;
-	border-color: #6c6a6a;
+.recent .column {
+    margin-bottom: 30px;
 }
+.recent img {
+    border: 1px #6e6a6a solid;
+    margin-bottom: 15px;
+    }
 
+<<<<<<< HEAD
 #recent h6 {
 	margin-top: 15px;
 	margin-bottom: 7px;
 	color: #6c6a6a;
 	font-weight: 800;
+=======
+.recent h6 {
+    color: #6e6a6a;
+    display: inline-block;
+    font-size: 12px;
+    font: 800 0.75rem/1.2 "proxima-nova", "helvetica neue",helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-rendering:optimizeLegibility;
+>>>>>>> rework
 }
 
-#recent p {
-	font-size: 0.75rem;
-	line-height: 1.35rem;
-	padding-bottom: 1rem;
-	width: 300px;
+.recent p {
+    font-size: 14px;
+    font-size: 0.9rem;
+    line-height: 1.5;
 }
 
+<<<<<<< HEAD
 #recent .watch, #recent .watch:active, #recent .watch:visited {
 	display: block;
 	font-size: 0.75rem;
@@ -816,17 +927,35 @@ div[role=main] {
 	bottom: 0;
 	padding: 3px 5px;
 	color: #6C6A6A;
+=======
+.button-alt,
+.button-alt:active,
+.button-alt:visited {
+    background: #6e6a6a;
+    color: white;
+    display: block;
+    font-size: 13px;
+    font: 800 0.8125rem "proxima-nova", "helvetica neue", helvetica, arial, sans-serif;
+    letter-spacing:0.1em;
+    margin: 35px auto 10px;
+    padding: 6px 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 130px;
+>>>>>>> rework
 }
 
-#recent .watch:hover {
-	background: #191411;
-	color: #6c6a6a;
+.next {
+    float: left;
 }
 
-#recent img {
-	border: 1px solid #6c6a6a;
+.button-alt:hover {
+    background: #191411;
+    color: white;
 }
 
+<<<<<<< HEAD
 .button, .button:active, .button:visited {
 	font: 800 0.8125rem "proxima-nova", helvetica, arial, sans-serif;
 	color: white;
@@ -838,93 +967,124 @@ div[role=main] {
 	padding: 6px 21px;
 	float: right;
 	letter-spacing:1px;
+=======
+/* Contact section */
+.contact {
+    background: url(../img/contact-bg.jpg) center center fixed no-repeat;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: 3px solid #6e6a6a;
+    padding: 10% 0;
+    overflow: hidden;
+    position: relative;
+>>>>>>> rework
 }
 
-.button:hover {
-	background: #191411;
-	color: white;
+.contact div {
+    margin: 0 auto;
+    max-width: 960px;
+    position: relative;
+    z-index: 1;
 }
 
-#recent div.left,
-#recent div.center,
-#recent div.right {
-	width: 33.333%;
-	float: left;
-	position: relative;
+.contact article {
+    background: #433d3d;
+    margin: 0 5%;
+    padding: 25px 20px;
+    max-width: 310px;
 }
 
-#contact-wrapper {
-	color: white;
-	height: 719px;
-	border-bottom: 2px solid #6c6a6a;
-	background: url(../img/contact-bg.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+.contact h1 {
+    border-top: 4px solid white;
+    color: white;
+    display: inline-block;
+    font-size: 48px;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 35px;
+    padding-top: 4px;
 }
 
-#contact {
-	margin: 0 auto;
-	max-width: 960px;
-	padding-top: 195px;
+.contact label {
+    color: #bcb8b6;
+    font-size: 12px;
+    font-size: 0.75rem;
 }
 
+<<<<<<< HEAD
 #contact div {
 	background: #433d3d;
 	height: 335px;
 	width: 280px;
 	padding: 20px 20px 0px 20px;
+=======
+.contact ul {
+    padding: 0;
+    list-style: none;
+    margin: 8px 0;
+>>>>>>> rework
 }
 
-#contact h1 {
-	display: inline-block;
-	margin-bottom: 10px;
+.contact li {
+    margin-bottom: 16px;
 }
 
-#contact nav {
-	width: 87px;
-	height: 19px;
-	margin-bottom: 23px;
+.contact li:last-child {
+    margin-bottom: 0px;
 }
 
-#contact nav .facebook {
-	background: url(../img/contact-social.png) 0 0 no-repeat transparent;
+.contact li a,
+.contact li a:visited {
+    color: white;
+    font-size: 17px;
+    font: 600 italic 1.1rem "adobe-text-pro", serif;
+    text-decoration: none;
 }
 
-#contact nav .twitter {
-	background: url(../img/contact-social.png) -29px 0 no-repeat transparent;
+.contact li a:hover {
+    text-decoration: underline;
 }
 
-#contact nav .vimeo {
-	background: url(../img/contact-social.png) -61px 0 no-repeat transparent;
+.contact .facebook,
+.contact .twitter,
+.contact .vimeo,
+.contact .youtube {
+    display: inline-block;
+    height: 20px;
+    width: 21px;
+    margin-right: 5px;
+    margin-bottom: 3px;
 }
 
-#contact nav .facebook:hover {
-	background: url(../img/contact-social.png) 0 -19px no-repeat transparent;
+.contact .facebook {
+    background-position: 0 -90px;
+    margin-right: 0px;
 }
 
-#contact nav .twitter:hover {
-	background: url(../img/contact-social.png) -29px -19px no-repeat transparent;
+.contact .facebook:hover {
+    background-position: 0 -110px;
 }
 
-#contact nav .vimeo:hover {
-	background: url(../img/contact-social.png) -61px -19px no-repeat transparent;
+.contact .twitter {
+    background-position: -29px -90px;
+    margin-right: 4px;
 }
 
-#contact .social {
-	overflow: hidden;
+.contact .twitter:hover {
+    background-position: -29px -110px;
 }
 
-#contact .social span {
-	display: none;
+.contact .vimeo {
+    background-position: -66px -90px;
 }
 
-#contact nav a {
-	height: 19px;
-	width: 26px;
+.contact .vimeo:hover {
+    background-position: -66px -110px;
 }
 
+<<<<<<< HEAD
 #contact p a {
 	color: white;
 	font: 600 italic 1.1rem "adobe-text-pro", times, 'times new roman', serif;
@@ -932,86 +1092,109 @@ div[role=main] {
 	font-style: italic;
 	margin-bottom: 16px;
 	display: block;
+=======
+.contact .youtube {
+    background-position: -100px -90px;
+>>>>>>> rework
 }
 
-#contact p a:hover {
-	background: none;
-	text-decoration: underline;
+.contact .youtube:hover {
+    background-position: -100px -110px;
 }
 
-footer {
-	color: white;
-	background: #191411;
+/* Sponsor section */
+
+.sponsor {
+    background: #191411;
+    padding-top: 25px;
 }
 
-footer #support {
-	overflow: hidden;
-	padding-bottom: 31px;
-	position: relative;
-	margin: 0 auto 41px;
-	max-width: 960px;
+.sponsor .container {
+    margin: 0 5%;
+    max-width: 960px;
 }
 
-footer p {
-	color: #979595;
-	font-size: 0.75rem;
+.fund, .sponsors {
+    border-top: 4px solid #6e6a6a;
+    padding-bottom: 40px;
 }
 
-footer #fund,
-footer #sponsor {
-	margin: 0 10px 0 0;
-	float: left;
+.sponsor h5 {
+    color: white;
+    margin-top: 5px;
 }
 
-footer #sponsor {
-	width: 220px;
+.sponsor p {
+    color: #9a9595;
+    font-size: 13px;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    margin-bottom: 25px;
+    padding-right: 10px;
 }
 
-footer #fund {
-	padding-top: 36px;
-	width: 25%;
+.sponsor .button-alt {
+    border: none;
+    display: inline-block;
+    margin: 0 0 15px;
+    padding: 6px 21px;
+    width: auto;
 }
 
-footer #sponsor-wrapper {
-	padding-top: 36px;
-	float: left;
-	width: 72%;
+.sponsor .button-alt:hover {
+    background: #433d3d;
 }
 
-footer .border {
-	border-top: 4px solid #6C6A6A;
+.sponsors nav {
+    float: left;
+    width: 100%;
+    margin-bottom: 24px;
 }
 
-footer h5 {
-	display: inline-block;
-	margin-top: 10px;
+.sponsors nav a {
+    float: left;
+    margin: 3% 3% 0 0;
+    width: 47%;
 }
 
-footer #support nav {
-	margin-top: 14px;
-	float: left;
+.sponsors nav a:last-child {
+    margin-right: 0;
 }
 
-footer #support nav img {
-	display: inline-block;
-	height: 70px;
-	width: 140px;
+/* Supporters section */
+
+.supporters {
+    background: url(../img/supporters-bg.jpg) repeat;
+    border-top-color: #6e6a6a;
+    border-top-style: solid;
+    border-top-width: 0;
+    height: 0;
+    overflow: hidden;
+    position: relative;
 }
 
-footer nav a span {
-	display: none;
+.supporters article {
+    margin: 0 auto;
+    max-width: 960px;
+    padding-top: 50px;
 }
 
-footer .button {
-	margin: 0;
-	position: absolute;
-	bottom: 0;
+.supporters button {
+    background-position: 0 -39px;
+    border: none;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 53px;
+    width: 40px;
 }
 
-footer .button:hover {
-	background: #433d3d;
+.supporters article div {
+    border-bottom: 2px solid #6e6a6a;
+    padding-bottom: 22px;
 }
 
+<<<<<<< HEAD
 .ios {
 	display: none;
 }
@@ -1025,96 +1208,126 @@ footer .button:hover {
 	top: 53px;
 	cursor: pointer;
 	/* test */
+=======
+.supporters h2 {
+    color: white;
+    padding-bottom: 3px;
+>>>>>>> rework
 }
 
-#supporters-wrapper {
-	background: url(../img/supporters-bg.jpg) repeat;
-	overflow: hidden;
-	height: 0;
-	position: relative;
-	border-top-color: #6c6a6a;
-	border-top-style: solid;
-	border-top-width: 0px;
+.supporters span {
+    color: #bcb8b6;
+    font-size: 15px;
+    font: 400 0.95rem "proxima-nova", helvetica, arial, sans-serif;
 }
 
-#supporters {
-	max-width: 960px;
-	margin: 0 auto;
-	padding-top: 50px;
+.supporters ul {
+    overflow: hidden;
+    padding: 0;
 }
 
-#supporters div {
-	border-bottom: 2px solid #6c6a6a;
-	padding-bottom: 22px;
+.supporters h6 {
+    color: #bcb8b6;
+    font-size: 12px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
 }
 
-#supporters div h3 {
-	color: white;
-	padding-bottom: 3px;
+.supporters .padding {
+    padding: 23px 0 8px;
 }
 
-#supporters div span {
-	color: #bcbec0;
-	font: 400 0.95rem "proxima-nova", helvetica, arial, sans-serif;
+.supporters ul li {
+    color: #9a9595;
+    list-style: none;
+    font-size: 12px;
+    font-size: 0.75rem;
 }
 
-#supporters ul {
-	overflow: hidden;
-	padding: 0;
+.supporters .column {
+    margin: 0 5%;
+    width: 90%;
 }
 
-#supporters ul li h6 {
-	color: #bcbec0;
-	text-transform: uppercase;
-	font-size: 0.8rem;
+.supporters .column li {
+    margin: 5px 0;
 }
 
-#supporters ul li h6.padding {
-	padding: 23px 0 8px;
+/* Footer */
+
+footer {
+    background: #433d3d;
+    padding-top: 0.4rem;
 }
 
-#supporters ul li {
-	color: #979595;
-	list-style: none;
-	font-size: 0.75rem;
+footer form {
+    display: inline-block;
 }
 
-#supporters ul li.column ul li {
-	margin: 5px 0;
+footer .container {
+    margin: 0 3%;
+    max-width: 960px;
+    padding: 0 0 1rem;
 }
 
-#supporters ul li.column {
-	float: left;
-	width: 15%;
-	margin-bottom: 35px;
+footer form label {
+    color: #bcb8b6;
+    display: block;
+    font-size: 16px;
+    font: 600 italic 1rem/1.7 "adobe-text-pro", serif;
 }
 
-#supporters ul li.column.margin {
-	margin: 0 11px;
+footer .supporters_button {
+    display: none;
 }
 
-#column-wrapper {
-	margin-bottom: 0;
+footer .email {
+    border: none;
+    border-radius: 0;
+    background: white;
+    float: left;
+    width: 70%;
+    font-size: .8em;
 }
 
-#supporters-button.active {
-	background: url(../img/support-active.png) no-repeat center -3px;
-	color: white;
+footer .submit {
+    background: #191411;
+    border: none;
+    border-radius: 0;
+    color: white;
+    float: left;
+    font-size: 12px;
+    font-size: 0.8rem;
+    padding: 3px 15px;
+    letter-spacing: 1px;
+    font-weight: 700;
 }
 
+<<<<<<< HEAD
 #copyright-wrapper {
 	height: 35px;
 	background: #140e0e;
 	color: #6c6a6a;
 	overflow: hidden;
+=======
+footer nav {
+    font-size: 10px;
+    font: 800 0.65rem/30px "proxima-nova","helvetica neue",helvetica,arial,sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+>>>>>>> rework
 }
 
-#copyright {
-	margin: 0 auto;
-	max-width: 960px;
-	overflow: visible;
+footer nav a,
+footer nav a:visited {
+    color: #bcb8b6;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-decoration: none;
 }
 
+<<<<<<< HEAD
 #copyright p {
 	max-width: 421px;
 	font-size: 0.70rem;
@@ -1122,18 +1335,32 @@ footer .button:hover {
 	margin: 0;
 	color: #6c6a6a;
 	padding: 5px 0;
+=======
+footer button {
+    background-color: transparent;
+    background-position: -9999px -9999px;
+    border: none;
+    color: #bcb8b6;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    text-transform: uppercase;
+>>>>>>> rework
 }
 
-#copyright a {
-	color: #6c6a6a;
-	text-transform: none;
+footer .nav:hover,
+footer button:hover {
+    background-position: center -25px;
+    color: white;
 }
 
-#copyright a:hover {
-	color: #bcbec0;
-	background: none;
+footer .nav:active,
+footer .nav.active {
+    background-position: center -25px;
+    color: white;
 }
 
+<<<<<<< HEAD
 #copyright nav {
 	float: right;
 	font: 800 0.8rem/30px "proxima-nova", sans-serif;
@@ -1146,10 +1373,27 @@ footer .button:hover {
 	text-transform: uppercase;
 	padding-top: 10px;
 	letter-spacing: 1px;
+=======
+footer .newsletter:hover,
+footer .newsletter:active,
+footer .newsletter.active {
+    background-position: center -18px;
 }
 
-#copyright nav a:hover {
-	color: white;
+footer p {
+    color: #6e6a6a;
+    font-size: 11px;
+    font-size: 0.7rem;
+    margin: 0;
+    line-height: 1.2;
+>>>>>>> rework
+}
+
+footer p a,
+footer p a:hover,
+footer p a:visited {
+    color: #bcb8b6;
+    text-decoration: none;
 }
 
 /* ==|== media queries ======================================================
@@ -1157,18 +1401,370 @@ footer .button:hover {
    This example overrides the primary ('mobile first') styles
    Modify as content requires.
    ========================================================================== */
+@media all and (min-width: 481px) {
+    h1,
+    header .title {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+}
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media all and (min-width: 640px) {
+    body.fixed {
+        margin-top: 40px;
+    }
+
+    h1,
+    header .title {
+        font-size: 24px;
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 35px;
+        font-size: 2.2rem;
+        line-height: 1.9;
+    }
+
+    h4 {
+        font-size: 35px;
+        font-size: 2.2rem;
+        line-height: 1.9rem;
+    }
+
+    h5 {
+        font-size: 12px;
+        font-size: 0.8rem;
+        line-height: 0.9rem;
+    }
+
+    .button,
+    .button:visited {
+        background: none;
+        border: 1px solid transparent;
+        color: #6e6a6a;
+        float: right;
+    }
+
+    .button:hover {
+        background: #191411;
+        color: white;
+    }
+
+    .nav:hover,
+    .nav:active,
+    .top-nav nav .active,
+    footer nav .active,
+    footer button {
+        background-image: url(../img/navarrows.png);
+        background-repeat: no-repeat;
+    }
+
+    .top-nav nav .nav:hover {
+        background-position: center 25px;
+        color: #9a9595;
+    }
+
+    .top-nav nav .nav:active,
+    .top-nav nav .active {
+        background-position: center 39px;
+        color: white;
+    }
+
+    .top-nav nav a span {
+        display: inline;
+    }
+
+    .top-nav nav .social {
+        display: block;
+    }
+
+    .top-nav nav .cut,
+    .cut {
+        display: inline-block;
+    }
+
+    .subscribe {
+        position: absolute;
+        right: 0;
+    }
+
+    .episode h1 {
+        display: block;
+        z-index: 1;
+    }
+
+    .episode .controls {
+        display: block;
+    }
+
+    .story article {
+        margin: 0 auto;
+    }
+
+    .story .column {
+        float: left;
+    }
+
+    .story .left {
+        width: 33%;
+    }
+
+    .story .center {
+        margin-right: 2%;
+        width: 40%;
+        margin-left: 2%;
+    }
+
+    .story .center p {
+        margin-top: 0;
+    }
+
+    .story .right {
+        width: 23%;
+    }
+
+    .story .column img {
+        display: inline;
+    }
+
+    .about article {
+        margin: 0 auto;
+    }
+
+    .about h1 {
+        font-size: 48px;
+        font-size: 3rem;
+        line-height: 0.95;
+    }
+
+    .about .column {
+        float: left;
+        width: 50%;
+    }
+
+    .about .left {
+        margin: 27% 0;
+    }
+
+    .about .left h5 {
+        border-top: 3px solid white;
+        padding-top: 4px;
+    }
+
+    .about .right {
+        margin: 11% 0 7% 0;
+    }
+
+    .about .right .border {
+        margin-bottom: 1rem;
+    }
+
+    .about .right p {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+
+    .about .right p:first-child {
+        padding-bottom: 8%;
+    }
+
+    .recent {
+        background: url(../img/recent-stories-bg.jpg);
+        border-bottom: 3px solid #6e6a6a;
+    }
+
+    .allstories .recent {
+        background: url(../img/description-bg.jpg);
+    }
+
+    .recent h3 {
+        font-size: 28.8px;
+        font-size: 1.8rem;
+    }
+
+    .story h5,
+    .recent h5 {
+        border-top: 3px solid #6e6a6a;
+        padding-top: 4px;
+    }
+
+    .recent .column {
+        float: left;
+        width: 32%;
+    }
+
+    .recent .center {
+        margin: 0 2%;
+    }
+
+    .recent .button {
+        float: left;
+    }
+
+    .recent .button-alt {
+        float: right;
+    }
+
+    .fund, .sponsors {
+        float: left;
+        margin: 0;
+    }
+
+    .sponsor .container {
+        margin: 0 auto;
+        padding: 0 3%;
+    }
+
+    .fund {
+        margin-right: 2%;
+        width: 25%;
+    }
+
+    .sponsors {
+        width: 73%;
+    }
+
+    .sponsors div {
+        float: left;
+        max-width: 220px;
+    }
+
+    .sponsors nav a {
+        width: 140px;
+    }
+
+    .supporters .column {
+        float: left;
+        margin: 0 0 35px;
+        width: 15%;
+    }
+
+    .supporters .margin {
+        margin: 0 1% 35px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    footer {
+        background: black;
+        padding: 0;
+    }
+
+    footer .container {
+        margin: 0 auto;
+        padding: 0 3%;
+    }
+
+    footer nav {
+        color: #6e6a6a;
+        float: right;
+        position: relative;
+        text-align: left;
+        top: -15px;
+    }
+
+    footer nav a,
+    footer nav a:visited,
+    footer button,
+    footer button:visited {
+        color: #6e6a6a;
+        padding-top: 15px;
+    }
+
+    footer .social {
+        display: none;
+    }
+
+    footer .supporters_button {
+        display: inline;
+    }
+
+    footer p {
+        color: #6e6a6a;
+        float: left;
+        font-size: 11px;
+        font-size: 0.7rem;
+        max-width: 500px;
+        padding: 7px 0 0 0;
+        width: 50%;
+        line-height: 1.25em;
+    }
+}
+
+@media all and (min-width: 873px) {
+    h1,
+    header .title {
+        font-size: 48px;
+        font-size: 3rem;
+        max-width: 770px;
+    }
+
+    h3 {
+        font-size: 35px;
+        font-size: 2.2rem;
+        line-height: 1.9;
+    }
+
+    .top-nav {
+        height: 40px;
+    }
+
+    .top-nav nav {
+        font-size: 13px;
+        font-size: 0.8125rem;
+        line-height: 40px;
+        height: 50px;
+        color: #6e6a6a;
+    }
+
+    .top-nav nav a {
+        line-height: 40px;
+    }
+
+    .top-nav nav .social {
+        margin-top: 12px;
+    }
+
+    .story nav {
+        position: static;
+        margin-top: 12px;
+    }
+
+    .recent h3 {
+        font-size: 35px;
+        font-size: 2.2rem;
+    }
+
+    .sponsors nav {
+        float: none;
+        width: auto;
+    }
+
+    footer nav {
+        font-size: 13px;
+        font-size:0.8rem;
+    }
 }
 
 /* iPad [portrait + landscape] */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .bg {
+        display: inline;
+    }
 
+    header .bg {
+        height: 500px;
+        width: 100%;
+        z-index: 0;
+    }
 }
 
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
+<<<<<<< HEAD
 	header {
 		height: 280px;
 		width: 100%;
@@ -1412,7 +2008,69 @@ footer .button:hover {
 	footer #copyright a {
 		color: #bcbdc0
 	}
+=======
+    html, body {
+        overflow: hidden;
+    }
+
+    .bg {
+        display: none;
+    }
+
+    .iphone {
+        display: inline;
+    }
+
+    header {
+        width: 320px;
+        height: 280px;
+    }
+
+    .contact li a, .contact li a:visited {
+        font-size: 16px;
+        font-size: 1rem;
+    }
 }
+
+/* Targets all retina displays */
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+    .sprite {
+        background-image: url(../img/sprite@2x.png);
+    }
+
+    /* http://phatness.com/2012/07/css-image-replacement-for-high-dpi-retina-display/ */
+    .replace-2x {
+        font-size: 1px;
+    }
+
+    header .logo {
+        background-size: 150%;
+    }
+
+    .top-nav nav .facebook {
+        background-size: 871%;
+    }
+
+    .top-nav nav .twitter {
+        background-size: 920%;
+    }
+
+    .top-nav nav .email {
+        background-size: 1010%;
+    }
+
+    .contact .facebook,
+    .contact .twitter,
+    .contact .vimeo,
+    .contact .youtube {
+        background-size: 1010%;
+    }
+>>>>>>> rework
+}
+
 
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
