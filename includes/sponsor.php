@@ -13,7 +13,7 @@
         <div class="sponsors">
             <div>
                 <h5>Sponsors</h5>
-                <p>Here are incredibly helpful and generous companies that enable us continue to making Our City, Our Story. We're proud to have their support, so please support them!</p>
+                <p>Here are incredibly helpful and generous companies that enable us to continue making Our City, Our Story. We're proud to have their support, so please support them!</p>
                 <a href="mailto:pablokorona@ourcityourstory.com?subject=I%20Would%20Like%20To%20Become%20A%20Sponsor" class="button-alt">Become A Sponsor</a>
             </div>
             <nav class="clearfix">

@@ -1234,13 +1234,13 @@ footer p a:visited {
     }
 
     .top-nav nav .nav:hover {
-        background-position: center 25px;
+        background-position: center 15px;
         color: #9a9595;
     }
 
     .top-nav nav .nav:active,
     .top-nav nav .active {
-        background-position: center 39px;
+        background-position: center 29px;
         color: white;
     }
 
@@ -1495,6 +1495,17 @@ footer p a:visited {
 
     .top-nav nav a {
         line-height: 40px;
+    }
+
+    .top-nav nav .nav:hover {
+        background-position: center 25px;
+        color: #9a9595;
+    }
+
+    .top-nav nav .nav:active,
+    .top-nav nav .active {
+        background-position: center 39px;
+        color: white;
     }
 
     .top-nav nav .social {

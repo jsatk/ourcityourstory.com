@@ -112,7 +112,7 @@
                     var href = $(this).attr("href");
 
                     if (href.indexOf("#") !== -1) {
-                        if ($(window).scrollTop() >= $(href).offset().top) {
+                        if ($(window).scrollTop() >= ($(href).offset().top) - $(".top-nav").height()) {
                             $(".top-nav .scroll").removeClass("active");
                             $(this).addClass("active");
 
@@ -305,6 +305,7 @@
             next = ep_num + 1;
             previous = ep_num - 1;
 
+            // If not the "All Stories" page...
             if ($(".allstories").length === 0) {
                 // This allows Pablo to enter Vimeo ID via Cushy CMS
                 $("#video").attr("src", src);
@@ -327,15 +328,17 @@
                     $(".previous").addClass("hidden");
                 }
 
+                console.log("Hi");
+
                 // Previous and next buttons...
-                nw = $("#episode .next span").width() + 100;
-                pw = $("#episode .previous span").width() + 100;
+                nw = $("#episode .next span").outerWidth();
+                pw = $("#episode .previous span").outerWidth();
                 $("#episode .next span").css("margin-left", "-" + nw + "px");
                 $("#episode .previous span").css("margin-right", "-" + pw +"px");
 
                 $("#episode .next").hover(function () {
                     $("#episode .next span").stop().animate({
-                        marginLeft: $(".episode .controls em").outerWidth() + 5 + "px"
+                        marginLeft: $(".episode .next em").outerWidth() + 5 + "px"
                     }, 500);
                 }, function () {
                     $("#episode .next span").stop().animate({
@@ -345,7 +348,7 @@
 
                 $("#episode .previous").hover(function () {
                     $("#episode .previous span").stop().animate({
-                        marginRight: $(".episode .controls em").outerWidth() + 5 + "px"
+                        marginRight: $(".episode .previous em").outerWidth() + 5 + "px"
                     }, 500);
                 }, function () {
                     $("#episode .previous span").stop().animate({
