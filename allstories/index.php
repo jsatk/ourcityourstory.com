@@ -63,7 +63,7 @@
             <div id="recent" class="recent clearfix">
                 <article class="clearfix">
                     <h5>Our City, Our Story</h5>
-                    <h1>Recent Stories</h1>
+                    <h1>All Stories</h1>
 
                     <div class="row clearfix">
                         <div title="Episode #1" class="column left cushycms"><a href="http://ourcityourstory.com/episode/1/#episode"><img class="replace-2x rel" src="img/e01-thumb.jpg" alt="E01: The Torchlighter" /></a>
