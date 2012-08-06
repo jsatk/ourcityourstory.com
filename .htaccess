@@ -548,10 +548,15 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html
-RewriteRule ^(.+)\.asp$ $1.php
 
-# ----------------------------------------------------------------------
-# Redirects
-# ----------------------------------------------------------------------
-
-Redirect /^haz*/i http://ourcityourstory.com/episode/09/
+# Episode redirects #
+RewriteRule ^the http://ourcityourstory.com/episode/1/ [L,NC]
+RewriteRule ^jim http://ourcityourstory.com/episode/2/ [L,NC]
+RewriteRule ^pion http://ourcityourstory.com/episode/3/ [L,NC]
+RewriteRule ^dar http://ourcityourstory.com/episode/4/ [L,NC]
+RewriteRule ^hand http://ourcityourstory.com/episode/5/ [L,NC]
+RewriteRule ^bond http://ourcityourstory.com/episode/6/ [L,NC]
+RewriteRule ^home http://ourcityourstory.com/episode/7/ [L,NC]
+RewriteRule ^team http://ourcityourstory.com/episode/8/ [L,NC]
+RewriteRule ^fabric http://ourcityourstory.com/episode/10/ [L,NC]
+RewriteRule ^buddy http://ourcityourstory.com/episode/11/ [L,NC]

@@ -9,8 +9,8 @@
     <head>
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
 
-        <meta name="description" class="cushycms" title="Meta-Description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story" />
-        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/logo.png" />
+        <meta name="description" title="Meta-Description" class="cushycms" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="The Torchlighter" />
+        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/f1.jpg" />
     </head>
 
     <body>
@@ -21,15 +21,15 @@
 
     <div role="main">
         <div id="episode" class="episode">
-            <h1 title="Featured video title" class="cushycms">The Torchlighter</h1>
+            <h1 class="cushycms" title="Featured video title">The Torchlighter</h1>
             <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
             <!-- This is simply for the Cushy CMS. Current video ID to be entered here. -->
-            <h1 title="Put this page's featured video ID here" class="invisible cushycms" id="video-id">43273534</h1>
-            <h1 class="hidden cushycms" title="Is this the most recent episode?" id="current">No</h1>
+            <h1 class="invisible cushycms" title="Put this page's featured video ID here" id="video-id">43273534</h1>
+            <h1 title="Is this the most recent episode?" class="hidden cushycms" id="current">No</h1>
 
-            <a href="#" class="controls next"><em>&#8592;</em><span title="Next Episode" class="cushycms">E02: Jimmy Goodman</span></a>
-            <a href="#" class="controls previous"><span title="Previous Episode" class="cushycms"><br />
+            <a href="#" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode">E02: Jimmy Goodman</span></a>
+            <a href="#" class="controls previous"><span class="cushycms" title="Previous Episode"><br />
 </span><em>&#8594;</em></a>
             <iframe id="video" title="iframe for featured episode." src="http://player.vimeo.com/video/{*id*}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" width="500" height="281" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>
@@ -37,9 +37,9 @@
         <div class="story clearfix">
             <article class="clearfix">
                 <h5>Our City, Our Story</h5>
-                <h4 title="Featured episode title. Must begin with 'E##'" class="cushycms">E01: The Torchlighter</h4>
+                <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E01: The Torchlighter</h4>
                 <div class="column left">
-                    <img title="Featured episode thumbnail image" class="cushycms replace-2x rel" src="index_4_689242748.jpg" height="221" alt="E1" width="316">
+                    <img class="cushycms replace-2x rel" title="Featured episode thumbnail image" src="img/f1.jpg" height="221" alt="E1" width="316">
                     <nav class="clearfix">
                         <div class="social">
                             <div class="fb-like" data-href="http://ourcityourstory.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
@@ -56,7 +56,7 @@
                     </nav>
 
                 </div>
-                <div title="Feature episode description" class="column center clearfix cushycms"><p>
+                <div class="column center clearfix cushycms" title="Feature episode description"><p>
 	1955. Vincent Chiarelli of Sicily arrived to Rockford, IL with a song in his heart and a needle in his pocket. He opened a small tailor shop and spun out a music publishing company with his own record label from its success. His shop was located at the head of Broadway Street coming downtown, and those who came to see Vince thought he owned the town.</p>
 <p>
 	Passion for music is the lifeblood of the Chiarelli family, and most of this information was passed along not by the sons of Vince the Tailor, but by his grandson of the same name, Little Vincent Chiarelli. Vince the Singer started up Rockford College Radio, which laid dormant for 20 years. He has taken the torch of passion for music and has helped others get their voices heard.</p>
@@ -66,7 +66,7 @@
 	When the last interview question, &ldquo;Is there anything else you want to say?&rdquo;, arose...Vince, now over 80 years of age, said - &ldquo;I&rsquo;m thankful for you doing this...I don&rsquo;t know how much longer I&rsquo;m going to be here.&rdquo; To our eyes, he is an important figure in Rockford history and we are grateful to have come upon this first flicker of light that has illuminated the way of Our City, Our Story.</p>
 <a href="#" class="button next">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
 
-                <div title="Featured episode credits" class="column right cushycms"><ul>
+                <div class="column right cushycms" title="Featured episode credits"><ul>
 	<li>
 		<h6>
 			Directed &amp; Produced By</h6>
@@ -100,7 +100,7 @@
             <article class="clearfix">
                 <h5>Our City, Our Story</h5>
                 <h1>Recent Stories</h1>
-                <div title="Recent episode #1" class="column left cushycms"><a href="http://ourcityourstory.com/episode/4#episode"><img class="replace-2x rel" src="img/e04-thumb.jpg" alt="E04: Darrell Hines" /></a>
+                <div class="column left cushycms" title="Recent episode #1"><a href="http://ourcityourstory.com/episode/4#episode"><img class="replace-2x rel" src="img/e04-thumb.jpg" alt="E04: Darrell Hines" /></a>
 <h6>
 	Episode 04</h6>
 <h3>
@@ -108,7 +108,7 @@
 <p>
 	Epictetus said, &ldquo;He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.&rdquo; We live in a world amply sprinkled with naysayers. Hearing the word NO more than YES has become&hellip;</p>
 <a href="http://ourcityourstory.com/episode/4#episode" class="button">Watch &rarr;</a></div>
-                <div title="Recent episode #2" class="column center cushycms"><a href="http://ourcityourstory.com/episode/3/#episode"><img class="replace-2x rel" src="img/e03-thumb.jpg" alt="E03: Pioneer of the Past" /></a>
+                <div class="column center cushycms" title="Recent episode #2"><a href="http://ourcityourstory.com/episode/3/#episode"><img class="replace-2x rel" src="img/e03-thumb.jpg" alt="E03: Pioneer of the Past" /></a>
 <h6>
 	Episode 03</h6>
 <h3>
@@ -116,7 +116,7 @@
 <p>
 	Can one man change the world? Yes&mdash;pre-eminent historian James Henry Breasted did just that, simply by changing the way we look at the world and its history. Elementary school students first learn&hellip;</p>
 <a href="http://ourcityourstory.com/episode/3/#episode" class="button">Watch &rarr;</a></div>
-                <div title="Recent episode #3" class="column right cushycms"><a href="http://ourcityourstory.com/episode/2#episode"><img class="replace-2x rel" src="img/e02-thumb.jpg" alt="E02: Jimmy Goodman" /></a>
+                <div class="column right cushycms" title="Recent episode #3"><a href="http://ourcityourstory.com/episode/2#episode"><img class="replace-2x rel" src="img/e02-thumb.jpg" alt="E02: Jimmy Goodman" /></a>
 <h6>
 	Episode 02</h6>
 <h3>
