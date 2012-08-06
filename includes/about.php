@@ -9,7 +9,7 @@
         </div>
         <div class="column right cushycms" title="About"><h5 class="border">
 	Our Vision</h5>
-<p>
+<p class="first-child">
 	We tell the stories that if you live in Rockford, it makes you glad that you do. The stories that if you&rsquo;re from Rockford, they make you proud to be. The stories that if you&rsquo;ve never been to Rockford, they make you want to come here.</p>
 <h5 class="border">
 	Our City</h5>

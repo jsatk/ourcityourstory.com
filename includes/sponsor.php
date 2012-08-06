@@ -20,7 +20,7 @@
                 <a href="http://pablokorona.com/" target="_blank">
                     <img class="replace-2x rel" src="img/pkmp.jpg" alt="pkmp" width="140px" height="70px">
                 </a>
-                <a href="http://artsforeveryone.com/" target="_blank">
+                <a class="last-child" href="http://artsforeveryone.com/" target="_blank">
                     <img class="replace-2x rel" src="img/raac.jpg" alt="raac" width="140px" height="70px">
                 </a>
             </nav>

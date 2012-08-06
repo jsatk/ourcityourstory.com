@@ -102,8 +102,8 @@
                     }
 
                     $(".top-nav").css({
-                        position: "relative",
-                        top: 0
+                        position: "",
+                        top: ""
                     });
                 }
 
@@ -184,18 +184,32 @@
 
                     // If user clicked the subscribe button in the top-nav...
                     if ($(e.target).is($($(".newsletter")[0]))) {
-                        $($(".newsletter")[0]).addClass("active");
-                        $($(".newsletter")[1]).removeClass("active");
-                        wrapper = $(".subscribe_header");
-                        footer = false;
-                        $(".subscribe_footer").html("");
+                        if ($($(".newsletter")[0]).hasClass("active")) {
+                            $(".newsletter").removeClass("active");
+                            wrapper = $(".subscribe_header");
+                            footer = false;
+                            $(".subscribe_footer").html("");
+                        } else {
+                            $($(".newsletter")[0]).addClass("active");
+                            $($(".newsletter")[1]).removeClass("active");
+                            wrapper = $(".subscribe_header");
+                            footer = false;
+                            $(".subscribe_footer").html("");
+                        }
                         // Else user must have clicked the footer subscribe button...
                     } else {
-                        $($(".newsletter")[0]).removeClass("active");
-                        $($(".newsletter")[1]).addClass("active");
-                        wrapper = $(".subscribe_footer");
-                        footer = true;
-                        $(".subscribe_header").html("");
+                        if ($($(".newsletter")[1]).hasClass("active")) {
+                            $(".newsletter").removeClass("active");
+                            wrapper = $(".subscribe_footer");
+                            footer = true;
+                            $(".subscribe_header").html("");
+                        } else {
+                            $($(".newsletter")[0]).removeClass("active");
+                            $($(".newsletter")[1]).addClass("active");
+                            wrapper = $(".subscribe_footer");
+                            footer = true;
+                            $(".subscribe_header").html("");
+                        }
                     }
 
                     // Insert form into proper wrapper and toggle visibility.
@@ -241,14 +255,14 @@
         supporters: function () {
             var auto;
 
+            // Stores the new height of the new visible supporters section
+            // so we can animate our scroll.
+            $("#supporters").css("height", "auto");
+            auto = $("#supporters").height();
+            $("#supporters").css("height", "");
+
             $("#supporters_button").click(function (e) {
                 e.preventDefault();
-
-                // Stores the new height of the new visible supporters section
-                // so we can animate our scroll.
-                $("#supporters").css("height", "auto");
-                auto = $("#supporters").height();
-                $("#supporters").css("height", "");
 
                 $(this).toggleClass("active");
 
@@ -277,13 +291,12 @@
             $("#supporters button").click(function (e) {
                 e.preventDefault();
 
-                $(this).removeClass("active");
                 $("#supporters").animate({
-                    height: "",
-                    borderTopColor: "",
-                    borderTopStyle: "",
-                    borderTopWidth: ""
-                }, 500);
+                    height: "0"
+                }, 500, function () {
+                    $("#supporters button").removeClass("active");
+                }).css("border-top-width", "0");
+
             });
         },
 
@@ -327,8 +340,6 @@
                 if (ep_num === 1) {
                     $(".previous").addClass("hidden");
                 }
-
-                console.log("Hi");
 
                 // Previous and next buttons...
                 nw = $("#episode .next span").outerWidth();

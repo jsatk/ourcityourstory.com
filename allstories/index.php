@@ -10,7 +10,7 @@
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
 
         <meta name="description" class="cushycms" title="Meta-Description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story" />
-        <meta property="og:image" class="cushycms" title="Facebook Share Image." content="http://ourcityourstory.com/img/logo.png" />
+        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/logo.png" />
     </head>
 
     <body class="allstories">
@@ -66,13 +66,13 @@
                     <h1>Recent Stories</h1>
 
                     <div class="row clearfix">
-                        <div title="Episode #1" class="column left cushycms"><a href="http://ourcityourstory.com/episode/1/#episode"><img class="replace-2x rel" src="img/e01-thumb.jpg" alt="E01: Vince the Tailor" /></a>
+                        <div title="Episode #1" class="column left cushycms"><a href="http://ourcityourstory.com/episode/1/#episode"><img class="replace-2x rel" src="img/e01-thumb.jpg" alt="E01: The Torchlighter" /></a>
 <h6>
 	Episode 01</h6>
 <h3>
-	<a href="http://ourcityourstory.com/episode/1/#episode">Vince the Tailor</a></h3>
+	<a href="http://ourcityourstory.com/episode/1/#episode">The Torchlighter</a></h3>
 <p>
-	The ivy-coated exterior of the Vince the Tailor shop appears to have been there for decades...and it has, but it is rooted deeper than North Main. Tony Chiarelli owns and operates this alterations and tailoring shop.&hellip;</p>
+	1955. Vincent Chiarelli of Sicily arrived to Rockford, IL with a song in his heart and a needle in his pocket. He opened a small tailor shop and spun out a music publishing company with his own record label from its success.&hellip;</p>
 <a href="http://ourcityourstory.com/episode/1/#episode" class="button">Watch &rarr;</a></div>
 
                         <div title="Episode #2" class="column center cushycms"><a href="http://ourcityourstory.com/episode/2/#episode"><img class="replace-2x rel" src="img/e02-thumb.jpg" alt="E02: Jimmy Goodman" /></a>
@@ -90,7 +90,7 @@
 <h3>
 	<a href="http://ourcityourstory.com/episode/3/#episode">Pioneer of the Past</a></h3>
 <p>
-	Can one man change the world? Yes—pre-eminent historian James Henry Breasted did just that, simply by changing the way we look at the world and its history. Elementary school students first learn…</p>
+	Can one man change the world? Yes&mdash;pre-eminent historian James Henry Breasted did just that, simply by changing the way we look at the world and its history. Elementary school students first learn&hellip;</p>
 <a href="http://ourcityourstory.com/episode/3/#episode" class="button">Watch &rarr;</a></div>
                     </div>
 

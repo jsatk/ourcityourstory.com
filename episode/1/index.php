@@ -9,9 +9,8 @@
     <head>
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
 
-        <meta class="cushycms" title="Meta-Description" name="description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
-        <meta class="cushycms" title="Facebook Share Title" property="og:title" content="Our City, Our Story">
-        <meta class="cushycms" title="Facebook Share Image." property="og:image" content="http://ourcityourstory.com/img/logo.png">
+        <meta name="description" class="cushycms" title="Meta-Description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story" />
+        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/logo.png" />
     </head>
 
     <body>
@@ -22,12 +21,12 @@
 
     <div role="main">
         <div id="episode" class="episode">
-            <h1 title="Featured video title" class="cushycms">Vince the Tailor</h1>
+            <h1 title="Featured video title" class="cushycms">The Torchlighter</h1>
             <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
             <!-- This is simply for the Cushy CMS. Current video ID to be entered here. -->
-            <h1 title="Put this page's featured video ID here" class="invisible cushycms" id="video-id">43273532</h1>
-            <h1 class="hidden cushycms" id="current" title="Is this the most recent episode?">No</h1>
+            <h1 title="Put this page's featured video ID here" class="invisible cushycms" id="video-id">43273534</h1>
+            <h1 class="hidden cushycms" title="Is this the most recent episode?" id="current">No</h1>
 
             <a href="#" class="controls next"><em>&#8592;</em><span title="Next Episode" class="cushycms">E02: Jimmy Goodman</span></a>
             <a href="#" class="controls previous"><span title="Previous Episode" class="cushycms"><br />
@@ -38,9 +37,9 @@
         <div class="story clearfix">
             <article class="clearfix">
                 <h5>Our City, Our Story</h5>
-                <h4 title="Featured episode title. Must begin with 'E##'" class="cushycms">E01: Vince the Tailor</h4>
+                <h4 title="Featured episode title. Must begin with 'E##'" class="cushycms">E01: The Torchlighter</h4>
                 <div class="column left">
-                    <img title="Featured episode thumbnail image" class="cushycms replace-2x rel" src="img/f1.jpg" alt="E1" width="316" height="221">
+                    <img title="Featured episode thumbnail image" class="cushycms replace-2x rel" src="index_4_689242748.jpg" height="221" alt="E1" width="316">
                     <nav class="clearfix">
                         <div class="social">
                             <div class="fb-like" data-href="http://ourcityourstory.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
@@ -57,16 +56,17 @@
                     </nav>
 
                 </div>
-                <div title="Feature episode description" class="column center clearfix cushycms">
-                    <p>The ivy-coated exterior of the Vince the Tailor shop appears to have been there for decades&hellip;and it has, but it is rooted deeper than North Main. Tony Chiarelli owns and operates this alterations and tailoring shop. Much like all of Rockford, we discovered that Tony is one connection away from many shared friends in this city.The story of how we met him is the type of story that unravels itself when we slow down and listen.</p>
-                    <p>Our City, Our Story was preparing to launch and we were seeking a way to symbolize the message of this project. An embroidered logo was chosen because like the many stitches that make up the logo, so the multitude of stories within a community that make up its identity. While searching for the authority in the realm of needlework, we met sweet quilters, we met cobblers, and lastly&hellip;we met Tony.</p>
-                    <p>Upon taking the first step into Vince the Tailor, we were greeted into this quaint shop with the sound of a bell ring, distant music playing in the background, and an ever-busy Tony behind his machine: &ldquo;How can I help you, brother?&rdquo; Not long into the conversation, we realized that Tony&rsquo;s energetic personality and strong character had us hooked...he was our guy.</p>
-                    <p>When we returned to film Tony discussing embroidery, a spectacular thing happened that reinforces the notion of why we should stay curious and open-minded. Tony opened up about his father - and the real story started to unfold before our eyes.</p>
-                    <a href="#" class="button next">&larr; Next<span class="cut">&nbsp;Episode</a></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a>
-                </div>
+                <div title="Feature episode description" class="column center clearfix cushycms"><p>
+	1955. Vincent Chiarelli of Sicily arrived to Rockford, IL with a song in his heart and a needle in his pocket. He opened a small tailor shop and spun out a music publishing company with his own record label from its success. His shop was located at the head of Broadway Street coming downtown, and those who came to see Vince thought he owned the town.</p>
+<p>
+	Passion for music is the lifeblood of the Chiarelli family, and most of this information was passed along not by the sons of Vince the Tailor, but by his grandson of the same name, Little Vincent Chiarelli. Vince the Singer started up Rockford College Radio, which laid dormant for 20 years. He has taken the torch of passion for music and has helped others get their voices heard.</p>
+<p>
+	By standards of the music industry, Vince Chiarelli never achieved the &ldquo;success&rdquo; of worldwide fame or became a household name like many dream of. What he has accomplished is something that the vast majority of them didn&rsquo;t. While most of these celebrities&rsquo; flame goes out, Vince the Singing Tailor lit many torches.</p>
+<p>
+	When the last interview question, &ldquo;Is there anything else you want to say?&rdquo;, arose...Vince, now over 80 years of age, said - &ldquo;I&rsquo;m thankful for you doing this...I don&rsquo;t know how much longer I&rsquo;m going to be here.&rdquo; To our eyes, he is an important figure in Rockford history and we are grateful to have come upon this first flicker of light that has illuminated the way of Our City, Our Story.</p>
+<a href="#" class="button next">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
 
-                <div title="Featured episode credits" class="column right cushycms">
-                    <ul>
+                <div title="Featured episode credits" class="column right cushycms"><ul>
 	<li>
 		<h6>
 			Directed &amp; Produced By</h6>
@@ -79,7 +79,10 @@
 		<h6>
 			Music</h6>
 		<span>Daniel James McMahon</span></li>
-<li><h6>Audio</h6><span>Zach Staas</span></li>
+	<li>
+		<h6>
+			Audio</h6>
+		<span>Zach Staas</span></li>
 	<li>
 		<h6>
 			Special Thanks</h6>
@@ -97,30 +100,30 @@
             <article class="clearfix">
                 <h5>Our City, Our Story</h5>
                 <h1>Recent Stories</h1>
-                <div title="Recent episode #1" class="column left cushycms"><a href="http://ourcityourstory.com/episode/4"><img class="replace-2x rel" src="img/e04-thumb.jpg" alt="E04: Darrell Hines" /></a>
+                <div title="Recent episode #1" class="column left cushycms"><a href="http://ourcityourstory.com/episode/4#episode"><img class="replace-2x rel" src="img/e04-thumb.jpg" alt="E04: Darrell Hines" /></a>
 <h6>
 	Episode 04</h6>
 <h3>
-	<a href="http://ourcityourstory.com/episode/4">Darrell Hines</a></h3>
+	<a href="http://ourcityourstory.com/episode/4#episode">Darrell Hines</a></h3>
 <p>
 	Epictetus said, &ldquo;He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.&rdquo; We live in a world amply sprinkled with naysayers. Hearing the word NO more than YES has become&hellip;</p>
-<a href="http://ourcityourstory.com/episode/4" class="button">Watch &rarr;</a></div>
-                <div title="Recent episode #2" class="column center cushycms"><a href="http://ourcityourstory.com/episode/3"><img class="replace-2x rel" src="img/e03-thumb.jpg" alt="E03: Pioneer of the Past" /></a>
+<a href="http://ourcityourstory.com/episode/4#episode" class="button">Watch &rarr;</a></div>
+                <div title="Recent episode #2" class="column center cushycms"><a href="http://ourcityourstory.com/episode/3/#episode"><img class="replace-2x rel" src="img/e03-thumb.jpg" alt="E03: Pioneer of the Past" /></a>
 <h6>
 	Episode 03</h6>
 <h3>
-	<a href="http://ourcityourstory.com/episode/3">Pioneer of the Past</a></h3>
+	<a href="http://ourcityourstory.com/episode/3/#episode">Pioneer of the Past</a></h3>
 <p>
-	Lorem ipsum dolor sit amet ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate&hellip;</p>
-<a href="http://ourcityourstory.com/episode/3" class="button">Watch &rarr;</a></div>
-                <div title="Recent episode #3" class="column right cushycms"><a href="http://ourcityourstory.com/episode/2"><img class="replace-2x rel" src="img/e02-thumb.jpg" alt="E02: Jimmy Goodman" /></a>
+	Can one man change the world? Yes&mdash;pre-eminent historian James Henry Breasted did just that, simply by changing the way we look at the world and its history. Elementary school students first learn&hellip;</p>
+<a href="http://ourcityourstory.com/episode/3/#episode" class="button">Watch &rarr;</a></div>
+                <div title="Recent episode #3" class="column right cushycms"><a href="http://ourcityourstory.com/episode/2#episode"><img class="replace-2x rel" src="img/e02-thumb.jpg" alt="E02: Jimmy Goodman" /></a>
 <h6>
 	Episode 02</h6>
 <h3>
-	<a href="http://ourcityourstory.com/episode/2">Jimmy Goodman</a></h3>
+	<a href="http://ourcityourstory.com/episode/2#episode">Jimmy Goodman</a></h3>
 <p>
 	Jimmy Goodman lives up to his surname. Three days a week, he volunteers in running and coaching youth in the sport of boxing. When you walk in to the space, you immediately see the ring before you, but you may not get to step in it for months&hellip;</p>
-<a href="http://ourcityourstory.com/episode/2" class="button">Watch &rarr;</a></div>
+<a href="http://ourcityourstory.com/episode/2#episode" class="button">Watch &rarr;</a></div>
                     <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/allstorieslink.php"); ?>
             </article>
         </div>

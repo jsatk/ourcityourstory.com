@@ -548,3 +548,10 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html
+RewriteRule ^(.+)\.asp$ $1.php
+
+# ----------------------------------------------------------------------
+# Redirects
+# ----------------------------------------------------------------------
+
+Redirect /^haz*/i http://ourcityourstory.com/episode/09/

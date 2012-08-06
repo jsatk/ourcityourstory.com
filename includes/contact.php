@@ -24,7 +24,7 @@
                     <label>Contact the Director.</label>
                     <a href="mailto:PabloKorona@OurCityOurStory.com">PabloKorona@OurCityOurStory.com</a>
                 </li>
-                <li>
+                <li class="last-child">
                     <label>Is your community interested in telling its story?</label>
                     <a href="mailto:Licensing@OurCityOurStory.com">Licensing@OurCityOurStory.com</a>
                 </li>

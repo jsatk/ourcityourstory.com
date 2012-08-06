@@ -333,7 +333,6 @@ header {
     background-size: cover;
     max-height: 500px;
     min-height: 280px;
-    overflow: hidden;
     position: relative;
 }
 
@@ -446,7 +445,7 @@ header .logo {
 .top-nav nav .email:active {
     background-image: url(../img/sprite.png);
     background-position: -50px -30px;
-    height: 28px;
+    padding-bottom: 14px;
 }
 
 .subscribe_header,
@@ -863,7 +862,8 @@ header .logo {
     margin-bottom: 16px;
 }
 
-.contact li:last-child {
+.contact li:last-child,
+.contact .last-child {
     margin-bottom: 0px;
 }
 
@@ -979,7 +979,8 @@ header .logo {
     width: 47%;
 }
 
-.sponsors nav a:last-child {
+.sponsors nav a:last-child,
+.sponsors nav .last-child {
     margin-right: 0;
 }
 
@@ -1183,10 +1184,6 @@ footer p a:visited {
 }
 
 @media all and (min-width: 640px) {
-    body.fixed {
-        margin-top: 40px;
-    }
-
     h1,
     header .title {
         font-size: 24px;
@@ -1249,7 +1246,7 @@ footer p a:visited {
     }
 
     .top-nav nav .social {
-        display: block;
+        display: inline-block;
     }
 
     .top-nav nav .cut,
@@ -1338,7 +1335,8 @@ footer p a:visited {
         max-width: 300px;
     }
 
-    .about .right p:first-child {
+    .about .right p:first-child,
+    .about .right .first-child {
         padding-bottom: 8%;
     }
 
@@ -1468,6 +1466,10 @@ footer p a:visited {
 }
 
 @media all and (min-width: 873px) {
+    body.fixed {
+        margin-top: 40px;
+    }
+
     h1,
     header .title {
         font-size: 48px;
