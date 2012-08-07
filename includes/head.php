@@ -5,10 +5,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 <title>Storytelling video product to help define the identity of this community. This is Rockford, Illinois.</title>
-<meta property="og:type" content="company">
-<meta property="og:url" content="http://ourcityourstory.com">
-<meta property="og:site_name" content="Our City, Our Story">
-<meta property="fb:app_id" content="463007328218">
 
 <!-- Mobile viewport optimized: h5bp.com/viewport. Width was originally set to 'device-width' but it was breaking. -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
