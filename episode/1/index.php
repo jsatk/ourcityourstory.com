@@ -9,7 +9,7 @@
     <head>
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
 
-        <meta name="description" class="cushycms" title="Meta-Description" content="1955. Vincent Chiarelli of Sicily arrived to Rockford, IL with a song in his heart and a needle in his pocket. He opened a small tailor shop and spun out a music publishing company with his own record label from its success. His shop was located at the head of Broadway Street coming downtown, and those who came to see Vince thought he owned the town.">
+        <meta property="og:description" name="description" class="cushycms" title="Meta-Description" content="1955. Vincent Chiarelli of Sicily arrived to Rockford, IL with a song in his heart and a needle in his pocket. He opened a small tailor shop and spun out a music publishing company with his own record label from its success. His shop was located at the head of Broadway Street coming downtown, and those who came to see Vince thought he owned the town.">
         <meta property="og:title" class="cushycms" title="Facebook Share Title" content="The Torchlighter">
         <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/f1.jpg" />
         <meta property="og:type" class="cushycms" content="company">
