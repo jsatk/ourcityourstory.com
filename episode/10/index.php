@@ -28,13 +28,13 @@
             <h1 class="cushycms" title="Featured video title">Fabric &amp; Color Patterns</h1>
             <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
-            <!-- This is simply for the Cushy CMS. Current video ID to be entered here. -->
-            <h1 class="invisible cushycms" title="Put this page's featured video ID here" id="video-id">45131456</h1>
             <h1 class="hidden cushycms" title="Is this the most recent episode?" id="current">No</h1>
 
             <a href="#" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode">E11: Buddy Baseball</span></a>
             <a href="#" class="controls previous"><em>&#8594;</em><span class="cushycms" title="Previous Episode">E09: Hazzard Free</span></a>
-            <iframe id="video" title="iframe for featured episode." src="http://player.vimeo.com/video/{*id*}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" width="500" height="281" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            <div class="cushycms" title="Change the number after 'video/' but before '?'.">
+                <iframe id="video" title="iframe for featured episode." src="http://player.vimeo.com/video/45131456?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" width="500" height="281" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            </div>
         </div>
 
         <div class="story clearfix">

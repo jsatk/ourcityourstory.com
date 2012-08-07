@@ -28,13 +28,13 @@
             <h1 title="Featured video title" class="cushycms">Pioneer of the Past</h1>
             <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
-            <!-- This is simply for the Cushy CMS. Current video ID to be entered here. -->
-            <h1 title="Put this page's featured video ID here" class="invisible cushycms" id="video-id">43273533</h1>
             <h1 title="Is this the most recent episode?" class="hidden cushycms" id="current">No</h1>
 
             <a href="#" class="controls next"><em>&#8592;</em><span title="Next Episode" class="cushycms">E04: Darrell Hines</span></a>
             <a href="#" class="controls previous"><span title="Previous Episode" class="cushycms">E02: Jimmy Goodman</span><em>&#8594;</em></a>
-            <iframe id="video" title="iframe for featured episode." src="http://player.vimeo.com/video/{*id*}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" width="500" height="281" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            <div class="cushycms" title="Change the number after 'video/' but before '?'.">
+                <iframe id="video" title="iframe for featured episode." src="http://player.vimeo.com/video/43273533?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" width="500" height="281" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            </div>
         </div>
 
         <div class="story clearfix">
