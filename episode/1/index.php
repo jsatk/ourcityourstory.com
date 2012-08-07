@@ -11,7 +11,7 @@
 
         <meta property="og:description" name="description" class="cushycms" title="Meta-Description" content="1955. Vincent Chiarelli of Sicily arrived to Rockford, IL with a song in his heart and a needle in his pocket. He opened a small tailor shop and spun out a music publishing company with his own record label from its success. His shop was located at the head of Broadway Street coming downtown, and those who came to see Vince thought he owned the town.">
         <meta property="og:title" class="cushycms" title="Facebook Share Title" content="The Torchlighter">
-        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/f1.jpg" />
+        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/f1.jpg">
         <meta property="og:type" class="cushycms" content="company">
         <meta property="og:url" class="cushycms" content="http://ourcityourstory.com/episode/1/">
         <meta property="og:site_name" class="cushycms" content="Our City, Our Story">
@@ -28,14 +28,14 @@
             <h1 class="cushycms" title="Featured video title">The Torchlighter</h1>
             <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
-            <!-- This is simply for the Cushy CMS. Current video ID to be entered here. -->
-            <h1 class="invisible cushycms" title="Put this page's featured video ID here" id="video-id">43273534</h1>
             <h1 title="Is this the most recent episode?" class="hidden cushycms" id="current">No</h1>
 
             <a href="#" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode">E02: Jimmy Goodman</span></a>
             <a href="#" class="controls previous"><span class="cushycms" title="Previous Episode"><br />
 </span><em>&#8594;</em></a>
-            <iframe id="video" title="iframe for featured episode." src="http://player.vimeo.com/video/{*id*}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" width="500" height="281" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            <div class="cushycms" title="Change the number after 'video/' but before '?'.">
+                <iframe id="video" title="iframe for featured episode." src="http://player.vimeo.com/video/43273534?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" width="500" height="281" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            </div>
         </div>
 
         <div class="story clearfix">
