@@ -1,2 +1,2 @@
 MAILTO=jesse.s.atkinson@gmail.com
-0 * * * * cd ~/ourcityourstory.com/; git add -u; git commit -m "Cron job"; git push --verbose > ~/ourcityourstory.com/log.txt
+0 * * * * cd ~/ourcityourstory.com/; git add -u; git add .; git commit -m "Cron job"; git push --verbose > ~/ourcityourstory.com/log.txt
