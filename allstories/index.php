@@ -4,13 +4,18 @@
     <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
     <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
     <!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
-    <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
 
     <head>
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
 
-        <meta name="description" class="cushycms" title="Meta-Description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story" />
-        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/logo.png" />
+        <meta name="description" class="cushycms" title="Meta-Description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
+        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story">
+        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/logo.png">
+        <meta property="og:type" class="cushycms" content="company">
+        <meta property="og:url" class="cushycms" content="http://ourcityourstory.com">
+        <meta property="og:site_name" class="cushycms" content="Our City, Our Story">
     </head>
 
     <body class="allstories">

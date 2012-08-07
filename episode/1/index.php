@@ -9,8 +9,12 @@
     <head>
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
 
-        <meta name="description" title="Meta-Description" class="cushycms" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="The Torchlighter" />
+        <meta name="description" class="cushycms" title="Meta-Description" content="1955. Vincent Chiarelli of Sicily arrived to Rockford, IL with a song in his heart and a needle in his pocket. He opened a small tailor shop and spun out a music publishing company with his own record label from its success. His shop was located at the head of Broadway Street coming downtown, and those who came to see Vince thought he owned the town.">
+        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="The Torchlighter">
         <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/f1.jpg" />
+        <meta property="og:type" class="cushycms" content="company">
+        <meta property="og:url" class="cushycms" content="http://ourcityourstory.com">
+        <meta property="og:site_name" class="cushycms" content="Our City, Our Story">
     </head>
 
     <body>
