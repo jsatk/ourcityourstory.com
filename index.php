@@ -15,7 +15,6 @@
         <meta property="og:type" class="cushycms" content="company">
         <meta property="og:url" class="cushycms" content="http://ourcityourstory.com">
         <meta property="og:site_name" class="cushycms" content="Our City, Our Story">
-        <meta property="fb:app_id" content="463007328218">
 
     </head>
 
