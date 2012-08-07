@@ -13,7 +13,7 @@
         <meta property="og:title" class="cushycms" title="Facebook Share Title" content="The Torchlighter">
         <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/f1.jpg" />
         <meta property="og:type" class="cushycms" content="company">
-        <meta property="og:url" class="cushycms" content="http://ourcityourstory.com">
+        <meta property="og:url" class="cushycms" content="http://ourcityourstory.com/The-Torchlighter/">
         <meta property="og:site_name" class="cushycms" content="Our City, Our Story">
     </head>
 
