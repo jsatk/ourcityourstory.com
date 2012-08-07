@@ -9,9 +9,12 @@
     <head>
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
 
-        <meta class="cushycms" title="Meta-Description" name="description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
-        <meta class="cushycms" title="Facebook Share Title" property="og:title" content="Our City, Our Story">
-        <meta class="cushycms" title="Facebook Share Image." property="og:image" content="http://ourcityourstory.com/img/logo.png">
+        <meta property="og:description" name="description" class="cushycms" title="Meta-Description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
+        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story">
+        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/logo.png">
+        <meta property="og:type" class="cushycms" content="company">
+        <meta property="og:url" class="cushycms" content="http://ourcityourstory.com">
+        <meta property="og:site_name" class="cushycms" content="Our City, Our Story">
     </head>
 
     <body>
