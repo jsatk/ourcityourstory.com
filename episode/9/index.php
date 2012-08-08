@@ -9,13 +9,11 @@
     <head>
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
 
-        <meta property="og:description" name="description" class="cushycms" title="Meta-Description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
-        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story">
-        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/logo.png">
-        <meta property="og:type" class="cushycms" content="company">
-        <meta property="og:url" class="cushycms" content="http://ourcityourstory.com">
-        <meta property="og:site_name" class="cushycms" content="Our City, Our Story">
-    </head>
+        <meta name="description" property="og:description" title="Meta-Description" class="cushycms" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story | Hazzard Free" />
+        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/f9.jpg" />
+        <meta property="og:type" class="cushycms" content="company" />
+        <meta property="og:url" class="cushycms" content="http://ourcityourstory.com/episode/9/" />
+        <meta property="og:site_name" class="cushycms" content="Our City, Our Story" /></head>
 
     <body>
 
@@ -25,24 +23,22 @@
 
     <div role="main">
         <div id="episode" class="episode">
-            <h1 title="Featured video title" class="cushycms">Hazzard Free</h1>
+            <h1 class="cushycms" title="Featured video title">Hazzard Free</h1>
             <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
-            <h1 class="hidden cushycms" title="Is this the most recent episode?" id="current">No</h1>
+            <h1 title="Is this the most recent episode?" class="hidden cushycms" id="current">No</h1>
 
-            <a href="#" class="controls next"><em>&#8592;</em><span title="Next Episode" class="cushycms">E10: Fabric &amp; Color Patterns</span></a>
-            <a href="#" class="controls previous"><span title="Previous Episode" class="cushycms">E08: Team Fur Bandit</span><em>&#8594;</em></a>
-            <div class="cushycms" title="Change the number after 'video/' but before '?'.">
-                <iframe id="video" title="iframe for featured episode." src="http://player.vimeo.com/video/44322055?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" width="500" height="281" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-            </div>
+            <a href="#" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode">E10: Fabric &amp; Color Patterns</span></a>
+            <a href="#" class="controls previous"><span class="cushycms" title="Previous Episode">E08: Team Fur Bandit</span><em>&#8594;</em></a>
+            <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe title="iframe for featured episode." mozallowfullscreen="" src="http://player.vimeo.com/video/44322055?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" allowfullscreen="" id="video" height="281" webkitallowfullscreen="" width="500"></iframe></div>
         </div>
 
         <div class="story clearfix">
             <article class="clearfix">
                 <h5>Our City, Our Story</h5>
-                <h4 title="Featured episode title. Must begin with 'E##'" class="cushycms">E09: Hazard Free</h4>
+                <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E09: Hazard Free</h4>
                 <div class="column left">
-                    <img title="Featured episode thumbnail image" class="cushycms replace-2x rel" src="img/f9.jpg" height="221" alt="E9" width="316">
+                    <img class="cushycms replace-2x rel" title="Featured episode thumbnail image" src="img/f9.jpg" height="221" alt="E9" width="316">
                     <nav class="clearfix">
                         <div class="social">
                             <div class="fb-like" data-href="http://ourcityourstory.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
@@ -59,12 +55,12 @@
                     </nav>
 
                 </div>
-                <div title="Feature episode description" class="column center clearfix cushycms"><p>
+                <div class="column center clearfix cushycms" title="Feature episode description"><p>
 	Andy Hazzard had been a staple of downtown Rockford before she decided to acknowledge her true calling of farming. She was a waitress at Octane, she worked on jewelry at several art fairs, but when it came down to it, she had far too strong of a connection with nature. But her work in the restaurant business gave her the knowledge of the industry and the rapport with those who work in them. Her passion is infectious, as her passion made Paul Sletten of Abreo (Brio at the time) realize there was support here for a &ldquo;Farm to Table&rdquo; restaurant, that brought about Social.</p>
 <p>
 	Andy has been an inspiration for many, as her resilience should inspire us all. Though, with the help of her family, support of her friends, she has continued to grow the farm and be a loud voice in the chorus of those promoting &ldquo;good food&rdquo; &mdash; locally grown, organic vegetables, meat and grain.</p>
 <a href="#" class="button next">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
-                <div title="Featured episode credits" class="column right cushycms"><ul>
+                <div class="column right cushycms" title="Featured episode credits"><ul>
 	<li>
 		<h6>
 			Directed &amp; Produced By</h6>
@@ -98,7 +94,7 @@
             <article class="clearfix">
                 <h5>Our City, Our Story</h5>
                 <h1>Recent Stories</h1>
-                <div title="Recent episode #1" class="column left cushycms"><a href="http://ourcityourstory.com/episode/8/#episode"><img class="replace-2x rel" src="img/e08-thumb.jpg" alt="E08: Team Fur Bandit" /></a>
+                <div class="column left cushycms" title="Recent episode #1"><a href="http://ourcityourstory.com/episode/8/#episode"><img class="replace-2x rel" src="img/e08-thumb.jpg" alt="E08: Team Fur Bandit" /></a>
 <h6>
 	Episode 08</h6>
 <h3>
@@ -106,7 +102,7 @@
 <p>
 	&ldquo;Did I just really see that?&rdquo; It was the middle of December, and on a snow soaked Sunday afternoon a couple dozen fur covered bikes were sprinting down East State Street. Directly after this mass of bikes was a white truck&hellip;</p>
 <a href="http://ourcityourstory.com/episode/8/#episode" class="button">Watch &rarr;</a></div>
-                <div title="Recent episode #2" class="column center cushycms"><a href="http://ourcityourstory.com/episode/7/#episode"><img class="replace-2x rel" src="img/e07-thumb.jpg" alt="E07: Hometown History" /></a>
+                <div class="column center cushycms" title="Recent episode #2"><a href="http://ourcityourstory.com/episode/7/#episode"><img class="replace-2x rel" src="img/e07-thumb.jpg" alt="E07: Hometown History" /></a>
 <h6>
 	Episode 07</h6>
 <h3>
@@ -114,7 +110,7 @@
 <p>
 	There are two things you can do when someone labels you. You can either accept it, or prove it wrong. Darcy Hill is the Drama teacher at the Lutheran Academy. Every year she puts on a play with her 4th grade students. However, this was not like every other year&hellip;</p>
 <a href="http://ourcityourstory.com/episode/7/#episode" class="button">Watch &rarr;</a></div>
-                <div title="Recent episode #3" class="column right cushycms"><a href="http://ourcityourstory.com/episode/6/#episode"><img class="replace-2x rel" src="img/e06-thumb.jpg" alt="E06: Bonds By Fire" /></a>
+                <div class="column right cushycms" title="Recent episode #3"><a href="http://ourcityourstory.com/episode/6/#episode"><img class="replace-2x rel" src="img/e06-thumb.jpg" alt="E06: Bonds By Fire" /></a>
 <h6>
 	Episode 06</h6>
 <h3>

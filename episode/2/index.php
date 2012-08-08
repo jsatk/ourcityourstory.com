@@ -9,12 +9,11 @@
     <head>
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
 
-        <meta property="og:description" name="description" class="cushycms" title="Meta-Description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
-        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story">
-        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/logo.png">
-        <meta property="og:type" class="cushycms" content="company">
-        <meta property="og:url" class="cushycms" content="http://ourcityourstory.com">
-        <meta property="og:site_name" class="cushycms" content="Our City, Our Story">
+        <meta name="description" property="og:description" class="cushycms" title="Meta-Description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story | Jimmy Goodman" />
+        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/f2.jpg" />
+        <meta property="og:type" class="cushycms" content="company" />
+        <meta property="og:url" class="cushycms" content="http://ourcityourstory.com/episode/2/" />
+        <meta property="og:site_name" class="cushycms" content="Our City, Our Story" />
     </head>
 
     <body>
@@ -33,9 +32,7 @@
                 <a href="#" class="controls next"><em>&#8592;</em><span title="Next Episode" class="cushycms">E03: Pioneer of the Past</span></a>
                 <a href="#" class="controls previous"><span title="Previous Episode" class="cushycms">E01: Vince the Tailor</span><em>&#8594;</em></a>
 
-                <div class="cushycms" title="Change the number after 'video/' but before '?'.">
-                    <iframe id="video" title="iframe for featured episode." src="http://player.vimeo.com/video/43273531?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" width="500" height="281" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                </div>
+                <div class="cushycms" title="Change the number after 'video/' but before '?'."><iframe title="iframe for featured episode." mozallowfullscreen="" src="http://player.vimeo.com/video/43273531?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" allowfullscreen="" id="video" height="281" webkitallowfullscreen="" width="500"></iframe></div>
             </div>
 
             <div class="story clearfix">

@@ -9,13 +9,11 @@
     <head>
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
 
-        <meta property="og:description" name="description" class="cushycms" title="Meta-Description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
-        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story">
-        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/logo.png">
-        <meta property="og:type" class="cushycms" content="company">
-        <meta property="og:url" class="cushycms" content="http://ourcityourstory.com">
-        <meta property="og:site_name" class="cushycms" content="Our City, Our Story">
-    </head>
+        <meta name="description" property="og:description" title="Meta-Description" class="cushycms" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story | Fabric &amp; Color Patterns" />
+        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/f10.jpg" />
+        <meta property="og:type" class="cushycms" content="company" />
+        <meta property="og:url" class="cushycms" content="http://ourcityourstory.com/episode/10/" />
+        <meta property="og:site_name" class="cushycms" content="Our City, Our Story" /></head>
 
     <body>
 
@@ -25,24 +23,22 @@
 
     <div role="main">
         <div id="episode" class="episode">
-            <h1 class="cushycms" title="Featured video title">Fabric &amp; Color Patterns</h1>
+            <h1 title="Featured video title" class="cushycms">Fabric &amp; Color Patterns</h1>
             <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
-            <h1 class="hidden cushycms" title="Is this the most recent episode?" id="current">No</h1>
+            <h1 title="Is this the most recent episode?" class="hidden cushycms" id="current">No</h1>
 
-            <a href="#" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode">E11: Buddy Baseball</span></a>
-            <a href="#" class="controls previous"><em>&#8594;</em><span class="cushycms" title="Previous Episode">E09: Hazzard Free</span></a>
-            <div class="cushycms" title="Change the number after 'video/' but before '?'.">
-                <iframe id="video" title="iframe for featured episode." src="http://player.vimeo.com/video/45131456?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" width="500" height="281" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-            </div>
+            <a href="#" class="controls next"><em>&#8592;</em><span title="Next Episode" class="cushycms">E11: Buddy Baseball</span></a>
+            <a href="#" class="controls previous"><em>&#8594;</em><span title="Previous Episode" class="cushycms">E09: Hazzard Free</span></a>
+            <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe title="iframe for featured episode." mozallowfullscreen="" src="http://player.vimeo.com/video/45131456?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" allowfullscreen="" id="video" height="281" webkitallowfullscreen="" width="500"></iframe></div>
         </div>
 
         <div class="story clearfix">
             <article class="clearfix">
                 <h5>Our City, Our Story</h5>
-                <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E10: Fabric &amp; Color Patterns</h4>
+                <h4 title="Featured episode title. Must begin with 'E##'" class="cushycms">E10: Fabric &amp; Color Patterns</h4>
                 <div class="column left">
-                    <img class="cushycms replace-2x rel" title="Featured episode thumbnail image" src="img/f10.jpg" height="221" alt="E10" width="316">
+                    <img title="Featured episode thumbnail image" class="cushycms replace-2x rel" src="img/f10.jpg" height="221" alt="E10" width="316">
                     <nav class="clearfix">
                         <div class="social">
                             <div class="fb-like" data-href="http://ourcityourstory.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
@@ -59,10 +55,10 @@
                     </nav>
 
                 </div>
-                <div class="column center clearfix cushycms" title="Feature episode description"><p>
+                <div title="Feature episode description" class="column center clearfix cushycms"><p>
 	The flag is more than just fabric and color patterns. Its a reminder&hellip; a point of reference, it gives us a way collectively to think about how far we&rsquo;ve come and yet how far we have to go. People gave their lives so that we could live in a better country, and it&rsquo;s our responsibility to pick up that mantle and move it forward. We can&rsquo;t settle for disunity. We have to find ways to keep on perfecting that union. It captures our collective memory as well as collective our desire to be the best that we can be and the greatest we can be.</p>
 <a href="#" class="button next">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
-                <div class="column right cushycms" title="Featured episode credits"><ul>
+                <div title="Featured episode credits" class="column right cushycms"><ul>
 	<li>
 		<h6>
 			Directed &amp; Produced By</h6>
@@ -99,7 +95,7 @@
             <article class="clearfix">
                 <h5>Our City, Our Story</h5>
                 <h1>Recent Stories</h1>
-                <div class="column left cushycms" title="Recent episode #1"><a href="http://ourcityourstory.com/episode/9/#episode"><img class="replace-2x rel" src="img/e09-thumb.jpg" alt="E09: Hazzard Free" /></a>
+                <div title="Recent episode #1" class="column left cushycms"><a href="http://ourcityourstory.com/episode/9/#episode"><img class="replace-2x rel" src="img/e09-thumb.jpg" alt="E09: Hazzard Free" /></a>
 <h6>
 	Episode 09</h6>
 <h3>
@@ -107,7 +103,7 @@
 <p>
 	Andy Hazzard had been a staple of downtown Rockford before she decided to acknowledge her true calling of farming. She was a waitress at Octane, she worked on jewelry at several art fairs, but when it came down to it, she had far too strong&hellip;</p>
 <a href="http://ourcityourstory.com/episode/9/#episode" class="button" target="_blank">Watch &rarr;</a> </div>
-                <div class="column center cushycms" title="Recent episode #2"><a href="http://ourcityourstory.com/episode/8/#episode"><img class="replace-2x rel" src="img/e08-thumb.jpg" alt="recent1" /></a>
+                <div title="Recent episode #2" class="column center cushycms"><a href="http://ourcityourstory.com/episode/8/#episode"><img class="replace-2x rel" src="img/e08-thumb.jpg" alt="recent1" /></a>
 <h6>
 	Episode 08</h6>
 <h3>
@@ -115,7 +111,7 @@
 <p>
 	&ldquo;Did I just really see that?&rdquo; It was the middle of December, and on a snow soaked Sunday afternoon a couple dozen fur covered bikes were sprinting down East State Street. Directly after this mass of bikes was a white truck&hellip;</p>
 <a href="http://ourcityourstory.com/episode/8/#episode" class="button">Watch &rarr;</a></div>
-                <div class="column right cushycms" title="Recent episode #3"><a href="http://ourcityourstory.com/episode/7/#episode"><img class="replace-2x rel" src="img/e07-thumb.jpg" alt="recent1" /></a>
+                <div title="Recent episode #3" class="column right cushycms"><a href="http://ourcityourstory.com/episode/7/#episode"><img class="replace-2x rel" src="img/e07-thumb.jpg" alt="recent1" /></a>
 <h6>
 	Episode 07</h6>
 <h3>
