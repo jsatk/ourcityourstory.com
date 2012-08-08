@@ -445,7 +445,7 @@ header .logo {
 .top-nav nav .email:active {
     background-image: url(../img/sprite.png);
     background-position: -50px -30px;
-    padding-bottom: 13px;
+    padding-bottom: 8px;
 }
 
 .subscribe_header,
@@ -1249,6 +1249,11 @@ footer p a:visited {
 
     .top-nav nav .social {
         display: inline-block;
+    }
+
+    .top-nav nav .email.active,
+    .top-nav nav .email:active {
+        padding-bottom: 13px;
     }
 
     .top-nav nav .cut,
