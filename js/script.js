@@ -297,6 +297,7 @@
                     $("#supporters button").removeClass("active");
                 }).css("border-top-width", "0");
 
+                $("#supporters_button").toggleClass("active");
             });
         },
 
