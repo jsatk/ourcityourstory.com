@@ -36,7 +36,7 @@ Coded by Jesse Atkinson
 
 <a name="003">003</a> How To Connect
 --------------------------------------
-![Connection info](img/readme/connect.png)
+![Connection info](http://ourcityourstory.com/img/readme/connect.png)
 
 **Protocol:** FTP  
 **Server:** muscida.dreamhost.com  
@@ -50,7 +50,7 @@ Coded by Jesse Atkinson
 -------------------------------------------
 
 ### `/` ###
-![Home directory structure](img/readme/root.png)
+![Home directory structure](http://ourcityourstory.com/img/readme/root.png)
 
 `404.html` : Error page when user goes to a non-valid URL on the domain. Allows user to search [ourcityourstory.com](http://ourcityourstory.com) for what they were looking for.
 
@@ -95,17 +95,17 @@ Coded by Jesse Atkinson
 `robots.txt` : Used for search optimization so we're tracked correctly on search engines.
 
 ### `/episode/` ###
-![episode directory structure](img/readme/episode.png)
+![episode directory structure](http://ourcityourstory.com/img/readme/episode.png)
 
 Here is where all of the episode pages live. If there is a need for more episodes simply duplicate the folder for the latest episode, rename the folder to the next episode number, and finally add it's index.php to Cushy CMS.
 
 ### `/img/` ###
-![img directory structure](img/readme/img.png)
+![img directory structure](http://ourcityourstory.com/img/readme/img.png)
 
 Here is where all our images live. Rather than seperating image groups into seperate subfolders we followed naming conventions. Each page's featured episode image follows the convention `f#.jpg`. All thumbnails for the *recent* and *allstories* page follow the naming convention `e##-thumb.jpg` & `e##-thumb@2x.jpg` respectively. The `@2x` naming convention is extremely important to follow. The rest not-so-much, but I strongly recommend keeping to it for consistency and maintainability's sake.
 
 ### `/includes/` ###
-![includes directory structure](img/readme/includes.png)
+![includes directory structure](http://ourcityourstory.com/img/readme/includes.png)
 
 Here is where all of our includes live. These are the elements that are consistently the same accross every page. I have added the *About* and *Supporters* section to Cushy CMS. Edit them once and they populate accross all of the pages.
 
