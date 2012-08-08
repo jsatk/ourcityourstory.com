@@ -17,14 +17,16 @@
         init: function () {
             // Retina image replace.
             this.highdpi();
+            // img src replacement.
+            this.img();
+            // Handles nav-bar scrolling and sticking.
+            this.nav();
             // Handles subscribe button functionality.
             this.newsletter();
             // Keeps header text centered on resize.
             this.position();
             // On resize of browser window fire this.position();
             this.resize();
-            // Handles nav-bar scrolling and sticking.
-            this.nav();
             // Handles the supporters section.
             this.supporters();
             // Handles the vimeo video show and hide title.
@@ -48,6 +50,15 @@
                     $(this).attr("src", src);
                 });
             }
+        },
+
+        img: function () {
+            var src = "img/f" + $(".story h4").text().substring(1, 3) + ".jpg";
+
+            console.log(src);
+
+            // Sets the Featured image to the right image.
+            $(".story .thumb").attr("src", src);
         },
 
         // There is a shit ton of math, calculations, etc, that control the nav

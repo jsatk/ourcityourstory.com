@@ -40,7 +40,7 @@
                     <h5>Our City, Our Story</h5>
                     <h4 title="Featured episode title. Must begin with 'E##'" class="cushycms">E02: Jimmy Goodman</h4>
                     <div class="column left">
-                        <img title="Featured episode thumbnail image" class="cushycms replace-2x rel" src="img/f2.jpg" height="221" alt="E2" width="316">
+                    <img class="thumb replace-2x rel" src="" alt="Featured Episode Thumbnail">
                         <nav class="clearfix">
                             <div class="social">
                                 <div class="fb-like" data-href="http://ourcityourstory.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>

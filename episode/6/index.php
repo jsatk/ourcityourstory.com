@@ -38,7 +38,7 @@
                 <h5>Our City, Our Story</h5>
                 <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E06: Bonds By Fire</h4>
                 <div class="column left">
-                    <img class="cushycms replace-2x rel" title="Featured episode thumbnail image" src="img/f6.jpg" height="221" alt="E6" width="316">
+                    <img class="thumb replace-2x rel" src="" alt="Featured Episode Thumbnail">
                     <nav class="clearfix">
                         <div class="social">
                             <div class="fb-like" data-href="http://ourcityourstory.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
