@@ -9,13 +9,11 @@
     <head>
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
 
-        <meta property="og:description" name="description" class="cushycms" title="Meta-Description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
-        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story">
-        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/logo.png">
-        <meta property="og:type" class="cushycms" content="company">
-        <meta property="og:url" class="cushycms" content="http://ourcityourstory.com">
-        <meta property="og:site_name" class="cushycms" content="Our City, Our Story">
-    </head>
+        <meta name="description" property="og:description" class="cushycms" title="Meta-Description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story | MainfraiM" />
+        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/f12.jpg" />
+        <meta property="og:type" class="cushycms" content="company" />
+        <meta property="og:url" class="cushycms" content="http://ourcityourstory.com/episode/12/" />
+        <meta property="og:site_name" class="cushycms" content="Our City, Our Story" /></head>
 
     <body>
 
@@ -25,25 +23,23 @@
 
     <div role="main">
         <div id="episode" class="episode">
-            <h1 title="Featured video title" class="cushycms">Buddy Baseball</h1>
+            <h1 title="Featured video title" class="cushycms">MainfraiM</h1>
             <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
-            <h1 class="hidden cushycms" id="current" title="Is this the most recent episode?">Yes</h1>
+            <h1 class="hidden cushycms" title="Is this the most recent episode?" id="current">Yes</h1>
 
             <a href="#" class="controls next"><em>&#8592;</em><span title="Next Episode" class="cushycms"><br />
 </span></a>
-            <a href="#" class="controls previous"><span title="Previous Episode" class="cushycms">E10: Fabric &amp; Color Patterns</span><em>&#8594;</em></a>
-            <div class="cushycms" title="Change the number after 'video/' but before '?'.">
-                <iframe id="video" title="iframe for featured episode." src="http://player.vimeo.com/video/45895783?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" width="500" height="281" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-            </div>
+            <a href="#" class="controls previous"><span title="Previous Episode" class="cushycms">E11: Buddy Baseball</span><em>&#8594;</em></a>
+            <div class="cushycms" title="Change the number after 'video/' but before '?'."><iframe title="iframe for featured episode." mozallowfullscreen="" src="http://player.vimeo.com/video/47179767?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" allowfullscreen="" id="video" height="281" webkitallowfullscreen="" width="500"></iframe></div>
         </div>
 
         <div class="story clearfix">
             <article class="clearfix">
                 <h5>Our City, Our Story</h5>
-                <h4 title="Featured episode title. Must begin with 'E##'" class="cushycms">E11: Buddy Baseball</h4>
+                <h4 title="Featured episode title. Must begin with 'E##'" class="cushycms">E12: MainfraiM</h4>
                 <div class="column left">
-                    <img title="Featured episode thumbnail image" class="cushycms replace-2x rel" src="img/f11.jpg" alt="E11: Buddy Baseball" />
+                    <img title="Featured episode thumbnail image" class="cushycms replace-2x rel" src="index_7_2559148729.jpg" alt="E11: Buddy Baseball" />
                     <nav class="clearfix">
                         <div class="social">
                             <div class="fb-like" data-href="http://ourcityourstory.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
@@ -61,10 +57,18 @@
 
                 </div>
                 <div title="Feature episode description" class="column clearfix center cushycms"><p>
-	Starting in June, families come to to the baseball diamonds at Guilford to something special in this community. Buddy Baseball. You see smiles. Cheers. &ldquo;Hit the ball! Don&#39;t look at me! Run!&rdquo; The announcer gets on the mic: &ldquo;Next up to bat, is Joshua&rdquo; Everyone in the bleachers cheers him on &ldquo;Keep your eye on the ball&rdquo; &ldquo;Let&#39;s go Josh.&rdquo; &ldquo;Go Joshua!&rdquo; The program does a great deal for the kids within the program, but also for the volunteer Buddies who run the bases with the kids. You see the joy in the kid&#39;s face who connects with the ball, who instead of running to first base, he looks back to his dad with a shocked smile seeming to say &ldquo;I did it!&rdquo;</p>
+	Peer into the windows of their studio on Rockford&rsquo;s Central Avenue late one night, and chances are you&rsquo;ll find Jeremy Klonicki and Carmen Turner of MainfraiM Habitat for Art captivated by their work, performing some inspired alchemy. In the hands of these artists, salvaged and cultured materials, mechanical relics and found objects are transformed into inspired lighting, sculpture and custom frames.</p>
 <p>
-	In this story of Buddy Baseball we start with Matthew Lapp, and see how he interacts with his family at home. He is most certainly loved, but there is only so much a loving family can do for Matthew in the world. The frustration with seeing his sister play soccer, does cause issue&hellip; but that&#39;s where Buddy Baseball helps. Sherri White started Buddy Baseball 4 years ago, and Matthew Lapp was the first to sign up for the program. Sherri saw a need for a &ldquo;buddy&rdquo; type program after her own son was unable to participate in some of the other baseball programs in the way he wanted to participate. He needed a pinch runner. Sherri knew there was a solution and ran with the idea of Buddy Baseball, creating a program that the Rockford Park District and she collaborate on.</p>
-<a href="#" class="button next">&larr; Next<span class="cut">&nbsp;Episode</a></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
+	A certainly perfect homage to Rockford&rsquo;s heritage and manufacturing narrative, Jeremy and Carmen&rsquo;s work captures &ldquo;history and industry joined with earth and light&rdquo;, and the result is truly captivating. With an obviously deep respect for materials &ldquo;aged to perfection by time and weather&rdquo; and a strong nod to the past, MainfraiM&rsquo;s works seem the perfect amalgam of history, time and place. The two artisans also exhibit that perfect fine balance of exquisite craftsmanship and restraint; hand-hewn reclaimed barn wood retains its patina and character, while handcrafted picture frames may demand finer virtuosity and finishes.</p>
+<p>
+	With a &ldquo;passion for things forgotten&rdquo;, Jeremy founded MainfraiM, embracing art and making it a career. He believes that the often humble materials&mdash;hand-dug apothecary jars, castoff isolators, mechanical relics and hand-hewn barn wood&mdash;have a story of their own. Carmen joined Jeremy in 2011 as a design maven and revels in &ldquo;digging up society&rsquo;s cast-offs and making her finds meaningful and purposeful again.&rdquo; With an entrepreneurial spirit seemingly sprung from the refuse, these young artisans have created and nurtured a business while salvaging and repurposing others&rsquo; trash.</p>
+<p>
+	Perhaps the most quixotic of their creations, their witty sculptures combine material inspiration and artistic ingenuity to invoke both curiosity and intrigue. Jeremy and Carmen both know that their &ldquo;work transforms archaic technology and life into modern imagination.&rdquo;</p>
+<p>
+	You can see MainfraiM&rsquo;s work currently exhibiting at Octane.</p>
+<p>
+	&ldquo;In the right light, at the right time, everything is extraordinary.&rdquo; - A. Rose</p>
+<a href="#" class="button next">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
                 <div title="Featured episode credits" class="column right cushycms"><ul>
 	<li>
 		<h6>
@@ -72,20 +76,19 @@
 		<span>Pablo Korona</span></li>
 	<li>
 		<h6>
-			Assistant &amp; Second Shooter</h6>
-		<span>Julia Moore</span></li>
-	<li>
-		<h6>
 			Music</h6>
 		<span>Daniel James McMahon</span></li>
-<li><h6>Audio</h6><span>Zach Staas</span></li>
+	<li>
+		<h6>
+			Audio</h6>
+		<span>Zach Staas</span></li>
 	<li>
 		<h6>
 			Special Thanks</h6>
-		<span>Matthew Lapp &amp; Family<br />
-		Sherri White &amp; Family<br />
-		Buddy Baseball<br />
-		Rockford Park District </span><br />
+		<span>Jeremy Klonicki<br />
+		Carmen Turner<br />
+		Anthony Green<br />
+		Octane</span><br />
 		<br />
 		&nbsp;</li>
 </ul>
@@ -99,30 +102,30 @@
             <article class="clearfix">
                 <h5>Our City, Our Story</h5>
                 <h1>Recent Stories</h1>
-                <div title="Recent episode #1" class="column left cushycms"><a href="http://ourcityourstory.com/episode/10"><img class="replace-2x rel" src="img/e10-thumb.jpg" alt="E10: Fabric and Color Patterns" /></a>
+                <div title="Recent episode #1" class="column left cushycms"><a href="http://ourcityourstory.com/episode/11/#episode"><img class="replace-2x rel" src="img/e11-thumb.jpg" alt="E11: Buddy Baseball" /></a>
+<h6>
+	Episode 11</h6>
+<h3>
+	<a href="http://ourcityourstory.com/episode/11/#episode">Buddy Baseball</a></h3>
+<p>
+	Starting in June, families come to to the baseball diamonds at Guilford to something special in this community. Buddy Baseball. You see smiles. Cheers. &ldquo;Hit the ball! Don&#39;t look at me!&hellip; Run!&rdquo; The announcer gets on the mic: &ldquo;Next up&hellip;</p>
+<a href="http://ourcityourstory.com/episode/11/#episode" class="button" target="_blank">Watch &rarr;</a> </div>
+                <div title="Recent episode #2" class="column center cushycms"><a href="http://ourcityourstory.com/episode/10"><img class="replace-2x rel" src="img/e10-thumb.jpg" alt="E10: Fabric and Color Patterns" /></a>
 <h6>
 	Episode 10</h6>
 <h3>
 	<a href="http://ourcityourstory.com/episode/10">Fabric &amp; Color Patterns</a></h3>
 <p>
-	The flag is more than just fabric and color patterns. Its a reminder&hellip; a point of reference, it gives us a way collectively to think about how far we&rsquo;ve come and yet how far we have to go. People gave their lives so that we could live in a better country&hellip;</p>
+	The flag is more than just fabric and color patterns. Its a reminder&hellip; a point of reference, it gives us a way collectively to think about how far we&rsquo;ve come and yet how far&hellip;</p>
 <a href="http://ourcityourstory.com/episode/10" class="button" target="_blank">Watch &rarr;</a> </div>
-                <div title="Recent episode #2" class="column center cushycms"><a href="http://ourcityourstory.com/episode/9"><img class="replace-2x rel" src="img/e09-thumb.jpg" alt="E09: Hazzard Free" /></a>
+                <div title="Recent episode #3" class="column right cushycms"><a href="http://ourcityourstory.com/episode/9"><img class="replace-2x rel" src="img/e09-thumb.jpg" alt="E09: Hazzard Free" /></a>
 <h6>
 	Episode 09</h6>
 <h3>
 	<a href="http://ourcityourstory.com/episode/9">Hazzard Free</a></h3>
 <p>
-	Andy Hazzard had been a staple of downtown Rockford before she decided to acknowledge her true calling of farming. She was a waitress at Octane, she worked on jewelry at several art fairs, but when it came down to it, she had far too strong&hellip;</p>
+	Andy Hazzard had been a staple of downtown Rockford before she decided to acknowledge her true calling of farming. She was a waitress at Octane, she worked on jewelry at several art fairs, but when it came down to it&hellip;</p>
 <a href="http://ourcityourstory.com/episode/9" class="button" target="_blank">Watch &rarr;</a> </div>
-                <div title="Recent episode #3" class="column right cushycms"><a href="http://ourcityourstory.com/episode/8"><img class="replace-2x rel" src="img/e08-thumb.jpg" alt="recent1" /></a>
-<h6>
-	Episode 08</h6>
-<h3>
-	<a href="http://ourcityourstory.com/episode/8">Team Fur Bandit</a></h3>
-<p>
-	&ldquo;Did I just really see that?&rdquo; It was the middle of December, and on a snow soaked Sunday afternoon a couple dozen fur covered bikes were sprinting down East State Street. Directly after this mass of bikes was a white truck&hellip;</p>
-<a href="http://ourcityourstory.com/episode/8" class="button">Watch &rarr;</a></div>
                     <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/allstorieslink.php"); ?>
             </article>
         </div>
