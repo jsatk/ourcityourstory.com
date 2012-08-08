@@ -303,12 +303,11 @@
         video: function () {
             var ep_num = Math.floor(window.location.pathname.replace(/[^0-9]/g, "")),
                 pathname = window.location.pathname,
-                iframe, current, player, next, nw, pw, onPlay, onPause, onFinish, previous, src;
+                iframe, current, player, next, nw, pw, onPlay, onPause, onFinish, previous;
 
             if ($(".allstories").length === 0) {
                 current = $("#video-id").text();
                 iframe = $("#video")[0];
-                src = $("#video").attr("src").replace(/\{\*id\*\}/g, current);
             }
 
             if (ep_num === 0 && $(".allstories").length === 0) {
@@ -321,7 +320,6 @@
             // If not the "All Stories" page...
             if ($(".allstories").length === 0) {
                 // This allows Pablo to enter Vimeo ID via Cushy CMS
-                $("#video").attr("src", src);
                 $(".next").attr("href", "/episode/" + next.toString() + "/");
                 $(".previous").attr("href", "/episode/" + previous.toString() + "/");
 
