@@ -55,8 +55,6 @@
         img: function () {
             var src = "img/f" + $(".story h4").text().substring(1, 3) + ".jpg";
 
-            console.log(src);
-
             // Sets the Featured image to the right image.
             $(".story .thumb").attr("src", src);
         },
