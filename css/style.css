@@ -919,11 +919,11 @@ header .logo {
 }
 
 .contact .youtube {
-    background-position: -100px -90px;
+    background-position: -102px -90px;
 }
 
 .contact .youtube:hover {
-    background-position: -100px -110px;
+    background-position: -102px -110px;
 }
 
 /* Sponsor section */
