@@ -37,13 +37,12 @@
            Create your own custom Modernizr build: www.modernizr.com/download/ -->
         <script class="rel" src="js/libs/modernizr-2.5.3.min.js"></script>
 
-        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story | MainfraiM" />
-        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/f12.jpg" />
-        <meta property="og:type" class="cushycms" content="company" />
-        <meta property="og:url" class="cushycms" content="http://ourcityourstory.com/" />
-        <meta property="og:site_name" class="cushycms" content="Our City, Our Story" />
-        <meta property="og:description" class="cushycms" title="Meta-Description" name="description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois" />
-                <!-- FB App ID / API Key -->
+        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | MainfraiM" />
+        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f12.jpg" />
+        <meta property="og:type" content="company" />
+        <meta property="og:url" content="http://ourcityourstory.com/" />
+        <meta property="og:site_name" content="Our City, Our Story" />
+        <meta property="og:description" title="Meta-Description" name="description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois" />
         <meta property="fb:app_id" content="182992035165895">
     </head>
 
