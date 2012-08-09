@@ -9,15 +9,42 @@
     <!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
     <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
-    <head>
-        <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
+    <head class="cushycms" title="Meta Tags">
+        <meta charset="utf-8">
 
-        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story | MainfraiM">        <meta property="og:image" title="Facebook Share Image" class="cushycms" content="http://ourcityourstory.com/img/f12.jpg" />
+        <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+           More info: h5bp.com/i/378 -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>Storytelling video product to help define the identity of this community. This is Rockford, Illinois.</title>
+
+        <!-- Mobile viewport optimized: h5bp.com/viewport. Width was originally set to 'device-width' but it was breaking. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Base URL. Change/disable/re-enable depending on environment. -->
+        <!-- <base href="http://localhost:8888/"> -->
+        <!-- <base href="http://ourcityourstory.com/dev/"> -->
+        <base href="http://ourcityourstory.com/">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+        <link class="rel" rel="stylesheet" href="css/style.css">
+
+        <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+        <!-- All JavaScript at the bottom, except this Modernizr build.
+           Modernizr enables HTML5 elements & feature detects for optimal performance.
+           Create your own custom Modernizr build: www.modernizr.com/download/ -->
+        <script class="rel" src="js/libs/modernizr-2.5.3.min.js"></script>
+
+        <meta property="og:title" class="cushycms" title="Facebook Share Title" content="Our City, Our Story | MainfraiM" />
+        <meta property="og:image" class="cushycms" title="Facebook Share Image" content="http://ourcityourstory.com/img/f12.jpg" />
         <meta property="og:type" class="cushycms" content="company" />
         <meta property="og:url" class="cushycms" content="http://ourcityourstory.com/" />
         <meta property="og:site_name" class="cushycms" content="Our City, Our Story" />
-        <meta name="description" property="og:description" title="Meta-Description" class="cushycms" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois" />
-
+        <meta property="og:description" class="cushycms" title="Meta-Description" name="description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois" />
+                <!-- FB App ID / API Key -->
+        <meta property="fb:app_id" content="182992035165895">
     </head>
 
     <body>
@@ -95,8 +122,7 @@
 		Octane</span><br />
 		<br />
 		&nbsp;</li>
-</ul>
-</div>
+</ul></div>
                 </article>
             </div>
 
