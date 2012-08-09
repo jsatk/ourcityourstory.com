@@ -7,7 +7,7 @@
 <title>Storytelling video product to help define the identity of this community. This is Rockford, Illinois.</title>
 
 <!-- FB App ID / API Key -->
-<meta property="fb:app_id" content="283574901669242">
+<meta property="fb:app_id" content="182992035165895">
 
 <!-- Mobile viewport optimized: h5bp.com/viewport. Width was originally set to 'device-width' but it was breaking. -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
