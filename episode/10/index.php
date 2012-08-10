@@ -38,7 +38,7 @@
         <meta property="og:type" content="company" />
         <meta property="og:url" content="http://ourcityourstory.com/episode/10/" />
         <meta property="og:site_name" content="Our City, Our Story" />
-        <meta property="fb:app_id" content="182992035165895" />
+        <meta property="fb:admins" content="631463218">
     </head>
 
     <body>

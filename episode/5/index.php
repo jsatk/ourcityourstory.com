@@ -38,7 +38,7 @@
         <meta property="og:type" content="company" />
         <meta property="og:url" content="http://ourcityourstory.com/episode/5/" />
         <meta property="og:site_name" content="Our City, Our Story" /></head>
-        <meta property="fb:app_id" content="182992035165895">
+        <meta property="fb:admins" content="631463218">
     <body>
 
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/facebook.php"); ?>
