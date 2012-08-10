@@ -48,10 +48,12 @@
 <script src="//a.vimeocdn.com/js/froogaloop2.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/froogaloop2.min.js"><\/script>')</script>
 
+<!-- Pinterest's library -->
+<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+
 <!-- scripts concatenated and minified via build script -->
 <script type="text/javascript" src="//use.typekit.com/czk0yby.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
 <script class="rel" src="js/plugins.js"></script>
 <script class="rel" src="js/script.js"></script>
 <!-- end scripts -->
