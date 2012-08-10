@@ -6,26 +6,25 @@
     <!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
     <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
-    <head class="cushycms" title="Meta Tags">
-        <meta charset="utf-8">
+    <head title="Meta Tags" class="cushycms">        <meta charset="utf-8" />
 
         <!-- Use the .htaccess and remove these lines to avoid edge case issues.
            More info: h5bp.com/i/378 -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
 
         <title>Storytelling video product to help define the identity of this community. This is Rockford, Illinois.</title>
 
         <!-- Mobile viewport optimized: h5bp.com/viewport. Width was originally set to 'device-width' but it was breaking. -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <!-- Base URL. Change/disable/re-enable depending on environment. -->
         <!-- <base href="http://localhost:8888/"> -->
         <!-- <base href="http://ourcityourstory.com/dev/"> -->
-        <base href="http://ourcityourstory.com/">
+        <base href="http://ourcityourstory.com/" />
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
-        <link class="rel" rel="stylesheet" href="css/style.css">
+        <link href="css/style.css" class="rel" rel="stylesheet" />
 
         <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -34,12 +33,12 @@
            Create your own custom Modernizr build: www.modernizr.com/download/ -->
         <script class="rel" src="js/libs/modernizr-2.5.3.min.js"></script>
 
-        <meta name="description" property="og:description" title="Meta-Description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | Team Fur Bandit" />
+        <meta name="description" property="og:description" title="Meta-Description" content="&quot;Did I just really see that?&quot; It was the middle of December, and on a snow soaked Sunday afternoon a couple dozen fur covered bikes were sprinting down East State Street. Directly after this mass of bikes was a white truck&hellip;" />        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | Team Fur Bandit" />
         <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f8.jpg" />
         <meta property="og:type" content="company" />
         <meta property="og:url" content="http://ourcityourstory.com/episode/8/" />
         <meta property="og:site_name" content="Our City, Our Story" />
-        <meta property="fb:app_id" content="182992035165895">
+        <meta property="fb:app_id" content="182992035165895" />
     </head>
 
     <body>
@@ -50,20 +49,20 @@
 
     <div role="main">
         <div id="episode" class="episode">
-            <h1 class="cushycms" title="Featured video title">Team Fur Bandit</h1>
+            <h1 title="Featured video title" class="cushycms">Team Fur Bandit</h1>
             <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
-            <h1 title="Is this the most recent episode?" class="hidden cushycms" id="current">No</h1>
+            <h1 class="hidden cushycms" title="Is this the most recent episode?" id="current">No</h1>
 
-            <a href="#" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode">E09: Hazzard Free</span></a>
-            <a href="#" class="controls previous"><span class="cushycms" title="Previous Episode">E07: Hometown History</span><em>&#8594;</em></a>
-            <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe title="iframe for featured episode." mozallowfullscreen="" src="http://player.vimeo.com/video/43470589?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" allowfullscreen="" id="video" height="281" webkitallowfullscreen="" width="500"></iframe></div>
+            <a href="#" class="controls next"><em>&#8592;</em><span title="Next Episode" class="cushycms">E09: Hazzard Free</span></a>
+            <a href="#" class="controls previous"><span title="Previous Episode" class="cushycms">E07: Hometown History</span><em>&#8594;</em></a>
+            <div class="cushycms" title="Change the number after 'video/' but before '?'."><iframe title="iframe for featured episode." mozallowfullscreen="" src="http://player.vimeo.com/video/43470589?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" allowfullscreen="" id="video" height="281" webkitallowfullscreen="" width="500"></iframe></div>
         </div>
 
         <div class="story clearfix">
             <article class="clearfix">
                 <h5>Our City, Our Story</h5>
-                <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E08: Team Fur Bandit</h4>
+                <h4 title="Featured episode title. Must begin with 'E##'" class="cushycms">E08: Team Fur Bandit</h4>
                 <div class="column left">
                     <img class="thumb replace-2x rel" src="" alt="Featured Episode Thumbnail">
                     <nav class="clearfix">
@@ -81,12 +80,12 @@
                     </nav>
 
                 </div>
-                <div class="column clearfix center cushycms" title="Feature episode description"><p>
+                <div title="Feature episode description" class="column clearfix center cushycms"><p>
 	&ldquo;Did I just really see that?&rdquo;&nbsp;It was the middle of December, and on a snow soaked Sunday afternoon a couple dozen fur covered bikes were sprinting down East State Street. Directly after this mass of bikes was a white truck with orange alert lights blazing, hauling a trailer with Team Fur Bandit on it. For the past two years, this has been a common sight during some of the dreariest of all gray winter days. They say it, and you&#39;ve got to believe it: &ldquo;We&#39;re bandits because we steal your attention.&rdquo; These charity bikes rides were organized by DJ Wilson, and this all started after he and his friend got the idea to decorate their bikes during the RAGBRAI &ldquo;the oldest, longest, largest bicycle tour&rdquo; across Iowa.</p>
 <p>
 	This is a story that has us look back and discover with DJ, how all the pieces came together. This is Team Fur Bandit.</p>
 <a href="#" class="button next">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
-                <div class="column right cushycms" title="Featured episode credits"><ul>
+                <div title="Featured episode credits" class="column right cushycms"><ul>
 	<li>
 		<h6>
 			Directed &amp; Produced By</h6>
@@ -120,7 +119,7 @@
             <article class="clearfix">
                 <h5>Our City, Our Story</h5>
                 <h1>Recent Stories</h1>
-                <div class="column left cushycms" title="Recent episode #1"><a href="http://ourcityourstory.com/episode/7/#episode"><img class="replace-2x rel" src="img/e07-thumb.jpg" alt="E07: Hometown History" /></a>
+                <div title="Recent episode #1" class="column left cushycms"><a href="http://ourcityourstory.com/episode/7/#episode"><img class="replace-2x rel" src="img/e07-thumb.jpg" alt="E07: Hometown History" /></a>
 <h6>
 	Episode 07</h6>
 <h3>
@@ -128,7 +127,7 @@
 <p>
 	There are two things you can do when someone labels you. You can either accept it, or prove it wrong. Darcy Hill is the Drama teacher at the Lutheran Academy. Every year she puts on a play with her 4th grade students. However, this was not like every other year&hellip;</p>
 <a href="http://ourcityourstory.com/episode/7/#episode" class="button">Watch &rarr;</a></div>
-                <div class="column center cushycms" title="Recent episode #2"><a href="http://ourcityourstory.com/episode/6/#episode"><img class="replace-2x rel" src="img/e06-thumb.jpg" alt="E06: Bonds By Fire" /></a>
+                <div title="Recent episode #2" class="column center cushycms"><a href="http://ourcityourstory.com/episode/6/#episode"><img class="replace-2x rel" src="img/e06-thumb.jpg" alt="E06: Bonds By Fire" /></a>
 <h6>
 	Episode 06</h6>
 <h3>
@@ -136,7 +135,7 @@
 <p>
 	The O&rsquo;Keefe family is one of the only two 3rd generation Fire Fighting families to serve Rockford on the Fire Department. Though they share the same blood, and history, each of the members of the fire department are a part of a brotherhood&hellip;</p>
 <a href="http://ourcityourstory.com/episode/6/#episode" class="button">Watch &rarr;</a></div>
-                <div class="column right cushycms" title="Recent episode #3"><a href="http://ourcityourstory.com/episode/5/#episode"><img class="replace-2x rel" src="img/e05-thumb.jpg" alt="E05: Handcuffs To Handshakes" /></a>
+                <div title="Recent episode #3" class="column right cushycms"><a href="http://ourcityourstory.com/episode/5/#episode"><img class="replace-2x rel" src="img/e05-thumb.jpg" alt="E05: Handcuffs To Handshakes" /></a>
 <h6>
 	Episode 05</h6>
 <h3>

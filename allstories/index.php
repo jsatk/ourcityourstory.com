@@ -7,26 +7,25 @@
     <!--[if gt IE 8]><!-->
 <html class="no-js" lang="en"> <!--<![endif]-->
 
-    <head class="cushycms" title="Meta Tags">
-        <meta charset="utf-8">
+    <head title="Meta Tags" class="cushycms">        <meta charset="utf-8" />
 
         <!-- Use the .htaccess and remove these lines to avoid edge case issues.
            More info: h5bp.com/i/378 -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
 
-        <title>Storytelling video product to help define the identity of this community. This is Rockford, Illinois.</title>
+        <title>Our City, Our Story | All Stories</title>
 
         <!-- Mobile viewport optimized: h5bp.com/viewport. Width was originally set to 'device-width' but it was breaking. -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <!-- Base URL. Change/disable/re-enable depending on environment. -->
         <!-- <base href="http://localhost:8888/"> -->
         <!-- <base href="http://ourcityourstory.com/dev/"> -->
-        <base href="http://ourcityourstory.com/">
+        <base href="http://ourcityourstory.com/" />
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
-        <link class="rel" rel="stylesheet" href="css/style.css">
+        <link href="css/style.css" class="rel" rel="stylesheet" />
 
         <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -35,9 +34,9 @@
            Create your own custom Modernizr build: www.modernizr.com/download/ -->
         <script class="rel" src="js/libs/modernizr-2.5.3.min.js"></script>
 
-        <meta name="description" property="og:description" title="Meta-Description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
-        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story" />
         <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/logo.jpg" />
+        <meta name="description" property="og:description" title="Meta-Description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois" />
+        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | All Stories" />
         <meta property="og:type" content="company" />
         <meta property="og:url" content="http://ourcityourstory.com/all-stories/" />
         <meta property="og:site_name" content="Our City, Our Story" />
@@ -96,7 +95,7 @@
                     <h1>All Stories</h1>
 
                     <div class="row clearfix">
-                        <div class="column left cushycms" title="Episode #1"><a href="http://ourcityourstory.com/episode/1/#episode"><img class="replace-2x rel" src="img/e01-thumb.jpg" alt="E01: The Torchlighter" /></a>
+                        <div title="Episode #1" class="column left cushycms"><a href="http://ourcityourstory.com/episode/1/#episode"><img class="replace-2x rel" src="img/e01-thumb.jpg" alt="E01: The Torchlighter" /></a>
 <h6>
 	Episode 01</h6>
 <h3>
@@ -105,7 +104,7 @@
 	1955. Vincent Chiarelli of Sicily arrived to Rockford, IL with a song in his heart and a needle in his pocket. He opened a small tailor shop and spun out a music publishing company with his own record label from its success.&hellip;</p>
 <a href="http://ourcityourstory.com/episode/1/#episode" class="button">Watch &rarr;</a></div>
 
-                        <div class="column center cushycms" title="Episode #2"><a href="http://ourcityourstory.com/episode/2/#episode"><img class="replace-2x rel" src="img/e02-thumb.jpg" alt="E02: Jimmy Goodman" /></a>
+                        <div title="Episode #2" class="column center cushycms"><a href="http://ourcityourstory.com/episode/2/#episode"><img class="replace-2x rel" src="img/e02-thumb.jpg" alt="E02: Jimmy Goodman" /></a>
 <h6>
 	Episode 02</h6>
 <h3>
@@ -114,7 +113,7 @@
 	Jimmy Goodman lives up to his surname. Three days a week, he volunteers in running and coaching youth in the sport of boxing. When you walk in to the space, you immediately see the ring before you, but you may not get to step in it for months&hellip;</p>
 <a href="http://ourcityourstory.com/episode/2/#episode" class="button">Watch &rarr;</a></div>
 
-                        <div class="column right cushycms" title="Episode #3"><a href="http://ourcityourstory.com/episode/3/#episode"><img class="replace-2x rel" src="img/e03-thumb.jpg" alt="E03: Pioneer of the Past" /></a>
+                        <div title="Episode #3" class="column right cushycms"><a href="http://ourcityourstory.com/episode/3/#episode"><img class="replace-2x rel" src="img/e03-thumb.jpg" alt="E03: Pioneer of the Past" /></a>
 <h6>
 	Episode 03</h6>
 <h3>
@@ -125,7 +124,7 @@
                     </div>
 
                     <div class="row clearfix">
-                        <div class="column left cushycms" title="Episode #4"><a href="http://ourcityourstory.com/episode/4/#episode"><img class="replace-2x rel" src="img/e04-thumb.jpg" alt="E04: Darrell Hines" /></a>
+                        <div title="Episode #4" class="column left cushycms"><a href="http://ourcityourstory.com/episode/4/#episode"><img class="replace-2x rel" src="img/e04-thumb.jpg" alt="E04: Darrell Hines" /></a>
 <h6>
 	Episode 04</h6>
 <h3>
@@ -134,7 +133,7 @@
 	Epictetus said, &quot;He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.&quot; We live in a world amply sprinkled with naysayers. Hearing the word NO more than YES has become&hellip;</p>
 <a href="http://ourcityourstory.com/episode/4/#episode" class="button">Watch &rarr;</a></div>
 
-                        <div class="column center cushycms" title="Episode #5"><a href="http://ourcityourstory.com/episode/5/#episode"><img class="replace-2x rel" src="img/e05-thumb.jpg" alt="E05: Handcuffs To Handshakes" /></a>
+                        <div title="Episode #5" class="column center cushycms"><a href="http://ourcityourstory.com/episode/5/#episode"><img class="replace-2x rel" src="img/e05-thumb.jpg" alt="E05: Handcuffs To Handshakes" /></a>
 <h6>
 	Episode 05</h6>
 <h3>
@@ -143,7 +142,7 @@
 	Joseph Goral was arrested in 2006 for vandalizing property with spray paint. He was one of a few that were made examples of by an anti-graffiti task force. Mayor Larry Morrissey&#39;s press conference was one of victory&hellip;</p>
 <a href="http://ourcityourstory.com/episode/5/#episode" class="button">Watch &rarr;</a></div>
 
-                        <div class="column right cushycms" title="Episode #6"><a href="http://ourcityourstory.com/episode/6/#episode"><img class="replace-2x rel" src="img/e06-thumb.jpg" alt="E06: Bonds By Fire" /></a>
+                        <div title="Episode #6" class="column right cushycms"><a href="http://ourcityourstory.com/episode/6/#episode"><img class="replace-2x rel" src="img/e06-thumb.jpg" alt="E06: Bonds By Fire" /></a>
 <h6>
 	Episode 06</h6>
 <h3>
@@ -154,7 +153,7 @@
                     </div>
 
                     <div class="row clearfix">
-                        <div class="column left cushycms" title="Episode #4"><a href="http://ourcityourstory.com/episode/7/#episode"><img class="replace-2x rel" src="img/e07-thumb.jpg" alt="E07: Hometown History" /></a>
+                        <div title="Episode #4" class="column left cushycms"><a href="http://ourcityourstory.com/episode/7/#episode"><img class="replace-2x rel" src="img/e07-thumb.jpg" alt="E07: Hometown History" /></a>
 <h6>
 	Episode 07</h6>
 <h3>
@@ -163,7 +162,7 @@
 	There are two things you can do when someone labels you. You can either accept it, or prove it wrong. Darcy Hill is the Drama teacher at the Lutheran Academy. Every year she puts on a play with her 4th grade students. However, this was not like every other year&hellip;</p>
 <a href="http://ourcityourstory.com/episode/7/#episode" class="button">Watch &rarr;</a></div>
 
-                        <div class="column center cushycms" title="Episode #5"><a href="http://ourcityourstory.com/episode/8/#episode"><img class="replace-2x rel" src="img/e08-thumb.jpg" alt="E08: Team Fur Bandit" /></a>
+                        <div title="Episode #5" class="column center cushycms"><a href="http://ourcityourstory.com/episode/8/#episode"><img class="replace-2x rel" src="img/e08-thumb.jpg" alt="E08: Team Fur Bandit" /></a>
 <h6>
 	Episode 08</h6>
 <h3>
@@ -172,7 +171,7 @@
 	&quot;Did I just really see that?&quot; It was the middle of December, and on a snow soaked Sunday afternoon a couple dozen fur covered bikes were sprinting down East State Street. Directly after this mass of bikes was a white truck&hellip;</p>
 <a href="http://ourcityourstory.com/episode/8/#episode" class="button">Watch &rarr;</a></div>
 
-                        <div class="column right cushycms" title="Episode #6"><a href="http://ourcityourstory.com/episode/9/#episode"><img class="replace-2x rel" src="img/e09-thumb.jpg" alt="E09: Hazzard Free" /></a>
+                        <div title="Episode #6" class="column right cushycms"><a href="http://ourcityourstory.com/episode/9/#episode"><img class="replace-2x rel" src="img/e09-thumb.jpg" alt="E09: Hazzard Free" /></a>
 <h6>
 	Episode 09</h6>
 <h3>
@@ -183,7 +182,7 @@
                     </div>
 
                     <div class="row clearfix">
-                        <div class="column left cushycms" title="Episode #4"><a href="http://ourcityourstory.com/episode/10/#episode"><img class="replace-2x rel" src="img/e10-thumb.jpg" alt="E10: Fabric and Color Patterns" /></a>
+                        <div title="Episode #4" class="column left cushycms"><a href="http://ourcityourstory.com/episode/10/#episode"><img class="replace-2x rel" src="img/e10-thumb.jpg" alt="E10: Fabric and Color Patterns" /></a>
 <h6>
 	Episode 10</h6>
 <h3>
@@ -192,7 +191,7 @@
 	The flag is more than just fabric and color patterns. Its a reminder&hellip; a point of reference, it gives us a way collectively to think about how far we&#39;ve come and yet how far we have to go. People gave their lives so that we could live in a better country&hellip;</p>
 <a href="http://ourcityourstory.com/episode/10/#episode" class="button" target="_blank">Watch &rarr;</a> </div>
 
-                        <div class="column center cushycms" title="Episode #5"><a href="http://ourcityourstory.com/episode/11/#episode"><img class="replace-2x rel" src="img/e11-thumb.jpg" alt="E11: Buddy Baseball" /></a>
+                        <div title="Episode #5" class="column center cushycms"><a href="http://ourcityourstory.com/episode/11/#episode"><img class="replace-2x rel" src="img/e11-thumb.jpg" alt="E11: Buddy Baseball" /></a>
 <h6>
 	Episode 11</h6>
 <h3>
@@ -201,7 +200,7 @@
 	Starting in June, families come to to the baseball diamonds at Guilford to something special in this community. Buddy Baseball. You see smiles. Cheers. &ldquo;Hit the ball! Don&#39;t look at me!&hellip; Run!&rdquo; The announcer gets on the mic: &ldquo;Next up to bat, is Joshua&rdquo; Everyone in&hellip;</p>
 <a href="http://ourcityourstory.com/episode/11/#episode" class="button" target="_blank">Watch &rarr;</a> </div>
 
-                        <div class="column right cushycms" title="Episode #6"><a href="http://ourcityourstory.com/episode/12/#episode"><img class="replace-2x rel" src="img/e12-thumb.jpg" alt="E12: MainfraiM" /></a>
+                        <div title="Episode #6" class="column right cushycms"><a href="http://ourcityourstory.com/episode/12/#episode"><img class="replace-2x rel" src="img/e12-thumb.jpg" alt="E12: MainfraiM" /></a>
 <h6>
 	Episode 12</h6>
 <h3>
@@ -212,19 +211,19 @@
                     </div>
 
                     <div class="row clearfix">
-                        <div class="column left cushycms" title="Episode #4"><img class="replace-2x rel" src="img/comingsoon.png" alt="E12: Coming Soon" />
+                        <div title="Episode #4" class="column left cushycms"><img class="replace-2x rel" src="img/comingsoon.png" alt="E12: Coming Soon" />
 <h6>
 	Episode 13</h6>
 </div>
 
-                        <div class="column center cushycms" title="Episode #5"><img class="replace-2x rel" src="img/fall.png" alt="E14: Coming Soon" />
+                        <div title="Episode #5" class="column center cushycms"><img class="replace-2x rel" src="img/fall.png" alt="E14: Coming Soon" />
 <h6>
 	Episode 14</h6>
 <h3>
 	&nbsp;</h3>
 </div>
 
-                        <div class="column right cushycms" title="Episode #6"><img class="replace-2x rel" src="img/fall.png" alt="E15: Coming Soon" />
+                        <div title="Episode #6" class="column right cushycms"><img class="replace-2x rel" src="img/fall.png" alt="E15: Coming Soon" />
 <h6>
 	Episode 15</h6>
 <h3>
@@ -233,21 +232,21 @@
                     </div>
 
                     <div class="row clearfix">
-                        <div class="column left cushycms" title="Episode #4"><img class="replace-2x rel" src="img/fall.png" alt="E16: Coming Soon" />
+                        <div title="Episode #4" class="column left cushycms"><img class="replace-2x rel" src="img/fall.png" alt="E16: Coming Soon" />
 <h6>
 	Episode 16</h6>
 <h3>
 	&nbsp;</h3>
 </div>
 
-                        <div class="column center cushycms" title="Episode #5"><img class="replace-2x rel" src="img/fall.png" alt="E17: Coming Soon" />
+                        <div title="Episode #5" class="column center cushycms"><img class="replace-2x rel" src="img/fall.png" alt="E17: Coming Soon" />
 <h6>
 	Episode 17</h6>
 <h3>
 	&nbsp;</h3>
 </div>
 
-                        <div class="column right cushycms" title="Episode #6"><img class="replace-2x rel" src="img/fall.png" alt="E18: Coming Soon" />
+                        <div title="Episode #6" class="column right cushycms"><img class="replace-2x rel" src="img/fall.png" alt="E18: Coming Soon" />
 <h6>
 	Episode 18</h6>
 <h3>
@@ -256,21 +255,21 @@
                     </div>
 
                     <div class="row clearfix">
-                        <div class="column left cushycms" title="Episode #4"><img class="replace-2x rel" src="img/fall.png" alt="E19: Coming Soon" />
+                        <div title="Episode #4" class="column left cushycms"><img class="replace-2x rel" src="img/fall.png" alt="E19: Coming Soon" />
 <h6>
 	Episode 19</h6>
 <h3>
 	&nbsp;</h3>
 </div>
 
-                        <div class="column center cushycms" title="Episode #5"><img class="replace-2x rel" src="img/fall.png" alt="E20: Coming Soon" />
+                        <div title="Episode #5" class="column center cushycms"><img class="replace-2x rel" src="img/fall.png" alt="E20: Coming Soon" />
 <h6>
 	Episode 20</h6>
 <h3>
 	&nbsp;</h3>
 </div>
 
-                        <div class="column right cushycms" title="Episode #6"><img class="replace-2x rel" src="img/winter.png" alt="E21: Coming Soon" />
+                        <div title="Episode #6" class="column right cushycms"><img class="replace-2x rel" src="img/winter.png" alt="E21: Coming Soon" />
 <h6>
 	Episode 21</h6>
 <h3>
@@ -279,21 +278,21 @@
                     </div>
 
                     <div class="row clearfix">
-                        <div class="column left cushycms" title="Episode #4"><img class="replace-2x rel" src="img/winter.png" alt="E22: Coming Soon" />
+                        <div title="Episode #4" class="column left cushycms"><img class="replace-2x rel" src="img/winter.png" alt="E22: Coming Soon" />
 <h6>
 	Episode 22</h6>
 <h3>
 	&nbsp;</h3>
 </div>
 
-                        <div class="column center cushycms" title="Episode #5"><img class="replace-2x rel" src="img/winter.png" alt="E23: Coming Soon" />
+                        <div title="Episode #5" class="column center cushycms"><img class="replace-2x rel" src="img/winter.png" alt="E23: Coming Soon" />
 <h6>
 	Episode 23</h6>
 <h3>
 	&nbsp;</h3>
 </div>
 
-                        <div class="column right cushycms" title="Episode #6"><img class="replace-2x rel" src="img/winter.png" alt="E24: Coming Soon" />
+                        <div title="Episode #6" class="column right cushycms"><img class="replace-2x rel" src="img/winter.png" alt="E24: Coming Soon" />
 <h6>
 	Episode 24</h6>
 <h3>
@@ -302,14 +301,14 @@
                     </div>
 
                     <div class="row clearfix">
-                        <div class="column left cushycms" title="Episode #4"><img class="replace-2x rel" src="img/winter.png" alt="E25: Coming Soon" />
+                        <div title="Episode #4" class="column left cushycms"><img class="replace-2x rel" src="img/winter.png" alt="E25: Coming Soon" />
 <h6>
 	Episode 25</h6>
 <h3>
 	&nbsp;</h3>
 </div>
 
-                        <div class="column center cushycms" title="Episode #5"><img class="replace-2x rel" src="img/winter.png" alt="E26: Coming Soon" />
+                        <div title="Episode #5" class="column center cushycms"><img class="replace-2x rel" src="img/winter.png" alt="E26: Coming Soon" />
 <h6>
 	Episode 26</h6>
 <h3>
