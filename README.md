@@ -156,7 +156,7 @@ The way Cushy CMS handles image uploading works. It works fine. But for our purp
 
 + *Featured Episode Credits:* Episode credits go here. It is important to maintain the structure and formating of the unordered list so that that section stays looking like it does. 
 
-+ *Recent Episode #1*, *Recent Episode #2*, & *Recent Episode #3:* Enter all information related to the most recent episode's here. Please stick to the formatting present so that the titles and headers stay consistent. The links here **will** need to be set by you. Choose the image using the rich texted editor from the server. Please ensure the images are named correctly `e##-thumb.jpg` & `e##-thumb@2x.jpg`.
++ *Recent Episode #1*, *Recent Episode #2*, & *Recent Episode #3:* Enter all information related to the most recent episode's here. Please stick to the formatting present so that the titles and headers stay consistent. The links here **will** need to be set by you. Choose the image using the rich texted editor from the server. Please ensure the images are named correctly `e##-thumb.jpg` & `e##-thumb@2x.jpg`. You can literally copy and paste from the previous episode's page and simply move the episodes in the 1 & 2 spots into the 2 & 3 spots and add the info for the 1 spot.
 
 + With the *About* & *Supporters* section pages, again, please keep to the formatting in place when edited to ensure consistency.
 
