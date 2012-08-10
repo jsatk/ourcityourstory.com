@@ -35,7 +35,7 @@
 
         <meta name="description" property="og:description" title="Meta-Description" content="Epictetus said, "He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has." We live in a world amply sprinkled with naysayers. Hearing the word NO more than YES has become&hellip;">
         <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | Darrell Hines" />
-        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f4.jpg" />
+        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f04.jpg" />
         <meta property="og:type" content="company" />
         <meta property="og:url" content="http://ourcityourstory.com/episode/4/" />
         <meta property="og:site_name" content="Our City, Our Story" />

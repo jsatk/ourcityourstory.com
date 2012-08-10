@@ -34,7 +34,7 @@
         <script class="rel" src="js/libs/modernizr-2.5.3.min.js"></script>
 
         <meta name="description" property="og:description" title="Meta-Description" content="&quot;Did I just really see that?&quot; It was the middle of December, and on a snow soaked Sunday afternoon a couple dozen fur covered bikes were sprinting down East State Street. Directly after this mass of bikes was a white truck&hellip;" />        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | Team Fur Bandit" />
-        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f8.jpg" />
+        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f08.jpg" />
         <meta property="og:type" content="company" />
         <meta property="og:url" content="http://ourcityourstory.com/episode/8/" />
         <meta property="og:site_name" content="Our City, Our Story" />

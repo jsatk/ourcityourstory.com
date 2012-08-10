@@ -34,7 +34,7 @@
         <script class="rel" src="js/libs/modernizr-2.5.3.min.js"></script>
 
         <meta name="description" property="og:description" title="Meta-Description" content="Jimmy Goodman lives up to his surname. Three days a week, he volunteers in running and coaching youth in the sport of boxing. When you walk in to the space, you immediately see the ring before you, but you may not get to step in it for months&hellip;" />        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | Jimmy Goodman" />
-        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f2.jpg" />
+        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f02.jpg" />
         <meta property="og:type" content="company" />
         <meta property="og:url" content="http://ourcityourstory.com/episode/2/" />
         <meta property="og:site_name" content="Our City, Our Story" />

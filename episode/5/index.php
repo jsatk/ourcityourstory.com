@@ -34,7 +34,7 @@
         <script class="rel" src="js/libs/modernizr-2.5.3.min.js"></script>
 
         <meta name="description" property="og:description" title="Meta-Description" content="Joseph Goral was arrested in 2006 for vandalizing property with spray paint. He was one of a few that were made examples of by an anti-graffiti task force. Mayor Larry Morrissey's press conference was one of victory&hellip;" />        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | From Handcuffs to Handshakes" />
-        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f5.jpg" />
+        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f05.jpg" />
         <meta property="og:type" content="company" />
         <meta property="og:url" content="http://ourcityourstory.com/episode/5/" />
         <meta property="og:site_name" content="Our City, Our Story" /></head>

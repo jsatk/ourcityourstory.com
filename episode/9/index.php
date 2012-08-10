@@ -34,7 +34,7 @@
         <script class="rel" src="js/libs/modernizr-2.5.3.min.js"></script>
 
         <meta name="description" property="og:description" title="Meta-Description" content="Andy Hazzard had been a staple of downtown Rockford before she decided to acknowledge her true calling of farming. She was a waitress at Octane, she worked on jewelry at several art fairs, but when it came down to it, she had far too strong&hellip;" />        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | Hazzard Free" />
-        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f9.jpg" />
+        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f09.jpg" />
         <meta property="og:type" content="company" />
         <meta property="og:url" content="http://ourcityourstory.com/episode/9/" />
         <meta property="og:site_name" content="Our City, Our Story" />
