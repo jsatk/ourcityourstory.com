@@ -78,7 +78,7 @@
                         </div>
 
                         <div class="social">
-                            <?php include ($_SERVER['DOCUMENT_ROOT'] . "includes/pinterest.php"); ?>
+                            <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/pinterest.php"); ?>
                         </div>
                     </nav>
 
