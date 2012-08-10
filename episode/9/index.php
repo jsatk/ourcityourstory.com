@@ -6,26 +6,25 @@
     <!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
     <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
-    <head class="cushycms" title="Meta Tags">
-        <meta charset="utf-8">
+    <head title="Meta Tags" class="cushycms">        <meta charset="utf-8" />
 
         <!-- Use the .htaccess and remove these lines to avoid edge case issues.
            More info: h5bp.com/i/378 -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
 
         <title>Storytelling video product to help define the identity of this community. This is Rockford, Illinois.</title>
 
         <!-- Mobile viewport optimized: h5bp.com/viewport. Width was originally set to 'device-width' but it was breaking. -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <!-- Base URL. Change/disable/re-enable depending on environment. -->
         <!-- <base href="http://localhost:8888/"> -->
         <!-- <base href="http://ourcityourstory.com/dev/"> -->
-        <base href="http://ourcityourstory.com/">
+        <base href="http://ourcityourstory.com/" />
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
-        <link class="rel" rel="stylesheet" href="css/style.css">
+        <link href="css/style.css" class="rel" rel="stylesheet" />
 
         <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -34,12 +33,12 @@
            Create your own custom Modernizr build: www.modernizr.com/download/ -->
         <script class="rel" src="js/libs/modernizr-2.5.3.min.js"></script>
 
-        <meta name="description" property="og:description" title="Meta-Description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | Hazzard Free" />
+        <meta name="description" property="og:description" title="Meta-Description" content="Andy Hazzard had been a staple of downtown Rockford before she decided to acknowledge her true calling of farming. She was a waitress at Octane, she worked on jewelry at several art fairs, but when it came down to it, she had far too strong&hellip;" />        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | Hazzard Free" />
         <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f9.jpg" />
         <meta property="og:type" content="company" />
         <meta property="og:url" content="http://ourcityourstory.com/episode/9/" />
         <meta property="og:site_name" content="Our City, Our Story" />
-        <meta property="fb:app_id" content="182992035165895">
+        <meta property="fb:app_id" content="182992035165895" />
     </head>
 
     <body>
@@ -50,20 +49,20 @@
 
     <div role="main">
         <div id="episode" class="episode">
-            <h1 class="cushycms" title="Featured video title">Hazzard Free</h1>
+            <h1 title="Featured video title" class="cushycms">Hazzard Free</h1>
             <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
-            <h1 title="Is this the most recent episode?" class="hidden cushycms" id="current">No</h1>
+            <h1 class="hidden cushycms" title="Is this the most recent episode?" id="current">No</h1>
 
-            <a href="#" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode">E10: Fabric &amp; Color Patterns</span></a>
-            <a href="#" class="controls previous"><span class="cushycms" title="Previous Episode">E08: Team Fur Bandit</span><em>&#8594;</em></a>
-            <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe title="iframe for featured episode." mozallowfullscreen="" src="http://player.vimeo.com/video/44322055?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" allowfullscreen="" id="video" height="281" webkitallowfullscreen="" width="500"></iframe></div>
+            <a href="#" class="controls next"><em>&#8592;</em><span title="Next Episode" class="cushycms">E10: Fabric &amp; Color Patterns</span></a>
+            <a href="#" class="controls previous"><span title="Previous Episode" class="cushycms">E08: Team Fur Bandit</span><em>&#8594;</em></a>
+            <div class="cushycms" title="Change the number after 'video/' but before '?'."><iframe title="iframe for featured episode." mozallowfullscreen="" src="http://player.vimeo.com/video/44322055?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" allowfullscreen="" id="video" height="281" webkitallowfullscreen="" width="500"></iframe></div>
         </div>
 
         <div class="story clearfix">
             <article class="clearfix">
                 <h5>Our City, Our Story</h5>
-                <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E09: Hazard Free</h4>
+                <h4 title="Featured episode title. Must begin with 'E##'" class="cushycms">E09: Hazard Free</h4>
                 <div class="column left">
                     <img class="thumb replace-2x rel" src="" alt="Featured Episode Thumbnail">
                     <nav class="clearfix">
@@ -81,12 +80,12 @@
                     </nav>
 
                 </div>
-                <div class="column center clearfix cushycms" title="Feature episode description"><p>
+                <div title="Feature episode description" class="column center clearfix cushycms"><p>
 	Andy Hazzard had been a staple of downtown Rockford before she decided to acknowledge her true calling of farming. She was a waitress at Octane, she worked on jewelry at several art fairs, but when it came down to it, she had far too strong of a connection with nature. But her work in the restaurant business gave her the knowledge of the industry and the rapport with those who work in them. Her passion is infectious, as her passion made Paul Sletten of Abreo (Brio at the time) realize there was support here for a &ldquo;Farm to Table&rdquo; restaurant, that brought about Social.</p>
 <p>
 	Andy has been an inspiration for many, as her resilience should inspire us all. Though, with the help of her family, support of her friends, she has continued to grow the farm and be a loud voice in the chorus of those promoting &ldquo;good food&rdquo; &mdash; locally grown, organic vegetables, meat and grain.</p>
 <a href="#" class="button next">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
-                <div class="column right cushycms" title="Featured episode credits"><ul>
+                <div title="Featured episode credits" class="column right cushycms"><ul>
 	<li>
 		<h6>
 			Directed &amp; Produced By</h6>
@@ -120,7 +119,7 @@
             <article class="clearfix">
                 <h5>Our City, Our Story</h5>
                 <h1>Recent Stories</h1>
-                <div class="column left cushycms" title="Recent episode #1"><a href="http://ourcityourstory.com/episode/8/#episode"><img class="replace-2x rel" src="img/e08-thumb.jpg" alt="E08: Team Fur Bandit" /></a>
+                <div title="Recent episode #1" class="column left cushycms"><a href="http://ourcityourstory.com/episode/8/#episode"><img class="replace-2x rel" src="img/e08-thumb.jpg" alt="E08: Team Fur Bandit" /></a>
 <h6>
 	Episode 08</h6>
 <h3>
@@ -128,7 +127,7 @@
 <p>
 	&ldquo;Did I just really see that?&rdquo; It was the middle of December, and on a snow soaked Sunday afternoon a couple dozen fur covered bikes were sprinting down East State Street. Directly after this mass of bikes was a white truck&hellip;</p>
 <a href="http://ourcityourstory.com/episode/8/#episode" class="button">Watch &rarr;</a></div>
-                <div class="column center cushycms" title="Recent episode #2"><a href="http://ourcityourstory.com/episode/7/#episode"><img class="replace-2x rel" src="img/e07-thumb.jpg" alt="E07: Hometown History" /></a>
+                <div title="Recent episode #2" class="column center cushycms"><a href="http://ourcityourstory.com/episode/7/#episode"><img class="replace-2x rel" src="img/e07-thumb.jpg" alt="E07: Hometown History" /></a>
 <h6>
 	Episode 07</h6>
 <h3>
@@ -136,7 +135,7 @@
 <p>
 	There are two things you can do when someone labels you. You can either accept it, or prove it wrong. Darcy Hill is the Drama teacher at the Lutheran Academy. Every year she puts on a play with her 4th grade students. However, this was not like every other year&hellip;</p>
 <a href="http://ourcityourstory.com/episode/7/#episode" class="button">Watch &rarr;</a></div>
-                <div class="column right cushycms" title="Recent episode #3"><a href="http://ourcityourstory.com/episode/6/#episode"><img class="replace-2x rel" src="img/e06-thumb.jpg" alt="E06: Bonds By Fire" /></a>
+                <div title="Recent episode #3" class="column right cushycms"><a href="http://ourcityourstory.com/episode/6/#episode"><img class="replace-2x rel" src="img/e06-thumb.jpg" alt="E06: Bonds By Fire" /></a>
 <h6>
 	Episode 06</h6>
 <h3>
