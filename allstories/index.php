@@ -37,7 +37,7 @@
 
         <meta name="description" property="og:description" title="Meta-Description" content="Rockford, IL, Storytelling video project, Stories of Rockford, Story video project, Rockford hometown pride building, Rockford illinois">
         <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story" />
-        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/logo.png" />
+        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/logo.jpg" />
         <meta property="og:type" content="company" />
         <meta property="og:url" content="http://ourcityourstory.com/all-stories/" />
         <meta property="og:site_name" content="Our City, Our Story" />
