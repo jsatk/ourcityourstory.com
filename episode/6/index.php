@@ -76,7 +76,7 @@
                         </div>
 
                         <div class="social">
-                            <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fourcityourstory.com&media=http%3A%2F%2Fourcityourstory.com%2Fimg%2Flogo.png&description=Our%20City%2C%20Our%20Story%20aims%20to%20find%20and%20tell%20the%20stories%20which%20make%20up%20our%20identity.%20This%20is%20Rockford%2C%20Illinois." class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It"></a>
+                            <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/pinterest.php"); ?>
                         </div>
                     </nav>
 
