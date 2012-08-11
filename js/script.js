@@ -246,11 +246,19 @@
         },
 
         pinterest: function () {
-            var href="http://pinterest.com/pin/create/button/?url=";
-                href += window.location.href;
-                href += "&media=http%3A%2F%2Fourcityourstory.com%2Fimg%2Flogo.jpg&description=Our%20City%2C%20Our%20Story%20aims%20to%20find%20and%20tell%20the%20stories%20which%20make%20up%20our%20identity.%20This%20is%20Rockford%2C%20Illinois.";
+            var href="http://pinterest.com/pin/create/button/?url=",
+                text = $("#episode h1[title='Featured video title']").text();
+
+            href += window.location.href;
+            href += "&media=http%3A%2F%2Fourcityourstory.com%2Fimg%2Flogo.jpg&description=Our%20City%2C%20Our%20Story%20aims%20to%20find%20and%20tell%20the%20stories%20which%20make%20up%20our%20identity.%20This%20is%20Rockford%2C%20Illinois.";
+
+            text += " by @OurCityOurStory: " + window.location.href;
+
+            console.log(text);
 
             $(".pin-it-button").attr("href", href);
+
+            $("#tweet-button").attr("src", $("#tweet-button").attr("src").replace(/\?text=[^&]+/, "?text=" + encodeURIComponent(text)));
         },
 
         position: function () {
