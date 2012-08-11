@@ -23,8 +23,8 @@
             this.nav();
             // Handles subscribe button functionality.
             this.newsletter();
-            // Social js
-            this.social();
+            // Pinterest href swap
+            this.pinterest();
             // Keeps header text centered on resize.
             this.position();
             // On resize of browser window fire this.position();
@@ -245,20 +245,12 @@
             });
         },
 
-        social: function () {
-            // Pinterest
-            var href="http://pinterest.com/pin/create/button/?url=", twitter;
+        pinterest: function () {
+            var href="http://pinterest.com/pin/create/button/?url=";
                 href += window.location.href;
                 href += "&media=http%3A%2F%2Fourcityourstory.com%2Fimg%2Flogo.jpg&description=Our%20City%2C%20Our%20Story%20aims%20to%20find%20and%20tell%20the%20stories%20which%20make%20up%20our%20identity.%20This%20is%20Rockford%2C%20Illinois.";
 
             $(".pin-it-button").attr("href", href);
-
-            // Twitter. This is a very dirty way to get page-level share text automated.
-            twitter = '<a href="https://twitter.com/share" class="twitter-share-button" rel="canonical"';
-            twitter += 'data-text="' + $("meta[name='description']").attr("content") + '">Tweet</a>';
-            twitter += '<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>';
-
-            $("#twitter").html(twitter);
         },
 
         position: function () {
