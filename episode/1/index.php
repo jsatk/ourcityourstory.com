@@ -38,7 +38,7 @@
         <meta name="description" property="og:description" title="Meta-Description" content="1955. Vincent Chiarelli of Sicily arrived to Rockford, IL with a song in his heart and a needle in his pocket. He opened a small tailor shop and spun out a music publishing company with his own record label from its success. His shop was located at the head of Broadway Street coming downtown, and those who came to see Vince thought he owned the town.">
         <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | The Torchlighter" />
         <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f01.jpg" />
-        <meta property="og:type"content="company" />
+        <meta property="og:type"content="video.movie" />
         <meta property="og:url" content="http://ourcityourstory.com/episode/1/" />
         <meta property="og:site_name" content="Our City, Our Story" />
         <meta property="fb:admins" content="631463218">
