@@ -252,7 +252,7 @@
             href += window.location.href;
             href += "&media=http%3A%2F%2Fourcityourstory.com%2Fimg%2Flogo.jpg&description=Our%20City%2C%20Our%20Story%20aims%20to%20find%20and%20tell%20the%20stories%20which%20make%20up%20our%20identity.%20This%20is%20Rockford%2C%20Illinois.";
 
-            text += " by @OurCityOurStory: " + window.location.href;
+            text += " by @OurCityOurStory: ";
 
             console.log(text);
 
