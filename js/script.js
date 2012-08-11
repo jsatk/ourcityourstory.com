@@ -259,6 +259,8 @@
             $(".pin-it-button").attr("href", href);
 
             $("#tweet-button").attr("src", $("#tweet-button").attr("src").replace(/\?text=[^&]+/, "?text=" + encodeURIComponent(text)));
+
+            console.log($("#tweet-button").attr("src"));
         },
 
         position: function () {
