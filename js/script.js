@@ -23,8 +23,8 @@
             this.nav();
             // Handles subscribe button functionality.
             this.newsletter();
-            // Pinterest href swap
-            this.pinterest();
+            // Pinterest and Twitter href and src swaps
+            this.social();
             // Keeps header text centered on resize.
             this.position();
             // On resize of browser window fire this.position();
@@ -245,7 +245,7 @@
             });
         },
 
-        pinterest: function () {
+        social: function () {
             var href="http://pinterest.com/pin/create/button/?url=",
                 text = $("#episode h1[title='Featured video title']").text();
 
