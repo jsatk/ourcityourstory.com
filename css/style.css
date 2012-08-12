@@ -586,6 +586,7 @@ header .logo {
     display: inline-block;
     font-style: normal;
     padding: 0.5rem;
+    text-decoration: none;
     z-index: 1;
 }
 
@@ -1552,6 +1553,11 @@ footer p a:visited {
         height: 500px;
         width: 100%;
         z-index: 0;
+    }
+
+    .about,
+    .contact {
+        background: none;
     }
 }
 
