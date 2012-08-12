@@ -575,6 +575,7 @@ header .logo {
     padding: 0;
     position: absolute;
     text-transform: capitalize;
+    text-decoration: none;
     top: 50%;
     z-index: 2;
 }
@@ -586,7 +587,6 @@ header .logo {
     display: inline-block;
     font-style: normal;
     padding: 0.5rem;
-    text-decoration: none;
     z-index: 1;
 }
 
