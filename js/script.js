@@ -254,12 +254,17 @@
 
             text += " by @OurCityOurStory: ";
 
-            console.log(text);
+            if ($(".story h4").text().substring(1, 2) === 0) {
+                text += "http://ourcityourstory.com/episode/" + $(".story h4").text().substring(2, 3) + "/";
+            } else {
+                text += "http://ourcityourstory.com/episode/" + $(".story h4").text().substring(1, 3) + "/";
+            }
 
             $(".pin-it-button").attr("href", href);
 
             $("#tweet-button").attr("src", $("#tweet-button").attr("src").replace(/\?text=[^&]+/, "?text=" + encodeURIComponent(text)));
 
+            console.log(text);
             console.log($("#tweet-button").attr("src"));
         },
 
