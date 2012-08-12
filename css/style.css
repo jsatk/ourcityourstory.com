@@ -1251,11 +1251,6 @@ footer p a:visited {
         display: inline-block;
     }
 
-    .top-nav nav .email.active,
-    .top-nav nav .email:active {
-        padding-bottom: 8px;
-    }
-
     .top-nav nav .cut,
     .cut {
         display: inline-block;
@@ -1519,6 +1514,11 @@ footer p a:visited {
 
     .top-nav nav .social {
         margin-top: 12px;
+    }
+
+    .top-nav nav .email.active,
+    .top-nav nav .email:active {
+        padding-bottom: 13px;
     }
 
     .story nav {
