@@ -42,7 +42,7 @@
         <meta property="og:url" content="http://ourcityourstory.com/" />
         <meta property="og:site_name" content="Our City, Our Story" />
         <meta name="description" property="og:description" title="Meta-Description" content="Peer into the windows of their studio on Rockford&rsquo;s Central Avenue late one night, and chances are you&rsquo;ll find Jeremy Klonicki and Carmen Turner of MainfraiM Habitat for Art captivated by their work," />
-        <meta property="fb:admins" content="631463218">
+        <meta property="fb:app_id" content="268699596565206">
     </head>
 
     <body>
