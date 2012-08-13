@@ -40,7 +40,7 @@
         <meta property="og:type" content="movie" />
         <meta property="og:url" content="http://ourcityourstory.com/episode/1/" />
         <meta property="og:site_name" content="Our City, Our Story" />
-        <meta property="fb:admins" content="631463218" />
+        <meta property="fb:app_id" content="268699596565206">
     </head>
 
     <body>

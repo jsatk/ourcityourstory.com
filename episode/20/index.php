@@ -39,7 +39,7 @@
         <meta property="og:type" content="company" />
         <meta property="og:url" content="http://ourcityourstory.com/episode/12/" />
         <meta property="og:site_name" content="Our City, Our Story" />
-        <meta property="fb:admins" content="631463218">
+        <meta property="fb:app_id" content="268699596565206">
     </head>
 
     <body>
@@ -69,7 +69,7 @@
                     <img class="thumb replace-2x rel" src="" alt="Featured Episode Thumbnail">
                     <nav class="clearfix">
                         <div class="social">
-                            <div class="fb-like" data-href="http://ourcityourstory.com/episode/20/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+                            <div class="fb-like" data-href="http://ourcityourstory.com/episode/12/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
                         </div>
 
                         <div class="social">
