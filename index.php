@@ -95,7 +95,7 @@
 	You can see MainfraiM&rsquo;s work currently exhibiting at Octane.</p>
 <p>
 	&ldquo;In the right light, at the right time, everything is extraordinary.&rdquo; - A. Rose</p>
-<a href="#" class="button next">&larr; Next<span class="cut"> Episode</span></a> <a href="#" class="button previous">Previous<span class="cut"> Episode</span> &rarr;</a> </div>
+<a href="#" class="button next">&larr; Next<span class="cut"> Episode</span></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
 
                     <div title="Featured episode credits" class="column right cushycms"><ul>
 	<li>
