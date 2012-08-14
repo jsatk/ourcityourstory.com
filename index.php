@@ -45,7 +45,7 @@
         <meta property="fb:app_id" content="268699596565206">
     </head>
 
-    <body>
+    <body id="home">
 
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/facebook.php"); ?>
         <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/header.php"); ?>

@@ -23,12 +23,12 @@
             this.nav();
             // Handles subscribe button functionality.
             this.newsletter();
-            // Pinterest and Twitter href and src swaps
-            this.social();
             // Keeps header text centered on resize.
             this.position();
             // On resize of browser window fire this.position();
             this.resize();
+            // Pinterest and Twitter href and src swaps
+            this.social();
             // Handles the supporters section.
             this.supporters();
             // Handles the vimeo video show and hide title.
@@ -245,11 +245,33 @@
             });
         },
 
+        position: function () {
+            var marginLeft = $("header h1").width() / 2;
+
+            // Ensures that the header text stays centered and also only shows
+            // after all the fonts have loaded.
+            $("header h1").css("margin-left", "-" + marginLeft + "px").show();
+        },
+
+        resize: function () {
+            $(window).resize({namespace: this}, function (e) {
+                var t = e.data.namespace;
+
+                // Re-grabs the value on resize because the distance from the
+                // top of the browser to the top nav is different.
+                t.position();
+            });
+        },
+
         social: function () {
             var href="http://pinterest.com/pin/create/button/?url=",
                 text = $("#episode h1[title='Featured video title']").text();
 
-            href += window.location.href;
+            if ($("#home").length) {
+                href += "http://ourcityourstory.com/episode/" + $(".story h4").text().substring(1, 3) + "/";
+            } else {
+                href += window.location.href;
+            }
             href += "&media=http%3A%2F%2Fourcityourstory.com%2Fimg%2Flogo.jpg&description=Our%20City%2C%20Our%20Story%20aims%20to%20find%20and%20tell%20the%20stories%20which%20make%20up%20our%20identity.%20This%20is%20Rockford%2C%20Illinois.";
 
             text += " by @OurCityOurStory: ";
@@ -271,24 +293,6 @@
             $(".pin-it-button").attr("href", href);
 
             $("#tweet-button").attr("src", $("#tweet-button").attr("src").replace(/\?text=[^&]+/, "?text=" + encodeURIComponent(text)));
-        },
-
-        position: function () {
-            var marginLeft = $("header h1").width() / 2;
-
-            // Ensures that the header text stays centered and also only shows
-            // after all the fonts have loaded.
-            $("header h1").css("margin-left", "-" + marginLeft + "px").show();
-        },
-
-        resize: function () {
-            $(window).resize({namespace: this}, function (e) {
-                var t = e.data.namespace;
-
-                // Re-grabs the value on resize because the distance from the
-                // top of the browser to the top nav is different.
-                t.position();
-            });
         },
 
         supporters: function () {
