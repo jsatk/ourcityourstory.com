@@ -139,7 +139,7 @@ The other image should be prepared using the Thumbnails.psd file. The file is 60
 
 All images should be FTP to the appropriate folder.  
 
-See PSD here: <a href="http://ourcityourstory.com/img/readme/thumbnails.psd" target="_blank">thumbnails.psd</a>
+See PSD here: <a href="http://ourcityourstory.com/img/readme/thumbnails.psd" target="_blank">thumbnails.psd</a> or in folder `~/ourcityourstory.com/img/readme/thumbnails.psd` which can be accessed via FTP.
 
 ### Uploading Images ###
 The way Cushy CMS handles image uploading works. It works fine. But for our purposes and consistency sake I strongly believe it best if you upload new images using FTP to the server (make sure to place all images in the `img` folder) and then simply use Cushy CMS and choose those images from the server. 
