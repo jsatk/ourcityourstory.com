@@ -133,7 +133,13 @@ A quick breakdown:
  After logging in to [Cushy CMS](http://cushycms.com) go to your Control Panel and click on  *ourcityourstory.com* expand its directory structure to see all of the available pages to edit which includes the *Home Page*, *All Stories*, *About include*, *Supporters include*, and all the *episode* pages.
 
 ### Preparing Images ###
-Jason to include instructions here... 
+Two(2) types of images need to prepared per episode. One for the left column of the Story section. This image should be 300px wide x 210px high and feature content that is different than the thumbnail for the Recent Stories section and different than the still frame of the episode. This image should follow the f##.jpg naming convention.
+
+The other image should be prepared using the Thumbnails.psd file. The file is 600px wide by 340px high. The image should be placed below the play icon. One version should be saved for web as a jpeg at 100% size. Try to get under 80k for the file size without sacrificing image quality. This file should be named using the e##-thumb@2x.jpg convention. Save another version of this file using the Save For Web command in Photoshop. In the lower right corner, switch the size to 300 x 170. Try to get the file size under or around 40k. This file should be named using the e##-thumb.jpg convention.
+
+All images should be FTP to the appropriate folder.  
+
+See PSD here: <a href="http://ourcityourstory.com/img/readme/thumbnails.psd" target="_blank">thumbnails.psd</a>
 
 ### Uploading Images ###
 The way Cushy CMS handles image uploading works. It works fine. But for our purposes and consistency sake I strongly believe it best if you upload new images using FTP to the server (make sure to place all images in the `img` folder) and then simply use Cushy CMS and choose those images from the server. 
