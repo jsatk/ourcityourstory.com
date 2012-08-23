@@ -36,8 +36,8 @@
            Create your own custom Modernizr build: www.modernizr.com/download/ -->
         <script class="rel" src="js/libs/modernizr-2.5.3.min.js"></script>
 
-        <meta name="description" property="og:description" title="Meta-Description" content="Perhaps universe-class best describes them now? With one rover mission under their belts, and now with over 75 of their gears currently on Mars in the highly anticipated Curiosity rover, those original aspirations have been surpassed." />
-        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | Curiosity" />
+        <meta name="description" property="og:description" title="Meta-Description" content="As Curiosity moves about on Mars, the Rockford area feels pride knowing this very feat was possible because of us" />
+        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | Our Curiosity" />
         <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f13.jpg" />
         <meta property="og:type" content="company" />
         <meta property="og:url" content="http://ourcityourstory.com/episode/13/" />
@@ -92,9 +92,9 @@
 	<br />
 	What might be more remarkable than creating crucial equipment destined for Mars? For a second time? Well, creating a thriving motivated company culture with a team of career employees&mdash;the kind who lie in bed at night thinking, &ldquo;what can I do in the morning when I get there?&rdquo; The kind who take on responsibility, impose their own high standards and like Amy Sovina, have the &ldquo;mindset something I touched is now on the surface of Mars.&rdquo;<br />
 	<br />
-	By creating an&nbsp; of excellence and pride, Forest City Gear has created a legacy for its individuals, its employees and its future.<br />
+	By creating an atmosphere of excellence and pride, Forest City Gear has created a legacy for its individuals, its employees and its future.<br />
 	<br />
-	We should all be proud of their accomplishments as a they are a small shop, who&#39;s reputation the world over is one of excellence. Our region benefits by association, and by the generosity of their spirit.</p>
+	We should all be proud of their accomplishments as they are a small shop who&#39;s reputation the world over is one of excellence. Our region benefits by association, and by the generosity of their spirit.</p>
 <a href="#" class="button next">&larr; Next<span class="cut"> Episode</span></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
 
                     <div title="Featured episode credits" class="column right cushycms"><ul>
@@ -110,6 +110,10 @@
 		<h6>
 			Interview + Location Audio</h6>
 		<span>Zach Staas</span></li>
+	<li>
+		<h6>
+			Author</h6>
+		<span>Juanita Hickerson</span></li>
 	<li>
 		<h6>
 			Special Thanks</h6>
