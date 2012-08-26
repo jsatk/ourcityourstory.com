@@ -62,7 +62,7 @@
    mathiasbynens.be/notes/async-analytics-snippet -->
 <script>
     var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-32885306-1']);
+    _gaq.push(['_setAccount', 'UA-34297535-1']);
     _gaq.push(['_setDomainName', 'ourcityourstory.com']);
     _gaq.push(['_trackPageview']);
 
