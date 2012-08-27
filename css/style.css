@@ -606,7 +606,13 @@ header .logo {
     background: black;
     color: #979595;
     display: inline-block;
+    padding: 8px;
     padding: 0.5rem;
+}
+
+/* IE is being a son of a bitch. */
+.lt-ie9 .episode .controls span {
+    width: 142px;
 }
 
 .episode .next {
