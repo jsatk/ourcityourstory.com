@@ -389,6 +389,9 @@
                 $("#episode .next span").css("margin-left", "-" + nw + "px");
                 $("#episode .previous span").css("margin-right", "-" + pw +"px");
 
+		console.log("We're working.");
+		console.log($("#episode .previous span").css("margin-right");
+
                 $("#episode .next").hover(function () {
                     $("#episode .next span").stop().animate({
                         marginLeft: $(".episode .next em").outerWidth() + 5 + "px"
