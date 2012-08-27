@@ -390,7 +390,7 @@
                 $("#episode .previous span").css("margin-right", "-" + pw +"px");
 
 		console.log("We're working.");
-		console.log($("#episode .previous span").css("margin-right");
+		console.log($("#episode .previous span").css("margin-right"));
 
                 $("#episode .next").hover(function () {
                     $("#episode .next span").stop().animate({
