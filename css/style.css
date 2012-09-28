@@ -1576,8 +1576,8 @@ footer p a:visited {
     }
 
     header {
-        width: 320px;
         height: 280px;
+        width: 100%;
     }
 
     .contact li a, .contact li a:visited {
