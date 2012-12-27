@@ -10,13 +10,10 @@
     <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
     <head class="cushycms" title="Meta Tags">        <meta charset="utf-8" />
-
         <!-- Use the .htaccess and remove these lines to avoid edge case issues.
            More info: h5bp.com/i/378 -->
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
-
         <title>Storytelling video product to help define the identity of this community. This is Rockford, Illinois.</title>
-
         <!-- Mobile viewport optimized: h5bp.com/viewport. Width was originally set to 'device-width' but it was breaking. -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -36,11 +33,11 @@
            Create your own custom Modernizr build: www.modernizr.com/download/ -->
         <script class="rel" src="js/libs/modernizr-2.5.3.min.js"></script>
 
-        <meta name="description" property="og:description" title="Meta-Description" content="As Curiosity moves about on Mars, the Rockford area feels pride knowing this very feat was possible because of us" />
-        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | Our Curiosity" />
-        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f13.jpg" />
+        <meta name="description" property="og:description" title="Meta-Description" content="When you walk into the Potato Shak, you're greeted by Pete behind the stovetop, inviting you in and to take a seat. If you're lucky, you'll hear his older brother George sing you a song. George and Pete not only make good food, but make good friends as well." />
+        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | Potato Shak" />
+        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f14.jpg" />
         <meta property="og:type" content="company" />
-        <meta property="og:url" content="http://ourcityourstory.com/episode/13/" />
+        <meta property="og:url" content="http://ourcityourstory.com/episode/14/" />
         <meta property="og:site_name" content="Our City, Our Story" />
         <meta property="fb:app_id" content="268699596565206" />
     </head>
@@ -53,19 +50,19 @@
 
         <div role="main">
             <div id="episode" class="episode">
-                <h1 class="cushycms" title="Featured video title">Our Curiosity</h1>
+                <h1 class="cushycms" title="Featured video title">Potato Shak</h1>
                 <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
                 <h1 class="hidden cushycms" title="Is this the most recent episode?" id="current">Yes</h1>
                 <a href="" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode"></span></a>
-                <a href="" class="controls previous"><span class="cushycms" title="Previous Episode">E12: MainfraiM</span><em>&#8594;</em></a>
-                <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe title="iframe for featured episode." mozallowfullscreen="" src="http://player.vimeo.com/video/47943352?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" allowfullscreen="" id="video" height="281" webkitallowfullscreen="" width="500"></iframe></div>
+                <a href="" class="controls previous"><span class="cushycms" title="Previous Episode">E13: Our Curiosity</span><em>&#8594;</em></a>
+                <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe allowfullscreen="" height="281" id="video" mozallowfullscreen="" src="http://player.vimeo.com/video/56275709?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" title="iframe for featured episode." webkitallowfullscreen="" width="500"></iframe></div>
             </div>
 
             <div class="story clearfix">
                 <article class="clearfix">
                     <h5>Our City, Our Story</h5>
-                    <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E13: Curiosity</h4>
+                    <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E14: Potato Shak</h4>
                     <div class="column left">
                     <img class="thumb replace-2x rel" src="" alt="Featured Episode Thumbnail">
                         <nav class="clearfix">
@@ -84,18 +81,14 @@
                     </div>
 
                     <div class="column clearfix center cushycms" title="Feature episode description"><p>
-	When Forest City Gear first aspired to be world-class gear manufacturers, they couldn&rsquo;t have imagined that someday they would surpass that boundary. Perhaps universe-class best describes them now? With one rover mission under their belts, and now with over 75 of their gears currently on Mars in the highly anticipated Curiosity rover, those original aspirations have been surpassed.<br />
+	Peter Avramopoulos arrived in Rockford, Illinois in the late 1960s. His father, seeking prosperity, had brought his whole family from Greece by boat. Pete&rsquo;s prosperity came in the form of the opportunity to do well for himself and his immediate family. As owner of the Potato Shak, the second restaurant that the Avramopoulos family has owned, he&rsquo;s created a destination for many local residents. The first, Pete&#39;s Snack Shack. was lost in the 1980s Midway Theater fire.<br />
 	<br />
-	Founded by husband and wife Stetler and Evelyn Young in 1955, Forest City Gear is a family-owned company in Roscoe, Illinois. Their son Fred Young is now CEO, but he grew up watching his parents work hard and re-invest their profits in the company &mdash; this is how they are so successful. By the late &lsquo;60s, the company was purchasing at least one new gear machine a year. By re-investing 25-40% of company profit back into itself, Forest City Gear has developed a reputation of being one of the best gear companies in this universe.<br />
+	Pete&#39;s older brother George Avramopoulos, with his mild manner and overall energy for life, is one of the reasons so many people frequent the Potato Shak. He&#39;s the type of guy who wants to shake your hand, ask how you are and is genuinely happy to see you. He engages in conversation with all who enter, but this story becomes truly unique when polite conversation turns into reality and becomes a dream fulfilled.<br />
 	<br />
-	In addition to equipment, the Young family invests in its employees, creating a devoted workforce. &ldquo;We believe we have one of the best equipped gear shops in the world. This includes both equipment and employees, a legacy of Forest City Gear for over 50 years,&rdquo; according to Fred Young. When Fred speaks to prospective employees, he does not offer them a job. He offers them a career.<br />
+	Ken Johnson, a retired airline pilot, has been introducing people to flying for years. It&rsquo;s a personal point of pride for him to bring wonder to the eyes of people who have never flown above Rockford, Illinois. To fly about our city at 3,000 feet brings about a true sense of wonder.<br />
 	<br />
-	What might be more remarkable than creating crucial equipment destined for Mars? For a second time? Well, creating a thriving motivated company culture with a team of career employees&mdash;the kind who lie in bed at night thinking, &ldquo;what can I do in the morning when I get there?&rdquo; The kind who take on responsibility, impose their own high standards and like Amy Sovina, have the &ldquo;mindset something I touched is now on the surface of Mars.&rdquo;<br />
-	<br />
-	By creating an atmosphere of excellence and pride, Forest City Gear has created a legacy for its individuals, its employees and its future.<br />
-	<br />
-	We should all be proud of their accomplishments as they are a small shop who&#39;s reputation the world over is one of excellence. Our region benefits by association, and by the generosity of their spirit.</p>
-<a href="#" class="button next">&larr; Next<span class="cut"> Episode</span></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
+	This past year, Ken took the guys up in the air on his own offer and since their original flight, George has been flying with him many Tuesdays. There&#39;s a glimmer in George&#39;s eye when he talks of flying; Ken has truly made the dreams of George, our beloved George, a reality.</p>
+<a class="button next" href="#">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a class="button previous" href="#">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
 
                     <div class="column right cushycms" title="Featured episode credits"><ul>
 	<li>
@@ -108,26 +101,16 @@
 		<span>Daniel James McMahon</span></li>
 	<li>
 		<h6>
-			Interviewer + Location Audio</h6>
+			Audio</h6>
 		<span>Zach Staas</span></li>
 	<li>
 		<h6>
-			Curiosity Rover Animation</h6>
-		<span>Courtesy NASA/JPL-Caltech.</span></li>
-<li>
-		<h6>
-			Author</h6>
-		<span>Juanita Hickerson</span></li>
-	<li>
-		<h6>
 			Special Thanks</h6>
-		<span>Greg Farnham<br />
-		Mindy Young<br />
-		Forest City Gear<br />
-		Arnold Dyer</span><br />
-		<br />
-		&nbsp;</li>
+		<span>Chicago Rockford International Airport</span><br />
+		<span>Juanita Hickerson</span><br />
+		<span>Ken Johnson</span></li>
 </ul>
+<br />
 </div>
                 </article>
             </div>
@@ -139,32 +122,32 @@
                     <h5>Our City, Our Story</h5>
                     <h1>Recent Stories</h1>
 
-                    <div class="column left cushycms" title="Recent episode #1"><a href="http://ourcityourstory.com/episode/12/#episode"><img class="replace-2x rel" src="img/e12-thumb.jpg" alt="E12: MainfraiM" /></a>
+                    <div class="column left cushycms" title="Recent episode #1"><a href="http://ourcityourstory.com/episode/13/#episode"><img alt="E13: Our Curiosity" class="replace-2x rel" src="img/e13-thumb.jpg" /></a>
+<h6>
+	Episode 13</h6>
+<h3>
+	<a href="http://ourcityourstory.com/episode/13/#episode">Our Curiosity</a></h3>
+<p>
+	One of the most talked about scientific achievements in 2012, was the landing of the Mars rover, Curiosity. What brings this home for us, is ALL the gears for curiosity were made in this region. All of them, by these people.</p>
+<a class="button" href="http://ourcityourstory.com/episode/11/#episode" target="_blank">Watch &rarr;</a> </div>
+
+                    <div class="column center cushycms" title="Recent episode #2"><a href="http://ourcityourstory.com/episode/12/#episode"><img alt="E12: MainfraiM" class="replace-2x rel" src="img/e12-thumb.jpg" /></a>
 <h6>
 	Episode 12</h6>
 <h3>
 	<a href="http://ourcityourstory.com/episode/12/#episode">MainfraiM</a></h3>
 <p>
 	Peer into the windows of their studio on Rockford&rsquo;s Central Avenue late one night, and chances are you&rsquo;ll find Jeremy Klonicki and Carmen Turner of MainfraiM Habitat for Art</p>
-<a href="http://ourcityourstory.com/episode/12/#episode" class="button" target="_blank">Watch &rarr;</a> </div>
+<a class="button" href="http://ourcityourstory.com/episode/12/#episode" target="_blank">Watch &rarr;</a> </div>
 
-                    <div class="column center cushycms" title="Recent episode #2"><a href="http://ourcityourstory.com/episode/11/#episode"><img class="replace-2x rel" src="img/e11-thumb.jpg" alt="E11: Buddy Baseball" /></a>
+                    <div class="column right cushycms" title="Recent episode #3"><a href="http://ourcityourstory.com/episode/11/#episode"><img alt="E11: Buddy Baseball" class="replace-2x rel" src="img/e11-thumb.jpg" /></a>
 <h6>
 	Episode 11</h6>
 <h3>
 	<a href="http://ourcityourstory.com/episode/11/#episode">Buddy Baseball</a></h3>
 <p>
 	Starting in June, families come to to the baseball diamonds at Guilford to something special in this community. Buddy Baseball. You see smiles. Cheers. &ldquo;Hit the ball! Don&#39;t look at me!&hellip; Run!&rdquo; The announcer gets on the mic: &ldquo;Next up&hellip;</p>
-<a href="http://ourcityourstory.com/episode/11/#episode" class="button" target="_blank">Watch &rarr;</a> </div>
-
-                    <div class="column right cushycms" title="Recent episode #3"><a href="http://ourcityourstory.com/episode/10"><img class="replace-2x rel" src="img/e10-thumb.jpg" alt="E10: Fabric and Color Patterns" /></a>
-<h6>
-	Episode 10</h6>
-<h3>
-	<a href="http://ourcityourstory.com/episode/10">Fabric &amp; Color Patterns</a></h3>
-<p>
-	The flag is more than just fabric and color patterns. Its a reminder&hellip; a point of reference, it gives us a way collectively to think about how far we&rsquo;ve come and yet how far&hellip;</p>
-<a href="http://ourcityourstory.com/episode/10" class="button" target="_blank">Watch &rarr;</a> </div>
+<a class="button" href="http://ourcityourstory.com/episode/11/#episode" target="_blank">Watch &rarr;</a> </div>
 
                     <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/allstorieslink.php"); ?>
                 </article>
