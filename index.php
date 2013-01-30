@@ -18,9 +18,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <!-- Base URL. Change/disable/re-enable depending on environment. -->
-        <base href="http://localhost:8888/">
+        <!-- <base href="http://localhost:8888/"> -->
         <!-- <base href="http://ourcityourstory.com/dev/"> -->
-        <!-- <base href="http://ourcityourstory.com/" /> -->
+        <base href="http://ourcityourstory.com/" />
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
