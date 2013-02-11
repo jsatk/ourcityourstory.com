@@ -18,12 +18,16 @@
             </div>
             <nav class="clearfix">
                 <a href="http://pablokorona.com/" target="_blank">
-                    <img class="replace-2x rel" src="img/pkmp.jpg" alt="pkmp" width="140px" height="70px">
+                    <img class="replace-2x rel" src="img/pkmp.jpg" alt="pkmp" width="140" height="70">
                 </a>
                 <a href="http://artsforeveryone.com/" target="_blank">
-                    <img class="replace-2x rel" src="img/raac.jpg" alt="raac" width="140px" height="70px">
+                    <img class="replace-2x rel" src="img/raac.jpg" alt="raac" width="140" height="70">
                 </a>
-                <a class="last-child" href="http://urbanfarmgirlandco.blogspot.com/" target="_blank">
+                <a class="last-child" href="http://ducloslenses.com/" target="_blank">
+                    <img class="replace-2x rel" src="img/duclos.jpg" alt="duclos" width="140" height="70">
+                </a>
+                <br>
+                <a href="http://urbanfarmgirlandco.blogspot.com/" target="_blank">
                     <img class="replace-2x rel" src="img/urbanfarmgirl.jpg" alt="Urban Farm Girl" width="140px" height="70px">
                 </a>
             </nav>
