@@ -13,7 +13,6 @@
         <title>Storytelling video product to help define the identity of this community. This is Rockford, Illinois.</title>
         <!-- Mobile viewport optimized: h5bp.com/viewport. Width was originally set to 'device-width' but it was breaking. -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
         <!-- Base URL. Change/disable/re-enable depending on environment. -->
         <!-- <base href="http://localhost:8888/"> -->
         <!-- <base href="http://ourcityourstory.com/dev/"> -->
@@ -50,10 +49,9 @@
             <h1 class="cushycms" title="Featured video title">Potato Shak</h1>
             <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
-            <h1 title="Is this the most recent episode?" class="hidden cushycms" id="current">Yes</h1>
+            <h1 title="Is this the most recent episode?" class="hidden cushycms" id="current">No</h1>
 
-            <a href="#" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode"><br />
-</span></a>
+            <a href="#" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode"></span></a>
             <a href="#" class="controls previous"><span class="cushycms" title="Previous Episode">E13: Our Curiosity</span><em>&#8594;</em></a>
             <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe allowfullscreen="" frameborder="0" height="281" id="video" mozallowfullscreen="" scrolling="no" src="http://player.vimeo.com/video/56275709?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" title="iframe for featured episode." webkitallowfullscreen="" width="500"></iframe></div>
         </div>
@@ -79,37 +77,30 @@
                     </nav>
 
                 </div>
-                <div class="column clearfix center cushycms" title="Feature episode description"><p>
-	Peter Avramopoulos arrived in Rockford, Illinois in the late 1960s. His father, seeking prosperity, had brought his whole family from Greece by boat. Pete&rsquo;s prosperity came in the form of the opportunity to do well for himself and his immediate family. As owner of the Potato Shak, the second restaurant that the Avramopoulos family has owned, he&rsquo;s created a destination for many local residents. The first, Pete&#39;s Snack Shack. was lost in the 1980s Midway Theater fire.<br />
-	<br />
-	Pete&#39;s older brother George Avramopoulos, with his mild manner and overall energy for life, is one of the reasons so many people frequent the Potato Shak. He&#39;s the type of guy who wants to shake your hand, ask how you are and is genuinely happy to see you. He engages in conversation with all who enter, but this story becomes truly unique when polite conversation turns into reality and becomes a dream fulfilled.<br />
-	<br />
-	Ken Johnson, a retired airline pilot, has been introducing people to flying for years. It&rsquo;s a personal point of pride for him to bring wonder to the eyes of people who have never flown above Rockford, Illinois. To fly about our city at 3,000 feet brings about a true sense of wonder.<br />
-	<br />
-	This past year, Ken took the guys up in the air on his own offer and since their original flight, George has been flying with him many Tuesdays. There&#39;s a glimmer in George&#39;s eye when he talks of flying; Ken has truly made the dreams of George, our beloved George, a reality.</p>
-<a class="button next" href="#">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a class="button previous" href="#">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
+                <div class="column clearfix center cushycms" title="Feature episode description"><p>Peter Avramopoulos arrived in Rockford, Illinois in the late 1960s. His father, seeking prosperity, had brought his whole family from Greece by boat. Pete&rsquo;s prosperity came in the form of the opportunity to do well for himself and his immediate family. As owner of the Potato Shak, the second restaurant that the Avramopoulos family has owned, he&rsquo;s created a destination for many local residents. The first, Pete&#39;s Snack Shack. was lost in the 1980s Midway Theater fire.<br />
+<br />
+Pete&#39;s older brother George Avramopoulos, with his mild manner and overall energy for life, is one of the reasons so many people frequent the Potato Shak. He&#39;s the type of guy who wants to shake your hand, ask how you are and is genuinely happy to see you. He engages in conversation with all who enter, but this story becomes truly unique when polite conversation turns into reality and becomes a dream fulfilled.<br />
+<br />
+Ken Johnson, a retired airline pilot, has been introducing people to flying for years. It&rsquo;s a personal point of pride for him to bring wonder to the eyes of people who have never flown above Rockford, Illinois. To fly about our city at 3,000 feet brings about a true sense of wonder.<br />
+<br />
+This past year, Ken took the guys up in the air on his own offer and since their original flight, George has been flying with him many Tuesdays. There&#39;s a glimmer in George&#39;s eye when he talks of flying; Ken has truly made the dreams of George, our beloved George, a reality.</p>
+<a class="button next" href="#">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a class="button previous" href="#">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a></div>
                 <div class="column right cushycms" title="Featured episode credits"><ul>
 	<li>
-		<h6>
-			Directed &amp; Produced By</h6>
-		<span>Pablo Korona</span></li>
+	<h6>Directed &amp; Produced By</h6>
+	<span>Pablo Korona</span></li>
 	<li>
-		<h6>
-			Music</h6>
-		<span>Daniel James McMahon</span></li>
+	<h6>Music</h6>
+	<span>Daniel James McMahon</span></li>
 	<li>
-		<h6>
-			Audio</h6>
-		<span>Zach Staas</span></li>
+	<h6>Audio</h6>
+	<span>Zach Staas</span></li>
 	<li>
-		<h6>
-			Special Thanks</h6>
-		<span>Chicago Rockford International Airport</span><br />
-<span>Juanita Hickerson</span><br />
-<span>Ken Johnson</span>
-</li>
+	<h6>Special Thanks</h6>
+	<span>Chicago Rockford International Airport</span><br />
+	<span>Juanita Hickerson</span><br />
+	<span>Ken Johnson</span></li>
 </ul>
-<br />
 </div>
             </article>
         </div>
@@ -121,29 +112,26 @@
                 <h5>Our City, Our Story</h5>
                 <h1>Recent Stories</h1>
                 <div class="column left cushycms" title="Recent episode #1"><a href="http://ourcityourstory.com/episode/13/#episode"><img alt="E13: Our Curiosity" class="replace-2x rel" src="img/e13-thumb.jpg" /></a>
-<h6>
-	Episode 13</h6>
-<h3>
-	<a href="http://ourcityourstory.com/episode/13/#episode">Our Curiosity</a></h3>
-<p>
-	One of the most talked about scientific achievements in 2012, was the landing of the Mars rover, Curiosity. What brings this home for us, is ALL the gears for curiosity were made in this region. All of them, by these people.</p>
-<a class="button" href="http://ourcityourstory.com/episode/11/#episode" target="_blank">Watch &rarr;</a> </div>
+<h6>Episode 13</h6>
+
+<h3><a href="http://ourcityourstory.com/episode/13/#episode">Our Curiosity</a></h3>
+
+<p>One of the most talked about scientific achievements in 2012, was the landing of the Mars rover, Curiosity. What brings this home for us, is ALL the gears for curiosity were made in this region. All of them, by these people.</p>
+<a class="button" href="http://ourcityourstory.com/episode/11/#episode" target="_blank">Watch &rarr;</a></div>
                 <div class="column center cushycms" title="Recent episode #2"><a href="http://ourcityourstory.com/episode/12/#episode"><img alt="E12: MainfraiM" class="replace-2x rel" src="img/e12-thumb.jpg" /></a>
-<h6>
-	Episode 12</h6>
-<h3>
-	<a href="http://ourcityourstory.com/episode/12/#episode">MainfraiM</a></h3>
-<p>
-	Peer into the windows of their studio on Rockford&rsquo;s Central Avenue late one night, and chances are you&rsquo;ll find Jeremy Klonicki and Carmen Turner of MainfraiM Habitat for Art</p>
-<a class="button" href="http://ourcityourstory.com/episode/12/#episode" target="_blank">Watch &rarr;</a> </div>
+<h6>Episode 12</h6>
+
+<h3><a href="http://ourcityourstory.com/episode/12/#episode">MainfraiM</a></h3>
+
+<p>Peer into the windows of their studio on Rockford&rsquo;s Central Avenue late one night, and chances are you&rsquo;ll find Jeremy Klonicki and Carmen Turner of MainfraiM Habitat for Art</p>
+<a class="button" href="http://ourcityourstory.com/episode/12/#episode" target="_blank">Watch &rarr;</a></div>
                 <div class="column right cushycms" title="Recent episode #3"><a href="http://ourcityourstory.com/episode/11/#episode"><img alt="E11: Buddy Baseball" class="replace-2x rel" src="img/e11-thumb.jpg" /></a>
-<h6>
-	Episode 11</h6>
-<h3>
-	<a href="http://ourcityourstory.com/episode/11/#episode">Buddy Baseball</a></h3>
-<p>
-	Starting in June, families come to to the baseball diamonds at Guilford to something special in this community. Buddy Baseball. You see smiles. Cheers. &ldquo;Hit the ball! Don&#39;t look at me!&hellip; Run!&rdquo; The announcer gets on the mic: &ldquo;Next up&hellip;</p>
-<a class="button" href="http://ourcityourstory.com/episode/11/#episode" target="_blank">Watch &rarr;</a> </div>
+<h6>Episode 11</h6>
+
+<h3><a href="http://ourcityourstory.com/episode/11/#episode">Buddy Baseball</a></h3>
+
+<p>Starting in June, families come to to the baseball diamonds at Guilford to something special in this community. Buddy Baseball. You see smiles. Cheers. &ldquo;Hit the ball! Don&#39;t look at me!&hellip; Run!&rdquo; The announcer gets on the mic: &ldquo;Next up&hellip;</p>
+<a class="button" href="http://ourcityourstory.com/episode/11/#episode" target="_blank">Watch &rarr;</a></div>
                     <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/allstorieslink.php"); ?>
             </article>
         </div>
