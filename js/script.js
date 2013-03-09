@@ -293,6 +293,15 @@
             $(".pin-it-button").attr("href", href);
 
             $("#tweet-button").attr("src", $("#tweet-button").attr("src").replace(/\?text=[^&]+/, "?text=" + encodeURIComponent(text)));
+
+            /* FUCK PINTEREST */
+            $(window).load(function () {
+                $.each($("iframe"), function (i, v) {
+                    if ($(this).attr("src").indexOf("pin") > -1) {
+                        $(this).hide();
+                    }
+                });
+            });
         },
 
         supporters: function () {
