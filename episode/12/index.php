@@ -7,7 +7,6 @@
     <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
     <head title="Meta Tags" class="cushycms">        <meta charset="utf-8" />
-
         <!-- Use the .htaccess and remove these lines to avoid edge case issues.
            More info: h5bp.com/i/378 -->
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
@@ -55,10 +54,9 @@
 
             <h1 title="Is this the most recent episode?" class="hidden cushycms" id="current">No</h1>
 
-            <a href="#" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode"><br />
-</span></a>
+            <a href="#" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode">E13: Our Curiousity</span></a>
             <a href="#" class="controls previous"><span class="cushycms" title="Previous Episode">E11: Buddy Baseball</span><em>&#8594;</em></a>
-            <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe title="iframe for featured episode." mozallowfullscreen="" src="http://player.vimeo.com/video/47179767?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" allowfullscreen="" id="video" height="281" webkitallowfullscreen="" width="500"></iframe></div>
+            <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe allowfullscreen="" height="281" id="video" mozallowfullscreen="" src="http://player.vimeo.com/video/47179767?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" title="iframe for featured episode." webkitallowfullscreen="" width="500"></iframe></div>
         </div>
 
         <div class="story clearfix">
@@ -82,45 +80,39 @@
                     </nav>
 
                 </div>
-                <div class="column clearfix center cushycms" title="Feature episode description"><p>
-	Peer into the windows of their studio on Rockford&rsquo;s Central Avenue late one night, and chances are you&rsquo;ll find Jeremy Klonicki and Carmen Turner of MainfraiM Habitat for Art captivated by their work, performing some inspired alchemy. In the hands of these artists, salvaged and cultured materials, mechanical relics and found objects are transformed into inspired lighting, sculpture and custom frames.</p>
-<p>
-	A certainly perfect homage to Rockford&rsquo;s heritage and manufacturing narrative, Jeremy and Carmen&rsquo;s work captures &ldquo;history and industry joined with earth and light&rdquo;, and the result is truly captivating. With an obviously deep respect for materials &ldquo;aged to perfection by time and weather&rdquo; and a strong nod to the past, MainfraiM&rsquo;s works seem the perfect amalgam of history, time and place. The two artisans also exhibit that perfect fine balance of exquisite craftsmanship and restraint; hand-hewn reclaimed barn wood retains its patina and character, while handcrafted picture frames may demand finer virtuosity and finishes.</p>
-<p>
-	With a &ldquo;passion for things forgotten&rdquo;, Jeremy founded MainfraiM, embracing art and making it a career. He believes that the often humble materials&mdash;hand-dug apothecary jars, castoff isolators, mechanical relics and hand-hewn barn wood&mdash;have a story of their own. Carmen joined Jeremy in 2011 as a design maven and revels in &ldquo;digging up society&rsquo;s cast-offs and making her finds meaningful and purposeful again.&rdquo; With an entrepreneurial spirit seemingly sprung from the refuse, these young artisans have created and nurtured a business while salvaging and repurposing others&rsquo; trash.</p>
-<p>
-	Perhaps the most quixotic of their creations, their witty sculptures combine material inspiration and artistic ingenuity to invoke both curiosity and intrigue. Jeremy and Carmen both know that their &ldquo;work transforms archaic technology and life into modern imagination.&rdquo;</p>
-<p>
-	You can see MainfraiM&rsquo;s work currently exhibiting at Octane.</p>
-<p>
-	&ldquo;In the right light, at the right time, everything is extraordinary.&rdquo; - A. Rose</p>
-<a href="#" class="button next">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
+                <div class="column clearfix center cushycms" title="Feature episode description"><p>Peer into the windows of their studio on Rockford&rsquo;s Central Avenue late one night, and chances are you&rsquo;ll find Jeremy Klonicki and Carmen Turner of MainfraiM Habitat for Art captivated by their work, performing some inspired alchemy. In the hands of these artists, salvaged and cultured materials, mechanical relics and found objects are transformed into inspired lighting, sculpture and custom frames.</p>
+
+<p>A certainly perfect homage to Rockford&rsquo;s heritage and manufacturing narrative, Jeremy and Carmen&rsquo;s work captures &ldquo;history and industry joined with earth and light&rdquo;, and the result is truly captivating. With an obviously deep respect for materials &ldquo;aged to perfection by time and weather&rdquo; and a strong nod to the past, MainfraiM&rsquo;s works seem the perfect amalgam of history, time and place. The two artisans also exhibit that perfect fine balance of exquisite craftsmanship and restraint; hand-hewn reclaimed barn wood retains its patina and character, while handcrafted picture frames may demand finer virtuosity and finishes.</p>
+
+<p>With a &ldquo;passion for things forgotten&rdquo;, Jeremy founded MainfraiM, embracing art and making it a career. He believes that the often humble materials&mdash;hand-dug apothecary jars, castoff isolators, mechanical relics and hand-hewn barn wood&mdash;have a story of their own. Carmen joined Jeremy in 2011 as a design maven and revels in &ldquo;digging up society&rsquo;s cast-offs and making her finds meaningful and purposeful again.&rdquo; With an entrepreneurial spirit seemingly sprung from the refuse, these young artisans have created and nurtured a business while salvaging and repurposing others&rsquo; trash.</p>
+
+<p>Perhaps the most quixotic of their creations, their witty sculptures combine material inspiration and artistic ingenuity to invoke both curiosity and intrigue. Jeremy and Carmen both know that their &ldquo;work transforms archaic technology and life into modern imagination.&rdquo;</p>
+
+<p>You can see MainfraiM&rsquo;s work currently exhibiting at Octane.</p>
+
+<p>&ldquo;In the right light, at the right time, everything is extraordinary.&rdquo; - A. Rose</p>
+<a class="button next" href="#">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a class="button previous" href="#">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a></div>
                 <div class="column right cushycms" title="Featured episode credits"><ul>
 	<li>
-		<h6>
-			Directed &amp; Produced By</h6>
-		<span>Pablo Korona</span></li>
+	<h6>Directed &amp; Produced By</h6>
+	<span>Pablo Korona</span></li>
 	<li>
-		<h6>
-			Music</h6>
-		<span>Daniel James McMahon</span></li>
+	<h6>Music</h6>
+	<span>Daniel James McMahon</span></li>
 	<li>
-		<h6>
-			Audio</h6>
-		<span>Zach Staas</span></li>
+	<h6>Audio</h6>
+	<span>Zach Staas</span></li>
 	<li>
-		<h6>
-			Author</h6>
-		<span>Juanita Hickerson</span></li>
+	<h6>Author</h6>
+	<span>Juanita Hickerson</span></li>
 	<li>
-		<h6>
-			Special Thanks</h6>
-		<span>Jeremy Klonicki<br />
-		Carmen Turner<br />
-		Anthony Green<br />
-		Octane</span><br />
-		<br />
-		&nbsp;</li>
+	<h6>Special Thanks</h6>
+	<span>Jeremy Klonicki<br />
+	Carmen Turner<br />
+	Anthony Green<br />
+	Octane</span><br />
+	<br />
+	&nbsp;</li>
 </ul>
 </div>
             </article>
@@ -132,30 +124,27 @@
             <article class="clearfix">
                 <h5>Our City, Our Story</h5>
                 <h1>Recent Stories</h1>
-                <div class="column left cushycms" title="Recent episode #1"><a href="http://ourcityourstory.com/episode/11/#episode"><img class="replace-2x rel" src="img/e11-thumb.jpg" alt="E11: Buddy Baseball" /></a>
-<h6>
-	Episode 11</h6>
-<h3>
-	<a href="http://ourcityourstory.com/episode/11/#episode">Buddy Baseball</a></h3>
-<p>
-	Starting in June, families come to to the baseball diamonds at Guilford to something special in this community. Buddy Baseball. You see smiles. Cheers. &ldquo;Hit the ball! Don&#39;t look at me!&hellip; Run!&rdquo; The announcer gets on the mic: &ldquo;Next up&hellip;</p>
-<a href="http://ourcityourstory.com/episode/11/#episode" class="button" target="_blank">Watch &rarr;</a> </div>
-                <div class="column center cushycms" title="Recent episode #2"><a href="http://ourcityourstory.com/episode/10"><img class="replace-2x rel" src="img/e10-thumb.jpg" alt="E10: Fabric and Color Patterns" /></a>
-<h6>
-	Episode 10</h6>
-<h3>
-	<a href="http://ourcityourstory.com/episode/10">Fabric &amp; Color Patterns</a></h3>
-<p>
-	The flag is more than just fabric and color patterns. Its a reminder&hellip; a point of reference, it gives us a way collectively to think about how far we&rsquo;ve come and yet how far&hellip;</p>
-<a href="http://ourcityourstory.com/episode/10" class="button" target="_blank">Watch &rarr;</a> </div>
-                <div class="column right cushycms" title="Recent episode #3"><a href="http://ourcityourstory.com/episode/9"><img class="replace-2x rel" src="img/e09-thumb.jpg" alt="E09: Hazzard Free" /></a>
-<h6>
-	Episode 09</h6>
-<h3>
-	<a href="http://ourcityourstory.com/episode/9">Hazzard Free</a></h3>
-<p>
-	Andy Hazzard had been a staple of downtown Rockford before she decided to acknowledge her true calling of farming. She was a waitress at Octane, she worked on jewelry at several art fairs, but when it came down to it&hellip;</p>
-<a href="http://ourcityourstory.com/episode/9" class="button" target="_blank">Watch &rarr;</a> </div>
+                <div class="column left cushycms" title="Recent episode #1"><a href="http://ourcityourstory.com/episode/11/#episode"><img alt="E11: Buddy Baseball" class="replace-2x rel" src="img/e11-thumb.jpg" /></a>
+<h6>Episode 11</h6>
+
+<h3><a href="http://ourcityourstory.com/episode/11/#episode">Buddy Baseball</a></h3>
+
+<p>Starting in June, families come to to the baseball diamonds at Guilford to something special in this community. Buddy Baseball. You see smiles. Cheers. &ldquo;Hit the ball! Don&#39;t look at me!&hellip; Run!&rdquo; The announcer gets on the mic: &ldquo;Next up&hellip;</p>
+<a class="button" href="http://ourcityourstory.com/episode/11/#episode" target="_blank">Watch &rarr;</a></div>
+                <div class="column center cushycms" title="Recent episode #2"><a href="http://ourcityourstory.com/episode/10"><img alt="E10: Fabric and Color Patterns" class="replace-2x rel" src="img/e10-thumb.jpg" /></a>
+<h6>Episode 10</h6>
+
+<h3><a href="http://ourcityourstory.com/episode/10">Fabric &amp; Color Patterns</a></h3>
+
+<p>The flag is more than just fabric and color patterns. Its a reminder&hellip; a point of reference, it gives us a way collectively to think about how far we&rsquo;ve come and yet how far&hellip;</p>
+<a class="button" href="http://ourcityourstory.com/episode/10" target="_blank">Watch &rarr;</a></div>
+                <div class="column right cushycms" title="Recent episode #3"><a href="http://ourcityourstory.com/episode/9"><img alt="E09: Hazzard Free" class="replace-2x rel" src="img/e09-thumb.jpg" /></a>
+<h6>Episode 09</h6>
+
+<h3><a href="http://ourcityourstory.com/episode/9">Hazzard Free</a></h3>
+
+<p>Andy Hazzard had been a staple of downtown Rockford before she decided to acknowledge her true calling of farming. She was a waitress at Octane, she worked on jewelry at several art fairs, but when it came down to it&hellip;</p>
+<a class="button" href="http://ourcityourstory.com/episode/9" target="_blank">Watch &rarr;</a></div>
                     <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/allstorieslink.php"); ?>
             </article>
         </div>

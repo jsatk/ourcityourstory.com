@@ -17,7 +17,6 @@
         <!-- <base href="http://localhost:8888/"> -->
         <!-- <base href="http://ourcityourstory.com/dev/"> -->
         <base href="http://ourcityourstory.com/" />
-
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
         <link href="css/style.css" class="rel" rel="stylesheet" />
@@ -51,7 +50,7 @@
 
             <h1 title="Is this the most recent episode?" class="hidden cushycms" id="current">No</h1>
 
-            <a href="#" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode"></span></a>
+            <a href="#" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode">E15: Opportunity in the Making</span></a>
             <a href="#" class="controls previous"><span class="cushycms" title="Previous Episode">E13: Our Curiosity</span><em>&#8594;</em></a>
             <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe allowfullscreen="" frameborder="0" height="281" id="video" mozallowfullscreen="" scrolling="no" src="http://player.vimeo.com/video/56275709?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" title="iframe for featured episode." webkitallowfullscreen="" width="500"></iframe></div>
         </div>
