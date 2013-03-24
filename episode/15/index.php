@@ -18,7 +18,6 @@
         <!-- <base href="http://ourcityourstory.com/dev/"> -->
         <base href="http://ourcityourstory.com/" />
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
-
         <link href="css/style.css" class="rel" rel="stylesheet" />
 
         <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
@@ -77,6 +76,22 @@
 
                 </div>
                 <div class="column clearfix center cushycms" title="Feature episode description"><p>It started with a tweet, and now Rockford, IL is partnering with ETSY to help get it back to the roots. Artisan. Hand made. Opportunity in the Making.</p>
+
+<p>Story by&nbsp;<a href="https://www.etsy.com/blog/news/authors/beautifuld/">Dana Mauriello</a></p>
+
+<p>Last August, Mayor Larry Morrissey of Rockford, Illinois&nbsp;tweeted&nbsp;at Etsy&rsquo;s CEO, Chad Dickerson: &ldquo;Since we need an &lsquo;Etsy Economy&rsquo; has Etsy begun any partnerships with high schools or job training? We&rsquo;d love to explore.&rdquo; Kari McDonald, the captain of the&nbsp;Rockford Etsy Team, joined in on the dialogue: &ldquo;I&rsquo;d love to see where this leads! Rockford Etsy Team is willing to help.&rdquo; With these two tweets, we got to work.<br />
+<br />
+Rockford is a city of 150,000 people, located two hours west of Chicago. Formerly a manufacturing hub, its keystone employers have left the city, ushering in a wave of high unemployment. One of the benefits of having a strong manufacturing history, however, is that many residents already have skills in the arts (such as watchmaking and furniture making) that were once the backbone of the local economy. Mayor Morrissey is an enthusiastic advocate of giving Rockford residents the tools that they need to turn these skills into economic opportunity and we&rsquo;re eager to support this vision.<br />
+<br />
+A group of Etsy Admin went to Rockford in November to further explore the needs of the city and opportunities to work together. We were greeted by a diverse group of over 70 stakeholders who gathered to share their thoughts on how Etsy could affect local constituents.<br />
+<br />
+Our visit led to a plan for Etsy and Rockford to co-create a Craft Entrepreneurship Curriculum, with Etsy&rsquo;s platform and marketplace as the learning lab. The aim of the project is to teach people that if they have a craft skill, entrepreneurship and economic opportunity are within reach. Starting in September, the curriculum will be taught by local Rockford teachers to a diverse range of students.<br />
+<br />
+We don&rsquo;t expect every student to become an Etsy seller, but rather to apply the skills they learn to any entrepreneurial path they want to follow. We do believe, however, along with the city of Rockford, that this will lead to real economic impact.<br />
+<br />
+This pilot program has the potential to be not just what Mayor Morrissey calls a &ldquo;pathway to prosperity&rdquo; for Rockford, but a blueprint for similar programs across the country and around the world. We look to the Etsy community as role models for others dreaming of an entrepreneurial path and demonstrating the desire to support independent, creative businesses, built on&nbsp;human interactions. Thank you for inspiring us, the city of Rockford, and a wave of future entrepreneurs that are following in your footsteps.<br />
+<br />
+If you are interested in learning more about this project or talking to us about how Etsy can empower economic development in your area, please get in touch with us at <a href="mailto:partnerships@etsy.com">partnerships@etsy.com</a>. We want to hear about initiatives that we can apply our learnings to after the Rockford pilot program concludes.&nbsp;</p>
 <a class="button next" href="#">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a class="button previous" href="#">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a></div>
                 <div class="column right cushycms" title="Featured episode credits"><ul>
 	<li>
@@ -92,12 +107,13 @@
 	<h6>Special Thanks</h6>
 	<span>Larry Morrissey<br />
 	Ron Clewer<br />
+    Juanita Whittier<br />
+    Chad Dickerson<br />
 	ETSY<br />
 	Seams2u</span><br />
 	<br />
 	&nbsp;</li>
-</ul>
-</div>
+</ul></div>
             </article>
         </div>
 
