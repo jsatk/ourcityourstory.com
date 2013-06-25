@@ -13,9 +13,12 @@
         <!-- Use the .htaccess and remove these lines to avoid edge case issues.
            More info: h5bp.com/i/378 -->
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+
         <title>Storytelling video product to help define the identity of this community. This is Rockford, Illinois.</title>
+
         <!-- Mobile viewport optimized: h5bp.com/viewport. Width was originally set to 'device-width' but it was breaking. -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <!-- Base URL. Change/disable/re-enable depending on environment. -->
         <!-- <base href="http://localhost:8888/"> -->
         <!-- <base href="http://ourcityourstory.com/dev/"> -->
@@ -32,15 +35,13 @@
            Create your own custom Modernizr build: www.modernizr.com/download/ -->
         <script class="rel" src="js/libs/modernizr-2.5.3.min.js"></script>
 
-
-        <meta name="description" property="og:description" title="Meta-Description" content="1955. Vincent Chiarelli of Sicily arrived to Rockford, IL with a song in his heart and a needle in his pocket. He opened a small tailor shop and spun out a music publishing company with his own record label from its success. His shop was located at the head of Broadway Street coming downtown, and those who came to see Vince thought he owned the town." />
-        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | The Torchlighter" />
-        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f01.jpg" />
-        <meta property="og:type" content="movie" />
-        <meta property="og:url" content="http://ourcityourstory.com/episode/1/" />
+        <meta name="description" property="og:description" title="Meta-Description" content="Starting in June, families come to to the baseball diamonds at Guilford to something special in this community. Buddy Baseball. You see smiles. Cheers.&hellip;" />        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | Buddy Baseball" />
+        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f11.jpg" />
+        <meta property="og:type" content="company" />
+        <meta property="og:url" content="http://ourcityourstory.com/episode/11/" />
         <meta property="og:site_name" content="Our City, Our Story" />
-        <meta property="fb:app_id" content="268699596565206" />
-    </head>
+        <meta property="fb:app_id" content="268699596565206">
+    </meta></head>
 
     <body id="home">
 
@@ -50,19 +51,19 @@
 
         <div role="main">
             <div id="episode" class="episode">
-                <h1 class="cushycms" title="Featured video title">The Torchlighter</h1>
+                <h1 class="cushycms" title="Featured video title">Buddy Baseball</h1>
                 <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
-                <h1 class="hidden cushycms" title="Is this the most recent episode?" id="current">Yes</h1>
-                <a href="" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode">E02: Jimmy Goodman</span></a>
+                <h1 class="hidden cushycms" title="Is this the most recent episode?" id="current">No</h1>
+                <a href="" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode">E012:&nbsp;MainfraiM</span></a>
                 <a href="" class="controls previous"><span class="cushycms" title="Previous Episode">E15: Opportunity in the Making</span><em>&#8594;</em></a>
-                <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe allowfullscreen="" height="281" id="video" mozallowfullscreen="" src="http://player.vimeo.com/video/43273534?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" title="iframe for featured episode." webkitallowfullscreen="" width="500"></iframe></div>
+                <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe allowfullscreen="" height="281" id="video" mozallowfullscreen="" src="http://player.vimeo.com/video/45895783?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" title="iframe for featured episode." webkitallowfullscreen="" width="500"></iframe></div>
             </div>
 
             <div class="story clearfix">
                 <article class="clearfix">
                     <h5>Our City, Our Story</h5>
-                    <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E01: The Torchlighter</h4>
+                    <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E11: Buddy Baseball</h4>
                     <div class="column left">
                     <img class="thumb replace-2x rel" src="" alt="Featured Episode Thumbnail">
                         <nav class="clearfix">
@@ -80,24 +81,18 @@
                         </nav>
                     </div>
 
-                    <div class="column clearfix center cushycms" title="Feature episode description"><p>1955. Vincent Chiarelli of Sicily arrived to Rockford, IL with a song in his heart and a needle in his pocket. He opened a small tailor shop and spun out a music publishing company with his own record label from its success. His shop was located at the head of Broadway Street coming downtown, and those who came to see Vince thought he owned the town.</p>
+                    <div class="column clearfix center cushycms" title="Feature episode description"><p>Starting in June, families come to to the baseball diamonds at Guilford to something special in this community. Buddy Baseball. You see smiles. Cheers. &ldquo;Hit the ball! Don&#39;t look at me! Run!&rdquo; The announcer gets on the mic: &ldquo;Next up to bat, is Joshua&rdquo; Everyone in the bleachers cheers him on &ldquo;Keep your eye on the ball&rdquo; &ldquo;Let&#39;s go Josh.&rdquo; &ldquo;Go Joshua!&rdquo; The program does a great deal for the kids within the program, but also for the volunteer Buddies who run the bases with the kids. You see the joy in the kid&#39;s face who connects with the ball, who instead of running to first base, he looks back to his dad with a shocked smile seeming to say &ldquo;I did it!&rdquo;</p>
 
-<p>Passion for music is the lifeblood of the Chiarelli family, and most of this information was passed along not by the sons of Vince the Tailor, but by his grandson of the same name, Little Vincent Chiarelli. Vince the Singer started up Rockford College Radio, which laid dormant for 20 years. He has taken the torch of passion for music and has helped others get their voices heard.</p>
-
-<p>By standards of the music industry, Vince Chiarelli never achieved the &ldquo;success&rdquo; of worldwide fame or became a household name like many dream of. What he has accomplished is something that the vast majority of them didn&rsquo;t. While most of these celebrities&rsquo; flame goes out, Vince the Singing Tailor lit many torches.</p>
-
-<p>When the last interview question, &ldquo;Is there anything else you want to say?&rdquo;, arose...Vince, now over 80 years of age, said - &ldquo;I&rsquo;m thankful for you doing this...I don&rsquo;t know how much longer I&rsquo;m going to be here.&rdquo; To our eyes, he is an important figure in Rockford history and we are grateful to have come upon this first flicker of light that has illuminated the way of Our City, Our Story.<br />
-&nbsp;</p>
-
-<hr />
-<p>&nbsp;&nbsp;<br />
-In memory of Vince Chiarelli.</p>
+<p>In this story of Buddy Baseball we start with Matthew Lapp, and see how he interacts with his family at home. He is most certainly loved, but there is only so much a loving family can do for Matthew in the world. The frustration with seeing his sister play soccer, does cause issue&hellip; but that&#39;s where Buddy Baseball helps. Sherri White started Buddy Baseball 4 years ago, and Matthew Lapp was the first to sign up for the program. Sherri saw a need for a &ldquo;buddy&rdquo; type program after her own son was unable to participate in some of the other baseball programs in the way he wanted to participate. He needed a pinch runner. Sherri knew there was a solution and ran with the idea of Buddy Baseball, creating a program that the Rockford Park District and she collaborate on.</p>
 <a class="button next" href="#">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a class="button previous" href="#">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a></div>
 
                     <div class="column right cushycms" title="Featured episode credits"><ul>
 	<li>
 	<h6>Directed &amp; Produced By</h6>
 	<span>Pablo Korona</span></li>
+	<li>
+	<h6>Assistant &amp; Second Shooter</h6>
+	<span>Julia Moore</span></li>
 	<li>
 	<h6>Music</h6>
 	<span>Daniel James McMahon</span></li>
@@ -106,10 +101,14 @@ In memory of Vince Chiarelli.</p>
 	<span>Zach Staas</span></li>
 	<li>
 	<h6>Special Thanks</h6>
-	</li><li><span>Rockford College</span></li>
-	<li><span>Tony Chiarelli</span></li>
-	<li><span><a href="http://www.VincentRecords.com">Vincent Records</a></span></li>
-</ul></div>
+	<span>Matthew Lapp &amp; Family<br />
+	Sherri White &amp; Family<br />
+	Buddy Baseball<br />
+	Rockford Park District </span><br />
+	<br />
+	&nbsp;</li>
+</ul>
+</div>
                 </article>
             </div>
 
