@@ -12,7 +12,6 @@
            More info: h5bp.com/i/378 -->
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
         <title>Our City, Our Story | All Stories</title>
-
         <!-- Mobile viewport optimized: h5bp.com/viewport. Width was originally set to 'device-width' but it was breaking. -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -219,17 +218,17 @@
 <h3><a href="http://ourcityourstory.com/episode/15/#episode">Opportunity in the Making</a></h3>
 
 <p>It started with a tweet, and now Rockford, IL is partnering with ETSY to help get it back to the roots. Artisan. Hand made. Opportunity in the Making.</p>
-<a class="button" href="http://ourcityourstory.com/episode/15/#episode" target="_blank">Watch &rarr;</a>
-
-</div>
+<a class="button" href="http://ourcityourstory.com/episode/15/#episode" target="_blank">Watch &rarr;</a></div>
                     </div>
 
                     <div class="row clearfix">
-                        <div class="column left cushycms" title="Episode #4"><img alt="E16: Coming Soon" class="replace-2x rel" src="img/fall.png" />
+                        <div class="column left cushycms" title="Episode #4"><a href="http://ourcityourstory.com/episode/16/#episode"><img alt="E16: The Greatest " class="replace-2x rel" src="img/e16-thumb.jpg" thank="" /></a>
 <h6>Episode 16</h6>
 
-<h3>&nbsp;</h3>
-</div>
+<h3><a href="http://ourcityourstory.com/episode/16/#episode">The Greatest &quot;Thank you&quot;</a></h3>
+
+<p>Once a year on a late September weekend, you&rsquo;ll find Sam Hiser&mdash;along with over 1,000 of his friends&mdash;eating, drinking, and dodging enemy fire on acres of land at Rockford&rsquo;s Midway Village. Dressed to the hilt in World War II period uniforms, complete with impeccably authentic personal items, the men and women meet to create living history and reenact live-action battle scenarios.</p>
+<a class="button" href="http://ourcityourstory.com/episode/16/#episode" target="_blank">Watch &rarr;</a></div>
 
                         <div class="column center cushycms" title="Episode #5"><img alt="E17: Coming Soon" class="replace-2x rel" src="img/fall.png" />
 <h6>Episode 17</h6>

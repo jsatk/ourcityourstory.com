@@ -19,7 +19,6 @@
         <base href="http://ourcityourstory.com/" />
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
         <link href="css/style.css" class="rel" rel="stylesheet" />
-
         <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
         <!-- All JavaScript at the bottom, except this Modernizr build.
@@ -47,7 +46,7 @@
             <h1 class="cushycms" title="Featured video title">Opportunity in the Making</h1>
             <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
-            <h1 title="Is this the most recent episode?" class="hidden cushycms" id="current">Yes</h1>
+            <h1 title="Is this the most recent episode?" class="hidden cushycms" id="current">No</h1>
 
             <a href="#" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode"></span></a>
             <a href="#" class="controls previous"><span class="cushycms" title="Previous Episode">E14: Potato Shak</span><em>&#8594;</em></a>
@@ -107,13 +106,14 @@ If you are interested in learning more about this project or talking to us about
 	<h6>Special Thanks</h6>
 	<span>Larry Morrissey<br />
 	Ron Clewer<br />
-    Juanita Whittier<br />
-    Chad Dickerson<br />
+	Juanita Whittier<br />
+	Chad Dickerson<br />
 	ETSY<br />
 	Seams2u</span><br />
 	<br />
 	&nbsp;</li>
-</ul></div>
+</ul>
+</div>
             </article>
         </div>
 

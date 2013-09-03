@@ -7,7 +7,6 @@
     <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
     <head title="Meta Tags" class="cushycms">        <meta charset="utf-8" />
-
         <!-- Use the .htaccess and remove these lines to avoid edge case issues.
            More info: h5bp.com/i/378 -->
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
@@ -33,14 +32,14 @@
            Create your own custom Modernizr build: www.modernizr.com/download/ -->
         <script class="rel" src="js/libs/modernizr-2.5.3.min.js"></script>
 
-        <meta name="description" property="og:description" title="Meta-Description" content="Peer into the windows of their studio on Rockford&rsquo;s Central Avenue late one night, and chances are you&rsquo;ll find Jeremy Klonicki and Carmen Turner of MainfraiM Habitat for Art captivated by their work," />
-        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | MainfraiM" />
-        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f12.jpg" />
+        <meta name="description" property="og:description" title="Meta-Description" content="Once a year on a late September weekend, you’ll find Sam Hiser—along with over 1,000 of his friends—eating, drinking, and dodging enemy fire on acres of land at Rockford’s Midway Village. Dressed to the hilt in World War II period uniforms, complete with impeccably authentic personal items, the men and women meet to create living history and reenact live-action battle scenarios." />
+        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | The Greatest "Thank you" " />
+        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f16.jpg" />
         <meta property="og:type" content="company" />
-        <meta property="og:url" content="http://ourcityourstory.com/episode/12/" />
+        <meta property="og:url" content="http://ourcityourstory.com/episode/16/" />
         <meta property="og:site_name" content="Our City, Our Story" />
         <meta property="fb:app_id" content="268699596565206">
-    </head>
+    </meta></head>
 
     <body>
 
@@ -50,21 +49,20 @@
 
     <div role="main">
         <div id="episode" class="episode">
-            <h1 class="cushycms" title="Featured video title">MainfraiM</h1>
+            <h1 class="cushycms" title="Featured video title">The Greatest &quot;Thank you&quot;</h1>
             <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
             <h1 title="Is this the most recent episode?" class="hidden cushycms" id="current">Yes</h1>
 
-            <a href="#" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode"><br />
-</span></a>
-            <a href="#" class="controls previous"><span class="cushycms" title="Previous Episode">E11: Buddy Baseball</span><em>&#8594;</em></a>
-            <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe title="iframe for featured episode." mozallowfullscreen="" src="http://player.vimeo.com/video/47179767?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" allowfullscreen="" id="video" height="281" webkitallowfullscreen="" width="500"></iframe></div>
+            <a href="#" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode"></span></a>
+            <a href="#" class="controls previous"><span class="cushycms" title="Previous Episode">E15: Opportunity in the Making</span><em>&#8594;</em></a>
+            <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe allowfullscreen="" height="281" id="video" mozallowfullscreen="" src="http://player.vimeo.com/video/53513429?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" title="iframe for featured episode." webkitallowfullscreen="" width="500"></iframe></div>
         </div>
 
         <div class="story clearfix">
             <article class="clearfix">
                 <h5>Our City, Our Story</h5>
-                <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E12: MainfraiM</h4>
+                <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E16: The Greatest &quot;Thank you&quot;</h4>
                 <div class="column left">
                     <img class="thumb replace-2x rel" src="" alt="Featured Episode Thumbnail">
                     <nav class="clearfix">
@@ -82,41 +80,55 @@
                     </nav>
 
                 </div>
-                <div class="column clearfix center cushycms" title="Feature episode description"><p>
-	Peer into the windows of their studio on Rockford&rsquo;s Central Avenue late one night, and chances are you&rsquo;ll find Jeremy Klonicki and Carmen Turner of MainfraiM Habitat for Art captivated by their work, performing some inspired alchemy. In the hands of these artists, salvaged and cultured materials, mechanical relics and found objects are transformed into inspired lighting, sculpture and custom frames.</p>
-<p>
-	A certainly perfect homage to Rockford&rsquo;s heritage and manufacturing narrative, Jeremy and Carmen&rsquo;s work captures &ldquo;history and industry joined with earth and light&rdquo;, and the result is truly captivating. With an obviously deep respect for materials &ldquo;aged to perfection by time and weather&rdquo; and a strong nod to the past, MainfraiM&rsquo;s works seem the perfect amalgam of history, time and place. The two artisans also exhibit that perfect fine balance of exquisite craftsmanship and restraint; hand-hewn reclaimed barn wood retains its patina and character, while handcrafted picture frames may demand finer virtuosity and finishes.</p>
-<p>
-	With a &ldquo;passion for things forgotten&rdquo;, Jeremy founded MainfraiM, embracing art and making it a career. He believes that the often humble materials&mdash;hand-dug apothecary jars, castoff isolators, mechanical relics and hand-hewn barn wood&mdash;have a story of their own. Carmen joined Jeremy in 2011 as a design maven and revels in &ldquo;digging up society&rsquo;s cast-offs and making her finds meaningful and purposeful again.&rdquo; With an entrepreneurial spirit seemingly sprung from the refuse, these young artisans have created and nurtured a business while salvaging and repurposing others&rsquo; trash.</p>
-<p>
-	Perhaps the most quixotic of their creations, their witty sculptures combine material inspiration and artistic ingenuity to invoke both curiosity and intrigue. Jeremy and Carmen both know that their &ldquo;work transforms archaic technology and life into modern imagination.&rdquo;</p>
-<p>
-	You can see MainfraiM&rsquo;s work currently exhibiting at Octane.</p>
-<p>
-	&ldquo;In the right light, at the right time, everything is extraordinary.&rdquo; - A. Rose</p>
-<a href="#" class="button next">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a href="#" class="button previous">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a> </div>
+                <div class="column clearfix center cushycms" title="Feature episode description"><p>Once a year on a late September weekend, you&rsquo;ll find Sam Hiser&mdash;along with over 1,000 of his friends&mdash;eating, drinking, and dodging enemy fire on acres of land at Rockford&rsquo;s Midway Village. Dressed to the hilt in World War II period uniforms, complete with impeccably authentic personal items, the men and women meet to create living history and reenact live-action battle scenarios. Sam, a member of the Tri-State Living History Association, hails from Rockford, but his counterparts come from across the country to take part in the event&mdash;the largest World War II era reenactment in the United States. What makes it the biggest? Over 1,000 uniformed reenactors from 40 states, representing soldiers from the United States, Great Britain, France, Poland, Ukraine, Russia, Japan, Italy and Germany, along with 70 to 80 vintage tanks, half-tracks and other 1940s era military vehicles.<br />
+<br />
+Safety and authenticity&mdash;down to the most precise details&mdash;are paramount to the event. Sam and many of his fellow reenactors even eat from a historically accurate full field kitchen, under the watchful eye of Byron Vinyard (who&rsquo;ll likely be stirring up white gravy for &lsquo;shit on a shingle,&rsquo; the era&rsquo;s signature military issue food). Byron, Sam and the other reenactors pay particular attention to every detail of their impressions, spending hours on research and dollars out of pocket, in order to tell the soldiers&rsquo; true stories. The reenactors aren&rsquo;t creating a live-action war game, they are portraying and participating in a part of World War II history. By telling these stories effectively, they honor the veterans who they so deeply appreciate.<br />
+<br />
+Every reenactor has their own personal motivation for contributing to the event; Sam&rsquo;s comes from his interest in history and both his grandfathers&rsquo; service, but also the relationships he&rsquo;s created while working with many World War II vets. Reenacting is not the product of a passing whim; potential reenactors must exhibit their knowledge and interest in order to join their parent association. Sam and his wife dressed in period attire as part of his &lsquo;audition&rsquo; for his impression.<br />
+<br />
+One unique event in and of itself doesn&rsquo;t generally give a city character, but World War II Days brings many people of character&mdash;honoring those who have served&mdash;to this city.</p>
+
+<p style="text-align: center;">&ldquo;We have to tell their story.&rdquo;<br />
+&ndash;Byron Vinyard<br />
+This year&rsquo;s Midway Village Museum&rsquo;s World War II Days event takes place September 21 and 22.<br />
+<br />
+&nbsp;<br />
+<br />
+For more information<br />
+<br />
+Midway Village: <a href="http://midwayvillage.com/wordpress/event-registration/?ee=63" target="_blank">midwayvillage.com/wordpress/event-registration/?ee=63</a><br />
+<br />
+Tri-State Living History Association: <a href="http://tslha.org" target="_blank">tslha.org</a><br />
+<br />
+WWII Historical Re-enactment Society: <a href="http://worldwartwohrs.org" target="_blank">worldwartwohrs.org</a></p>
+<a class="button next" href="#">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a class="button previous" href="#">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a></div>
                 <div class="column right cushycms" title="Featured episode credits"><ul>
 	<li>
-		<h6>
-			Directed &amp; Produced By</h6>
-		<span>Pablo Korona</span></li>
+	<h6>Produced By</h6>
+	<span>Pablo Korona</span></li>
 	<li>
-		<h6>
-			Music</h6>
-		<span>Daniel James McMahon</span></li>
+	<h6>Directed By</h6>
+	<span>Matt Youngblood &amp; Zach Staas</span></li>
 	<li>
-		<h6>
-			Audio</h6>
-		<span>Zach Staas</span></li>
+	<h6>Music</h6>
+	<span>Daniel James McMahon</span></li>
 	<li>
-		<h6>
-			Special Thanks</h6>
-		<span>Jeremy Klonicki<br />
-		Carmen Turner<br />
-		Anthony Green<br />
-		Octane</span><br />
-		<br />
-		&nbsp;</li>
+	<h6>Editor</h6>
+	<span>Zach Staas</span></li>
+	<li>
+	<h6>Audio Mixing</h6>
+	<span>Zach Staas</span></li>
+	<li>
+	<h6>Text written by</h6>
+	<span>Juanita Hickerson</span></li>
+	<li>
+	<h6>Special Thanks</h6>
+	<span>Midway Village<br />
+	Tri-State Living History Association<br />
+	Sam Hiser, his beautiful wife Andrea<br />
+	Matt and Zach.</span><br />
+	<br />
+	&nbsp;</li>
 </ul>
 </div>
             </article>
@@ -128,30 +140,27 @@
             <article class="clearfix">
                 <h5>Our City, Our Story</h5>
                 <h1>Recent Stories</h1>
-                <div class="column left cushycms" title="Recent episode #1"><a href="http://ourcityourstory.com/episode/11/#episode"><img class="replace-2x rel" src="img/e11-thumb.jpg" alt="E11: Buddy Baseball" /></a>
-<h6>
-	Episode 11</h6>
-<h3>
-	<a href="http://ourcityourstory.com/episode/11/#episode">Buddy Baseball</a></h3>
-<p>
-	Starting in June, families come to to the baseball diamonds at Guilford to something special in this community. Buddy Baseball. You see smiles. Cheers. &ldquo;Hit the ball! Don&#39;t look at me!&hellip; Run!&rdquo; The announcer gets on the mic: &ldquo;Next up&hellip;</p>
-<a href="http://ourcityourstory.com/episode/11/#episode" class="button" target="_blank">Watch &rarr;</a> </div>
-                <div class="column center cushycms" title="Recent episode #2"><a href="http://ourcityourstory.com/episode/10"><img class="replace-2x rel" src="img/e10-thumb.jpg" alt="E10: Fabric and Color Patterns" /></a>
-<h6>
-	Episode 10</h6>
-<h3>
-	<a href="http://ourcityourstory.com/episode/10">Fabric &amp; Color Patterns</a></h3>
-<p>
-	The flag is more than just fabric and color patterns. Its a reminder&hellip; a point of reference, it gives us a way collectively to think about how far we&rsquo;ve come and yet how far&hellip;</p>
-<a href="http://ourcityourstory.com/episode/10" class="button" target="_blank">Watch &rarr;</a> </div>
-                <div class="column right cushycms" title="Recent episode #3"><a href="http://ourcityourstory.com/episode/9"><img class="replace-2x rel" src="img/e09-thumb.jpg" alt="E09: Hazzard Free" /></a>
-<h6>
-	Episode 09</h6>
-<h3>
-	<a href="http://ourcityourstory.com/episode/9">Hazzard Free</a></h3>
-<p>
-	Andy Hazzard had been a staple of downtown Rockford before she decided to acknowledge her true calling of farming. She was a waitress at Octane, she worked on jewelry at several art fairs, but when it came down to it&hellip;</p>
-<a href="http://ourcityourstory.com/episode/9" class="button" target="_blank">Watch &rarr;</a> </div>
+                <div class="column left cushycms" title="Recent episode #1"><a href="http://ourcityourstory.com/episode/15/#episode"><img alt="E15: Opportunity in the Making" class="replace-2x rel" src="img/e15-thumb.jpg" /></a>
+<h6>Episode 15</h6>
+
+<h3><a href="http://ourcityourstory.com/episode/15/#episode">Opportunity in the Making</a></h3>
+
+<p>One tweet, has the opporunity of changing lives in Rockford.</p>
+<a class="button" href="http://ourcityourstory.com/episode/15/#episode" target="_blank">Watch &rarr;</a></div>
+                <div class="column center cushycms" title="Recent episode #2"><a href="http://ourcityourstory.com/episode/14/#episode"><img alt="E14: Potato Shak" class="replace-2x rel" src="img/e14-thumb.jpg" /></a>
+<h6>Episode 14</h6>
+
+<h3><a href="http://ourcityourstory.com/episode/14/#episode">Potato Shak</a></h3>
+
+<p>Peter Avramopoulos arrived in Rockford, Illinois in the late 1960s. His father, seeking prosperity, had brought his whole family from Greece by boat. Pete&rsquo;s prosperity came in the form of the opportunity to do well for himself and his immediate family.</p>
+<a class="button" href="http://ourcityourstory.com/episode/14/#episode" target="_blank">Watch &rarr;</a></div>
+                <div class="column right cushycms" title="Recent episode #3"><a href="http://ourcityourstory.com/episode/13/#episode"><img alt="E13: Our Curiosity" class="replace-2x rel" src="img/e13-thumb.jpg" /></a>
+<h6>Episode 13</h6>
+
+<h3><a href="http://ourcityourstory.com/episode/13/#episode">Our Curiosity</a></h3>
+
+<p>One of the most talked about scientific achievements in 2012, was the landing of the Mars rover, Curiosity. What brings this home for us, is ALL the gears for curiosity were made in this region. All of them, by these people.</p>
+<a class="button" href="http://ourcityourstory.com/episode/11/#episode" target="_blank">Watch &rarr;</a></div>
                     <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/allstorieslink.php"); ?>
             </article>
         </div>
