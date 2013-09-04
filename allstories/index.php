@@ -225,7 +225,7 @@
                         <div class="column left cushycms" title="Episode #4"><a href="http://ourcityourstory.com/episode/16/#episode"><img alt="E16: The Greatest " class="replace-2x rel" src="img/e16-thumb.jpg" thank="" /></a>
 <h6>Episode 16</h6>
 
-<h3><a href="http://ourcityourstory.com/episode/16/#episode">The Greatest &quot;Thank you&quot;</a></h3>
+<h3><a href="http://ourcityourstory.com/episode/16/#episode">The Greatest <br>&quot;Thank you&quot;</a></h3>
 
 <p>Once a year on a late September weekend, you&rsquo;ll find Sam Hiser&mdash;along with over 1,000 of his friends&mdash;eating, drinking, and dodging enemy fire on acres of land at Rockford&rsquo;s Midway Village. Dressed to the hilt in World War II period uniforms, complete with impeccably authentic personal items, the men and women meet to create living history and reenact live-action battle scenarios.</p>
 <a class="button" href="http://ourcityourstory.com/episode/16/#episode" target="_blank">Watch &rarr;</a></div>
