@@ -225,16 +225,19 @@
                         <div class="column left cushycms" title="Episode #4"><a href="http://ourcityourstory.com/episode/16/#episode"><img alt="E16: The Greatest " class="replace-2x rel" src="img/e16-thumb.jpg" thank="" /></a>
 <h6>Episode 16</h6>
 
-<h3><a href="http://ourcityourstory.com/episode/16/#episode">The Greatest <br>&quot;Thank you&quot;</a></h3>
+<h3><a href="http://ourcityourstory.com/episode/16/#episode">The Greatest<br />
+&quot;Thank you&quot;</a></h3>
 
 <p>Once a year on a late September weekend, you&rsquo;ll find Sam Hiser&mdash;along with over 1,000 of his friends&mdash;eating, drinking, and dodging enemy fire on acres of land at Rockford&rsquo;s Midway Village. Dressed to the hilt in World War II period uniforms, complete with impeccably authentic personal items, the men and women meet to create living history and reenact live-action battle scenarios.</p>
 <a class="button" href="http://ourcityourstory.com/episode/16/#episode" target="_blank">Watch &rarr;</a></div>
 
-                        <div class="column center cushycms" title="Episode #5"><img alt="E17: Coming Soon" class="replace-2x rel" src="img/fall.png" />
-<h6>Episode 17</h6>
+                        <div class="column center cushycms" title="Episode #5"><a href="http://ourcityourstory.com/episode/17/#episode"><img alt="E14: Left arm. Right arm. Breathe. Repeat." class="replace-2x rel" src="img/e17-thumb.jpg" /></a>
+<h6>Episode 14</h6>
 
-<h3>&nbsp;</h3>
-</div>
+<h3><a href="http://ourcityourstory.com/episode/17/#episode">Left arm. Right arm. Breathe. Repeat.</a></h3>
+
+<p>Paul is the type of person that just uplifts all around him by pushing forward with an unstoppable drive. Yet, he is humble. He is not one to seek the spotlight, and thats why this piece was so revealing to those closest to him. </p>
+<a class="button" href="http://ourcityourstory.com/episode/17/#episode" target="_blank">Watch &rarr;</a></div>
 
                         <div class="column right cushycms" title="Episode #6"><img alt="E18: Coming Soon" class="replace-2x rel" src="img/fall.png" />
 <h6>Episode 18</h6>

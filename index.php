@@ -35,11 +35,11 @@
            Create your own custom Modernizr build: www.modernizr.com/download/ -->
         <script class="rel" src="js/libs/modernizr-2.5.3.min.js"></script>
 
-        <meta name="description" property="og:description" title="Meta-Description" content="Once a year on a late September weekend, you’ll find Sam Hiser—along with over 1,000 of his friends—eating, drinking, and dodging enemy fire on acres of land at Rockford’s Midway Village. Dressed to the hilt in World War II period uniforms, complete with impeccably authentic personal items, the men and women meet to create living history and reenact live-action battle scenarios." />
-        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | The Greatest "Thank you" " />
-        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f16.jpg" />
+        <meta name="description" property="og:description" title="Meta-Description" content="Paul is the type of person that just uplifts all around him by pushing forward with an unstoppable drive. Yet, he is humble. He is not one to seek the spotlight, and thats why this piece was so revealing to those closest to him. " />
+        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | Left arm. Right arm. Breathe. Repeat." />
+        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f17.jpg" />
         <meta property="og:type" content="company" />
-        <meta property="og:url" content="http://ourcityourstory.com/episode/16/" />
+        <meta property="og:url" content="http://ourcityourstory.com/episode/17/" />
         <meta property="og:site_name" content="Our City, Our Story" />
         <meta property="fb:app_id" content="268699596565206">
     </meta></head>
@@ -52,19 +52,19 @@
 
         <div role="main">
             <div id="episode" class="episode">
-                <h1 class="cushycms" title="Featured video title">The Greatest &quot;Thank you&quot;</h1>
+                <h1 class="cushycms" title="Featured video title">Left arm. Right arm. Breathe. Repeat.</h1>
                 <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
                 <h1 class="hidden cushycms" title="Is this the most recent episode?" id="current">Yes</h1>
                 <a href="" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode"></span></a>
-                <a href="" class="controls previous"><span class="cushycms" title="Previous Episode">E015:&nbsp;Opportunity in the Making</span><em>&#8594;</em></a>
-                <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe allowfullscreen="" height="281" id="video" mozallowfullscreen="" src="http://player.vimeo.com/video/53513429?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" title="iframe for featured episode." webkitallowfullscreen="" width="500"></iframe></div>
+                <a href="" class="controls previous"><span class="cushycms" title="Previous Episode">E16: The Greatest &quot;Thank you&quot;</span><em>&#8594;</em></a>
+                <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe allowfullscreen="" height="281" id="video" mozallowfullscreen="" src="http://player.vimeo.com/video/74725965?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" title="iframe for featured episode." webkitallowfullscreen="" width="500"></iframe></div>
             </div>
 
             <div class="story clearfix">
                 <article class="clearfix">
                     <h5>Our City, Our Story</h5>
-                    <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E16: The Greatest &quot;Thank you&quot;</h4>
+                    <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E17: Left arm. Right arm. Breathe. Repeat.</h4>
                     <div class="column left">
                     <img class="thumb replace-2x rel" src="" alt="Featured Episode Thumbnail">
                         <nav class="clearfix">
@@ -82,55 +82,38 @@
                         </nav>
                     </div>
 
-                    <div class="column clearfix center cushycms" title="Feature episode description"><p>Once a year on a late September weekend, you&rsquo;ll find Sam Hiser&mdash;along with over 1,000 of his friends&mdash;eating, drinking, and dodging enemy fire on acres of land at Rockford&rsquo;s Midway Village. Dressed to the hilt in World War II period uniforms, complete with impeccably authentic personal items, the men and women meet to create living history and reenact live-action battle scenarios. Sam, a member of the Tri-State Living History Association, hails from Rockford, but his counterparts come from across the country to take part in the event&mdash;the largest World War II era reenactment in the United States. What makes it the biggest? Over 1,000 uniformed reenactors from 40 states, representing soldiers from the United States, Great Britain, France, Poland, Ukraine, Russia, Japan, Italy and Germany, along with 70 to 80 vintage tanks, half-tracks and other 1940s era military vehicles.<br />
+                    <div class="column clearfix center cushycms" title="Feature episode description"><p>Paul is the type of person that just uplifts all around him by pushing forward with an unstoppable drive. Yet, he is humble. He is not one to seek the spotlight, and thats why this piece was so revealing to those closest to him.&nbsp;<br />
 <br />
-Safety and authenticity&mdash;down to the most precise details&mdash;are paramount to the event. Sam and many of his fellow reenactors even eat from a historically accurate full field kitchen, under the watchful eye of Byron Vinyard (who&rsquo;ll likely be stirring up white gravy for &lsquo;shit on a shingle,&rsquo; the era&rsquo;s signature military issue food). Byron, Sam and the other reenactors pay particular attention to every detail of their impressions, spending hours on research and dollars out of pocket, in order to tell the soldiers&rsquo; true stories. The reenactors aren&rsquo;t creating a live-action war game, they are portraying and participating in a part of World War II history. By telling these stories effectively, they honor the veterans who they so deeply appreciate.<br />
+I first met him at the Mass Communication Program down at Rock Valley College. It was a program I went through myself, so I was coming back to see how much the program had changed. Paul didn&#39;t standout just because he was the oldest guy in the room, but, because he was the wisest in the room. He asked questions. He wanted to know more more. Be more informed. Knowing full well that asking the questions were not showing his lack of knowledge, but seizing the moment to learn and grow.&nbsp;<br />
 <br />
-Every reenactor has their own personal motivation for contributing to the event; Sam&rsquo;s comes from his interest in history and both his grandfathers&rsquo; service, but also the relationships he&rsquo;s created while working with many World War II vets. Reenacting is not the product of a passing whim; potential reenactors must exhibit their knowledge and interest in order to join their parent association. Sam and his wife dressed in period attire as part of his &lsquo;audition&rsquo; for his impression.<br />
+We met later, as he wanted to get more info about filmmaking techniques for a piece he was making. No, the piece was not a zombie movie. It was not an action flick. It was not some escapist piece created &nbsp;for fun&hellip; &nbsp;He wanted to raise the quality of a documentary he was filming to tell the story of two of his students that had lost to heroin addiction, and let people know about the experiences he&#39;s seen with regards to the epidemic.<br />
 <br />
-One unique event in and of itself doesn&rsquo;t generally give a city character, but World War II Days brings many people of character&mdash;honoring those who have served&mdash;to this city.</p>
+Paul Dryden Stalter is an ever curious, loyal, fun, and energizing man.&nbsp;<br />
+<br />
+This is his story told by him.</p>
 
-<p style="text-align: center;">&ldquo;We have to tell their story.&rdquo;<br />
-&ndash;Byron Vinyard<br />
-This year&rsquo;s Midway Village Museum&rsquo;s World War II Days event takes place September 21 and 22.<br />
-<br />
-&nbsp;<br />
-<br />
-For more information<br />
-<br />
-Midway Village: <a href="http://midwayvillage.com/wordpress/event-registration/?ee=63" target="_blank">midwayvillage.com/wordpress/event-registration/?ee=63</a><br />
-<br />
-Tri-State Living History Association: <a href="http://tslha.org" target="_blank">tslha.org</a><br />
-<br />
-WWII Historical Re-enactment Society: <a href="http://worldwartwohrs.org" target="_blank">worldwartwohrs.org</a></p>
+<p style="text-align: center;">&nbsp;</p>
 <a class="button next" href="#">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a class="button previous" href="#">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a></div>
 
                     <div class="column right cushycms" title="Featured episode credits"><ul>
 	<li>
-	<h6>Produced By</h6>
-	<span>Pablo Korona</span></li>
+	<h6>Directed &amp; Produced By</h6>
+	<span>Paul Dryden Stalter</span></li>
 	<li>
-	<h6>Directed By</h6>
-	<span>Matt Youngblood &amp; Zach Staas</span></li>
-	<li>
-	<h6>Music</h6>
-	<span>Daniel James McMahon</span></li>
-	<li>
-	<h6>Editor</h6>
-	<span>Zach Staas</span></li>
-	<li>
-	<h6>Audio Mixing</h6>
-	<span>Zach Staas</span></li>
-	<li>
-	<h6>Text written by</h6>
-	<span>Juanita Hickerson</span></li>
+	<h6>Director of Photography</h6>
+	<span>Colin Stalter</span></li>
 	<li>
 	<h6>Special Thanks</h6>
-	<span>Midway Village<br />
-	Tri-State Living History Association<br />
-	Sam Hiser, his beautiful wife Andrea<br />
-	Matt and Zach.</span><br />
-	<br />
+	<span>Colin Stalter<br />
+	Marcia Stalter<br />
+	Rockford Y Masters<br />
+	John Oller<br />
+	Roxy Pawluk<br />
+	John Rundquist<br />
+	Shane Baker<br />
+	Marcia Stalter<br />
+	Rockford Y Masters<br />
+	Chris Sheean</span><br />
 	&nbsp;</li>
 </ul>
 </div>
@@ -144,29 +127,30 @@ WWII Historical Re-enactment Society: <a href="http://worldwartwohrs.org" target
                     <h5>Our City, Our Story</h5>
                     <h1>Recent Stories</h1>
 
-                    <div class="column left cushycms" title="Recent episode #1"><a href="http://ourcityourstory.com/episode/15/#episode"><img alt="E15: Opportunity in the Making" class="replace-2x rel" src="img/e15-thumb.jpg" /></a>
+                    <div class="column left cushycms" title="Recent episode #1"><a href="http://ourcityourstory.com/episode/16/#episode"><img alt="E16: The Greatest " class="replace-2x rel" src="img/e16-thumb.jpg" thank="" /></a>
+<h6>Episode 16</h6>
+
+<h3><a href="http://ourcityourstory.com/episode/16/#episode">The Greatest<br />
+&quot;Thank you&quot;</a></h3>
+
+<p>Once a year on a late September weekend, you&rsquo;ll find Sam Hiser&mdash;along with over 1,000 of his friends&mdash;eating, drinking, and dodging enemy fire on acres of land at Rockford&rsquo;s Midway Village. Dressed to the hilt in World War II period uniforms, complete with impeccably authentic personal items, the men and women meet to create living history and reenact live-action battle scenarios.</p>
+<a class="button" href="http://ourcityourstory.com/episode/16/#episode" target="_blank">Watch &rarr;</a></div>
+
+                    <div class="column center cushycms" title="Recent episode #2"><a href="http://ourcityourstory.com/episode/15/#episode"><img alt="E15: Opportunity in the Making" class="replace-2x rel" src="img/e15-thumb.jpg" /></a>
 <h6>Episode 15</h6>
 
 <h3><a href="http://ourcityourstory.com/episode/15/#episode">Opportunity in the Making</a></h3>
 
-<p>One tweet has potential to change the lives of the residents of our city.</p>
+<p>It started with a tweet, and now Rockford, IL is partnering with ETSY to help get it back to the roots. Artisan. Hand made. Opportunity in the Making.</p>
 <a class="button" href="http://ourcityourstory.com/episode/15/#episode" target="_blank">Watch &rarr;</a></div>
 
-                    <div class="column center cushycms" title="Recent episode #2"><a href="http://ourcityourstory.com/episode/14/#episode"><img alt="E14: Potato Shak" class="replace-2x rel" src="img/e14-thumb.jpg" /></a>
+                    <div class="column right cushycms" title="Recent episode #3"><a href="http://ourcityourstory.com/episode/14/#episode"><img alt="E14: Potato Shak" class="replace-2x rel" src="img/e14-thumb.jpg" /></a>
 <h6>Episode 14</h6>
 
 <h3><a href="http://ourcityourstory.com/episode/14/#episode">Potato Shak</a></h3>
 
-<p>Peter Avramopoulos arrived in Rockford, Illinois in the late 1960s. His father, seeking prosperity, had brought his whole family from Greece by boat. Pete&rsquo;s prosperity came in the form of the opportunity to do well for himself and his immediate family.</p>
+<p>George Avramopoulos is Pete&#39;s older brother. He is one of the reasons so many people frequent the Potato Shak, because of his mild manner and overall energy for life. He&#39;s the type of guy who wants to shake your hand. Ask how you are, and is happy to see you. What makes this story a unique one, is what happens when polite conversation, turns into reality.</p>
 <a class="button" href="http://ourcityourstory.com/episode/14/#episode" target="_blank">Watch &rarr;</a></div>
-
-                    <div class="column right cushycms" title="Recent episode #3"><a href="http://ourcityourstory.com/episode/13/#episode"><img alt="E13: Our Curiosity" class="replace-2x rel" src="img/e13-thumb.jpg" /></a>
-<h6>Episode 13</h6>
-
-<h3><a href="http://ourcityourstory.com/episode/13/#episode">Our Curiosity</a></h3>
-
-<p>One of the most talked about scientific achievements in 2012, was the landing of the Mars rover, Curiosity. What brings this home for us, is ALL the gears for curiosity were made in this region. All of them, by these people.</p>
-<a class="button" href="http://ourcityourstory.com/episode/11/#episode" target="_blank">Watch &rarr;</a></div>
 
                     <?php include ($_SERVER['DOCUMENT_ROOT'] . "/includes/allstorieslink.php"); ?>
                 </article>
