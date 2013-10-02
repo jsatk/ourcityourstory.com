@@ -11,7 +11,6 @@
            More info: h5bp.com/i/378 -->
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
         <title>Storytelling video product to help define the identity of this community. This is Rockford, Illinois.</title>
-
         <!-- Mobile viewport optimized: h5bp.com/viewport. Width was originally set to 'device-width' but it was breaking. -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -112,11 +111,10 @@ We should all be proud of their accomplishments as they are a small shop who&#39
 	<span>Greg Farnham<br />
 	Mindy Young<br />
 	Forest City Gear<br />
-	Arnold Dyer</span><br />
-	<br />
+	Arnold Dyer<br />
+	Jeff Hallberg</span><br />
 	&nbsp;</li>
-</ul>
-</div>
+</ul></div>
             </article>
         </div>
 

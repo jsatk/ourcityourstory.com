@@ -52,19 +52,19 @@
 
         <div role="main">
             <div id="episode" class="episode">
-                <h1 class="cushycms" title="Featured video title">Left arm. Right arm. Breathe. Repeat.</h1>
+                <h1 class="cushycms" title="Featured video title">Our Curiosity</h1>
                 <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
                 <h1 class="hidden cushycms" title="Is this the most recent episode?" id="current">Yes</h1>
                 <a href="" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode"></span></a>
-                <a href="" class="controls previous"><span class="cushycms" title="Previous Episode">E16: The Greatest &quot;Thank you&quot;</span><em>&#8594;</em></a>
-                <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe allowfullscreen="" height="281" id="video" mozallowfullscreen="" src="http://player.vimeo.com/video/74725965?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" title="iframe for featured episode." webkitallowfullscreen="" width="500"></iframe></div>
+                <a href="" class="controls previous"><span class="cushycms" title="Previous Episode">E17: &nbsp;Left Arm. Right Arm. Breathe. Repeat.</span><em>&#8594;</em></a>
+                <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe allowfullscreen="" height="281" id="video" mozallowfullscreen="" src="http://player.vimeo.com/video/47943352?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" title="iframe for featured episode." webkitallowfullscreen="" width="500"></iframe></div>
             </div>
 
             <div class="story clearfix">
                 <article class="clearfix">
                     <h5>Our City, Our Story</h5>
-                    <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E17: Left arm. Right arm. Breathe. Repeat.</h4>
+                    <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E13: Our Curiosity</h4>
                     <div class="column left">
                     <img class="thumb replace-2x rel" src="" alt="Featured Episode Thumbnail">
                         <nav class="clearfix">
@@ -82,41 +82,44 @@
                         </nav>
                     </div>
 
-                    <div class="column clearfix center cushycms" title="Feature episode description"><p>Paul is the type of person that just uplifts all around him by pushing forward with an unstoppable drive. Yet, he is humble. He is not one to seek the spotlight, and thats why this piece was so revealing to those closest to him.&nbsp;<br />
+                    <div class="column clearfix center cushycms" title="Feature episode description"><p>When Forest City Gear first aspired to be world-class gear manufacturers, they couldn&rsquo;t have imagined that someday they would surpass that boundary. Perhaps universe-class best describes them now? With one rover mission under their belts, and now with over 75 of their gears currently on Mars in the highly anticipated Curiosity rover, those original aspirations have been surpassed.<br />
 <br />
-I first met him at the Mass Communication Program down at Rock Valley College. It was a program I went through myself, so I was coming back to see how much the program had changed. Paul didn&#39;t standout just because he was the oldest guy in the room, but, because he was the wisest in the room. He asked questions. He wanted to know more more. Be more informed. Knowing full well that asking the questions were not showing his lack of knowledge, but seizing the moment to learn and grow.&nbsp;<br />
+Founded by husband and wife Stetler and Evelyn Young in 1955, Forest City Gear is a family-owned company in Roscoe, Illinois. Their son Fred Young is now CEO, but he grew up watching his parents work hard and re-invest their profits in the company &mdash; this is how they are so successful. By the late &lsquo;60s, the company was purchasing at least one new gear machine a year. By re-investing 25-40% of company profit back into itself, Forest City Gear has developed a reputation of being one of the best gear companies in this universe.<br />
 <br />
-We met later, as he wanted to get more info about filmmaking techniques for a piece he was making. No, the piece was not a zombie movie. It was not an action flick. It was not some escapist piece created &nbsp;for fun&hellip; &nbsp;He wanted to raise the quality of a documentary he was filming to tell the story of two of his students that had lost to heroin addiction, and let people know about the experiences he&#39;s seen with regards to the epidemic.<br />
+In addition to equipment, the Young family invests in its employees, creating a devoted workforce. &ldquo;We believe we have one of the best equipped gear shops in the world. This includes both equipment and employees, a legacy of Forest City Gear for over 50 years,&rdquo; according to Fred Young. When Fred speaks to prospective employees, he does not offer them a job. He offers them a career.<br />
 <br />
-Paul Dryden Stalter is an ever curious, loyal, fun, and energizing man.&nbsp;<br />
+What might be more remarkable than creating crucial equipment destined for Mars? For a second time? Well, creating a thriving motivated company culture with a team of career employees&mdash;the kind who lie in bed at night thinking, &ldquo;what can I do in the morning when I get there?&rdquo; The kind who take on responsibility, impose their own high standards and like Amy Sovina, have the &ldquo;mindset something I touched is now on the surface of Mars.&rdquo;<br />
 <br />
-This is his story told by him.</p>
-
-<p style="text-align: center;">&nbsp;</p>
+By creating an atmosphere of excellence and pride, Forest City Gear has created a legacy for its individuals, its employees and its future.<br />
+<br />
+We should all be proud of their accomplishments as they are a small shop who&#39;s reputation the world over is one of excellence. Our region benefits by association, and by the generosity of their spirit.</p>
 <a class="button next" href="#">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a class="button previous" href="#">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a></div>
 
                     <div class="column right cushycms" title="Featured episode credits"><ul>
 	<li>
 	<h6>Directed &amp; Produced By</h6>
-	<span>Paul Dryden Stalter</span></li>
+	<span>Pablo Korona</span></li>
 	<li>
-	<h6>Director of Photography</h6>
-	<span>Colin Stalter</span></li>
+	<h6>Music</h6>
+	<span>Daniel James McMahon</span></li>
+	<li>
+	<h6>Interviewer + Location Audio</h6>
+	<span>Zach Staas</span></li>
+	<li>
+	<h6>Curiosity Rover Animation</h6>
+	<span>Courtesy NASA/JPL-Caltech.</span></li>
+	<li>
+	<h6>Author</h6>
+	<span>Juanita Hickerson</span></li>
 	<li>
 	<h6>Special Thanks</h6>
-	<span>Colin Stalter<br />
-	Marcia Stalter<br />
-	Rockford Y Masters<br />
-	John Oller<br />
-	Roxy Pawluk<br />
-	John Rundquist<br />
-	Shane Baker<br />
-	Marcia Stalter<br />
-	Rockford Y Masters<br />
-	Chris Sheean</span><br />
+	<span>Greg Farnham<br />
+	Mindy Young<br />
+	Forest City Gear<br />
+	Arnold Dyer<br />
+	Jeff Hallberg</span><br />
 	&nbsp;</li>
-</ul>
-</div>
+</ul></div>
                 </article>
             </div>
 
@@ -127,7 +130,16 @@ This is his story told by him.</p>
                     <h5>Our City, Our Story</h5>
                     <h1>Recent Stories</h1>
 
-                    <div class="column left cushycms" title="Recent episode #1"><a href="http://ourcityourstory.com/episode/16/#episode"><img alt="E16: The Greatest " class="replace-2x rel" src="img/e16-thumb.jpg" thank="" /></a>
+                    <div class="column left cushycms" title="Recent episode #1"><a href="http://ourcityourstory.com/episode/17/#episode"><img alt="E17: Left Arm. Right Arm. Breathe. Repeat." class="replace-2x rel" src="img/e17-thumb.jpg" thank="" /></a>
+<h6>Episode 17</h6>
+
+<h3><a href="http://ourcityourstory.com/episode/17/#episode">Left Arm. Right Arm.<br />
+Breathe. Repeat.</a></h3>
+
+<p>Paul is the type of person that just uplifts all around him by pushing forward with an unstoppable drive. Yet, he is humble. He is not one to seek the spotlight, and thats why this piece was so revealing to those closest to him.</p>
+<a class="button" href="http://ourcityourstory.com/episode/17/#episode" target="_blank">Watch &rarr;</a></div>
+
+                    <div class="column center cushycms" title="Recent episode #2"><a href="http://ourcityourstory.com/episode/16/#episode"><img alt="E16: The Greatest " class="replace-2x rel" src="img/e16-thumb.jpg" thank="" /></a>
 <h6>Episode 16</h6>
 
 <h3><a href="http://ourcityourstory.com/episode/16/#episode">The Greatest<br />
@@ -135,14 +147,6 @@ This is his story told by him.</p>
 
 <p>Once a year on a late September weekend, you&rsquo;ll find Sam Hiser&mdash;along with over 1,000 of his friends&mdash;eating, drinking, and dodging enemy fire on acres of land at Rockford&rsquo;s Midway Village. Dressed to the hilt in World War II period uniforms, complete with impeccably authentic personal items, the men and women meet to create living history and reenact live-action battle scenarios.</p>
 <a class="button" href="http://ourcityourstory.com/episode/16/#episode" target="_blank">Watch &rarr;</a></div>
-
-                    <div class="column center cushycms" title="Recent episode #2"><a href="http://ourcityourstory.com/episode/15/#episode"><img alt="E15: Opportunity in the Making" class="replace-2x rel" src="img/e15-thumb.jpg" /></a>
-<h6>Episode 15</h6>
-
-<h3><a href="http://ourcityourstory.com/episode/15/#episode">Opportunity in the Making</a></h3>
-
-<p>It started with a tweet, and now Rockford, IL is partnering with ETSY to help get it back to the roots. Artisan. Hand made. Opportunity in the Making.</p>
-<a class="button" href="http://ourcityourstory.com/episode/15/#episode" target="_blank">Watch &rarr;</a></div>
 
                     <div class="column right cushycms" title="Recent episode #3"><a href="http://ourcityourstory.com/episode/14/#episode"><img alt="E14: Potato Shak" class="replace-2x rel" src="img/e14-thumb.jpg" /></a>
 <h6>Episode 14</h6>
