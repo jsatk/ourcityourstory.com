@@ -232,11 +232,11 @@
 <a class="button" href="http://ourcityourstory.com/episode/16/#episode" target="_blank">Watch &rarr;</a></div>
 
                         <div class="column center cushycms" title="Episode #5"><a href="http://ourcityourstory.com/episode/17/#episode"><img alt="E14: Left arm. Right arm. Breathe. Repeat." class="replace-2x rel" src="img/e17-thumb.jpg" /></a>
-<h6>Episode 14</h6>
+<h6>Episode 17</h6>
 
 <h3><a href="http://ourcityourstory.com/episode/17/#episode">Left arm. Right arm. Breathe. Repeat.</a></h3>
 
-<p>Paul is the type of person that just uplifts all around him by pushing forward with an unstoppable drive. Yet, he is humble. He is not one to seek the spotlight, and thats why this piece was so revealing to those closest to him. </p>
+<p>Paul is the type of person that just uplifts all around him by pushing forward with an unstoppable drive. Yet, he is humble. He is not one to seek the spotlight, and thats why this piece was so revealing to those closest to him.</p>
 <a class="button" href="http://ourcityourstory.com/episode/17/#episode" target="_blank">Watch &rarr;</a></div>
 
                         <div class="column right cushycms" title="Episode #6"><img alt="E18: Coming Soon" class="replace-2x rel" src="img/fall.png" />
