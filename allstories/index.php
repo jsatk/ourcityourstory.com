@@ -239,11 +239,14 @@
 <p>Paul is the type of person that just uplifts all around him by pushing forward with an unstoppable drive. Yet, he is humble. He is not one to seek the spotlight, and thats why this piece was so revealing to those closest to him.</p>
 <a class="button" href="http://ourcityourstory.com/episode/17/#episode" target="_blank">Watch &rarr;</a></div>
 
-                        <div class="column right cushycms" title="Episode #6"><img alt="E18: Coming Soon" class="replace-2x rel" src="img/fall.png" />
+                        <div class="column right cushycms" title="Episode #6"><a href="http://ourcityourstory.com/episode/18/#episode"><img alt="E18: Do It Yourself." class="replace-2x rel" src="img/e18-thumb.jpg" /></a>
 <h6>Episode 18</h6>
 
-<h3>&nbsp;</h3>
-</div>
+<h3><a href="http://ourcityourstory.com/episode/18/#episode">Do It Yourself.</a></h3>
+
+<p>Eric Neubauer was a friend who I've looked up to for a long time.
+His story goes beyond helping a troubled neighborhood out by turning a lot into a skatepark; he has been a mentor and father figure to a lot of fatherless and lost young skateboarders throughout the years (including myself).</p>
+<a class="button" href="http://ourcityourstory.com/episode/18/#episode" target="_blank">Watch &rarr;</a></div>
                     </div>
 
                     <div class="row clearfix">

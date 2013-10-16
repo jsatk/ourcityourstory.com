@@ -35,11 +35,12 @@
            Create your own custom Modernizr build: www.modernizr.com/download/ -->
         <script class="rel" src="js/libs/modernizr-2.5.3.min.js"></script>
 
-        <meta name="description" property="og:description" title="Meta-Description" content="Paul is the type of person that just uplifts all around him by pushing forward with an unstoppable drive. Yet, he is humble. He is not one to seek the spotlight, and thats why this piece was so revealing to those closest to him. " />
-        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | Left arm. Right arm. Breathe. Repeat." />
-        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f17.jpg" />
+        <meta name="description" property="og:description" title="Meta-Description" content="Eric Neubauer was a friend who I've looked up to for a long time.
+His story goes beyond helping a troubled neighborhood out by turning a lot into a skatepark; he has been a mentor and father figure to a lot of fatherless and lost young skateboarders throughout the years (including myself)." />
+        <meta property="og:title" title="Facebook Share Title" content="Our City, Our Story | Do It Yourself" />
+        <meta property="og:image" title="Facebook Share Image" content="http://ourcityourstory.com/img/f18.jpg" />
         <meta property="og:type" content="company" />
-        <meta property="og:url" content="http://ourcityourstory.com/episode/17/" />
+        <meta property="og:url" content="http://ourcityourstory.com/episode/18/" />
         <meta property="og:site_name" content="Our City, Our Story" />
         <meta property="fb:app_id" content="268699596565206">
     </meta></head>
@@ -52,19 +53,19 @@
 
         <div role="main">
             <div id="episode" class="episode">
-                <h1 class="cushycms" title="Featured video title">Our Curiosity</h1>
+                <h1 class="cushycms" title="Featured video title">Do It Yourself.</h1>
                 <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
                 <h1 class="hidden cushycms" title="Is this the most recent episode?" id="current">Yes</h1>
                 <a href="" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode"></span></a>
                 <a href="" class="controls previous"><span class="cushycms" title="Previous Episode">E17: &nbsp;Left Arm. Right Arm. Breathe. Repeat.</span><em>&#8594;</em></a>
-                <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe allowfullscreen="" height="281" id="video" mozallowfullscreen="" src="http://player.vimeo.com/video/47943352?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" title="iframe for featured episode." webkitallowfullscreen="" width="500"></iframe></div>
+                <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe allowfullscreen="" height="281" id="video" mozallowfullscreen="" src="http://player.vimeo.com/video/76926707?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" title="iframe for featured episode." webkitallowfullscreen="" width="500"></iframe></div>
             </div>
 
             <div class="story clearfix">
                 <article class="clearfix">
                     <h5>Our City, Our Story</h5>
-                    <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E13: Our Curiosity</h4>
+                    <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E18: Do It Yourself.</h4>
                     <div class="column left">
                     <img class="thumb replace-2x rel" src="" alt="Featured Episode Thumbnail">
                         <nav class="clearfix">
@@ -82,44 +83,47 @@
                         </nav>
                     </div>
 
-                    <div class="column clearfix center cushycms" title="Feature episode description"><p>When Forest City Gear first aspired to be world-class gear manufacturers, they couldn&rsquo;t have imagined that someday they would surpass that boundary. Perhaps universe-class best describes them now? With one rover mission under their belts, and now with over 75 of their gears currently on Mars in the highly anticipated Curiosity rover, those original aspirations have been surpassed.<br />
+                    <div class="column clearfix center cushycms" title="Feature episode description"><p>&quot;Eric Neubauer was a friend who I&#39;ve looked up to for a long time.<br />
 <br />
-Founded by husband and wife Stetler and Evelyn Young in 1955, Forest City Gear is a family-owned company in Roscoe, Illinois. Their son Fred Young is now CEO, but he grew up watching his parents work hard and re-invest their profits in the company &mdash; this is how they are so successful. By the late &lsquo;60s, the company was purchasing at least one new gear machine a year. By re-investing 25-40% of company profit back into itself, Forest City Gear has developed a reputation of being one of the best gear companies in this universe.<br />
+His story goes beyond helping a troubled neighborhood out by turning a lot into a skatepark; he has been a mentor and father figure to a lot of fatherless and lost young skateboarders throughout the years (including myself). I&#39;m glad to be able to tell his story, although it wasn&#39;t easy getting him to talk about himself (he&#39;s as humble as a monk to the extent that our interviews were more filled with philosophizing about skateboarding, learning, teaching, failing, and persistence rather than what he&#39;s accomplished).<br />
+I hope his humility, hard work, and acceptance of failure is a tenet you can keep in mind, as I do, when struggling with personal battles both everyday and in the future.&quot;<br />
 <br />
-In addition to equipment, the Young family invests in its employees, creating a devoted workforce. &ldquo;We believe we have one of the best equipped gear shops in the world. This includes both equipment and employees, a legacy of Forest City Gear for over 50 years,&rdquo; according to Fred Young. When Fred speaks to prospective employees, he does not offer them a job. He offers them a career.<br />
-<br />
-What might be more remarkable than creating crucial equipment destined for Mars? For a second time? Well, creating a thriving motivated company culture with a team of career employees&mdash;the kind who lie in bed at night thinking, &ldquo;what can I do in the morning when I get there?&rdquo; The kind who take on responsibility, impose their own high standards and like Amy Sovina, have the &ldquo;mindset something I touched is now on the surface of Mars.&rdquo;<br />
-<br />
-By creating an atmosphere of excellence and pride, Forest City Gear has created a legacy for its individuals, its employees and its future.<br />
-<br />
-We should all be proud of their accomplishments as they are a small shop who&#39;s reputation the world over is one of excellence. Our region benefits by association, and by the generosity of their spirit.</p>
+Bing Liu<br />
+&nbsp;</p>
+
+<p>&nbsp;</p>
 <a class="button next" href="#">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a class="button previous" href="#">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a></div>
 
                     <div class="column right cushycms" title="Featured episode credits"><ul>
 	<li>
-	<h6>Directed &amp; Produced By</h6>
+	<h6>Produced By</h6>
 	<span>Pablo Korona</span></li>
+</ul>
+
+<ul>
+	<li>
+	<h6>Directed, Cinematography, and Edit By</h6>
+	<span>Bing Liu</span></li>
+</ul>
+
+<ul>
 	<li>
 	<h6>Music</h6>
-	<span>Daniel James McMahon</span></li>
+	<span>Daniel James McMahon &amp; Zach Staas</span></li>
+</ul>
+
+<ul>
 	<li>
-	<h6>Interviewer + Location Audio</h6>
+	<h6>Audio Mixing</h6>
 	<span>Zach Staas</span></li>
 	<li>
-	<h6>Curiosity Rover Animation</h6>
-	<span>Courtesy NASA/JPL-Caltech.</span></li>
-	<li>
-	<h6>Author</h6>
-	<span>Juanita Hickerson</span></li>
-	<li>
 	<h6>Special Thanks</h6>
-	<span>Greg Farnham<br />
-	Mindy Young<br />
-	Forest City Gear<br />
-	Arnold Dyer<br />
-	Jeff Hallberg</span><br />
-	&nbsp;</li>
-</ul></div>
+	<span>Eric Neubauer<br />
+	Rockford Park Disctrict<br />
+	Bing Liu<br />
+	&nbsp;</span></li>
+</ul>
+</div>
                 </article>
             </div>
 
@@ -149,7 +153,7 @@ Breathe. Repeat.</a></h3>
 <a class="button" href="http://ourcityourstory.com/episode/16/#episode" target="_blank">Watch &rarr;</a></div>
 
                     <div class="column right cushycms" title="Recent episode #3"><a href="http://ourcityourstory.com/episode/14/#episode"><img alt="E14: Potato Shak" class="replace-2x rel" src="img/e14-thumb.jpg" /></a>
-<h6>Episode 14</h6>
+<h6>Episode 15</h6>
 
 <h3><a href="http://ourcityourstory.com/episode/14/#episode">Potato Shak</a></h3>
 
