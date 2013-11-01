@@ -14,7 +14,7 @@
            More info: h5bp.com/i/378 -->
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
 
-        <title>Storytelling video product to help define the identity of this community. This is Rockford, Illinois.</title>
+        <title>Our City, Our Story aims to find and tell the stories which make up our identity. This is Rockford, Illinois.</title>
 
         <!-- Mobile viewport optimized: h5bp.com/viewport. Width was originally set to 'device-width' but it was breaking. -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
