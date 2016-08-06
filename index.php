@@ -52,19 +52,19 @@
 
         <div role="main">
             <div id="episode" class="episode">
-                <h1 class="cushycms" title="Featured video title">The Daylight Hours</h1>
+                <h1 class="cushycms" title="Featured video title">Buddy Baseball</h1>
                 <!-- I found this awesome trick here. http://www.netmagazine.com/tutorials/create-fluid-width-videos -->
 
                 <h1 class="hidden cushycms" title="Is this the most recent episode?" id="current">Yes</h1>
                 <a href="" class="controls next"><em>&#8592;</em><span class="cushycms" title="Next Episode"></span></a>
                 <a href="" class="controls previous"><span class="cushycms" title="Previous Episode">E18: Do It Yourself</span><em>&#8594;</em></a>
-                <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe allowfullscreen="" height="281" id="video" mozallowfullscreen="" src="http://player.vimeo.com/video/85815950?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" title="iframe for featured episode." webkitallowfullscreen="" width="500"></iframe></div>
+                <div title="Change the number after 'video/' but before '?'." class="cushycms"><iframe allowfullscreen="" height="281" id="video" mozallowfullscreen="" src="http://player.vimeo.com/video/45895783?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=video" title="iframe for featured episode." webkitallowfullscreen="" width="500"></iframe></div>
             </div>
 
             <div class="story clearfix">
                 <article class="clearfix">
                     <h5>Our City, Our Story</h5>
-                    <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E19: The Daylight Hours</h4>
+                    <h4 class="cushycms" title="Featured episode title. Must begin with 'E##'">E11: Buddy Baseball</h4>
                     <div class="column left">
                     <img class="thumb replace-2x rel" src="" alt="Featured Episode Thumbnail">
                         <nav class="clearfix">
@@ -82,62 +82,34 @@
                         </nav>
                     </div>
 
-                    <div class="column clearfix center cushycms" title="Feature episode description"><p>It was an experiment for a pop-up show.<br />
-<br />
-The first step was to find a location. &nbsp;We selected Parthenios,&nbsp;an abandoned diner in downtown Rockford that closed in 2010, and a group of people came to fix it up.<br />
-<br />
-Then the next part was a call out to local photographers to wander through the streets of the city.&nbsp;So, we put out the call. The purpose was to meet people and find out something about them. The process was to take their photo, capture a quote, and display both that night at a pop-up show inside Parthenios.<br />
-<br />
-Initially the ask was to photographery friends, however, it became apparant that it should be more inclussive. So, the &nbsp;call was put out to everyone. Citywide. It was promoted through the &quot;Our City, Our Story&quot; facebook page, the Rockford Register Star had an article, even Steve Shannon announced it on his morning show on 97zok. It grew organically.<br />
-<br />
-This is just a sample of the experience people had that day.<br />
-<br />
-Thank you to the subjects of the photographers, thank you to the people behind the camera, thank you to the people who showed up at the exhibit.<br />
-&nbsp;<br />
-<br />
-<a class="button next" href="#">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a class="button previous" href="#">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a></p>
-</div>
+                    <div class="column clearfix center cushycms" title="Feature episode description"><p>Starting in June, families come to to the baseball diamonds at Guilford to something special in this community. Buddy Baseball. You see smiles. Cheers. &ldquo;Hit the ball! Don&#39;t look at me! Run!&rdquo; The announcer gets on the mic: &ldquo;Next up to bat, is Joshua&rdquo; Everyone in the bleachers cheers him on &ldquo;Keep your eye on the ball&rdquo; &ldquo;Let&#39;s go Josh.&rdquo; &ldquo;Go Joshua!&rdquo; The program does a great deal for the kids within the program, but also for the volunteer Buddies who run the bases with the kids. You see the joy in the kid&#39;s face who connects with the ball, who instead of running to first base, he looks back to his dad with a shocked smile seeming to say &ldquo;I did it!&rdquo;</p>
+
+<p>In this story of Buddy Baseball we start with Matthew Lapp, and see how he interacts with his family at home. He is most certainly loved, but there is only so much a loving family can do for Matthew in the world. The frustration with seeing his sister play soccer, does cause issue&hellip; but that&#39;s where Buddy Baseball helps. Sherri White started Buddy Baseball 4 years ago, and Matthew Lapp was the first to sign up for the program. Sheri saw a need for a &ldquo;buddy&rdquo; type program after her own son was unable to participate in some of the other baseball programs in the way he wanted to participate. He needed a pinch runner. Sherri knew there was a solution and ran with the idea of Buddy Baseball, creating a program that the Rockford Park District and she collaborate on.</p>
+<a class="button next" href="#">&larr; Next<span class="cut">&nbsp;Episode</span></a> <a class="button previous" href="#">Previous<span class="cut">&nbsp;Episode</span> &rarr;</a></div>
 
                     <div class="column right cushycms" title="Featured episode credits"><ul>
 	<li>
-	<h6>Produced By</h6>
+	<h6>Directed &amp; Produced By</h6>
 	<span>Pablo Korona</span></li>
 	<li>
-	<h6>Directed By</h6>
-	<span>S.R. Brandon</span></li>
+	<h6>Assistant &amp; Second Shooter</h6>
+	<span>Julia Moore</span></li>
 	<li>
 	<h6>Music</h6>
-	<span>Humble Beast Records</span></li>
+	<span>Daniel James McMahon</span></li>
+	<li>
+	<h6>Audio</h6>
+	<span>Zach Staas</span></li>
 	<li>
 	<h6>Special Thanks</h6>
-	<span>Krystine Vermeer<br />
-	Eric Sorenson<br />
-	Yunkin Keophomma<br />
-	Frank Scheir<br />
-	Arnie Dyer<br />
-	Rory Blanchard<br />
-	Andrea Mandala<br />
-	Paul Dryden Stalter<br />
-	Jeremy Klonicki<br />
-	Vince Chiarelli<br />
-	Ron Clewer<br />
-	Irene Dyer<br />
-	Dan Creviston<br />
-	Lucha Cantina<br />
-	Hans Rupert<br />
-	The Parthenios Family<br />
-	Chris Wachowiak<br />
-	IBEW 364<br />
-	Rockford Roasting Company<br />
-	Sara McNamara<br />
-	Jamie Kasper<br />
-	Team Fur Bandit<br />
-	Broadway Florist</span><br />
-
-
+	<span>Matthew Lapp &amp; Family<br />
+	Sherri White &amp; Family<br />
+	Buddy Baseball<br />
+	Rockford Park District </span><br />
 	<br />
 	&nbsp;</li>
-</ul></div>
+</ul>
+</div>
                 </article>
             </div>
 
