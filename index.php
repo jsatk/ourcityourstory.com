@@ -89,6 +89,10 @@
 
                     <div class="column right cushycms" title="Featured episode credits"><ul>
 	<li>
+	<h6>Contact: Buddy Baseball</h6>
+	<span><a href="mailto:mariahanast@rockfordparkdistrict.org">Therapeutic Recreation Dept.</a><br />
+	Phone: 815.987.1606</span></li>
+	<li>
 	<h6>Directed &amp; Produced By</h6>
 	<span>Pablo Korona</span></li>
 	<li>
@@ -103,7 +107,7 @@
 	<li>
 	<h6>Special Thanks</h6>
 	<span>Matthew Lapp &amp; Family<br />
-	Sherri White &amp; Family<br />
+	Sheri White &amp; Family<br />
 	Buddy Baseball<br />
 	Rockford Park District </span><br />
 	<br />
